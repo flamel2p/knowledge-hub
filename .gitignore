@@ -1,6 +1,40 @@
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
-.trash/
-.DS_Store
-Thumbs.db
+# Whitelist policy: only vault notes, the two automation control files,
+# attachments, and shared Obsidian config are tracked. Everything else
+# (reports, plans, scratch, logs, OS junk) is ignored by default.
+
+/*
+!/.gitignore
+!/CLAUDE.md
+!/task.md
+!/00 - Home.md
+!/[0-9][0-9] - */
+!/_templates/
+!/_attachments/
+!/.obsidian/
+
+# Note folders: markdown only
+/[0-9][0-9] - */**
+!/[0-9][0-9] - */**/
+!/[0-9][0-9] - */**/*.md
+
+/_templates/**
+!/_templates/*.md
+
+# Attachments: images/diagrams only
+/_attachments/**
+!/_attachments/**/
+!/_attachments/**/*.png
+!/_attachments/**/*.jpg
+!/_attachments/**/*.jpeg
+!/_attachments/**/*.gif
+!/_attachments/**/*.svg
+!/_attachments/**/*.webp
+!/_attachments/**/*.canvas
+
+# Obsidian: shared config only, never per-device state or plugins
+/.obsidian/*
+!/.obsidian/app.json
+!/.obsidian/appearance.json
+!/.obsidian/core-plugins.json
+!/.obsidian/graph.json
+!/.obsidian/templates.json
