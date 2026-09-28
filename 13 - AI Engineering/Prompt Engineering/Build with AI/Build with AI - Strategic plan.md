@@ -1,3 +1,16 @@
+---
+title: "Build with AI - Strategic plan"
+aliases: ["Strategic plan prompt"]
+type: reference
+domain: ai-engineering
+tags: [domain/ai-engineering, type/reference, topic/prompt-engineering, series/build-with-ai]
+status: complete
+created: 2026-09-28
+updated: 2026-09-28
+parent: "[[Build with AI]]"
+---
+
+> [!info] Part of the [[Build with AI]] prompt playbook series · see [[Prompt Engineering]]
 
 ## Step 1: Brainstorm new product ideas
 

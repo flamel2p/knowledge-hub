@@ -1,1 +1,12 @@
-{}
+{
+  "userIgnoreFilters": [
+    "_templates/",
+    "CLAUDE.md",
+    "task.md"
+  ],
+  "newFileLocation": "current",
+  "attachmentFolderPath": "_attachments",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest"
+}
