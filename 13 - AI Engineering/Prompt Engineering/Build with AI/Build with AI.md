@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/reference, topic/prompt-engineering, series/build-with-ai]
 status: complete
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-09-29
 parent: "[[Prompt Engineering]]"
 related: ["[[Prompt Engineering]]", "[[LLM Fundamentals]]"]
 ---
@@ -22,6 +22,7 @@ related: ["[[Prompt Engineering]]", "[[LLM Fundamentals]]"]
 - [[Build with AI - Expert advice|Expert advice]]
 - [[Build with AI - Feedback report|Feedback report]]
 - [[Build with AI - Marketing assets|Marketing assets]]
+- [[Build with AI - Measurement plan|Measurement plan]]
 - [[Build with AI - Meeting summary|Meeting summary]]
 - [[Build with AI - Presentation slides|Presentation slides]]
 - [[Build with AI - Research report|Research report]]
