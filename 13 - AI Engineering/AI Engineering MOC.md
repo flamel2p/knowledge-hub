@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-09-29
 parent: "[[00 - Home]]"
 ---
 
@@ -16,7 +16,7 @@ parent: "[[00 - Home]]"
 > LLMs, prompting, RAG, agents, MCP, evals, fine-tuning.
 
 ## Notes
-- [[Build with AI]] — 10-part prompt playbook series for business tasks
+- [[Build with AI]] — 11-part prompt playbook series for business tasks
 
 ## Planned
 - [[LLM Fundamentals]]
