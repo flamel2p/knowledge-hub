@@ -8,6 +8,16 @@ Last run: 2026-09-28 (setup)
 
 ## Queue
 
+### Priority — Requested 2026-09-29 (LangChain before LCAE exam 2026-10-05, then auth)
+
+- [ ] T056 | overview | LangChain & LangGraph | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph.md
+- [ ] T105 | deep-dive | LangChain & LangGraph - Graph API, State & Control Flow | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Graph API, State & Control Flow.md
+- [ ] T106 | deep-dive | LangChain & LangGraph - Agents, Tools & Middleware | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Agents, Tools & Middleware.md
+- [ ] T107 | deep-dive | LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop.md
+- [ ] T108 | deep-dive | LangChain & LangGraph - Multi-Agent Systems & LangSmith | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Multi-Agent Systems & LangSmith.md
+- [ ] T109 | overview | JWT | 10 - Security/JWT/JWT.md
+- [ ] T110 | overview | OAuth 2.0 & OIDC | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC.md
+
 ### Wave 1 — Core stack overviews
 
 - [x] T001 | overview | Redis | 05 - Databases/Redis/Redis.md | ✅ 2026-09-28
@@ -71,7 +81,6 @@ Last run: 2026-09-28 (setup)
 - [ ] T053 | overview | MySQL | 05 - Databases/MySQL/MySQL.md
 - [ ] T054 | overview | NoSQL | 05 - Databases/NoSQL/NoSQL.md
 - [ ] T055 | overview | Vector Databases | 05 - Databases/Vector Databases/Vector Databases.md
-- [ ] T056 | overview | LangChain & LangGraph | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph.md
 - [ ] T057 | overview | Traefik | 07 - DevOps & Infrastructure/Traefik/Traefik.md
 - [ ] T058 | overview | Cloudflare | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare.md
 - [ ] T059 | overview | Windmill | 08 - Automation/Windmill/Windmill.md
