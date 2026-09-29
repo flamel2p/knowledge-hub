@@ -10,6 +10,7 @@ CLAUDE.md                         ← this file (rules)
 task.md                           ← task queue (the loop's only state)
 _templates/                       ← Obsidian templates = canonical note structure
 _attachments/                     ← images only (png/jpg/svg/webp)
+pending/                          ← ZP's inbox for raw notes; gitignored, local-only (see §10)
 NN - <Domain>/
   <Domain> MOC.md                 ← Map of Content for the domain
   <Topic>/
@@ -131,3 +132,14 @@ When the Queue has no unchecked tasks except a `replenish` task (or the replenis
 - Priority: (1) deep dives for existing overviews that have none yet, in the order ZP's stack cares about (see §5 Context); (2) missing overviews for peers already linked from notes but not yet written (unresolved links); (3) one `maint` task per 12.
 - Deep-dive subtopics must be substantial enough for 100+ lines; don't split trivially.
 - End the new batch with another `replenish` task so the loop never dries up.
+
+## 10. Pending Inbox (manual intake)
+
+ZP drops raw notes into `pending/` at the vault root. When asked to process one:
+
+1. Read the pending note and decide its domain/topic folder per §1. If it belongs to an existing series or topic, match the siblings' format; otherwise use the template per §4.
+2. Rewrite it to the vault standard (§2–§6) and write it at the correct path. Link it from its MOC or parent/series hub.
+3. Verify the new file exists at the target path with valid frontmatter, then **delete that specific note from `pending/`**. Delete only the note(s) processed in this request — never other files in `pending/`, and never the folder itself.
+4. `pending/` is gitignored, so deletion is a local file operation, not a commit. A cloud session cannot see `pending/`; if the note came from git history or was pasted instead, say which `pending/` file ZP must delete manually.
+
+Processing a pending note is exempt from the "never move notes" and "files modified per run" limits; it does not count as a loop task.
