@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-29
+updated: 2026-10-02
 parent: "[[00 - Home]]"
 ---
 
@@ -17,6 +17,11 @@ parent: "[[00 - Home]]"
 
 ## Notes
 - [[Build with AI]] — 11-part prompt playbook series for business tasks
+- [[LangChain & LangGraph]] — agent framework + stateful graph runtime (1.x)
+  - [[LangChain & LangGraph - Graph API, State & Control Flow]]
+  - [[LangChain & LangGraph - Agents, Tools & Middleware]]
+  - [[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]]
+  - [[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]
 
 ## Planned
 - [[LLM Fundamentals]]
@@ -27,11 +32,6 @@ parent: "[[00 - Home]]"
 - [[AI Agents]]
   - [[AI Agents - Tool Calling & Agent Loops]]
 - [[Model Context Protocol]]
-- [[LangChain & LangGraph]]
-  - [[LangChain & LangGraph - Graph API, State & Control Flow]]
-  - [[LangChain & LangGraph - Agents, Tools & Middleware]]
-  - [[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]]
-  - [[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]
 - [[AI Evals & Observability]]
 - [[Fine-tuning LLMs]]
 - [[LLM APIs & SDKs]]

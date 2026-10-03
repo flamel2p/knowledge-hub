@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-09-28 (setup)
+Last run: 2026-10-02 (T105–T110, T002–T005)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -10,21 +10,21 @@ Last run: 2026-09-28 (setup)
 
 ### Priority — Requested 2026-09-29 (LangChain before LCAE exam 2026-10-05, then auth)
 
-- [ ] T056 | overview | LangChain & LangGraph | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph.md
-- [ ] T105 | deep-dive | LangChain & LangGraph - Graph API, State & Control Flow | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Graph API, State & Control Flow.md
-- [ ] T106 | deep-dive | LangChain & LangGraph - Agents, Tools & Middleware | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Agents, Tools & Middleware.md
-- [ ] T107 | deep-dive | LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop.md
-- [ ] T108 | deep-dive | LangChain & LangGraph - Multi-Agent Systems & LangSmith | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Multi-Agent Systems & LangSmith.md
-- [ ] T109 | overview | JWT | 10 - Security/JWT/JWT.md
-- [ ] T110 | overview | OAuth 2.0 & OIDC | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC.md
+- [x] T056 | overview | LangChain & LangGraph | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph.md | ✅ 2026-10-01
+- [x] T105 | deep-dive | LangChain & LangGraph - Graph API, State & Control Flow | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Graph API, State & Control Flow.md | ✅ 2026-10-02
+- [x] T106 | deep-dive | LangChain & LangGraph - Agents, Tools & Middleware | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Agents, Tools & Middleware.md | ✅ 2026-10-02
+- [x] T107 | deep-dive | LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop.md | ✅ 2026-10-02
+- [x] T108 | deep-dive | LangChain & LangGraph - Multi-Agent Systems & LangSmith | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Multi-Agent Systems & LangSmith.md | ✅ 2026-10-02
+- [x] T109 | overview | JWT | 10 - Security/JWT/JWT.md | ✅ 2026-10-02
+- [x] T110 | overview | OAuth 2.0 & OIDC | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC.md | ✅ 2026-10-02
 
 ### Wave 1 — Core stack overviews
 
 - [x] T001 | overview | Redis | 05 - Databases/Redis/Redis.md | ✅ 2026-09-28
-- [ ] T002 | overview | TypeScript | 01 - Languages/TypeScript/TypeScript.md
-- [ ] T003 | overview | JavaScript | 01 - Languages/JavaScript/JavaScript.md
-- [ ] T004 | overview | React | 02 - Frontend/React/React.md
-- [ ] T005 | overview | Next.js | 02 - Frontend/Next.js/Next.js.md
+- [x] T002 | overview | TypeScript | 01 - Languages/TypeScript/TypeScript.md | ✅ 2026-10-02
+- [x] T003 | overview | JavaScript | 01 - Languages/JavaScript/JavaScript.md | ✅ 2026-10-02
+- [x] T004 | overview | React | 02 - Frontend/React/React.md | ✅ 2026-10-02
+- [x] T005 | overview | Next.js | 02 - Frontend/Next.js/Next.js.md | ✅ 2026-10-02
 - [ ] T006 | overview | PostgreSQL | 05 - Databases/PostgreSQL/PostgreSQL.md
 - [ ] T007 | overview | Docker | 07 - DevOps & Infrastructure/Docker/Docker.md
 - [ ] T008 | overview | n8n | 08 - Automation/n8n/n8n.md

@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-02
 parent: "[[00 - Home]]"
 ---
 
@@ -16,13 +16,12 @@ parent: "[[00 - Home]]"
 > Programming languages: syntax, runtime model, type systems, ecosystems.
 
 ## Notes
-_None yet — the loop moves entries here from Planned as notes are written._
+- [[TypeScript]] — structural, erased type system; 6.0 defaults + 7.0 Go-native compiler
+  - (planned) [[TypeScript - Advanced Types]]
+- [[JavaScript]] — ECMAScript 2026, event loop, modules, npm supply-chain risks
+  - (planned) [[JavaScript - Event Loop & Async]]
 
 ## Planned
-- [[TypeScript]]
-  - [[TypeScript - Advanced Types]]
-- [[JavaScript]]
-  - [[JavaScript - Event Loop & Async]]
 - [[Python]]
   - [[Python - Async & Concurrency]]
 - [[Go]]
