@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-04
 parent: "[[00 - Home]]"
 ---
 
@@ -16,11 +16,10 @@ parent: "[[00 - Home]]"
 > Protocols and API styles: HTTP, REST, WebSocket, GraphQL, gRPC.
 
 ## Notes
-_None yet — the loop moves entries here from Planned as notes are written._
+- [[HTTP & HTTPS]] — semantics, HTTP/2–3, TLS 1.3, 200→47-day certs, smuggling & Rapid Reset
+  - (planned) [[HTTP & HTTPS - TLS Handshake & Certificates]]
 
 ## Planned
-- [[HTTP & HTTPS]]
-  - [[HTTP & HTTPS - TLS Handshake & Certificates]]
 - [[REST API]]
 - [[WebSocket]]
   - [[WebSocket - Scaling & Reliability]]

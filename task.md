@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-03 (T006–T010)
+Last run: 2026-10-04 (T011–T015)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -30,11 +30,11 @@ Last run: 2026-10-03 (T006–T010)
 - [x] T008 | overview | n8n | 08 - Automation/n8n/n8n.md | ✅ 2026-10-03
 - [x] T009 | overview | Coolify | 07 - DevOps & Infrastructure/Coolify/Coolify.md | ✅ 2026-10-03
 - [x] T010 | overview | LLM Fundamentals | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals.md | ✅ 2026-10-03
-- [ ] T011 | overview | Prompt Engineering | 13 - AI Engineering/Prompt Engineering/Prompt Engineering.md
-- [ ] T012 | overview | RAG | 13 - AI Engineering/RAG/RAG.md
-- [ ] T013 | overview | AI Agents | 13 - AI Engineering/AI Agents/AI Agents.md
-- [ ] T014 | overview | Model Context Protocol | 13 - AI Engineering/Model Context Protocol/Model Context Protocol.md
-- [ ] T015 | overview | HTTP & HTTPS | 09 - Networking & APIs/HTTP & HTTPS/HTTP & HTTPS.md
+- [x] T011 | overview | Prompt Engineering | 13 - AI Engineering/Prompt Engineering/Prompt Engineering.md | ✅ 2026-10-04
+- [x] T012 | overview | RAG | 13 - AI Engineering/RAG/RAG.md | ✅ 2026-10-04
+- [x] T013 | overview | AI Agents | 13 - AI Engineering/AI Agents/AI Agents.md | ✅ 2026-10-04
+- [x] T014 | overview | Model Context Protocol | 13 - AI Engineering/Model Context Protocol/Model Context Protocol.md | ✅ 2026-10-04
+- [x] T015 | overview | HTTP & HTTPS | 09 - Networking & APIs/HTTP & HTTPS/HTTP & HTTPS.md | ✅ 2026-10-04
 - [ ] T016 | overview | REST API | 09 - Networking & APIs/REST API/REST API.md
 - [ ] T017 | overview | WebSocket | 09 - Networking & APIs/WebSocket/WebSocket.md
 - [ ] T018 | overview | Big O Notation | 11 - CS Fundamentals/Big O Notation/Big O Notation.md
