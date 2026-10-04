@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-03
 parent: "[[00 - Home]]"
 ---
 
@@ -16,13 +16,12 @@ parent: "[[00 - Home]]"
 > Containers, orchestration, PaaS, reverse proxies, edge, CI-CD, OS.
 
 ## Notes
-_None yet — the loop moves entries here from Planned as notes are written._
+- [[Docker]] — images, containers, Compose, Engine 29, runc escapes, UFW bypass
+  - (planned) [[Docker - Dockerfile & Image Best Practices]]
+  - (planned) [[Docker - Networking & Volumes]]
+- [[Coolify]] — self-hosted PaaS over SSH + Traefik; v4 stable, Jan 2026 critical CVEs
 
 ## Planned
-- [[Docker]]
-  - [[Docker - Dockerfile & Image Best Practices]]
-  - [[Docker - Networking & Volumes]]
-- [[Coolify]]
 - [[Kubernetes]]
   - [[Kubernetes - Core Objects]]
 - [[Traefik]]
