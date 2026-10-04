@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-02
+updated: 2026-10-03
 parent: "[[00 - Home]]"
 ---
 
@@ -17,6 +17,8 @@ parent: "[[00 - Home]]"
 
 ## Notes
 - [[Build with AI]] — 11-part prompt playbook series for business tasks
+- [[LLM Fundamentals]] — tokens, context, sampling, reasoning, caching, model landscape
+  - (planned) [[LLM Fundamentals - Tokens, Context & Sampling]]
 - [[LangChain & LangGraph]] — agent framework + stateful graph runtime (1.x)
   - [[LangChain & LangGraph - Graph API, State & Control Flow]]
   - [[LangChain & LangGraph - Agents, Tools & Middleware]]
@@ -24,8 +26,6 @@ parent: "[[00 - Home]]"
   - [[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]
 
 ## Planned
-- [[LLM Fundamentals]]
-  - [[LLM Fundamentals - Tokens, Context & Sampling]]
 - [[Prompt Engineering]]
 - [[RAG]]
   - [[RAG - Chunking & Retrieval Strategies]]

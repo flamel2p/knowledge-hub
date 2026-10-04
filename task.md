@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-02 (T105–T110, T002–T005)
+Last run: 2026-10-03 (T006–T010)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -25,11 +25,11 @@ Last run: 2026-10-02 (T105–T110, T002–T005)
 - [x] T003 | overview | JavaScript | 01 - Languages/JavaScript/JavaScript.md | ✅ 2026-10-02
 - [x] T004 | overview | React | 02 - Frontend/React/React.md | ✅ 2026-10-02
 - [x] T005 | overview | Next.js | 02 - Frontend/Next.js/Next.js.md | ✅ 2026-10-02
-- [ ] T006 | overview | PostgreSQL | 05 - Databases/PostgreSQL/PostgreSQL.md
-- [ ] T007 | overview | Docker | 07 - DevOps & Infrastructure/Docker/Docker.md
-- [ ] T008 | overview | n8n | 08 - Automation/n8n/n8n.md
-- [ ] T009 | overview | Coolify | 07 - DevOps & Infrastructure/Coolify/Coolify.md
-- [ ] T010 | overview | LLM Fundamentals | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals.md
+- [x] T006 | overview | PostgreSQL | 05 - Databases/PostgreSQL/PostgreSQL.md | ✅ 2026-10-03
+- [x] T007 | overview | Docker | 07 - DevOps & Infrastructure/Docker/Docker.md | ✅ 2026-10-03
+- [x] T008 | overview | n8n | 08 - Automation/n8n/n8n.md | ✅ 2026-10-03
+- [x] T009 | overview | Coolify | 07 - DevOps & Infrastructure/Coolify/Coolify.md | ✅ 2026-10-03
+- [x] T010 | overview | LLM Fundamentals | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals.md | ✅ 2026-10-03
 - [ ] T011 | overview | Prompt Engineering | 13 - AI Engineering/Prompt Engineering/Prompt Engineering.md
 - [ ] T012 | overview | RAG | 13 - AI Engineering/RAG/RAG.md
 - [ ] T013 | overview | AI Agents | 13 - AI Engineering/AI Agents/AI Agents.md
