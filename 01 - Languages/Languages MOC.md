@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-02
+updated: 2026-10-05
 parent: "[[00 - Home]]"
 ---
 
@@ -17,9 +17,9 @@ parent: "[[00 - Home]]"
 
 ## Notes
 - [[TypeScript]] — structural, erased type system; 6.0 defaults + 7.0 Go-native compiler
-  - (planned) [[TypeScript - Advanced Types]]
+  - [[TypeScript - Advanced Types]]
 - [[JavaScript]] — ECMAScript 2026, event loop, modules, npm supply-chain risks
-  - (planned) [[JavaScript - Event Loop & Async]]
+  - [[JavaScript - Event Loop & Async]]
 
 ## Planned
 - [[Python]]

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-04 (T011–T015)
+Last run: 2026-10-05 (T016–T025)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -35,19 +35,19 @@ Last run: 2026-10-04 (T011–T015)
 - [x] T013 | overview | AI Agents | 13 - AI Engineering/AI Agents/AI Agents.md | ✅ 2026-10-04
 - [x] T014 | overview | Model Context Protocol | 13 - AI Engineering/Model Context Protocol/Model Context Protocol.md | ✅ 2026-10-04
 - [x] T015 | overview | HTTP & HTTPS | 09 - Networking & APIs/HTTP & HTTPS/HTTP & HTTPS.md | ✅ 2026-10-04
-- [ ] T016 | overview | REST API | 09 - Networking & APIs/REST API/REST API.md
-- [ ] T017 | overview | WebSocket | 09 - Networking & APIs/WebSocket/WebSocket.md
-- [ ] T018 | overview | Big O Notation | 11 - CS Fundamentals/Big O Notation/Big O Notation.md
-- [ ] T019 | maint | Link audit + MOC sync (all domains touched so far) | -
+- [x] T016 | overview | REST API | 09 - Networking & APIs/REST API/REST API.md | ✅ 2026-10-05
+- [x] T017 | overview | WebSocket | 09 - Networking & APIs/WebSocket/WebSocket.md | ✅ 2026-10-05
+- [x] T018 | overview | Big O Notation | 11 - CS Fundamentals/Big O Notation/Big O Notation.md | ✅ 2026-10-05
+- [x] T019 | maint | Link audit + MOC sync (all domains touched so far) | - | ✅ 2026-10-05
 
 ### Wave 2 — Core stack deep dives
 
-- [ ] T020 | deep-dive | JavaScript - Event Loop & Async | 01 - Languages/JavaScript/JavaScript - Event Loop & Async.md
-- [ ] T021 | deep-dive | TypeScript - Advanced Types | 01 - Languages/TypeScript/TypeScript - Advanced Types.md
-- [ ] T022 | deep-dive | React - Hooks | 02 - Frontend/React/React - Hooks.md
-- [ ] T023 | deep-dive | React - Server Components | 02 - Frontend/React/React - Server Components.md
-- [ ] T024 | deep-dive | Next.js - App Router & Rendering Strategies | 02 - Frontend/Next.js/Next.js - App Router & Rendering Strategies.md
-- [ ] T025 | deep-dive | Next.js - Caching | 02 - Frontend/Next.js/Next.js - Caching.md
+- [x] T020 | deep-dive | JavaScript - Event Loop & Async | 01 - Languages/JavaScript/JavaScript - Event Loop & Async.md | ✅ 2026-10-05
+- [x] T021 | deep-dive | TypeScript - Advanced Types | 01 - Languages/TypeScript/TypeScript - Advanced Types.md | ✅ 2026-10-05
+- [x] T022 | deep-dive | React - Hooks | 02 - Frontend/React/React - Hooks.md | ✅ 2026-10-05
+- [x] T023 | deep-dive | React - Server Components | 02 - Frontend/React/React - Server Components.md | ✅ 2026-10-05
+- [x] T024 | deep-dive | Next.js - App Router & Rendering Strategies | 02 - Frontend/Next.js/Next.js - App Router & Rendering Strategies.md | ✅ 2026-10-05
+- [x] T025 | deep-dive | Next.js - Caching | 02 - Frontend/Next.js/Next.js - Caching.md | ✅ 2026-10-05
 - [ ] T026 | deep-dive | PostgreSQL - Indexing | 05 - Databases/PostgreSQL/PostgreSQL - Indexing.md
 - [ ] T027 | deep-dive | PostgreSQL - Transactions & MVCC | 05 - Databases/PostgreSQL/PostgreSQL - Transactions & MVCC.md
 - [ ] T028 | deep-dive | Redis - Data Structures & Patterns | 05 - Databases/Redis/Redis - Data Structures & Patterns.md

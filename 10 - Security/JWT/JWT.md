@@ -224,8 +224,8 @@ claims = jwt.decode(token, key, algorithms=["ES256"], audience=AUD, issuer=ISS, 
 > - JWKS fetch on every request (no cache) means a self-inflicted DoS on the IdP. Cache it, and re-fetch only on an unknown `kid`, with rate limiting.
 
 ## Deep Dives
-- (planned) [[JWT - Signing Algorithms, Keys & Rotation]]
-- (planned) [[JWT - Refresh Tokens, Revocation & Storage]]
+- (planned, unscheduled) JWT - Signing Algorithms, Keys & Rotation
+- (planned, unscheduled) JWT - Refresh Tokens, Revocation & Storage
 
 ## Related
 - [[OAuth 2.0 & OIDC]] — JWT is the token format, OAuth/OIDC is the protocol
