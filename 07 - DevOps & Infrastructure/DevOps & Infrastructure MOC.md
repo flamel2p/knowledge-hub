@@ -18,7 +18,7 @@ parent: "[[00 - Home]]"
 ## Notes
 - [[Docker]] — images, containers, Compose, Engine 29, runc escapes, UFW bypass
   - [[Docker - Dockerfile & Image Best Practices]]
-  - (planned) [[Docker - Networking & Volumes]]
+  - [[Docker - Networking & Volumes]]
 - [[Coolify]] — self-hosted PaaS over SSH + Traefik; v4 stable, Jan 2026 critical CVEs
 
 ## Planned

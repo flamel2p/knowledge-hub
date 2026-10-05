@@ -197,7 +197,7 @@ service/
 
 ## Deep Dives
 - [[Docker - Dockerfile & Image Best Practices]]
-- (planned) [[Docker - Networking & Volumes]]
+- [[Docker - Networking & Volumes]]
 
 ## Related
 - [[Coolify]] — PaaS layer on top of Docker in ZP's stack

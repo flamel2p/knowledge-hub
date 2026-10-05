@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-05 (T026–T030)
+Last run: 2026-10-05 (T031–T035)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -53,11 +53,11 @@ Last run: 2026-10-05 (T026–T030)
 - [x] T028 | deep-dive | Redis - Data Structures & Patterns | 05 - Databases/Redis/Redis - Data Structures & Patterns.md | ✅ 2026-10-05
 - [x] T029 | deep-dive | Redis - Persistence & High Availability | 05 - Databases/Redis/Redis - Persistence & High Availability.md | ✅ 2026-10-05
 - [x] T030 | deep-dive | Docker - Dockerfile & Image Best Practices | 07 - DevOps & Infrastructure/Docker/Docker - Dockerfile & Image Best Practices.md | ✅ 2026-10-05
-- [ ] T031 | deep-dive | Docker - Networking & Volumes | 07 - DevOps & Infrastructure/Docker/Docker - Networking & Volumes.md
-- [ ] T032 | deep-dive | n8n - Queue Mode & Scaling | 08 - Automation/n8n/n8n - Queue Mode & Scaling.md
-- [ ] T033 | deep-dive | n8n - Error Handling & Workflow Patterns | 08 - Automation/n8n/n8n - Error Handling & Workflow Patterns.md
-- [ ] T034 | deep-dive | LLM Fundamentals - Tokens, Context & Sampling | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals - Tokens, Context & Sampling.md
-- [ ] T035 | deep-dive | RAG - Chunking & Retrieval Strategies | 13 - AI Engineering/RAG/RAG - Chunking & Retrieval Strategies.md
+- [x] T031 | deep-dive | Docker - Networking & Volumes | 07 - DevOps & Infrastructure/Docker/Docker - Networking & Volumes.md | ✅ 2026-10-05
+- [x] T032 | deep-dive | n8n - Queue Mode & Scaling | 08 - Automation/n8n/n8n - Queue Mode & Scaling.md | ✅ 2026-10-05
+- [x] T033 | deep-dive | n8n - Error Handling & Workflow Patterns | 08 - Automation/n8n/n8n - Error Handling & Workflow Patterns.md | ✅ 2026-10-05
+- [x] T034 | deep-dive | LLM Fundamentals - Tokens, Context & Sampling | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals - Tokens, Context & Sampling.md | ✅ 2026-10-05
+- [x] T035 | deep-dive | RAG - Chunking & Retrieval Strategies | 13 - AI Engineering/RAG/RAG - Chunking & Retrieval Strategies.md | ✅ 2026-10-05
 - [ ] T036 | deep-dive | AI Agents - Tool Calling & Agent Loops | 13 - AI Engineering/AI Agents/AI Agents - Tool Calling & Agent Loops.md
 - [ ] T037 | deep-dive | HTTP & HTTPS - TLS Handshake & Certificates | 09 - Networking & APIs/HTTP & HTTPS/HTTP & HTTPS - TLS Handshake & Certificates.md
 - [ ] T038 | maint | Link audit + refresh version_checked on 3 oldest notes | -

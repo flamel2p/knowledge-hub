@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/overview, topic/n8n]
 status: draft
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-05
 version_checked: "2.41.6 stable · 2.42 beta — 2026-10"
 parent: "[[Automation MOC]]"
 related: ["[[Redis]]", "[[PostgreSQL]]", "[[Docker]]", "[[Coolify]]", "[[Windmill]]", "[[AI Agents]]"]
@@ -74,7 +74,7 @@ flowchart LR
   - Optional **webhook processors** scale inbound HTTP.
   - Every process must share the same `N8N_ENCRYPTION_KEY`, DB and Redis.
 - **Task runners**: Code node execution moves out of the main/worker process into a runner (internal child process, or external `n8nio/runners` sidecar with `N8N_RUNNERS_MODE=external`). That gives isolation and lets heavy JS avoid blocking the engine.
-- **Persistence**: Postgres (SQLite is for dev only; MySQL/MariaDB dropped in 2.0). Binary data lives in the DB/filesystem or S3 (S3 is required for multi-worker setups that share binaries across processes).
+- **Persistence**: Postgres (SQLite is for dev only; MySQL/MariaDB dropped in 2.0). Binary data modes (2.0+): `filesystem` (default in regular mode), `database` (default in queue mode) or `s3`. Filesystem doesn't work across separate worker processes.
 
 ## Project Structure
 ```text
@@ -179,8 +179,8 @@ N8N_PROXY_HOPS=1                       # behind Traefik/Cloudflare
 > - Fair-code license: hosting n8n **for** clients as a paid platform can require a commercial license. Get this confirmed before productizing.
 
 ## Deep Dives
-- (planned) [[n8n - Queue Mode & Scaling]]
-- (planned) [[n8n - Error Handling & Workflow Patterns]]
+- [[n8n - Queue Mode & Scaling]]
+- [[n8n - Error Handling & Workflow Patterns]]
 
 ## Related
 - [[Redis]] — queue-mode broker
