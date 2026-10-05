@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/typescript, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-05
 version_checked: "7.0 (native, GA 2026-07-08) · 6.0 last JS-based — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[JavaScript]]", "[[Next.js]]", "[[React]]", "[[Node.js]]", "[[Supabase]]"]
@@ -204,7 +204,7 @@ my-app/
 > - `@types/*` versions drift from the runtime library. Mismatches cause phantom APIs.
 
 ## Deep Dives
-- (planned) [[TypeScript - Advanced Types]]
+- [[TypeScript - Advanced Types]]
 
 ## Related
 - [[JavaScript]] — runtime semantics TS compiles to

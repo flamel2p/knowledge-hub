@@ -206,8 +206,8 @@ export async function callback(currentUrl: URL, session: Session) {
 > - Auth0/Okta MAU pricing climbs steeply for B2C. Self-hosted Keycloak/Zitadel/Authentik on [[Coolify]] are viable, but you then own patching and HA.
 
 ## Deep Dives
-- (planned) [[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]]
-- (planned) [[OAuth 2.0 & OIDC - Attacks & Hardening]]
+- (planned, unscheduled) OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle
+- (planned, unscheduled) OAuth 2.0 & OIDC - Attacks & Hardening
 
 ## Related
 - [[JWT]] — `id_token` format and access-token validation rules

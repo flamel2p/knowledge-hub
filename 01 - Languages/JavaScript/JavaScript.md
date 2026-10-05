@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/javascript, lang/javascript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-05
 version_checked: "ECMAScript 2026 (approved 2026-06-30) — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[TypeScript]]", "[[Node.js]]", "[[React]]", "[[Next.js]]", "[[Browser & Web Fundamentals]]"]
@@ -196,7 +196,7 @@ my-lib/
 > - Floating timers/listeners keep Node processes and serverless functions alive or leaking.
 
 ## Deep Dives
-- (planned) [[JavaScript - Event Loop & Async]]
+- [[JavaScript - Event Loop & Async]]
 
 ## Related
 - [[TypeScript]] — typed superset, the default for serious JS

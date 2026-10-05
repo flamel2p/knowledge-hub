@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-05
 parent: "[[00 - Home]]"
 ---
 
@@ -16,10 +16,9 @@ parent: "[[00 - Home]]"
 > Complexity, data structures, algorithms, system design, design patterns.
 
 ## Notes
-_None yet — the loop moves entries here from Planned as notes are written._
+- [[Big O Notation]] — time/space complexity, common classes, data structure costs, complexity attacks
 
 ## Planned
-- [[Big O Notation]]
 - [[Data Structures]]
 - [[Algorithms]]
 - [[System Design]]

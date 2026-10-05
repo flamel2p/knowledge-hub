@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/react, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-05
 version_checked: "19.3 — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[Next.js]]", "[[JavaScript]]", "[[TypeScript]]", "[[React Native]]", "[[Tailwind CSS]]"]
@@ -193,8 +193,8 @@ src/
 > - Importing a heavy lib into a `"use client"` module ships it to every user. Check the bundle analyzer.
 
 ## Deep Dives
-- (planned) [[React - Hooks]]
-- (planned) [[React - Server Components]]
+- [[React - Hooks]]
+- [[React - Server Components]]
 
 ## Related
 - [[Next.js]] — primary React framework in ZP's stack

@@ -18,8 +18,6 @@ parent: "[[00 - Home]]"
 ## Notes
 - [[JWT]] — token format, verification rules, algorithm-confusion CVEs
 - [[OAuth 2.0 & OIDC]] — delegated authz + identity layer, PKCE, OAuth 2.1, token-theft incidents
-  - (planned) [[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]]
-  - (planned) [[OAuth 2.0 & OIDC - Attacks & Hardening]]
 
 ## Planned
 - [[Network Security]]
