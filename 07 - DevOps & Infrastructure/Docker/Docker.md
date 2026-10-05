@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/docker]
 status: draft
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-05
 version_checked: "Engine 29.x · Compose v2 — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Coolify]]", "[[Kubernetes]]", "[[Traefik]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -196,7 +196,7 @@ service/
 > - Timezone: containers default to UTC. Set `TZ=Asia/Kuching` only for display-time services, and keep DBs in UTC.
 
 ## Deep Dives
-- (planned) [[Docker - Dockerfile & Image Best Practices]]
+- [[Docker - Dockerfile & Image Best Practices]]
 - (planned) [[Docker - Networking & Volumes]]
 
 ## Related

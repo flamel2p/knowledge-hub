@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-05 (T016–T025)
+Last run: 2026-10-05 (T026–T030)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -48,11 +48,11 @@ Last run: 2026-10-05 (T016–T025)
 - [x] T023 | deep-dive | React - Server Components | 02 - Frontend/React/React - Server Components.md | ✅ 2026-10-05
 - [x] T024 | deep-dive | Next.js - App Router & Rendering Strategies | 02 - Frontend/Next.js/Next.js - App Router & Rendering Strategies.md | ✅ 2026-10-05
 - [x] T025 | deep-dive | Next.js - Caching | 02 - Frontend/Next.js/Next.js - Caching.md | ✅ 2026-10-05
-- [ ] T026 | deep-dive | PostgreSQL - Indexing | 05 - Databases/PostgreSQL/PostgreSQL - Indexing.md
-- [ ] T027 | deep-dive | PostgreSQL - Transactions & MVCC | 05 - Databases/PostgreSQL/PostgreSQL - Transactions & MVCC.md
-- [ ] T028 | deep-dive | Redis - Data Structures & Patterns | 05 - Databases/Redis/Redis - Data Structures & Patterns.md
-- [ ] T029 | deep-dive | Redis - Persistence & High Availability | 05 - Databases/Redis/Redis - Persistence & High Availability.md
-- [ ] T030 | deep-dive | Docker - Dockerfile & Image Best Practices | 07 - DevOps & Infrastructure/Docker/Docker - Dockerfile & Image Best Practices.md
+- [x] T026 | deep-dive | PostgreSQL - Indexing | 05 - Databases/PostgreSQL/PostgreSQL - Indexing.md | ✅ 2026-10-05
+- [x] T027 | deep-dive | PostgreSQL - Transactions & MVCC | 05 - Databases/PostgreSQL/PostgreSQL - Transactions & MVCC.md | ✅ 2026-10-05
+- [x] T028 | deep-dive | Redis - Data Structures & Patterns | 05 - Databases/Redis/Redis - Data Structures & Patterns.md | ✅ 2026-10-05
+- [x] T029 | deep-dive | Redis - Persistence & High Availability | 05 - Databases/Redis/Redis - Persistence & High Availability.md | ✅ 2026-10-05
+- [x] T030 | deep-dive | Docker - Dockerfile & Image Best Practices | 07 - DevOps & Infrastructure/Docker/Docker - Dockerfile & Image Best Practices.md | ✅ 2026-10-05
 - [ ] T031 | deep-dive | Docker - Networking & Volumes | 07 - DevOps & Infrastructure/Docker/Docker - Networking & Volumes.md
 - [ ] T032 | deep-dive | n8n - Queue Mode & Scaling | 08 - Automation/n8n/n8n - Queue Mode & Scaling.md
 - [ ] T033 | deep-dive | n8n - Error Handling & Workflow Patterns | 08 - Automation/n8n/n8n - Error Handling & Workflow Patterns.md

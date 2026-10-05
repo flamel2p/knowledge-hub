@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/redis, topic/caching, topic/key-value]
 status: complete
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-05
 version_checked: "8.10.2 — 2026-09"
 parent: "[[Databases MOC]]"
 related: ["[[Valkey]]", "[[PostgreSQL]]", "[[n8n]]", "[[Message Queues]]", "[[NoSQL]]", "[[Kafka]]"]
@@ -207,8 +207,8 @@ rename-command FLUSHALL ""      # optional hardening
 > `KEYS`, `SMEMBERS` / `HGETALL` on huge collections, `FLUSHALL` without `ASYNC`, long Lua scripts and big `DEL`s all block the single thread. Use `SCAN`, `HSCAN`, `UNLINK` and `FLUSHALL ASYNC`, and keep collections bounded.
 
 ## Deep Dives
-- (planned) [[Redis - Data Structures & Patterns]]
-- (planned) [[Redis - Persistence & High Availability]]
+- [[Redis - Data Structures & Patterns]]
+- [[Redis - Persistence & High Availability]]
 
 ## Related
 - [[Valkey]] · [[Message Queues]] · [[Kafka]]
