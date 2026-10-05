@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/agents]
 status: draft
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-05
 version_checked: "n/a — pattern; ecosystem snapshot 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LangChain & LangGraph]]", "[[Model Context Protocol]]", "[[LLM Fundamentals]]", "[[RAG]]", "[[Prompt Engineering]]"]
@@ -177,7 +177,7 @@ agent/
 > - Framework lock-in for a 50-line loop. Write the loop yourself until you need checkpoints, HITL or multi-agent.
 
 ## Deep Dives
-- (planned) [[AI Agents - Tool Calling & Agent Loops]]
+- [[AI Agents - Tool Calling & Agent Loops]]
 
 ## Related
 - [[LangChain & LangGraph]] — agent framework + durable runtime

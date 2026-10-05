@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-05 (T031–T035)
+Last run: 2026-10-05 (T036–T040)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -58,14 +58,14 @@ Last run: 2026-10-05 (T031–T035)
 - [x] T033 | deep-dive | n8n - Error Handling & Workflow Patterns | 08 - Automation/n8n/n8n - Error Handling & Workflow Patterns.md | ✅ 2026-10-05
 - [x] T034 | deep-dive | LLM Fundamentals - Tokens, Context & Sampling | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals - Tokens, Context & Sampling.md | ✅ 2026-10-05
 - [x] T035 | deep-dive | RAG - Chunking & Retrieval Strategies | 13 - AI Engineering/RAG/RAG - Chunking & Retrieval Strategies.md | ✅ 2026-10-05
-- [ ] T036 | deep-dive | AI Agents - Tool Calling & Agent Loops | 13 - AI Engineering/AI Agents/AI Agents - Tool Calling & Agent Loops.md
-- [ ] T037 | deep-dive | HTTP & HTTPS - TLS Handshake & Certificates | 09 - Networking & APIs/HTTP & HTTPS/HTTP & HTTPS - TLS Handshake & Certificates.md
-- [ ] T038 | maint | Link audit + refresh version_checked on 3 oldest notes | -
+- [x] T036 | deep-dive | AI Agents - Tool Calling & Agent Loops | 13 - AI Engineering/AI Agents/AI Agents - Tool Calling & Agent Loops.md | ✅ 2026-10-05
+- [x] T037 | deep-dive | HTTP & HTTPS - TLS Handshake & Certificates | 09 - Networking & APIs/HTTP & HTTPS/HTTP & HTTPS - TLS Handshake & Certificates.md | ✅ 2026-10-05
+- [x] T038 | maint | Link audit + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-05
 
 ### Wave 3 — Stack expansion overviews
 
-- [ ] T039 | overview | Python | 01 - Languages/Python/Python.md
-- [ ] T040 | overview | Go | 01 - Languages/Go/Go.md
+- [x] T039 | overview | Python | 01 - Languages/Python/Python.md | ✅ 2026-10-05
+- [x] T040 | overview | Go | 01 - Languages/Go/Go.md | ✅ 2026-10-05
 - [ ] T041 | overview | Kafka | 06 - Messaging & Streaming/Kafka/Kafka.md
 - [ ] T042 | overview | Supabase | 04 - Backend/Supabase/Supabase.md
 - [ ] T043 | overview | Flutter | 03 - Mobile/Flutter/Flutter.md

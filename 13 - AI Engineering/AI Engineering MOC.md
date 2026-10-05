@@ -23,7 +23,7 @@ parent: "[[00 - Home]]"
 - [[RAG]] — hybrid retrieval, reranking, contextual retrieval, agentic RAG, tenant isolation
   - [[RAG - Chunking & Retrieval Strategies]]
 - [[AI Agents]] — workflows vs agents, tool loops, harness, lethal trifecta
-  - (planned) [[AI Agents - Tool Calling & Agent Loops]]
+  - [[AI Agents - Tool Calling & Agent Loops]]
 - [[Model Context Protocol]] — MCP 2026-07-28 stateless spec, OAuth 2.1, server security
 - [[LangChain & LangGraph]] — agent framework + stateful graph runtime (1.x)
   - [[LangChain & LangGraph - Graph API, State & Control Flow]]

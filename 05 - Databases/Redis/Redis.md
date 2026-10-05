@@ -7,7 +7,7 @@ tags: [domain/databases, type/overview, topic/redis, topic/caching, topic/key-va
 status: complete
 created: 2026-09-28
 updated: 2026-10-05
-version_checked: "8.10.2 — 2026-09"
+version_checked: "8.10.2 — 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[Valkey]]", "[[PostgreSQL]]", "[[n8n]]", "[[Message Queues]]", "[[NoSQL]]", "[[Kafka]]"]
 ---
