@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-04
+updated: 2026-10-05
 parent: "[[00 - Home]]"
 ---
 
@@ -19,11 +19,11 @@ parent: "[[00 - Home]]"
 - [[Prompt Engineering]] — context engineering, structure, examples, structured outputs, evals
   - [[Build with AI]] — 11-part prompt playbook series for business tasks
 - [[LLM Fundamentals]] — tokens, context, sampling, reasoning, caching, model landscape
-  - (planned) [[LLM Fundamentals - Tokens, Context & Sampling]]
+  - [[LLM Fundamentals - Tokens, Context & Sampling]]
 - [[RAG]] — hybrid retrieval, reranking, contextual retrieval, agentic RAG, tenant isolation
-  - (planned) [[RAG - Chunking & Retrieval Strategies]]
+  - [[RAG - Chunking & Retrieval Strategies]]
 - [[AI Agents]] — workflows vs agents, tool loops, harness, lethal trifecta
-  - (planned) [[AI Agents - Tool Calling & Agent Loops]]
+  - [[AI Agents - Tool Calling & Agent Loops]]
 - [[Model Context Protocol]] — MCP 2026-07-28 stateless spec, OAuth 2.1, server security
 - [[LangChain & LangGraph]] — agent framework + stateful graph runtime (1.x)
   - [[LangChain & LangGraph - Graph API, State & Control Flow]]

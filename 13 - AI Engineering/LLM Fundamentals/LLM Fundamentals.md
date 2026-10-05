@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/llm]
 status: draft
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-05
 version_checked: "model landscape snapshot — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[Prompt Engineering]]", "[[RAG]]", "[[AI Agents]]", "[[LLM APIs & SDKs]]", "[[Fine-tuning LLMs]]"]
@@ -168,7 +168,7 @@ Model landscape snapshot (Oct 2026). Prices are USD per 1M input/output tokens:
 > - Hidden thinking tokens count toward cost and `max_tokens`. Budget for them.
 
 ## Deep Dives
-- (planned) [[LLM Fundamentals - Tokens, Context & Sampling]]
+- [[LLM Fundamentals - Tokens, Context & Sampling]]
 
 ## Related
 - [[Prompt Engineering]] — steering behaviour within these mechanics

@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/langchain, topic/langgraph, lang/python, lang/typescript]
 status: draft
 created: 2026-10-01
-updated: 2026-10-02
-version_checked: "langchain 1.4.2 · langchain-core 1.6.2 · langgraph 1.2.12 — 2026-10"
+updated: 2026-10-05
+version_checked: "langchain 1.4.2 · langchain-core 1.6.2 · langgraph 1.2.12 — 2026-10 (re-verified 2026-10-05)"
 parent: "[[AI Engineering MOC]]"
 related: ["[[AI Agents]]", "[[RAG]]", "[[Model Context Protocol]]", "[[LLM APIs & SDKs]]", "[[AI Evals & Observability]]", "[[PostgreSQL]]"]
 ---

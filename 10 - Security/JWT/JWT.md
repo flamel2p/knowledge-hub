@@ -6,8 +6,8 @@ domain: security
 tags: [domain/security, type/overview, topic/jwt, topic/auth]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
-version_checked: "RFC 7519 + RFC 8725 BCP (8725bis in draft) — 2026-10"
+updated: 2026-10-05
+version_checked: "RFC 7519 + RFC 8725 BCP (8725bis draft-07 in RFC Editor Queue) — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[OAuth 2.0 & OIDC]]", "[[Authentication & Authorization]]", "[[Supabase]]", "[[OWASP Top 10]]", "[[HTTP & HTTPS]]"]
 ---
@@ -18,7 +18,7 @@ related: ["[[OAuth 2.0 & OIDC]]", "[[Authentication & Authorization]]", "[[Supab
 > A JWT is a compact, URL-safe set of **claims** that is signed (JWS) or encrypted (JWE). Any party holding the key can verify it **without a DB lookup**. That statelessness is the whole value and the whole problem: revocation is hard, and every library bug in `alg` handling is an auth bypass. Use short-lived access tokens with **asymmetric** keys (ES256/EdDSA) published via JWKS, **pin the algorithm**, validate `iss`/`aud`/`exp`, and keep sessions or refresh tokens server-side.
 
 ## Introduction
-- Defined by **RFC 7519** (May 2015), part of the IETF **JOSE** family: JWS (RFC 7515), JWE (7516), JWK (7517), JWA (7518). Security best practices are in **RFC 8725** (Feb 2020). A revision (8725bis) is in IETF draft.
+- Defined by **RFC 7519** (May 2015), part of the IETF **JOSE** family: JWS (RFC 7515), JWE (7516), JWK (7517), JWA (7518). Security best practices are in **RFC 8725** (Feb 2020). A revision (8725bis, draft-07) passed IETF Last Call and has been in the RFC Editor Queue since Aug 2026. It will obsolete RFC 8725.
 - It solves cross-service identity propagation without shared session storage: an IdP signs, and many resource servers verify with a public key.
 - It's the token format of [[OAuth 2.0 & OIDC]] (OIDC `id_token` is always a JWT; access tokens often are, per RFC 9068). Also used by [[Supabase]] Auth, Firebase, Auth0, Clerk, Cognito and Kubernetes service accounts.
 - Where it sits: the transport layer for **authn result + authz hints** between browser ⇄ API ⇄ services. It is **not** a session mechanism by itself.
@@ -191,10 +191,10 @@ claims = jwt.decode(token, key, algorithms=["ES256"], audience=AUD, issuer=ISS, 
 | RFC 9068 | 2021-10 | JWT profile for OAuth 2.0 access tokens (`typ: at+jwt`) | Verifiers should check `typ` |
 | RFC 9449 (DPoP) | 2023-09 | Sender-constrained tokens via proof-of-possession JWT | Opt-in |
 | Fully-specified algorithms (JOSE/COSE) | 2025 | `Ed25519`/`Ed448` names replace polymorphic `EdDSA` | `EdDSA` deprecated for new deployments |
-| RFC 8725bis | Draft (2026) | Updated BCP: more attacks, stricter defaults | Watch for final RFC |
+| RFC 8725bis | draft-07 2026-07, RFC Editor Queue 2026-08 | Updated BCP: attacks found since 2020, stricter guidance. Obsoletes RFC 8725, updates RFC 7519 | Expect publication as a new BCP RFC. Re-check guidance then |
 
 > [!warning] Unverified — check before relying on this
-> The RFC number and month of the fully-specified-algorithms spec and the status of 8725bis weren't verified this run. Check the IETF datatracker.
+> The RFC number and month of the fully-specified-algorithms spec weren't verified. 8725bis status was verified 2026-10-05 (RFC Editor Queue). Check the IETF datatracker for the final RFC number.
 
 ## Critical Issues & Gotchas
 > [!danger] Algorithm confusion (still shipping in 2026)

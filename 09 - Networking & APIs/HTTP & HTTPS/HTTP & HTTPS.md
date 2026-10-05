@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/http, topic/tls]
 status: draft
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-05
 version_checked: "RFC 9110–9114 · TLS 1.3 · CA/B 200-day certs (Mar 2026) — 2026-10"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[REST API]]", "[[WebSocket]]", "[[Traefik]]", "[[Cloudflare]]", "[[OAuth 2.0 & OIDC]]"]
@@ -195,7 +195,7 @@ openssl s_client -connect example.com:443 -servername example.com </dev/null | o
 > - Large headers/cookies (> 8–16 KB) → 431/400 errors at proxies. JWT-in-cookie bloat is a common cause.
 
 ## Deep Dives
-- (planned) [[HTTP & HTTPS - TLS Handshake & Certificates]]
+- [[HTTP & HTTPS - TLS Handshake & Certificates]]
 
 ## Related
 - [[REST API]] — resource design on HTTP semantics

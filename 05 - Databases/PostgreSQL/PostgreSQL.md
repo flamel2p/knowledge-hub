@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/postgresql]
 status: draft
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-05
 version_checked: "18.x stable · 19 in beta (GA expected Q4 2026) — 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[Supabase]]", "[[Redis]]", "[[MySQL]]", "[[Vector Databases]]", "[[n8n]]"]
@@ -185,8 +185,8 @@ shared_preload_libraries = 'pg_stat_statements'
 > - Docker volume + `docker compose down -v` = database deleted.
 
 ## Deep Dives
-- (planned) [[PostgreSQL - Indexing]]
-- (planned) [[PostgreSQL - Transactions & MVCC]]
+- [[PostgreSQL - Indexing]]
+- [[PostgreSQL - Transactions & MVCC]]
 - (planned) [[PostgreSQL - Query Planning & EXPLAIN]]
 
 ## Related

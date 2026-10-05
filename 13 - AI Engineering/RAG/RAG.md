@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/rag]
 status: draft
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-05
 version_checked: "n/a — pattern; pgvector 0.8.x referenced — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[Vector Databases]]", "[[PostgreSQL]]", "[[AI Agents]]", "[[Prompt Engineering]]"]
@@ -169,7 +169,7 @@ rag/
 > - Sending whole customer documents to third-party embedding APIs without considering data-processing terms (PDPA).
 
 ## Deep Dives
-- (planned) [[RAG - Chunking & Retrieval Strategies]]
+- [[RAG - Chunking & Retrieval Strategies]]
 
 ## Related
 - [[LLM Fundamentals]] — embeddings, context windows
