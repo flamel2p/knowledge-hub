@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-06
 parent: "[[00 - Home]]"
 ---
 
@@ -16,14 +16,13 @@ parent: "[[00 - Home]]"
 > Cross-platform and native mobile app development.
 
 ## Notes
-_None yet — the loop moves entries here from Planned as notes are written._
+- [[Flutter]] — Dart UI toolkit, Impeller, quarterly releases, store-compliance deadlines
+  - (planned) [[Flutter - State Management]]
+  - (planned) [[Flutter - Rendering & Widget Lifecycle]]
+- [[React Native]] — React native views, New Architecture only (0.82+), Expo/EAS
+  - (planned) [[React Native - New Architecture]]
 
 ## Planned
-- [[Flutter]]
-  - [[Flutter - State Management]]
-  - [[Flutter - Rendering & Widget Lifecycle]]
-- [[React Native]]
-  - [[React Native - New Architecture]]
 
 ## Cross-domain Links
 - [[00 - Home]]
