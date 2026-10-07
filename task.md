@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-05 (T036–T040)
+Last run: 2026-10-06 (T041–T045)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -66,11 +66,11 @@ Last run: 2026-10-05 (T036–T040)
 
 - [x] T039 | overview | Python | 01 - Languages/Python/Python.md | ✅ 2026-10-05
 - [x] T040 | overview | Go | 01 - Languages/Go/Go.md | ✅ 2026-10-05
-- [ ] T041 | overview | Kafka | 06 - Messaging & Streaming/Kafka/Kafka.md
-- [ ] T042 | overview | Supabase | 04 - Backend/Supabase/Supabase.md
-- [ ] T043 | overview | Flutter | 03 - Mobile/Flutter/Flutter.md
-- [ ] T044 | overview | Dart | 01 - Languages/Dart/Dart.md
-- [ ] T045 | overview | React Native | 03 - Mobile/React Native/React Native.md
+- [x] T041 | overview | Kafka | 06 - Messaging & Streaming/Kafka/Kafka.md | ✅ 2026-10-06
+- [x] T042 | overview | Supabase | 04 - Backend/Supabase/Supabase.md | ✅ 2026-10-06
+- [x] T043 | overview | Flutter | 03 - Mobile/Flutter/Flutter.md | ✅ 2026-10-06
+- [x] T044 | overview | Dart | 01 - Languages/Dart/Dart.md | ✅ 2026-10-06
+- [x] T045 | overview | React Native | 03 - Mobile/React Native/React Native.md | ✅ 2026-10-06
 - [ ] T046 | overview | Node.js | 04 - Backend/Node.js/Node.js.md
 - [ ] T047 | overview | Kubernetes | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes.md
 - [ ] T048 | overview | Network Security | 10 - Security/Network Security/Network Security.md

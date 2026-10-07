@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-06
 parent: "[[00 - Home]]"
 ---
 
@@ -16,11 +16,10 @@ parent: "[[00 - Home]]"
 > Event streaming, message queues, pub/sub.
 
 ## Notes
-_None yet — the loop moves entries here from Planned as notes are written._
+- [[Kafka]] — partitioned replicated log, KRaft-only 4.x, share groups (queues) GA in 4.2
+  - (planned) [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
 
 ## Planned
-- [[Kafka]]
-  - [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
 - [[Message Queues]]
 
 ## Cross-domain Links

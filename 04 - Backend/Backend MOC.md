@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-06
 parent: "[[00 - Home]]"
 ---
 
@@ -16,11 +16,10 @@ parent: "[[00 - Home]]"
 > Server runtimes, backend frameworks, BaaS, testing.
 
 ## Notes
-_None yet — the loop moves entries here from Planned as notes are written._
+- [[Supabase]] — Postgres platform: Auth, PostgREST, Realtime, Storage, Edge Functions; new API keys + JWT signing keys
+  - (planned) [[Supabase - Row Level Security]]
 
 ## Planned
-- [[Supabase]]
-  - [[Supabase - Row Level Security]]
 - [[Node.js]]
 - [[Spring Boot]]
 - [[Testing Strategy]]
