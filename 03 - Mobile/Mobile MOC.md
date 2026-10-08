@@ -21,7 +21,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - Rendering & Widget Lifecycle]]
   - [[Flutter - State Management]]
   - [[Flutter - Performance & DevTools]]
-  - (planned) [[Flutter - Build, Release & Store Compliance]]
+  - [[Flutter - Build, Release & Store Compliance]]
   - (planned) [[Flutter - Platform Channels & FFI]]
   - (planned) [[Flutter - Testing]]
   - (planned) [[Flutter - Navigation & Routing]]

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-08 (T115)
+Last run: 2026-10-08 (T116)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -27,7 +27,7 @@ Last run: 2026-10-08 (T115)
 - [x] T113 | deep-dive | Dart - Type System, Null Safety & Mixins | 01 - Languages/Dart/Dart - Type System, Null Safety & Mixins.md | ✅ 2026-10-08
 - [x] T114 | deep-dive | Dart - VM, Compilation & Garbage Collection | 01 - Languages/Dart/Dart - VM, Compilation & Garbage Collection.md | ✅ 2026-10-08
 - [x] T115 | deep-dive | Flutter - Performance & DevTools | 03 - Mobile/Flutter/Flutter - Performance & DevTools.md | ✅ 2026-10-08
-- [ ] T116 | deep-dive | Flutter - Build, Release & Store Compliance | 03 - Mobile/Flutter/Flutter - Build, Release & Store Compliance.md
+- [x] T116 | deep-dive | Flutter - Build, Release & Store Compliance | 03 - Mobile/Flutter/Flutter - Build, Release & Store Compliance.md | ✅ 2026-10-08
 - [ ] T117 | deep-dive | Flutter - Platform Channels & FFI | 03 - Mobile/Flutter/Flutter - Platform Channels & FFI.md
 - [ ] T118 | deep-dive | Flutter - Testing | 03 - Mobile/Flutter/Flutter - Testing.md
 - [ ] T119 | deep-dive | Flutter - Navigation & Routing | 03 - Mobile/Flutter/Flutter - Navigation & Routing.md
