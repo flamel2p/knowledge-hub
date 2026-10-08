@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-07 (T111–T112, Flutter replenish)
+Last run: 2026-10-08 (T094)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -22,7 +22,7 @@ Last run: 2026-10-07 (T111–T112, Flutter replenish)
 
 - [x] T111 | deep-dive | Dart - Async, Streams & Isolates | 01 - Languages/Dart/Dart - Async, Streams & Isolates.md | ✅ 2026-10-07
 - [x] T112 | reference | Flutter - Interview Questions | 03 - Mobile/Flutter/Flutter - Interview Questions.md | ✅ 2026-10-07
-- [ ] T094 | deep-dive | Flutter - Rendering & Widget Lifecycle | 03 - Mobile/Flutter/Flutter - Rendering & Widget Lifecycle.md
+- [x] T094 | deep-dive | Flutter - Rendering & Widget Lifecycle | 03 - Mobile/Flutter/Flutter - Rendering & Widget Lifecycle.md | ✅ 2026-10-08
 - [ ] T093 | deep-dive | Flutter - State Management | 03 - Mobile/Flutter/Flutter - State Management.md
 - [ ] T113 | deep-dive | Dart - Type System, Null Safety & Mixins | 01 - Languages/Dart/Dart - Type System, Null Safety & Mixins.md
 - [ ] T114 | deep-dive | Dart - VM, Compilation & Garbage Collection | 01 - Languages/Dart/Dart - VM, Compilation & Garbage Collection.md

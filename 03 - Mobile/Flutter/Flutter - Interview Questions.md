@@ -172,7 +172,7 @@ On each **vsync**, `WidgetsBinding.drawFrame` (via `SchedulerBinding`) runs:
 
 ## Related
 - [[Dart - Async, Streams & Isolates]] — Q1–Q3, Q7 in depth
-- [[Flutter - Rendering & Widget Lifecycle]] — Q9–Q12 in depth (planned)
+- [[Flutter - Rendering & Widget Lifecycle]] — Q9–Q12 in depth
 - [[Flutter - State Management]] — framework-owned subscriptions (planned)
 - [[Dart - Type System, Null Safety & Mixins]] · [[Dart - VM, Compilation & Garbage Collection]] — Q4–Q6, Q8 (planned)
 - [[Flutter - Performance & DevTools]] — const, rebuild scope, jank, leaks (planned)

@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 version_checked: "3.47 / Dart 3.13 (2026-08) — 2026-10"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -169,7 +169,7 @@ my_app/
 
 ## Deep Dives
 - [[Flutter - Interview Questions]] — 12 core Dart/Flutter interview questions with verified answers (reference)
-- (planned) [[Flutter - Rendering & Widget Lifecycle]]
+- [[Flutter - Rendering & Widget Lifecycle]]
 - (planned) [[Flutter - State Management]]
 - (planned) [[Flutter - Performance & DevTools]]
 - (planned) [[Flutter - Build, Release & Store Compliance]]
