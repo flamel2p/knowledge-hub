@@ -20,7 +20,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - Interview Questions]] — interview prep reference (Dart async, isolates, types, rendering pipeline)
   - [[Flutter - Rendering & Widget Lifecycle]]
   - [[Flutter - State Management]]
-  - (planned) [[Flutter - Performance & DevTools]]
+  - [[Flutter - Performance & DevTools]]
   - (planned) [[Flutter - Build, Release & Store Compliance]]
   - (planned) [[Flutter - Platform Channels & FFI]]
   - (planned) [[Flutter - Testing]]
