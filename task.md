@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-08 (T119)
+Last run: 2026-10-08 (T120)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -31,7 +31,7 @@ Last run: 2026-10-08 (T119)
 - [x] T117 | deep-dive | Flutter - Platform Channels & FFI | 03 - Mobile/Flutter/Flutter - Platform Channels & FFI.md | ✅ 2026-10-08
 - [x] T118 | deep-dive | Flutter - Testing | 03 - Mobile/Flutter/Flutter - Testing.md | ✅ 2026-10-08
 - [x] T119 | deep-dive | Flutter - Navigation & Routing | 03 - Mobile/Flutter/Flutter - Navigation & Routing.md | ✅ 2026-10-08
-- [ ] T120 | deep-dive | Flutter - Offline Storage & Sync | 03 - Mobile/Flutter/Flutter - Offline Storage & Sync.md
+- [x] T120 | deep-dive | Flutter - Offline Storage & Sync | 03 - Mobile/Flutter/Flutter - Offline Storage & Sync.md | ✅ 2026-10-08
 
 ### Wave 1 — Core stack overviews
 

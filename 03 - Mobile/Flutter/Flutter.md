@@ -176,7 +176,7 @@ my_app/
 - [[Flutter - Platform Channels & FFI]]
 - [[Flutter - Testing]]
 - [[Flutter - Navigation & Routing]]
-- (planned) [[Flutter - Offline Storage & Sync]]
+- [[Flutter - Offline Storage & Sync]]
 
 ## Related
 - [[Dart]] — the language
