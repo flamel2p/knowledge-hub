@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/jwt, topic/auth]
 status: draft
 created: 2026-10-02
-updated: 2026-10-05
+updated: 2026-10-08
 version_checked: "RFC 7519 + RFC 8725 BCP (8725bis draft-07 in RFC Editor Queue) — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[OAuth 2.0 & OIDC]]", "[[Authentication & Authorization]]", "[[Supabase]]", "[[OWASP Top 10]]", "[[HTTP & HTTPS]]"]
@@ -233,6 +233,7 @@ claims = jwt.decode(token, key, algorithms=["ES256"], audience=AUD, issuer=ISS, 
 - [[Supabase]] — JWT claims drive RLS
 - [[OWASP Top 10]] — A07 Identification & Authentication Failures
 - [[HTTP & HTTPS]] — `Authorization: Bearer`, cookies
+- [[Network Security]] — TLS in transit, edge rate limiting
 - [[Redis]] — `jti` denylist store
 
 ## References
