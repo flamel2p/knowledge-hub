@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-06
+updated: 2026-10-07
 parent: "[[00 - Home]]"
 ---
 
@@ -17,8 +17,15 @@ parent: "[[00 - Home]]"
 
 ## Notes
 - [[Flutter]] — Dart UI toolkit, Impeller, quarterly releases, store-compliance deadlines
-  - (planned) [[Flutter - State Management]]
+  - [[Flutter - Interview Questions]] — interview prep reference (Dart async, isolates, types, rendering pipeline)
   - (planned) [[Flutter - Rendering & Widget Lifecycle]]
+  - (planned) [[Flutter - State Management]]
+  - (planned) [[Flutter - Performance & DevTools]]
+  - (planned) [[Flutter - Build, Release & Store Compliance]]
+  - (planned) [[Flutter - Platform Channels & FFI]]
+  - (planned) [[Flutter - Testing]]
+  - (planned) [[Flutter - Navigation & Routing]]
+  - (planned) [[Flutter - Offline Storage & Sync]]
 - [[React Native]] — React native views, New Architecture only (0.82+), Expo/EAS
   - (planned) [[React Native - New Architecture]]
 

@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 version_checked: "3.47 / Dart 3.13 (2026-08) — 2026-10"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -168,11 +168,19 @@ my_app/
 > - Flutter Web for SEO-critical marketing pages is a poor fit. Use [[Next.js]] for the web, Flutter for apps.
 
 ## Deep Dives
-- (planned) [[Flutter - State Management]]
+- [[Flutter - Interview Questions]] — 12 core Dart/Flutter interview questions with verified answers (reference)
 - (planned) [[Flutter - Rendering & Widget Lifecycle]]
+- (planned) [[Flutter - State Management]]
+- (planned) [[Flutter - Performance & DevTools]]
+- (planned) [[Flutter - Build, Release & Store Compliance]]
+- (planned) [[Flutter - Platform Channels & FFI]]
+- (planned) [[Flutter - Testing]]
+- (planned) [[Flutter - Navigation & Routing]]
+- (planned) [[Flutter - Offline Storage & Sync]]
 
 ## Related
 - [[Dart]] — the language
+- [[Dart - Async, Streams & Isolates]] — event loop, stream subscriptions, isolates
 - [[React Native]] — main cross-platform peer
 - [[Supabase]] — backend in ZP's stack
 - [[React]] — declarative UI ideas Flutter shares

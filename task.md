@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-06 (T041–T045)
+Last run: 2026-10-07 (T111–T112, Flutter replenish)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -17,6 +17,21 @@ Last run: 2026-10-06 (T041–T045)
 - [x] T108 | deep-dive | LangChain & LangGraph - Multi-Agent Systems & LangSmith | 13 - AI Engineering/LangChain & LangGraph/LangChain & LangGraph - Multi-Agent Systems & LangSmith.md | ✅ 2026-10-02
 - [x] T109 | overview | JWT | 10 - Security/JWT/JWT.md | ✅ 2026-10-02
 - [x] T110 | overview | OAuth 2.0 & OIDC | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC.md | ✅ 2026-10-02
+
+### Priority — Requested 2026-10-07 (Flutter / Dart, from interview question bank)
+
+- [x] T111 | deep-dive | Dart - Async, Streams & Isolates | 01 - Languages/Dart/Dart - Async, Streams & Isolates.md | ✅ 2026-10-07
+- [x] T112 | reference | Flutter - Interview Questions | 03 - Mobile/Flutter/Flutter - Interview Questions.md | ✅ 2026-10-07
+- [ ] T094 | deep-dive | Flutter - Rendering & Widget Lifecycle | 03 - Mobile/Flutter/Flutter - Rendering & Widget Lifecycle.md
+- [ ] T093 | deep-dive | Flutter - State Management | 03 - Mobile/Flutter/Flutter - State Management.md
+- [ ] T113 | deep-dive | Dart - Type System, Null Safety & Mixins | 01 - Languages/Dart/Dart - Type System, Null Safety & Mixins.md
+- [ ] T114 | deep-dive | Dart - VM, Compilation & Garbage Collection | 01 - Languages/Dart/Dart - VM, Compilation & Garbage Collection.md
+- [ ] T115 | deep-dive | Flutter - Performance & DevTools | 03 - Mobile/Flutter/Flutter - Performance & DevTools.md
+- [ ] T116 | deep-dive | Flutter - Build, Release & Store Compliance | 03 - Mobile/Flutter/Flutter - Build, Release & Store Compliance.md
+- [ ] T117 | deep-dive | Flutter - Platform Channels & FFI | 03 - Mobile/Flutter/Flutter - Platform Channels & FFI.md
+- [ ] T118 | deep-dive | Flutter - Testing | 03 - Mobile/Flutter/Flutter - Testing.md
+- [ ] T119 | deep-dive | Flutter - Navigation & Routing | 03 - Mobile/Flutter/Flutter - Navigation & Routing.md
+- [ ] T120 | deep-dive | Flutter - Offline Storage & Sync | 03 - Mobile/Flutter/Flutter - Offline Storage & Sync.md
 
 ### Wave 1 — Core stack overviews
 
@@ -123,8 +138,6 @@ Last run: 2026-10-06 (T041–T045)
 - [ ] T090 | deep-dive | Go - Concurrency | 01 - Languages/Go/Go - Concurrency.md
 - [ ] T091 | deep-dive | Rust - Ownership & Borrowing | 01 - Languages/Rust/Rust - Ownership & Borrowing.md
 - [ ] T092 | deep-dive | Python - Async & Concurrency | 01 - Languages/Python/Python - Async & Concurrency.md
-- [ ] T093 | deep-dive | Flutter - State Management | 03 - Mobile/Flutter/Flutter - State Management.md
-- [ ] T094 | deep-dive | Flutter - Rendering & Widget Lifecycle | 03 - Mobile/Flutter/Flutter - Rendering & Widget Lifecycle.md
 - [ ] T095 | deep-dive | React Native - New Architecture | 03 - Mobile/React Native/React Native - New Architecture.md
 - [ ] T096 | deep-dive | Kubernetes - Core Objects | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - Core Objects.md
 - [ ] T097 | deep-dive | Network Security - Common Web Attacks | 10 - Security/Network Security/Network Security - Common Web Attacks.md
