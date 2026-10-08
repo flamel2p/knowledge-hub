@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/dart, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-08
 version_checked: "3.13 (with Flutter 3.47, 2026-08) — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Flutter]]", "[[TypeScript]]", "[[Kotlin]]", "[[Go]]"]
@@ -159,7 +159,7 @@ analyzer:
 
 ## Deep Dives
 - [[Dart - Async, Streams & Isolates]]
-- (planned) [[Dart - Type System, Null Safety & Mixins]]
+- [[Dart - Type System, Null Safety & Mixins]]
 - (planned) [[Dart - VM, Compilation & Garbage Collection]]
 - Interview prep: [[Flutter - Interview Questions]]
 
