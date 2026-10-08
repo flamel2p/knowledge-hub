@@ -22,7 +22,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - State Management]]
   - [[Flutter - Performance & DevTools]]
   - [[Flutter - Build, Release & Store Compliance]]
-  - (planned) [[Flutter - Platform Channels & FFI]]
+  - [[Flutter - Platform Channels & FFI]]
   - (planned) [[Flutter - Testing]]
   - (planned) [[Flutter - Navigation & Routing]]
   - (planned) [[Flutter - Offline Storage & Sync]]
