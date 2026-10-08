@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-08
 parent: "[[00 - Home]]"
 ---
 
@@ -16,10 +16,9 @@ parent: "[[00 - Home]]"
 > Blockchain fundamentals, EVM, smart contracts, wallets.
 
 ## Notes
-_None yet — the loop moves entries here from Planned as notes are written._
+- [[Blockchain Fundamentals]] — ledger models, PoW/PoS/BFT consensus, finality, rollups, bridge hacks, SC Malaysia licensing
 
 ## Planned
-- [[Blockchain Fundamentals]]
 - [[Ethereum & EVM]]
 - [[Solidity]]
   - [[Solidity - Smart Contract Security]]
