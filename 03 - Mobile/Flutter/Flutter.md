@@ -175,7 +175,7 @@ my_app/
 - [[Flutter - Build, Release & Store Compliance]]
 - [[Flutter - Platform Channels & FFI]]
 - [[Flutter - Testing]]
-- (planned) [[Flutter - Navigation & Routing]]
+- [[Flutter - Navigation & Routing]]
 - (planned) [[Flutter - Offline Storage & Sync]]
 
 ## Related
