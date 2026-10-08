@@ -19,7 +19,7 @@ parent: "[[00 - Home]]"
 - [[Flutter]] — Dart UI toolkit, Impeller, quarterly releases, store-compliance deadlines
   - [[Flutter - Interview Questions]] — interview prep reference (Dart async, isolates, types, rendering pipeline)
   - [[Flutter - Rendering & Widget Lifecycle]]
-  - (planned) [[Flutter - State Management]]
+  - [[Flutter - State Management]]
   - (planned) [[Flutter - Performance & DevTools]]
   - (planned) [[Flutter - Build, Release & Store Compliance]]
   - (planned) [[Flutter - Platform Channels & FFI]]

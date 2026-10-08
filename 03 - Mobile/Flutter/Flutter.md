@@ -170,7 +170,7 @@ my_app/
 ## Deep Dives
 - [[Flutter - Interview Questions]] — 12 core Dart/Flutter interview questions with verified answers (reference)
 - [[Flutter - Rendering & Widget Lifecycle]]
-- (planned) [[Flutter - State Management]]
+- [[Flutter - State Management]]
 - (planned) [[Flutter - Performance & DevTools]]
 - (planned) [[Flutter - Build, Release & Store Compliance]]
 - (planned) [[Flutter - Platform Channels & FFI]]
