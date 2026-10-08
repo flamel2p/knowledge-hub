@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-06
+updated: 2026-10-08
 parent: "[[00 - Home]]"
 ---
 
@@ -25,6 +25,9 @@ parent: "[[00 - Home]]"
 - [[Go]] — static binaries, goroutines, Go 1.26/1.27, module supply chain
   - (planned) [[Go - Concurrency]]
 - [[Dart]] — sound null safety, sealed classes + patterns, AOT/JIT/Wasm; Flutter's language
+  - [[Dart - Async, Streams & Isolates]]
+  - [[Dart - Type System, Null Safety & Mixins]]
+  - [[Dart - VM, Compilation & Garbage Collection]]
 
 ## Planned
 - [[Rust]]
