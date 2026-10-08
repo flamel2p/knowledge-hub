@@ -27,7 +27,7 @@ parent: "[[00 - Home]]"
 - [[Dart]] — sound null safety, sealed classes + patterns, AOT/JIT/Wasm; Flutter's language
   - [[Dart - Async, Streams & Isolates]]
   - [[Dart - Type System, Null Safety & Mixins]]
-  - (planned) [[Dart - VM, Compilation & Garbage Collection]]
+  - [[Dart - VM, Compilation & Garbage Collection]]
 
 ## Planned
 - [[Rust]]

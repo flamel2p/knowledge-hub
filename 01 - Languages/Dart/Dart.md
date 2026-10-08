@@ -160,7 +160,7 @@ analyzer:
 ## Deep Dives
 - [[Dart - Async, Streams & Isolates]]
 - [[Dart - Type System, Null Safety & Mixins]]
-- (planned) [[Dart - VM, Compilation & Garbage Collection]]
+- [[Dart - VM, Compilation & Garbage Collection]]
 - Interview prep: [[Flutter - Interview Questions]]
 
 ## Related
