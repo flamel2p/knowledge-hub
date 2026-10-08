@@ -84,6 +84,25 @@ flowchart LR
 - **Oracles** (Chainlink, Pyth) bring off-chain data on-chain, and are a frequent attack surface (price manipulation).
 - **Bridges** lock assets on chain A and mint on chain B. They're historically the **largest hack category**.
 
+### Reorg-safe event indexing (off-chain side)
+```ts
+// viem: poll finalized blocks only for money-moving logic; track block hashes for "latest"-based UX
+import { createPublicClient, http, parseAbiItem } from 'viem';
+import { mainnet } from 'viem/chains';
+
+const client = createPublicClient({ chain: mainnet, transport: http(process.env.RPC_URL) });
+const transfer = parseAbiItem('event Transfer(address indexed from, address indexed to, uint256 value)');
+
+const finalized = await client.getBlock({ blockTag: 'finalized' });
+const from = await cursor.get();                                    // last processed finalized block
+const logs = await client.getLogs({ address: USDC, event: transfer, fromBlock: from + 1n, toBlock: finalized.number });
+await db.tx(async (t) => {
+  for (const l of logs) await t.insertDeposit({ txHash: l.transactionHash, logIndex: l.logIndex, blockHash: l.blockHash, ...l.args });   // unique (txHash, logIndex)
+  await cursor.set(finalized.number, t);
+});
+```
+- Idempotency key = `(tx_hash, log_index)`. Credit balances only from finalized data. Show "pending" for unfinalized blocks.
+
 ## Project Structure
 N/A — a concept note. Practical setups live in [[Ethereum & EVM]] (nodes, RPC, tooling) and [[Solidity]] (Foundry/Hardhat projects).
 
