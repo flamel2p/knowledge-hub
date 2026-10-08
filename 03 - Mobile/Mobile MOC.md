@@ -23,7 +23,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - Performance & DevTools]]
   - [[Flutter - Build, Release & Store Compliance]]
   - [[Flutter - Platform Channels & FFI]]
-  - (planned) [[Flutter - Testing]]
+  - [[Flutter - Testing]]
   - (planned) [[Flutter - Navigation & Routing]]
   - (planned) [[Flutter - Offline Storage & Sync]]
 - [[React Native]] — React native views, New Architecture only (0.82+), Expo/EAS
