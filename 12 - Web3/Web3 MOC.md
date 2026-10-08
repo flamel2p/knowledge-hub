@@ -17,9 +17,9 @@ parent: "[[00 - Home]]"
 
 ## Notes
 - [[Blockchain Fundamentals]] — ledger models, PoW/PoS/BFT consensus, finality, rollups, bridge hacks, SC Malaysia licensing
+- [[Ethereum & EVM]] — PoS + EVM standard runtime; Pectra 7702, Fusaka PeerDAS, Glamsterdam ePBS target Q4 2026
 
 ## Planned
-- [[Ethereum & EVM]]
 - [[Solidity]]
   - [[Solidity - Smart Contract Security]]
 - [[Web3 Wallets]]
