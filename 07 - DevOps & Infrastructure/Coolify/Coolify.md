@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/coolify]
 status: draft
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-08
 version_checked: "4.3.x (4.0.0 stable 2026) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -172,6 +172,7 @@ N/A — no deep dives planned yet. Candidates: hardening & multi-server topology
 
 ## Related
 - [[Docker]] — runtime underneath
+- [[Kubernetes]] — next step when you outgrow single-node Coolify
 - [[Traefik]] — default proxy and TLS
 - [[Cloudflare]] — DNS, Tunnels, Access in front of the dashboard
 - [[Linux Essentials]] — SSH, users, firewall on managed servers

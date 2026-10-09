@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-08 (T120)
+Last run: 2026-10-08 (T050)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -86,11 +86,11 @@ Last run: 2026-10-08 (T120)
 - [x] T043 | overview | Flutter | 03 - Mobile/Flutter/Flutter.md | ✅ 2026-10-06
 - [x] T044 | overview | Dart | 01 - Languages/Dart/Dart.md | ✅ 2026-10-06
 - [x] T045 | overview | React Native | 03 - Mobile/React Native/React Native.md | ✅ 2026-10-06
-- [ ] T046 | overview | Node.js | 04 - Backend/Node.js/Node.js.md
-- [ ] T047 | overview | Kubernetes | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes.md
-- [ ] T048 | overview | Network Security | 10 - Security/Network Security/Network Security.md
-- [ ] T049 | overview | Blockchain Fundamentals | 12 - Web3/Blockchain Fundamentals/Blockchain Fundamentals.md
-- [ ] T050 | overview | Ethereum & EVM | 12 - Web3/Ethereum & EVM/Ethereum & EVM.md
+- [x] T046 | overview | Node.js | 04 - Backend/Node.js/Node.js.md | ✅ 2026-10-08
+- [x] T047 | overview | Kubernetes | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes.md | ✅ 2026-10-08
+- [x] T048 | overview | Network Security | 10 - Security/Network Security/Network Security.md | ✅ 2026-10-08
+- [x] T049 | overview | Blockchain Fundamentals | 12 - Web3/Blockchain Fundamentals/Blockchain Fundamentals.md | ✅ 2026-10-08
+- [x] T050 | overview | Ethereum & EVM | 12 - Web3/Ethereum & EVM/Ethereum & EVM.md | ✅ 2026-10-08
 - [ ] T051 | overview | Solidity | 12 - Web3/Solidity/Solidity.md
 - [ ] T052 | overview | Web3 Wallets | 12 - Web3/Web3 Wallets/Web3 Wallets.md
 - [ ] T053 | overview | MySQL | 05 - Databases/MySQL/MySQL.md

@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/docker]
 status: draft
 created: 2026-10-03
-updated: 2026-10-05
+updated: 2026-10-08
 version_checked: "Engine 29.x · Compose v2 — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Coolify]]", "[[Kubernetes]]", "[[Traefik]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -204,6 +204,7 @@ service/
 - [[Traefik]] — reverse proxy reading Docker labels
 - [[Kubernetes]] — multi-node orchestration for OCI images
 - [[Linux Essentials]] — namespaces, cgroups, iptables
+- [[Network Security]] — published ports vs UFW, internal networks
 - [[CI-CD]] — build/push pipelines
 - [[PostgreSQL]] · [[Redis]] · [[n8n]] — typical containerized services
 
