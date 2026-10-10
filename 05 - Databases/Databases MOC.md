@@ -24,9 +24,9 @@ parent: "[[00 - Home]]"
   - [[PostgreSQL - Transactions & MVCC]]
   - (planned) [[PostgreSQL - Query Planning & EXPLAIN]]
 - [[MySQL]] — InnoDB OLTP workhorse; 8.4 & 9.7 LTS, 8.0 EOL 2026-04, Oracle stewardship risk, Vitess sharding
+- [[NoSQL]] — key-value/document/wide-column/graph families, CAP/PACELC, query-first modeling, MongoBleed, relicensing
 
 ## Planned
-- [[NoSQL]]
 - [[Vector Databases]]
 
 ## Cross-domain Links
