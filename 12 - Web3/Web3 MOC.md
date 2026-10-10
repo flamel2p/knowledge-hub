@@ -20,10 +20,10 @@ parent: "[[00 - Home]]"
 - [[Ethereum & EVM]] — PoS + EVM standard runtime; Pectra 7702, Fusaka PeerDAS, Glamsterdam ePBS target Q4 2026
 - [[Solidity]] — EVM contract language; 0.8.36, Foundry + OZ 5, storage layout, reentrancy/upgrade/compiler-bug risks
   - (planned) [[Solidity - Smart Contract Security]]
+- [[Web3 Wallets]] — EOA/hardware/MPC/smart accounts, EIP-712 & 7702 signing risks, custody architecture, drainers
+  - (planned) [[Web3 Wallets - Key Management & Account Abstraction]]
 
 ## Planned
-- [[Web3 Wallets]]
-  - [[Web3 Wallets - Key Management & Account Abstraction]]
 
 ## Cross-domain Links
 - [[00 - Home]]
