@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-11 (T058)
+Last run: 2026-10-11 (T059)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -98,7 +98,7 @@ Last run: 2026-10-11 (T058)
 - [x] T055 | overview | Vector Databases | 05 - Databases/Vector Databases/Vector Databases.md | ✅ 2026-10-10
 - [x] T057 | overview | Traefik | 07 - DevOps & Infrastructure/Traefik/Traefik.md | ✅ 2026-10-11
 - [x] T058 | overview | Cloudflare | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare.md | ✅ 2026-10-11
-- [ ] T059 | overview | Windmill | 08 - Automation/Windmill/Windmill.md
+- [x] T059 | overview | Windmill | 08 - Automation/Windmill/Windmill.md | ✅ 2026-10-11
 - [ ] T060 | maint | Link audit + MOC sync + orphan check | -
 
 ### Wave 4 — Breadth overviews
