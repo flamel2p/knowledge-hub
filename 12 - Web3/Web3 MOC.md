@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-10
+updated: 2026-10-11
 parent: "[[00 - Home]]"
 ---
 
@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
   - (planned) [[Web3 Wallets - Key Management & Account Abstraction]]
 
 ## Planned
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]

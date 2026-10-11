@@ -22,6 +22,7 @@ parent: "[[00 - Home]]"
 - [[Windmill]] — code-first scripts/flows/apps on Rust + Postgres queue; AGPL/EE licensing nuance; complements n8n
 
 ## Planned
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]
