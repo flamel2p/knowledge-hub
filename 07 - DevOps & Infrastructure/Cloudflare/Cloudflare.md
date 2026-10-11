@@ -194,6 +194,7 @@ N/A — no deep dives planned yet. Candidates: Zero Trust (Tunnel + Access) setu
 - [[Coolify]] — VPS platform behind Cloudflare
 - [[HTTP & HTTPS]] — TLS, caching headers
 - [[Next.js]] — deployment on Workers (OpenNext) or behind the CDN
+- [[Astro]] — Cloudflare-owned (2026) content framework, static assets on Workers
 - [[n8n]] — webhooks vs editor exposure
 
 ## References

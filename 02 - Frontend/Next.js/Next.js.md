@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/nextjs, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-05
+updated: 2026-10-11
 version_checked: "16.3.8 (Active LTS) · 15.5.27 (Maintenance LTS) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[React]]", "[[TypeScript]]", "[[Supabase]]", "[[Coolify]]", "[[Docker]]"]
@@ -257,6 +257,7 @@ CMD ["node", "server.js"]
 - [[Supabase]] — auth + data in RSC/Server Actions
 - [[Docker]] · [[Coolify]] · [[Traefik]] — self-hosting path
 - [[OAuth 2.0 & OIDC]] — BFF auth pattern
+- [[Astro]] — lighter choice for content/marketing sites
 
 ## References
 - Docs: https://nextjs.org/docs
