@@ -33,9 +33,9 @@ parent: "[[00 - Home]]"
 - [[Java]] — JVM workhorse; 25 LTS, virtual threads, records/sealed/patterns, OpenJDK vs Oracle licensing
 - [[Kotlin]] — null-safe JVM/Android language; K2 (K1 removed in 2.4), coroutines, KMP + Compose Multiplatform iOS stable
 - [[Swift]] — Apple-platform language; Swift 6 data-race safety, 6.2 approachable concurrency, SwiftUI, Flutter iOS modules
+- [[PHP]] — WordPress/Laravel language; 8.5 pipe operator + clone-with, 8.1 EOL, plugin-ecosystem security risk
 
 ## Planned
-- [[PHP]]
 
 ## Cross-domain Links
 - [[00 - Home]]
