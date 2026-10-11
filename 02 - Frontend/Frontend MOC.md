@@ -23,9 +23,9 @@ parent: "[[00 - Home]]"
   - [[Next.js - App Router & Rendering Strategies]]
   - [[Next.js - Caching]]
 - [[Astro]] — zero-JS-by-default islands framework for content sites; Content Layer, server islands; Cloudflare-owned since 2026-01
+- [[WebGL]] — browser GPU API; WebGL 2 everywhere, WebGPU cross-browser, three.js WebGPURenderer with fallback, R3F
 
 ## Planned
-- [[WebGL]]
 - [[Tailwind CSS]]
 - [[Browser & Web Fundamentals]]
 
