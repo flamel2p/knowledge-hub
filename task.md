@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-11 (T069)
+Last run: 2026-10-11 (T070)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -112,7 +112,7 @@ Last run: 2026-10-11 (T069)
 - [x] T067 | overview | Swift | 01 - Languages/Swift/Swift.md | ✅ 2026-10-11
 - [x] T068 | overview | PHP | 01 - Languages/PHP/PHP.md | ✅ 2026-10-11
 - [x] T069 | overview | Git | 07 - DevOps & Infrastructure/Git/Git.md | ✅ 2026-10-11
-- [ ] T070 | overview | Linux Essentials | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials.md
+- [x] T070 | overview | Linux Essentials | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials.md | ✅ 2026-10-11
 - [ ] T071 | overview | CI-CD | 07 - DevOps & Infrastructure/CI-CD/CI-CD.md
 - [ ] T072 | overview | Nginx | 07 - DevOps & Infrastructure/Nginx/Nginx.md
 - [ ] T073 | overview | GraphQL | 09 - Networking & APIs/GraphQL/GraphQL.md
