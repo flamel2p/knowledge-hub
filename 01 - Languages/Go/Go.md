@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/go, lang/go]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-11
 version_checked: "1.27 (2026-08-19) · 1.26 — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Python]]", "[[TypeScript]]", "[[Docker]]", "[[Kubernetes]]", "[[Traefik]]"]
@@ -196,7 +196,7 @@ _ = srv.Shutdown(shutdownCtx)
 - (planned) [[Go - Concurrency]]
 
 ## Related
-- [[Python]] · [[TypeScript]] — peer languages
+- [[Python]] · [[TypeScript]] · [[Rust]] — peer languages
 - [[Docker]] · [[Kubernetes]] · [[Traefik]] — Go-based infrastructure
 - [[WebSocket]] · [[Redis]] — high-concurrency services in Go
 - [[PostgreSQL]] — `pgx` driver

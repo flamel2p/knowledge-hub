@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-08
+updated: 2026-10-11
 parent: "[[00 - Home]]"
 ---
 
@@ -28,10 +28,10 @@ parent: "[[00 - Home]]"
   - [[Dart - Async, Streams & Isolates]]
   - [[Dart - Type System, Null Safety & Mixins]]
   - [[Dart - VM, Compilation & Garbage Collection]]
+- [[Rust]] — ownership/borrowing memory safety without GC; edition 2024, tokio/axum, crates.io supply-chain risk
+  - (planned) [[Rust - Ownership & Borrowing]]
 
 ## Planned
-- [[Rust]]
-  - [[Rust - Ownership & Borrowing]]
 - [[Java]]
 - [[Kotlin]]
 - [[Swift]]
