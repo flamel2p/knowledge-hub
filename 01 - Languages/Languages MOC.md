@@ -30,9 +30,9 @@ parent: "[[00 - Home]]"
   - [[Dart - VM, Compilation & Garbage Collection]]
 - [[Rust]] — ownership/borrowing memory safety without GC; edition 2024, tokio/axum, crates.io supply-chain risk
   - (planned) [[Rust - Ownership & Borrowing]]
+- [[Java]] — JVM workhorse; 25 LTS, virtual threads, records/sealed/patterns, OpenJDK vs Oracle licensing
 
 ## Planned
-- [[Java]]
 - [[Kotlin]]
 - [[Swift]]
 - [[PHP]]

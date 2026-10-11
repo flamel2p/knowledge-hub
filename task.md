@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-11 (T063)
+Last run: 2026-10-11 (T064)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -106,7 +106,7 @@ Last run: 2026-10-11 (T063)
 - [x] T061 | overview | Astro | 02 - Frontend/Astro/Astro.md | ✅ 2026-10-11
 - [x] T062 | overview | WebGL | 02 - Frontend/WebGL/WebGL.md | ✅ 2026-10-11
 - [x] T063 | overview | Rust | 01 - Languages/Rust/Rust.md | ✅ 2026-10-11
-- [ ] T064 | overview | Java | 01 - Languages/Java/Java.md
+- [x] T064 | overview | Java | 01 - Languages/Java/Java.md | ✅ 2026-10-11
 - [ ] T065 | overview | Spring Boot | 04 - Backend/Spring Boot/Spring Boot.md
 - [ ] T066 | overview | Kotlin | 01 - Languages/Kotlin/Kotlin.md
 - [ ] T067 | overview | Swift | 01 - Languages/Swift/Swift.md
