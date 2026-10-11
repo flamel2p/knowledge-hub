@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-10 (T055)
+Last run: 2026-10-11 (T061)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -96,14 +96,14 @@ Last run: 2026-10-10 (T055)
 - [x] T053 | overview | MySQL | 05 - Databases/MySQL/MySQL.md | ✅ 2026-10-10
 - [x] T054 | overview | NoSQL | 05 - Databases/NoSQL/NoSQL.md | ✅ 2026-10-10
 - [x] T055 | overview | Vector Databases | 05 - Databases/Vector Databases/Vector Databases.md | ✅ 2026-10-10
-- [ ] T057 | overview | Traefik | 07 - DevOps & Infrastructure/Traefik/Traefik.md
-- [ ] T058 | overview | Cloudflare | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare.md
-- [ ] T059 | overview | Windmill | 08 - Automation/Windmill/Windmill.md
-- [ ] T060 | maint | Link audit + MOC sync + orphan check | -
+- [x] T057 | overview | Traefik | 07 - DevOps & Infrastructure/Traefik/Traefik.md | ✅ 2026-10-11
+- [x] T058 | overview | Cloudflare | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare.md | ✅ 2026-10-11
+- [x] T059 | overview | Windmill | 08 - Automation/Windmill/Windmill.md | ✅ 2026-10-11
+- [x] T060 | maint | Link audit + MOC sync + orphan check | - | ✅ 2026-10-11
 
 ### Wave 4 — Breadth overviews
 
-- [ ] T061 | overview | Astro | 02 - Frontend/Astro/Astro.md
+- [x] T061 | overview | Astro | 02 - Frontend/Astro/Astro.md | ✅ 2026-10-11
 - [ ] T062 | overview | WebGL | 02 - Frontend/WebGL/WebGL.md
 - [ ] T063 | overview | Rust | 01 - Languages/Rust/Rust.md
 - [ ] T064 | overview | Java | 01 - Languages/Java/Java.md
