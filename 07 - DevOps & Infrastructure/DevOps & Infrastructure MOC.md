@@ -26,9 +26,9 @@ parent: "[[00 - Home]]"
 - [[Cloudflare]] — DNS/CDN/WAF edge, Tunnel + Access, R2 zero-egress, Workers; 2025 global outages = concentration risk
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
 - [[Linux Essentials]] — VPS operations: users/perms, systemd/journald, ss/nftables, disk/OOM triage, LTS distros, kernel CVEs
+- [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
 
 ## Planned
-- [[CI-CD]]
 - [[Nginx]]
 
 ## Cross-domain Links
