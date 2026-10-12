@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-12 (T075)
+Last run: 2026-10-12 (T076)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -118,7 +118,7 @@ Last run: 2026-10-12 (T075)
 - [x] T073 | overview | GraphQL | 09 - Networking & APIs/GraphQL/GraphQL.md | ✅ 2026-10-12
 - [x] T074 | overview | gRPC | 09 - Networking & APIs/gRPC/gRPC.md | ✅ 2026-10-12
 - [x] T075 | overview | Authentication & Authorization | 10 - Security/Authentication & Authorization/Authentication & Authorization.md | ✅ 2026-10-12
-- [ ] T076 | overview | OWASP Top 10 | 10 - Security/OWASP Top 10/OWASP Top 10.md
+- [x] T076 | overview | OWASP Top 10 | 10 - Security/OWASP Top 10/OWASP Top 10.md | ✅ 2026-10-12
 - [ ] T077 | overview | Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures.md
 - [ ] T078 | overview | Algorithms | 11 - CS Fundamentals/Algorithms/Algorithms.md
 - [ ] T079 | overview | System Design | 11 - CS Fundamentals/System Design/System Design.md

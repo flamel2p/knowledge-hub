@@ -21,9 +21,10 @@ parent: "[[00 - Home]]"
 - [[Network Security]] — firewalls, segmentation, zero trust, TLS (200-day certs), DDoS; Docker-bypasses-UFW, xz, regreSSHion
   - (planned) [[Network Security - Common Web Attacks]]
 - [[Authentication & Authorization]] — passkeys/MFA, sessions vs tokens, RBAC/ABAC/ReBAC, RLS, NIST 800-63-4; session theft + IDOR risks
+- [[OWASP Top 10]] — 2025 edition: A01 access control (+SSRF), A03 supply chain, A10 exceptional conditions; ASVS + sibling lists
 
 ## Planned
-- [[OWASP Top 10]]
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]
