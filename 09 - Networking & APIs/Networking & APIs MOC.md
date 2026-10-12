@@ -22,9 +22,10 @@ parent: "[[00 - Home]]"
 - [[WebSocket]] — RFC 6455, auth on upgrade, heartbeats, Redis fan-out, CSWSH
   - (planned) [[WebSocket - Scaling & Reliability]]
 - [[GraphQL]] — typed client-driven queries; Sept 2025 spec (OneOf), DataLoader, federation, cost-limit/IDOR risks
+- [[gRPC]] — protobuf + HTTP/2 RPC for service-to-service; streaming, deadlines, Buf/Connect, HTTP/2 DoS risks
 
 ## Planned
-- [[gRPC]]
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]
