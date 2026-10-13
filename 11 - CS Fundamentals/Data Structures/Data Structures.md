@@ -62,6 +62,31 @@ graph = defaultdict(list)                                      # adjacency list
 hot = Counter(e.sku for e in events).most_common(10)           # hash map counting
 ```
 
+### Composite structure: bounded LRU cache
+```ts
+// Map preserves insertion order → O(1) LRU without a hand-written linked list
+class LRU<K, V> {
+  private m = new Map<K, V>();
+  constructor(private max: number) {}
+  get(k: K) {
+    const v = this.m.get(k);
+    if (v !== undefined) { this.m.delete(k); this.m.set(k, v); }   // move to most-recent
+    return v;
+  }
+  set(k: K, v: V) {
+    this.m.delete(k); this.m.set(k, v);
+    if (this.m.size > this.max) this.m.delete(this.m.keys().next().value!);   // evict least-recent
+  }
+}
+```
+
+### Graph representations
+| Representation | Memory | Edge check | Iterate neighbours | Use when |
+|---|---|---|---|---|
+| Adjacency list (`Map<node, node[]>`) | O(V + E) | O(deg) | O(deg) | Sparse graphs (almost all real ones) |
+| Adjacency matrix | O(V²) | O(1) | O(V) | Small dense graphs |
+| Edge list / table (`edges(from, to)`) | O(E) | Needs index | Needs index | Stored in [[PostgreSQL]] with recursive CTEs |
+
 ## Architecture / How It Works
 ```mermaid
 flowchart TD
