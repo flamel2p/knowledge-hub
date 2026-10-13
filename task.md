@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-13 (T079)
+Last run: 2026-10-13 (T080)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -122,7 +122,7 @@ Last run: 2026-10-13 (T079)
 - [x] T077 | overview | Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures.md | ✅ 2026-10-13
 - [x] T078 | overview | Algorithms | 11 - CS Fundamentals/Algorithms/Algorithms.md | ✅ 2026-10-13
 - [x] T079 | overview | System Design | 11 - CS Fundamentals/System Design/System Design.md | ✅ 2026-10-13
-- [ ] T080 | overview | Design Patterns | 11 - CS Fundamentals/Design Patterns/Design Patterns.md
+- [x] T080 | overview | Design Patterns | 11 - CS Fundamentals/Design Patterns/Design Patterns.md | ✅ 2026-10-13
 - [ ] T081 | maint | Link audit + refresh version_checked on 3 oldest notes | -
 - [ ] T082 | overview | Tailwind CSS | 02 - Frontend/Tailwind CSS/Tailwind CSS.md
 - [ ] T083 | overview | Browser & Web Fundamentals | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals.md
