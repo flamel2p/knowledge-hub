@@ -18,9 +18,9 @@ parent: "[[00 - Home]]"
 ## Notes
 - [[Big O Notation]] — time/space complexity, common classes, data structure costs, complexity attacks
 - [[Data Structures]] — arrays, hash maps, B-trees, heaps, tries, graphs, probabilistic; choose by operation; HashDoS
+- [[Algorithms]] — pattern catalog (hashing, binary search, BFS/DFS, topo, DP, greedy), production algorithms, ReDoS
 
 ## Planned
-- [[Algorithms]]
 - [[System Design]]
 - [[Design Patterns]]
 
