@@ -196,6 +196,7 @@ N/A — no deep dives planned yet. Candidates: Spring Security (OAuth2/JWT resou
 - [[Node.js]] — ZP's default backend runtime, for comparison
 - [[OAuth 2.0 & OIDC]] · [[JWT]] — resource server security
 - [[Docker]] · [[Kubernetes]] — packaging, probes
+- [[Backend Interview Questions]] — Q3: dependency injection interview answer
 
 ## References
 - Spring Boot reference: https://docs.spring.io/spring-boot/
