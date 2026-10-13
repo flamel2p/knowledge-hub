@@ -25,9 +25,10 @@ parent: "[[00 - Home]]"
 - [[Astro]] — zero-JS-by-default islands framework for content sites; Content Layer, server islands; Cloudflare-owned since 2026-01
 - [[WebGL]] — browser GPU API; WebGL 2 everywhere, WebGPU cross-browser, three.js WebGPURenderer with fallback, R3F
 - [[Tailwind CSS]] — utility-first CSS; v4 Rust engine + @theme CSS config, 4.3.x, shadcn/ui; 2026 Tailwind Labs layoffs risk
+- [[Browser & Web Fundamentals]] — rendering path, main thread, Core Web Vitals (LCP/INP/CLS), SOP/CORS/CSP/cookies, storage, Interop 2026
 
 ## Planned
-- [[Browser & Web Fundamentals]]
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]
