@@ -31,9 +31,9 @@ parent: "[[00 - Home]]"
   - [[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]]
   - [[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]
 - [[AI Evals & Observability]] — graders (code, LLM-judge, human), RAG/agent metrics, tracing, Langfuse (ClickHouse 2026), PII in traces
+- [[Fine-tuning LLMs]] — when (not) to fine-tune, LoRA/QLoRA SFT, DPO, GRPO/RFT, open-weight serving; safety erosion + deprecation risks
 
 ## Planned
-- [[Fine-tuning LLMs]]
 - [[LLM APIs & SDKs]]
 
 ## Cross-domain Links
