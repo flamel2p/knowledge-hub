@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-13 (T084)
+Last run: 2026-10-13 (T085)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -127,7 +127,7 @@ Last run: 2026-10-13 (T084)
 - [x] T082 | overview | Tailwind CSS | 02 - Frontend/Tailwind CSS/Tailwind CSS.md | ✅ 2026-10-13
 - [x] T083 | overview | Browser & Web Fundamentals | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals.md | ✅ 2026-10-13
 - [x] T084 | overview | Testing Strategy | 04 - Backend/Testing Strategy/Testing Strategy.md | ✅ 2026-10-13
-- [ ] T085 | overview | AI Evals & Observability | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability.md
+- [x] T085 | overview | AI Evals & Observability | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability.md | ✅ 2026-10-13
 - [ ] T086 | overview | Fine-tuning LLMs | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs.md
 - [ ] T087 | overview | LLM APIs & SDKs | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs.md
 - [ ] T088 | overview | Message Queues | 06 - Messaging & Streaming/Message Queues/Message Queues.md
