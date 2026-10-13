@@ -1,15 +1,15 @@
 ---
 title: Backend Interview Questions
-aliases: [backend interview, full-stack interview questions, system design interview, Spring Boot interview, Redis interview, 后端面试题]
+aliases: [backend interview, full-stack interview questions, system design interview, Spring Boot interview, Redis interview, OOP interview, payment system design, ticketing system design, flash sale design, 后端面试题]
 type: reference
 domain: backend
-tags: [domain/backend, type/reference, topic/interview, topic/design-patterns, topic/spring-boot, topic/redis, topic/authentication, lang/java, lang/typescript]
+tags: [domain/backend, type/reference, topic/interview, topic/design-patterns, topic/spring-boot, topic/redis, topic/authentication, topic/oop, topic/payments, topic/system-design, lang/java, lang/typescript]
 status: draft
 created: 2026-10-13
 updated: 2026-10-13
-version_checked: "Spring Boot 4.1 · Redis 8.10 · NIST SP 800-63-4 · BNM SMS-OTP migration — 2026-10"
+version_checked: "Spring Boot 4.1 · Redis 8.10 · NIST SP 800-63-4 · PCI DSS v4.0.1 · BNM SMS-OTP migration — 2026-10"
 parent: "[[Backend MOC]]"
-related: ["[[Spring Boot]]", "[[Redis - Persistence & High Availability]]", "[[Authentication & Authorization]]", "[[NoSQL]]", "[[Design Patterns]]", "[[Flutter - Interview Questions]]"]
+related: ["[[Spring Boot]]", "[[Redis - Persistence & High Availability]]", "[[Authentication & Authorization]]", "[[NoSQL]]", "[[Design Patterns]]", "[[System Design]]", "[[Flutter - Interview Questions]]"]
 ---
 
 # Backend Interview Questions
@@ -17,7 +17,7 @@ related: ["[[Spring Boot]]", "[[Redis - Persistence & High Availability]]", "[[A
 > [!info] Reference for [[Backend MOC]]. Mobile counterpart: [[Flutter - Interview Questions]]
 
 > [!abstract] TL;DR
-> Seven high-frequency full-stack/backend interview questions, each with **what the interviewer is grading → answer outline → the trap**. Two are personal (Q1 design patterns in your projects, Q4 your tech stack). They're pre-filled from ZP's actual stack, with `[!question]` boxes for project names and numbers you must supply. The other five (SQL vs NoSQL, Spring DI, debugging, finance-app auth, Redis deploy and resilience) are technical and carry concrete config and code.
+> Eleven high-frequency full-stack/backend interview questions, each with **what the interviewer is grading → answer outline → the trap**. Two are personal (Q1 design patterns in your projects, Q4 your tech stack). They're pre-filled from ZP's actual stack, with `[!question]` boxes for project names and numbers you must supply. The rest are technical with concrete config and code: SQL vs NoSQL (Q2), Spring DI and bean scopes (Q3, Q8), debugging (Q5), finance-app auth (Q6), Redis deploy and resilience (Q7), OOP (Q9), and two system-design questions: payment flow (Q10) and a high-traffic concert ticketing system (Q11).
 
 > [!tip] How to use this note
 > Answer with a **causal chain**: *decision → why (mechanism or constraint) → how it ran in production → trade-off or what you'd change*. Interviewers score trade-offs and real incidents, not definitions. Keep each answer to **~2 minutes spoken** and let them pull the details.
@@ -146,7 +146,7 @@ class HttpClientConfig {
 | Detail | What to say |
 |---|---|
 | Field injection (`@Autowired` on a field) | Works, but no `final`, hidden dependencies, needs reflection or the container in tests. Avoid outside test classes |
-| Scopes | Default **singleton** (one per context, so it must be stateless or thread-safe). `prototype`, `request`, `session`. Injecting a prototype into a singleton gives *one* instance; use `ObjectProvider<T>` or a scoped proxy |
+| Scopes | Default **singleton** (one per context, so it must be stateless or thread-safe). `prototype`, `request`, `session`. Injecting a prototype into a singleton gives *one* instance; use `ObjectProvider<T>` or a scoped proxy (full answer: Q8) |
 | Proxies | `@Transactional`, `@Async`, `@Cacheable` work through AOP proxies. **Self-invocation** (`this.method()`) bypasses the proxy, so the annotation silently does nothing |
 | Circular dependencies | Prohibited by default since Spring Boot 2.6 (`spring.main.allow-circular-references`). Fix the design (extract a third bean, or use events) rather than flipping the flag |
 | Testing | Unit: `new CheckoutService(List.of(fake), repo)`. Slice/integration: `@SpringBootTest`/`@WebMvcTest` with `@MockitoBean` (the old `@MockBean` was deprecated in Boot 3.4 and removed in 4.0) |
@@ -324,12 +324,261 @@ export async function getCached<T>(key: string, ttlSec: number, load: () => Prom
 - **Trap**: "Redis is in-memory so it isn't durable" (AOF exists), or the opposite: treating Redis with async replication as a durable system of record for money.
 - Deep dive: [[Redis - Persistence & High Availability]] · [[Redis - Data Structures & Patterns]] · [[n8n - Queue Mode & Scaling]]
 
+## Q8. What is the difference between singleton and prototype beans in Spring?
+
+**Grading**: lifecycle and thread-safety implications, and the **prototype-into-singleton** trap.
+
+| | Singleton (default) | Prototype |
+|---|---|---|
+| Instances | One per `ApplicationContext`, cached and shared | New instance per injection point / `getBean()` |
+| Created | Eagerly at startup, so wiring errors fail fast (unless `@Lazy`) | Lazily on request, so errors surface at runtime |
+| Lifecycle | Full: init callbacks **and** `@PreDestroy` on shutdown | Spring creates and initializes, then forgets it. **`@PreDestroy` never runs**; the caller releases resources |
+| Thread safety | Shared across threads, so it must be stateless or thread-safe | Per-use state is fine (not shared) |
+| Use for | Services, repositories, clients, config | Stateful or non-thread-safe helpers: builders, per-job context, stateful parsers |
+| Declare | Nothing | `@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)` |
+
+**Prototype injected into a singleton** is resolved **once**, at the singleton's creation, so it behaves like a singleton. Ask the container each time instead:
+
+```java
+@Component
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+class ReportBuilder {
+    private final List<Row> rows = new ArrayList<>();
+    ReportBuilder add(Row r) { rows.add(r); return this; }
+    Report build() { return new Report(List.copyOf(rows)); }
+}
+
+@Service
+class ReportService {
+    private final ObjectProvider<ReportBuilder> builders;
+
+    ReportService(ObjectProvider<ReportBuilder> builders) {
+        this.builders = builders;
+    }
+
+    Report generate(List<Row> data) {
+        var builder = builders.getObject();
+        data.forEach(builder::add);
+        return builder.build();
+    }
+}
+```
+
+| Fix | Notes |
+|---|---|
+| **`ObjectProvider<T>.getObject()`** | Preferred: explicit, testable, no proxy magic |
+| `@Lookup` method | Spring overrides the method via a CGLIB subclass to return a fresh bean |
+| Scoped proxy (`proxyMode = ScopedProxyMode.TARGET_CLASS`) | With prototype, **every method call** hits a new instance, so state is lost between calls. Fine for `request`/`session` scopes, surprising for prototype |
+
+- Web-only scopes: `request`, `session`, `application`, `websocket`. Inject them into singletons through a scoped proxy.
+- **Traps**: "Spring singleton = GoF Singleton" (it's one per *container*, not per JVM: two contexts mean two instances, and `new` still works). Mutable fields in a singleton (counters, current user) cause races under concurrent requests. Prototype beans holding connections or file handles leak because nothing calls `@PreDestroy`.
+- Deep dive: [[Spring Boot]] · Q3
+
+## Q9. Explain the concept of object-oriented programming (OOP).
+
+**Grading**: can you explain the **why** (managing change and complexity) with a real example, not "Dog extends Animal"? Do you know where inheritance hurts?
+
+**One-liner**: OOP models a system as objects that bundle **state with the behaviour that protects it**, and that collaborate through **interfaces**, so each part can change without breaking the others.
+
+| Pillar | What it really means | Real example |
+|---|---|---|
+| **Encapsulation** | Hide state and **enforce invariants** behind methods. Not "private fields + getters/setters" | `Money` can't be negative or mix currencies. `Order.cancel()` refuses if already shipped |
+| **Abstraction** | Expose *what*, hide *how* | `PaymentGateway.charge()` hides HTTP, signing, retries |
+| **Inheritance** | Reuse plus an "is-a" subtype relationship | `abstract class BaseRepository<T>`. Use sparingly |
+| **Polymorphism** | One call, behaviour chosen at runtime by the concrete type (dynamic dispatch) | `gateway.charge()` runs Stripe, FPX or a test fake |
+
+```java
+public record Money(long minor, Currency currency) {
+    public Money {
+        if (minor < 0) throw new IllegalArgumentException("negative amount");
+        Objects.requireNonNull(currency);
+    }
+
+    public Money plus(Money other) {
+        if (!currency.equals(other.currency)) throw new IllegalArgumentException("currency mismatch");
+        return new Money(Math.addExact(minor, other.minor), currency);
+    }
+}
+
+public sealed interface PaymentMethod permits Card, Fpx, EWallet {}
+public record Card(String token) implements PaymentMethod {}
+public record Fpx(String bankCode) implements PaymentMethod {}
+public record EWallet(String provider) implements PaymentMethod {}
+
+String describe(PaymentMethod m) {
+    return switch (m) {
+        case Card c -> "Card " + c.token();
+        case Fpx f -> "FPX via " + f.bankCode();
+        case EWallet w -> w.provider();
+    };
+}
+```
+
+- **Composition over inheritance**: deep hierarchies are fragile (a base-class change breaks every subclass). Prefer small interfaces plus composed collaborators (Strategy, Decorator).
+- **SOLID** in one breath: Single responsibility, Open/closed (add a new gateway without editing checkout), Liskov (subtypes must honour the contract), Interface segregation (small interfaces), Dependency inversion (depend on `PaymentGateway`, not `StripeClient`; Spring DI does the wiring, Q3).
+- **Modern nuance**: languages mix paradigms. Java 21 records + sealed interfaces + pattern matching (above) give data-oriented modelling. [[TypeScript]] and [[Dart]] favour interfaces and composition. Pure data pipelines are often clearer as functions than as objects.
+- **Traps**: Animal/Dog examples with no real system; "encapsulation = getters/setters" (a setter for every field breaks encapsulation); claiming inheritance is the main way to reuse code.
+- Deep dive: [[Design Patterns]] · [[Java]]
+
+## Q10. How would you design and implement a payment method, including the overall process flow?
+
+**Grading**: correctness under failure (**idempotency, webhooks as source of truth, reconciliation**), money modelling, security/PCI scope. The happy path is the easy part.
+
+### Principles to state up front
+- **Never touch raw card data.** Use the gateway's hosted checkout or tokenized fields, so PCI DSS scope stays at the minimal SAQ A level (PCI DSS v4.0.1 is current).
+- **The server owns the amount.** Recompute from the order in the DB. Never trust a client-sent price.
+- **The webhook is the source of truth**, not the browser redirect. Redirects get closed, blocked or forged.
+- **Every write is idempotent**: an idempotency key to the gateway, and unique constraints on our side.
+- **Money = integer minor units** (`BIGINT` sen) plus an ISO 4217 currency. Never `float`.
+- **Gateway behind an interface** (Adapter/Strategy, Q1/Q3) so Stripe, FPX via Billplz/iPay88, DuitNow QR or e-wallets plug in.
+
+### Flow
+```mermaid
+sequenceDiagram
+  participant C as Client
+  participant API as Payments API
+  participant DB as Postgres
+  participant GW as Gateway (Stripe / FPX / DuitNow)
+  C->>API: POST /checkout {orderId} + Idempotency-Key
+  API->>DB: Load order, compute amount, insert payment (PENDING)
+  API->>GW: Create payment intent (amount, currency, idempotency key, metadata.paymentId)
+  GW-->>API: intent id + redirect URL / client secret
+  API-->>C: Redirect to hosted page (3DS / bank login)
+  C->>GW: Pay
+  GW-->>C: Redirect to return URL (shows "processing", polls API)
+  GW->>API: Webhook payment.succeeded (signed)
+  API->>API: Verify signature + timestamp, dedupe event id
+  API->>DB: TX: payment → SUCCEEDED, order → PAID, ledger entries, outbox event
+  API-->>GW: 200
+  Note over API,DB: Outbox worker → fulfilment, receipt email/WhatsApp
+  Note over API,GW: Reconciliation: poll PENDING > 15 min, daily settlement vs ledger
+```
+
+### State machine (transitions only move forward)
+`CREATED → PENDING → (AUTHORIZED →) SUCCEEDED` · `PENDING → FAILED | EXPIRED` · `SUCCEEDED → REFUND_PENDING → REFUNDED | PARTIALLY_REFUNDED`
+
+```sql
+create table payments (
+  id              uuid primary key default gen_random_uuid(),
+  order_id        uuid not null references orders(id),
+  provider        text not null,
+  provider_ref    text,
+  amount_minor    bigint not null check (amount_minor > 0),
+  currency        char(3) not null,
+  status          text not null,
+  idempotency_key text not null unique,
+  created_at      timestamptz not null default now(),
+  unique (provider, provider_ref)
+);
+
+create table payment_events (
+  provider    text not null,
+  event_id    text not null,
+  payment_id  uuid references payments(id),
+  payload     jsonb not null,
+  received_at timestamptz not null default now(),
+  primary key (provider, event_id)
+);
+```
+
+```typescript
+export async function onGatewayWebhook(raw: string, headers: Headers): Promise<number> {
+  const event = gateway.verifyAndParse(raw, headers);
+  await db.transaction(async (tx) => {
+    const inserted = await tx.insertIgnore('payment_events', { provider: gateway.id, eventId: event.id, payload: event });
+    if (!inserted) return;
+    const payment = await tx.lockPaymentByProviderRef(gateway.id, event.paymentRef);
+    if (event.amountMinor !== payment.amountMinor || event.currency !== payment.currency) {
+      throw new AmountMismatchError(payment.id);
+    }
+    if (!canTransition(payment.status, event.status)) return;
+    await tx.updatePaymentStatus(payment.id, event.status);
+    if (event.status === 'SUCCEEDED') {
+      await tx.markOrderPaid(payment.orderId);
+      await tx.insertLedger(doubleEntry(payment));
+      await tx.insertOutbox('payment.succeeded', { paymentId: payment.id });
+    }
+  });
+  return 200;
+}
+```
+
+| Failure | Handling |
+|---|---|
+| Gateway times out on create | Don't assume failure. Retry with the **same idempotency key**, or query by our `paymentId` |
+| Duplicate webhook | `(provider, event_id)` primary key → no-op |
+| Out-of-order webhooks (`failed` after `succeeded`) | State machine rejects backward transitions |
+| Webhook never arrives | Reconciliation job polls the gateway for `PENDING` older than N minutes (FPX bank confirmations can lag) |
+| User pays twice | One active payment per order. Auto-refund duplicates found by reconciliation |
+| Amount tampering | Amount comes from the DB. Webhook amount must equal the stored amount |
+| Refunds | Separate flow with role check, audit log, idempotency key, and ledger reversal entries |
+
+- **Ledger**: append-only double-entry (`debit customer_receivable / credit revenue`, fees to `gateway_fees`). Never `UPDATE` balances in place. Daily reconciliation compares gateway settlement reports with ledger totals.
+- **Security**: HMAC signature + timestamp window on webhooks, secrets in env/secret store, no gateway keys on the client, refund endpoints behind step-up auth (Q6). PDPA covers billing details.
+- **Malaysia**: FPX (online banking), DuitNow QR, cards, and e-wallets (Touch 'n Go, GrabPay, Boost) through gateways such as Stripe, Billplz, iPay88, Razer Merchant Services or senangPay. Pick by method coverage, fees, settlement time (T+1 to T+3) and webhook quality.
+- **Trap**: marking the order paid on the redirect, no idempotency, floats for money, or "store the card number encrypted" (that pulls you into full PCI scope).
+- Deep dive: [[PostgreSQL - Transactions & MVCC]] · [[REST API]] · [[Authentication & Authorization]]
+
+## Q11. How would you handle huge traffic for a concert ticket purchasing system? Design the flow.
+
+**Grading**: do you **protect the inventory core from the herd**, prevent **overselling**, keep it **fair**, and degrade gracefully? Scaling every tier "with Kubernetes" is not the answer.
+
+**Frame the numbers first**: e.g. 50,000 seats, 1M users arriving within the first minute, > 95% of them leave without a ticket. So the design goal is to **admit only as many users as the inventory core can serve**, and reject everyone else cheaply at the edge.
+
+```mermaid
+flowchart LR
+  U["Users / bots"] --> CDN["CDN + WAF + bot check<br/>static pages cached"]
+  CDN --> WR["Virtual waiting room<br/>random order at T0, admit N/s"]
+  WR -->|"signed admission token"| API["Ticket API<br/>rate limit per user/device"]
+  API --> R[("Redis<br/>atomic seat hold + TTL")]
+  API --> Q[["Queue / stream"]]
+  Q --> OS["Order service"] --> PG[("Postgres<br/>unique event_id + seat_id")]
+  OS --> PAY["Payment (Q10)"] -->|"webhook"| OS
+  SW["Hold-expiry sweeper"] --> R
+```
+
+| Stage | Design |
+|---|---|
+| **Before the sale** | Load-test to a known admit rate. Pre-scale (autoscaling is too slow for a cliff spike). Pre-load inventory into Redis. Static event pages and seat maps on the CDN. Pre-registration or verified accounts to cut bots |
+| **Edge** | [[Cloudflare]] WAF, Turnstile/bot management, per-IP and per-account rate limits. Origin only accepts requests carrying a valid admission token |
+| **Waiting room** | Users who arrive before T0 get a **random** position at T0 (fairer than first-click). Admit at a rate matched to downstream capacity. Admission = short-lived signed token (JWT, ~10 min, bound to user + device). Options: Cloudflare Waiting Room, Queue-it, or a Redis `ZSET` queue |
+| **Seat hold** | Atomic in Redis: assigned seats with `SET seat:{evt}:{id} user NX EX 600`. General admission with a Lua decrement (below). Enforce per-user limits (e.g. 4) in the same atomic step |
+| **Order creation** | Hold → enqueue → order service writes Postgres. A **unique constraint `(event_id, seat_id)`** is the final guard against overselling, even if Redis is wrong |
+| **Payment** | Within the hold window, via the Q10 flow. Success → `SOLD`. Failure or expiry → seat goes back to the pool |
+| **Hold expiry** | Key TTL alone doesn't return stock. Track holds in a `ZSET` scored by expiry, and a sweeper atomically restores them (keyspace notifications are not reliable delivery) |
+| **Client feedback** | Async: return `202 + orderId`, then poll or SSE for status. No long-held requests |
+| **Degrade** | Turn off non-critical features during the sale (recommendations, search, reviews). Show "sold out" from a cached flag. Circuit breakers on payments |
+
+```lua
+-- KEYS: stock, per-user count, holds zset · ARGV: qty, maxPerUser, expiresAtMs, holdId
+local qty = tonumber(ARGV[1])
+local bought = tonumber(redis.call('GET', KEYS[2]) or '0')
+if bought + qty > tonumber(ARGV[2]) then return -2 end
+local stock = tonumber(redis.call('GET', KEYS[1]) or '0')
+if stock < qty then return -1 end
+redis.call('DECRBY', KEYS[1], qty)
+redis.call('INCRBY', KEYS[2], qty)
+redis.call('ZADD', KEYS[3], ARGV[3], ARGV[4] .. ':' .. qty)
+return stock - qty
+```
+- In Redis Cluster, give all keys of one event the same hash tag (`{evt:123}:stock`) so the script runs on one shard.
+- **Oversell defence in depth**: Redis atomic hold (fast path) → Postgres unique constraint (truth) → reconciliation (Redis vs DB counts after the sale).
+- **Postgres-only variant** (smaller events): `UPDATE inventory SET available = available - $2 WHERE event_id = $1 AND available >= $2 RETURNING available`. A single hot row serializes everything, so split stock into N bucket rows, or pick seats with `SELECT … FOR UPDATE SKIP LOCKED`.
+- **Idempotency** on hold and order endpoints (a client retry must not take two holds). Unique `(user_id, event_id)` limits where policy requires.
+
+> [!danger] Real incident: Ticketmaster, Taylor Swift Eras Tour presale (Nov 2022)
+> Ticketmaster reported **3.5 billion total system requests, 4× its previous peak**, driven by bot attacks and fans without invite codes. About 1.5M of 3.5M Verified Fan registrants were invited. The next day's general public sale was cancelled for "extraordinarily high demands on ticketing systems and insufficient remaining ticket inventory". Lessons: pre-registration doesn't cap traffic unless the edge **rejects un-invited requests before they reach the origin**, and bots must be filtered at the CDN, not in the queue.
+
+- **Trap**: "just autoscale" or "use a bigger DB". The bottleneck is a **single contended inventory**, so you must shape traffic before it, and keep the oversell guard in the system of record.
+- Deep dive: [[System Design]] · [[Redis - Data Structures & Patterns]] · [[Message Queues]] · [[Kafka]] · [[Cloudflare]]
+
 ## Related
-- [[Spring Boot]] — Q3 in depth
+- [[Spring Boot]] — Q3, Q8 in depth
 - [[Redis]] · [[Redis - Persistence & High Availability]] · [[Redis - Data Structures & Patterns]] — Q7
 - [[Authentication & Authorization]] · [[OAuth 2.0 & OIDC]] · [[JWT]] — Q6
 - [[PostgreSQL]] · [[NoSQL]] — Q2
-- [[Design Patterns]] · [[System Design]] — Q1 (planned notes)
+- [[Design Patterns]] · [[System Design]] — Q1, Q9, Q10, Q11 (planned notes)
+- [[Message Queues]] · [[Kafka]] · [[Cloudflare]] — Q11 traffic shaping and async order pipeline
 - [[Flutter - Interview Questions]] — mobile counterpart
 
 ## References
@@ -341,3 +590,9 @@ export async function getCached<T>(key: string, ttlSec: number, load: () => Prom
 - OpenID FAPI 2.0 Security Profile: https://openid.net/specs/fapi-security-profile-2_0-final.html
 - BNM anti-scam measures, SMS OTP migration (RinggitPlus summary): https://ringgitplus.com/en/blog/personal-finance-news/bnm-announces-five-additional-safeguards-against-financial-scams-including-migrating-from-sms-otp.html
 - BNM policy documents (RMiT): https://www.bnm.gov.my/
+- Spring bean scopes: https://docs.spring.io/spring-framework/reference/core/beans/factory-scopes.html
+- Stripe idempotent requests: https://docs.stripe.com/api/idempotent_requests
+- Stripe webhooks (signature verification, retries): https://docs.stripe.com/webhooks
+- PCI DSS document library (v4.0.1): https://www.pcisecuritystandards.org/document_library/
+- Cloudflare Waiting Room: https://developers.cloudflare.com/waiting-room/
+- Ticketmaster Eras Tour presale (Fortune): https://fortune.com/2022/11/17/ticketmaster-cancels-general-sale-taylor-swifts-eras-tour
