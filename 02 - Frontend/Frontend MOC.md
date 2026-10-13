@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-11
+updated: 2026-10-13
 parent: "[[00 - Home]]"
 ---
 
@@ -24,9 +24,9 @@ parent: "[[00 - Home]]"
   - [[Next.js - Caching]]
 - [[Astro]] — zero-JS-by-default islands framework for content sites; Content Layer, server islands; Cloudflare-owned since 2026-01
 - [[WebGL]] — browser GPU API; WebGL 2 everywhere, WebGPU cross-browser, three.js WebGPURenderer with fallback, R3F
+- [[Tailwind CSS]] — utility-first CSS; v4 Rust engine + @theme CSS config, 4.3.x, shadcn/ui; 2026 Tailwind Labs layoffs risk
 
 ## Planned
-- [[Tailwind CSS]]
 - [[Browser & Web Fundamentals]]
 
 ## Cross-domain Links
