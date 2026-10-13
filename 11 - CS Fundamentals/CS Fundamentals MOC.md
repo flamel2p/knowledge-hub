@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-05
+updated: 2026-10-13
 parent: "[[00 - Home]]"
 ---
 
@@ -17,9 +17,9 @@ parent: "[[00 - Home]]"
 
 ## Notes
 - [[Big O Notation]] — time/space complexity, common classes, data structure costs, complexity attacks
+- [[Data Structures]] — arrays, hash maps, B-trees, heaps, tries, graphs, probabilistic; choose by operation; HashDoS
 
 ## Planned
-- [[Data Structures]]
 - [[Algorithms]]
 - [[System Design]]
 - [[Design Patterns]]
