@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-14 (T088)
+Last run: 2026-10-14 (T089)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -134,7 +134,7 @@ Last run: 2026-10-14 (T088)
 
 ### Wave 5 — Expansion deep dives
 
-- [ ] T089 | deep-dive | Kafka - Partitions, Consumer Groups & Delivery Semantics | 06 - Messaging & Streaming/Kafka/Kafka - Partitions, Consumer Groups & Delivery Semantics.md
+- [x] T089 | deep-dive | Kafka - Partitions, Consumer Groups & Delivery Semantics | 06 - Messaging & Streaming/Kafka/Kafka - Partitions, Consumer Groups & Delivery Semantics.md | ✅ 2026-10-14
 - [ ] T090 | deep-dive | Go - Concurrency | 01 - Languages/Go/Go - Concurrency.md
 - [ ] T091 | deep-dive | Rust - Ownership & Borrowing | 01 - Languages/Rust/Rust - Ownership & Borrowing.md
 - [ ] T092 | deep-dive | Python - Async & Concurrency | 01 - Languages/Python/Python - Async & Concurrency.md

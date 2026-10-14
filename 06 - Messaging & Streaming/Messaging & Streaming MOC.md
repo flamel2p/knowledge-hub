@@ -17,7 +17,7 @@ parent: "[[00 - Home]]"
 
 ## Notes
 - [[Kafka]] — partitioned replicated log, KRaft-only 4.x, share groups (queues) GA in 4.2
-  - (planned) [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
+  - [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
 - [[Message Queues]] — job queues vs brokers vs logs; BullMQ, pgmq, RabbitMQ 4.2, SQS, NATS; idempotency, DLQ, Redis noeviction
 
 ## Planned
