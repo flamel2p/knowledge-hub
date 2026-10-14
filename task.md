@@ -33,6 +33,16 @@ Last run: 2026-10-14 (T091)
 - [x] T119 | deep-dive | Flutter - Navigation & Routing | 03 - Mobile/Flutter/Flutter - Navigation & Routing.md | ✅ 2026-10-08
 - [x] T120 | deep-dive | Flutter - Offline Storage & Sync | 03 - Mobile/Flutter/Flutter - Offline Storage & Sync.md | ✅ 2026-10-08
 
+### Priority — Requested 2026-10-13 (backend interview question bank)
+
+- [x] T121 | reference | Backend Interview Questions | 04 - Backend/Backend Interview Questions/Backend Interview Questions.md | ✅ 2026-10-13
+- [x] T122 | reference | Spring Boot - Interview Questions | 04 - Backend/Spring Boot/Spring Boot - Interview Questions.md | ✅ 2026-10-14
+- [x] T123 | reference | Redis - Interview Questions | 05 - Databases/Redis/Redis - Interview Questions.md | ✅ 2026-10-14
+- [x] T124 | reference | NoSQL - Interview Questions | 05 - Databases/NoSQL/NoSQL - Interview Questions.md | ✅ 2026-10-14
+- [x] T125 | reference | Authentication & Authorization - Interview Questions | 10 - Security/Authentication & Authorization/Authentication & Authorization - Interview Questions.md | ✅ 2026-10-14
+- [x] T126 | reference | Design Patterns - Interview Questions | 11 - CS Fundamentals/Design Patterns/Design Patterns - Interview Questions.md | ✅ 2026-10-14
+- [x] T127 | reference | System Design - Interview Questions | 11 - CS Fundamentals/System Design/System Design - Interview Questions.md | ✅ 2026-10-14
+
 ### Wave 1 — Core stack overviews
 
 - [x] T001 | overview | Redis | 05 - Databases/Redis/Redis.md | ✅ 2026-09-28

@@ -148,6 +148,7 @@ WAITAOF 1 0 1000     # 7.2+: until local AOF fsync'd (and optionally replicas)
 - [[n8n]] — queue mode dependency
 - [[Docker]] · [[Coolify]] — deployment and backups
 - [[PostgreSQL - Transactions & MVCC]] — when durability must be transactional
+- [[Redis - Interview Questions]] — deploy and resilience interview answer
 
 ## References
 - Persistence: https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/

@@ -174,7 +174,9 @@ N/A — concepts don't version. Influential papers/milestones that shaped modern
 > - Microservices for a 1–3 person team usually reduce velocity and reliability.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: reliability patterns (timeouts, retries, outbox, sagas), multi-tenant SaaS architecture.
+- [[System Design - Interview Questions]] — payment flow and high-traffic ticketing interview answers (reference)
+
+Candidates: reliability patterns (timeouts, retries, outbox, sagas), multi-tenant SaaS architecture.
 
 ## Related
 - [[Data Structures]] · [[Algorithms]] — building blocks inside components

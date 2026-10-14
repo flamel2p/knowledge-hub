@@ -180,7 +180,9 @@ N/A — patterns don't version. Language features that replaced classic patterns
 > - Event-driven observers make control flow non-local. Document event contracts and keep handlers idempotent.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: hexagonal architecture in TS/Dart, state machines for business workflows.
+- [[Design Patterns - Interview Questions]] — OOP and patterns-in-projects interview answers (reference)
+
+Candidates: hexagonal architecture in TS/Dart, state machines for business workflows.
 
 ## Related
 - [[System Design]] — architecture-level patterns (outbox, saga, CQRS)

@@ -196,7 +196,9 @@ export async function updateOrder(req: Request, id: string, patch: OrderPatch) {
 > - Malaysia: Bank Negara's RMiT pushed banks off SMS OTP towards app-based/phishing-resistant authentication (2023+). Fintech/e-wallet clients face similar expectations.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: passkeys/WebAuthn implementation, multi-tenant authorization with RLS.
+- [[Authentication & Authorization - Interview Questions]] — finance-app auth interview answer (reference)
+
+Candidates: passkeys/WebAuthn implementation, multi-tenant authorization with RLS.
 
 ## Related
 - [[OAuth 2.0 & OIDC]] — delegated authorization and SSO
