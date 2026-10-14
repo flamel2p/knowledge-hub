@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/kubernetes, topic/containers]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-14
 version_checked: "1.36 (patch 1.36.x) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Coolify]]", "[[Traefik]]", "[[Nginx]]", "[[CI-CD]]", "[[Linux Essentials]]"]
@@ -200,7 +200,7 @@ deploy/
 > - Deleting a namespace deletes **everything** inside it, including PVCs. Protect production with RBAC and admission policies.
 
 ## Deep Dives
-- (planned) [[Kubernetes - Core Objects]]
+- [[Kubernetes - Core Objects]]
 
 ## Related
 - [[Docker]] — images and container runtime basics
