@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/python, lang/python]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-14
 version_checked: "3.15.0 (scheduled 2026-10-01) · 3.14.8 — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[JavaScript]]", "[[Go]]", "[[LangChain & LangGraph]]", "[[RAG]]", "[[PostgreSQL]]"]
@@ -187,7 +187,7 @@ lint.select = ["E", "F", "I", "B", "UP", "ASYNC", "S"]   # includes bandit-style
 > - Free-threaded builds: C extensions without free-threading support re-enable the GIL (with a warning). Check before relying on parallel speedups.
 
 ## Deep Dives
-- (planned) [[Python - Async & Concurrency]]
+- [[Python - Async & Concurrency]]
 
 ## Related
 - [[LangChain & LangGraph]] · [[RAG]] · [[AI Agents]] — primary AI workloads

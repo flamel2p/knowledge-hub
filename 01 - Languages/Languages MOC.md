@@ -21,7 +21,7 @@ parent: "[[00 - Home]]"
 - [[JavaScript]] — ECMAScript 2026, event loop, modules, npm supply-chain risks
   - [[JavaScript - Event Loop & Async]]
 - [[Python]] — CPython 3.14/3.15, uv + ruff, asyncio, free-threading, PyPI supply chain
-  - (planned) [[Python - Async & Concurrency]]
+  - [[Python - Async & Concurrency]]
 - [[Go]] — static binaries, goroutines, Go 1.26/1.27, module supply chain
   - [[Go - Concurrency]]
 - [[Dart]] — sound null safety, sealed classes + patterns, AOT/JIT/Wasm; Flutter's language
