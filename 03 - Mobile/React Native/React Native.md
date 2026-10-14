@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/react-native, lang/typescript]
 status: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-14
 version_checked: "0.85 (Expo SDK 56, 2026-05) — 2026-10"
 parent: "[[Mobile MOC]]"
 related: ["[[React]]", "[[Flutter]]", "[[TypeScript]]", "[[Supabase]]"]
@@ -167,7 +167,7 @@ eas update --branch production --message "fix: order total rounding"
 > - OTA updates that change native-dependent behaviour crash old binaries. Use runtime versions and staged rollouts.
 
 ## Deep Dives
-- (planned) [[React Native - New Architecture]]
+- [[React Native - New Architecture]]
 
 ## Related
 - [[React]] — the UI library underneath

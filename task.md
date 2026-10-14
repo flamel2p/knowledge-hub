@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-14 (T092)
+Last run: 2026-10-14 (T095)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -148,7 +148,7 @@ Last run: 2026-10-14 (T092)
 - [x] T090 | deep-dive | Go - Concurrency | 01 - Languages/Go/Go - Concurrency.md | ✅ 2026-10-14
 - [x] T091 | deep-dive | Rust - Ownership & Borrowing | 01 - Languages/Rust/Rust - Ownership & Borrowing.md | ✅ 2026-10-14
 - [x] T092 | deep-dive | Python - Async & Concurrency | 01 - Languages/Python/Python - Async & Concurrency.md | ✅ 2026-10-14
-- [ ] T095 | deep-dive | React Native - New Architecture | 03 - Mobile/React Native/React Native - New Architecture.md
+- [x] T095 | deep-dive | React Native - New Architecture | 03 - Mobile/React Native/React Native - New Architecture.md | ✅ 2026-10-14
 - [ ] T096 | deep-dive | Kubernetes - Core Objects | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - Core Objects.md
 - [ ] T097 | deep-dive | Network Security - Common Web Attacks | 10 - Security/Network Security/Network Security - Common Web Attacks.md
 - [ ] T098 | deep-dive | Solidity - Smart Contract Security | 12 - Web3/Solidity/Solidity - Smart Contract Security.md
