@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/langgraph, lang/python]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
-version_checked: "langgraph 1.2.12 — 2026-10"
+updated: 2026-10-13
+version_checked: "langgraph 1.2.x (1.2.12; no 1.3 found) — 2026-10"
 parent: "[[LangChain & LangGraph]]"
 related: ["[[LangChain & LangGraph - Agents, Tools & Middleware]]", "[[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]]", "[[AI Agents]]"]
 ---

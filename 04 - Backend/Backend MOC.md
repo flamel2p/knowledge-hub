@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-11
+updated: 2026-10-13
 parent: "[[00 - Home]]"
 ---
 
@@ -20,9 +20,10 @@ parent: "[[00 - Home]]"
   - (planned) [[Supabase - Row Level Security]]
 - [[Node.js]] — V8 + libuv runtime; 24 LTS, 26 → LTS Oct 2026, yearly majors from 27; npm supply-chain risk
 - [[Spring Boot]] — JVM framework; 4.1 on Spring Framework 7, virtual threads, JSpecify, Jakarta EE 11; actuator exposure risk
+- [[Testing Strategy]] — testing trophy, real-DB integration tests (Testcontainers/Supabase), authZ matrices, Playwright smoke, flaky-test hygiene
 
 ## Planned
-- [[Testing Strategy]]
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]

@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/go, lang/go]
 status: draft
 created: 2026-10-05
-updated: 2026-10-11
+updated: 2026-10-14
 version_checked: "1.27 (2026-08-19) · 1.26 — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Python]]", "[[TypeScript]]", "[[Docker]]", "[[Kubernetes]]", "[[Traefik]]"]
@@ -193,7 +193,7 @@ _ = srv.Shutdown(shutdownCtx)
 > - Slices share backing arrays: `append` after slicing can overwrite the caller's data.
 
 ## Deep Dives
-- (planned) [[Go - Concurrency]]
+- [[Go - Concurrency]]
 
 ## Related
 - [[Python]] · [[TypeScript]] · [[Rust]] — peer languages

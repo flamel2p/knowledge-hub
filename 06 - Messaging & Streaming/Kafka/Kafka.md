@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/overview, topic/kafka, topic/streaming]
 status: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-14
 version_checked: "4.2 (2026-02-17) — 2026-10"
 parent: "[[Messaging & Streaming MOC]]"
 related: ["[[Message Queues]]", "[[Redis]]", "[[PostgreSQL]]", "[[System Design]]", "[[n8n]]"]
@@ -171,7 +171,7 @@ services:
 > - Large messages (>1 MB default `message.max.bytes`) fail. Store blobs in object storage and send references.
 
 ## Deep Dives
-- (planned) [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
+- [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
 
 ## Related
 - [[Message Queues]] — queue vs log semantics

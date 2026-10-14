@@ -6,8 +6,8 @@ domain: security
 tags: [domain/security, type/overview, topic/oauth, topic/oidc, topic/auth]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
-version_checked: "OAuth 2.1 draft-15 (2026-03) · RFC 9700 BCP · OIDC Core 1.0 — 2026-10"
+updated: 2026-10-13
+version_checked: "OAuth 2.1 draft-16 (2026-09) · RFC 9700 BCP · OIDC Core 1.0 — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[JWT]]", "[[Authentication & Authorization]]", "[[Supabase]]", "[[Model Context Protocol]]", "[[OWASP Top 10]]"]
 ---
@@ -20,7 +20,7 @@ related: ["[[JWT]]", "[[Authentication & Authorization]]", "[[Supabase]]", "[[Mo
 ## Introduction
 - **RFC 6749** (Oct 2012) defines the OAuth 2.0 framework. RFC 6750 covers bearer token usage. It replaced OAuth 1.0a's per-request signatures with TLS + bearer tokens.
 - **OpenID Connect Core 1.0** (Feb 2014, OpenID Foundation) adds authentication. The OIDC specs were also published as ISO/IEC standards in 2024.
-- **RFC 9700** (Jan 2025) is the *OAuth 2.0 Security Best Current Practice*. **OAuth 2.1** (`draft-ietf-oauth-v2-1-15`, Mar 2026) consolidates 6749 + 6750 + PKCE + the BCP and removes implicit and password grants. It isn't an RFC yet, but Okta, Entra ID and Auth0 already implement it.
+- **RFC 9700** (Jan 2025) is the *OAuth 2.0 Security Best Current Practice*. **OAuth 2.1** (`draft-ietf-oauth-v2-1-16`, Sep 2026; IESG submission targeted for Dec 2026) consolidates 6749 + 6750 + PKCE + the BCP and removes implicit and password grants. It isn't an RFC yet, but Okta, Entra ID and Auth0 already implement it.
 - Where it sits: "Login with Google/Apple/Microsoft", SaaS-to-SaaS integrations (CRM, Gmail, Meta), API gateways, machine-to-machine auth, and authorization for [[Model Context Protocol|MCP]] servers.
 
 ## Core Concepts
@@ -180,7 +180,7 @@ export async function callback(currentUrl: URL, session: Session) {
 | RFC 9449 (DPoP) | 2023-09 | Sender-constrained tokens | Opt-in |
 | **RFC 9700 (Security BCP)** | 2025-01 | Deprecates implicit + password, PKCE for all, refresh rotation | Treat it as the baseline audit checklist |
 | RFC 9728 (Protected Resource Metadata) | 2025-04 | RS advertises its AS, used by MCP | — |
-| **OAuth 2.1** (`-15` draft) | 2026-03 | Consolidated spec: PKCE everywhere, exact redirects, no implicit/password, no bearer tokens in query strings | Not yet an RFC. Implement now regardless |
+| **OAuth 2.1** (`-16` draft) | 2026-09 | Consolidated spec: PKCE everywhere, exact redirects, no implicit/password, no bearer tokens in query strings | Not yet an RFC. Implement now regardless |
 
 ## Critical Issues & Gotchas
 > [!danger] Integration OAuth tokens are the new breach path
@@ -218,7 +218,7 @@ export async function callback(currentUrl: URL, session: Session) {
 - [[HTTP & HTTPS]] — redirects, cookies, TLS
 
 ## References
-- OAuth 2.1 draft: https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-15
+- OAuth 2.1 draft: https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-16
 - RFC 9700 (Security BCP): https://www.rfc-editor.org/rfc/rfc9700
 - RFC 7636 (PKCE): https://www.rfc-editor.org/rfc/rfc7636
 - OpenID Connect Core: https://openid.net/specs/openid-connect-core-1_0.html

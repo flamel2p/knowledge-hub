@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-12 (T076)
+Last run: 2026-10-14 (T091)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -119,24 +119,24 @@ Last run: 2026-10-12 (T076)
 - [x] T074 | overview | gRPC | 09 - Networking & APIs/gRPC/gRPC.md | ✅ 2026-10-12
 - [x] T075 | overview | Authentication & Authorization | 10 - Security/Authentication & Authorization/Authentication & Authorization.md | ✅ 2026-10-12
 - [x] T076 | overview | OWASP Top 10 | 10 - Security/OWASP Top 10/OWASP Top 10.md | ✅ 2026-10-12
-- [ ] T077 | overview | Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures.md
-- [ ] T078 | overview | Algorithms | 11 - CS Fundamentals/Algorithms/Algorithms.md
-- [ ] T079 | overview | System Design | 11 - CS Fundamentals/System Design/System Design.md
-- [ ] T080 | overview | Design Patterns | 11 - CS Fundamentals/Design Patterns/Design Patterns.md
-- [ ] T081 | maint | Link audit + refresh version_checked on 3 oldest notes | -
-- [ ] T082 | overview | Tailwind CSS | 02 - Frontend/Tailwind CSS/Tailwind CSS.md
-- [ ] T083 | overview | Browser & Web Fundamentals | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals.md
-- [ ] T084 | overview | Testing Strategy | 04 - Backend/Testing Strategy/Testing Strategy.md
-- [ ] T085 | overview | AI Evals & Observability | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability.md
-- [ ] T086 | overview | Fine-tuning LLMs | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs.md
-- [ ] T087 | overview | LLM APIs & SDKs | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs.md
-- [ ] T088 | overview | Message Queues | 06 - Messaging & Streaming/Message Queues/Message Queues.md
+- [x] T077 | overview | Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures.md | ✅ 2026-10-13
+- [x] T078 | overview | Algorithms | 11 - CS Fundamentals/Algorithms/Algorithms.md | ✅ 2026-10-13
+- [x] T079 | overview | System Design | 11 - CS Fundamentals/System Design/System Design.md | ✅ 2026-10-13
+- [x] T080 | overview | Design Patterns | 11 - CS Fundamentals/Design Patterns/Design Patterns.md | ✅ 2026-10-13
+- [x] T081 | maint | Link audit + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-13
+- [x] T082 | overview | Tailwind CSS | 02 - Frontend/Tailwind CSS/Tailwind CSS.md | ✅ 2026-10-13
+- [x] T083 | overview | Browser & Web Fundamentals | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals.md | ✅ 2026-10-13
+- [x] T084 | overview | Testing Strategy | 04 - Backend/Testing Strategy/Testing Strategy.md | ✅ 2026-10-13
+- [x] T085 | overview | AI Evals & Observability | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability.md | ✅ 2026-10-13
+- [x] T086 | overview | Fine-tuning LLMs | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs.md | ✅ 2026-10-13
+- [x] T087 | overview | LLM APIs & SDKs | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs.md | ✅ 2026-10-14
+- [x] T088 | overview | Message Queues | 06 - Messaging & Streaming/Message Queues/Message Queues.md | ✅ 2026-10-14
 
 ### Wave 5 — Expansion deep dives
 
-- [ ] T089 | deep-dive | Kafka - Partitions, Consumer Groups & Delivery Semantics | 06 - Messaging & Streaming/Kafka/Kafka - Partitions, Consumer Groups & Delivery Semantics.md
-- [ ] T090 | deep-dive | Go - Concurrency | 01 - Languages/Go/Go - Concurrency.md
-- [ ] T091 | deep-dive | Rust - Ownership & Borrowing | 01 - Languages/Rust/Rust - Ownership & Borrowing.md
+- [x] T089 | deep-dive | Kafka - Partitions, Consumer Groups & Delivery Semantics | 06 - Messaging & Streaming/Kafka/Kafka - Partitions, Consumer Groups & Delivery Semantics.md | ✅ 2026-10-14
+- [x] T090 | deep-dive | Go - Concurrency | 01 - Languages/Go/Go - Concurrency.md | ✅ 2026-10-14
+- [x] T091 | deep-dive | Rust - Ownership & Borrowing | 01 - Languages/Rust/Rust - Ownership & Borrowing.md | ✅ 2026-10-14
 - [ ] T092 | deep-dive | Python - Async & Concurrency | 01 - Languages/Python/Python - Async & Concurrency.md
 - [ ] T095 | deep-dive | React Native - New Architecture | 03 - Mobile/React Native/React Native - New Architecture.md
 - [ ] T096 | deep-dive | Kubernetes - Core Objects | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - Core Objects.md
