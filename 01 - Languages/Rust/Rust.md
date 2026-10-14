@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/rust, lang/rust]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-14
 version_checked: "1.96.1 (2026-06-30) confirmed; 6-week cadence · edition 2024 — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Go]]", "[[TypeScript]]", "[[Python]]", "[[WebGL]]", "[[Flutter - Platform Channels & FFI]]", "[[Solidity]]"]
@@ -200,7 +200,7 @@ cargo audit && cargo deny check                               # vulns, licenses,
 > - `Rc` cycles leak memory (no cycle collector). Use `Weak` for back-references.
 
 ## Deep Dives
-- (planned) [[Rust - Ownership & Borrowing]]
+- [[Rust - Ownership & Borrowing]]
 
 ## Related
 - [[Go]] — systems/backend peer

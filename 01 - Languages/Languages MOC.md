@@ -29,7 +29,7 @@ parent: "[[00 - Home]]"
   - [[Dart - Type System, Null Safety & Mixins]]
   - [[Dart - VM, Compilation & Garbage Collection]]
 - [[Rust]] — ownership/borrowing memory safety without GC; edition 2024, tokio/axum, crates.io supply-chain risk
-  - (planned) [[Rust - Ownership & Borrowing]]
+  - [[Rust - Ownership & Borrowing]]
 - [[Java]] — JVM workhorse; 25 LTS, virtual threads, records/sealed/patterns, OpenJDK vs Oracle licensing
 - [[Kotlin]] — null-safe JVM/Android language; K2 (K1 removed in 2.4), coroutines, KMP + Compose Multiplatform iOS stable
 - [[Swift]] — Apple-platform language; Swift 6 data-race safety, 6.2 approachable concurrency, SwiftUI, Flutter iOS modules
