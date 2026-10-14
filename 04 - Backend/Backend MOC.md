@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-13
+updated: 2026-10-14
 parent: "[[00 - Home]]"
 ---
 
@@ -20,7 +20,8 @@ parent: "[[00 - Home]]"
   - (planned) [[Supabase - Row Level Security]]
 - [[Node.js]] — V8 + libuv runtime; 24 LTS, 26 → LTS Oct 2026, yearly majors from 27; npm supply-chain risk
 - [[Spring Boot]] — JVM framework; 4.1 on Spring Framework 7, virtual threads, JSpecify, Jakarta EE 11; actuator exposure risk
-- [[Backend Interview Questions]] — interview prep reference (design patterns, SQL vs NoSQL, Spring DI & bean scopes, debugging, finance-app auth, Redis resilience, OOP, payment flow, concert ticketing at scale)
+  - [[Spring Boot - Interview Questions]] — interview prep reference (DI, singleton vs prototype)
+- [[Backend Interview Questions]] — index of every interview-question note, plus general questions (tech stack, debugging)
 
 ## Planned
 - [[Testing Strategy]]

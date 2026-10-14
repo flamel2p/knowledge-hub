@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-11
+updated: 2026-10-14
 parent: "[[00 - Home]]"
 ---
 
@@ -19,12 +19,14 @@ parent: "[[00 - Home]]"
 - [[Redis]] — in-memory data structure server: cache, queues, rate limiting, pub/sub
   - [[Redis - Data Structures & Patterns]]
   - [[Redis - Persistence & High Availability]]
+  - [[Redis - Interview Questions]] — interview prep reference (deploy, HA, cache failure patterns)
 - [[PostgreSQL]] — relational system of record: MVCC, indexes, RLS, pgvector, 18 async I/O
   - [[PostgreSQL - Indexing]]
   - [[PostgreSQL - Transactions & MVCC]]
   - (planned) [[PostgreSQL - Query Planning & EXPLAIN]]
 - [[MySQL]] — InnoDB OLTP workhorse; 8.4 & 9.7 LTS, 8.0 EOL 2026-04, Oracle stewardship risk, Vitess sharding
 - [[NoSQL]] — key-value/document/wide-column/graph families, CAP/PACELC, query-first modeling, MongoBleed, relicensing
+  - [[NoSQL - Interview Questions]] — interview prep reference (SQL vs NoSQL)
 - [[Vector Databases]] — embeddings + ANN (HNSW/IVF/DiskANN), quantization, hybrid RRF, pgvector vs Qdrant/Milvus/Pinecone, tenant leakage
 
 ## Planned

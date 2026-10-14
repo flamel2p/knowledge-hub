@@ -186,7 +186,9 @@ docs/data-model.md
 > - "Eventual" can mean seconds under load: read-your-writes isn't guaranteed unless configured.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: MongoDB data modeling, DynamoDB single-table design.
+- [[NoSQL - Interview Questions]] — SQL vs NoSQL interview answer (reference)
+
+Candidates: MongoDB data modeling, DynamoDB single-table design.
 
 ## Related
 - [[PostgreSQL]] — relational default, JSONB as a document store

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-13 (T121)
+Last run: 2026-10-14 (T127)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -36,6 +36,12 @@ Last run: 2026-10-13 (T121)
 ### Priority — Requested 2026-10-13 (backend interview question bank)
 
 - [x] T121 | reference | Backend Interview Questions | 04 - Backend/Backend Interview Questions/Backend Interview Questions.md | ✅ 2026-10-13
+- [x] T122 | reference | Spring Boot - Interview Questions | 04 - Backend/Spring Boot/Spring Boot - Interview Questions.md | ✅ 2026-10-14
+- [x] T123 | reference | Redis - Interview Questions | 05 - Databases/Redis/Redis - Interview Questions.md | ✅ 2026-10-14
+- [x] T124 | reference | NoSQL - Interview Questions | 05 - Databases/NoSQL/NoSQL - Interview Questions.md | ✅ 2026-10-14
+- [x] T125 | reference | Authentication & Authorization - Interview Questions | 10 - Security/Authentication & Authorization/Authentication & Authorization - Interview Questions.md | ✅ 2026-10-14
+- [x] T126 | reference | Design Patterns - Interview Questions | 11 - CS Fundamentals/Design Patterns/Design Patterns - Interview Questions.md | ✅ 2026-10-14
+- [x] T127 | reference | System Design - Interview Questions | 11 - CS Fundamentals/System Design/System Design - Interview Questions.md | ✅ 2026-10-14
 
 ### Wave 1 — Core stack overviews
 

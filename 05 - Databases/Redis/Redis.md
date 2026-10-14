@@ -209,6 +209,7 @@ rename-command FLUSHALL ""      # optional hardening
 ## Deep Dives
 - [[Redis - Data Structures & Patterns]]
 - [[Redis - Persistence & High Availability]]
+- [[Redis - Interview Questions]] — deploy, HA and cache-failure patterns interview answer (reference)
 
 ## Related
 - [[Valkey]] · [[Message Queues]] · [[Kafka]]

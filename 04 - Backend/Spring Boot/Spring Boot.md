@@ -187,7 +187,9 @@ curl https://start.spring.io/starter.zip -d type=gradle-project-kotlin -d langua
 > - Jackson 3 in Boot 4 changes package names and some defaults. Custom serializers need updates.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: Spring Security (OAuth2/JWT resource server), JPA/Hibernate performance.
+- [[Spring Boot - Interview Questions]] — DI and bean scopes interview answers (reference)
+
+Candidates: Spring Security (OAuth2/JWT resource server), JPA/Hibernate performance.
 
 ## Related
 - [[Java]] · [[Kotlin]] — languages
@@ -196,7 +198,6 @@ N/A — no deep dives planned yet. Candidates: Spring Security (OAuth2/JWT resou
 - [[Node.js]] — ZP's default backend runtime, for comparison
 - [[OAuth 2.0 & OIDC]] · [[JWT]] — resource server security
 - [[Docker]] · [[Kubernetes]] — packaging, probes
-- [[Backend Interview Questions]] — Q3: dependency injection interview answer
 
 ## References
 - Spring Boot reference: https://docs.spring.io/spring-boot/
