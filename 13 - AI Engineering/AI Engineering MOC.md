@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-05
+updated: 2026-10-14
 parent: "[[00 - Home]]"
 ---
 
@@ -30,11 +30,12 @@ parent: "[[00 - Home]]"
   - [[LangChain & LangGraph - Agents, Tools & Middleware]]
   - [[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]]
   - [[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]
+- [[AI Evals & Observability]] — graders (code, LLM-judge, human), RAG/agent metrics, tracing, Langfuse (ClickHouse 2026), PII in traces
+- [[Fine-tuning LLMs]] — when (not) to fine-tune, LoRA/QLoRA SFT, DPO, GRPO/RFT, open-weight serving; safety erosion + deprecation risks
+- [[LLM APIs & SDKs]] — Claude Messages API vs OpenAI vs Gemini: tools, structured outputs, caching, batches; key hygiene + deprecation risk
 
 ## Planned
-- [[AI Evals & Observability]]
-- [[Fine-tuning LLMs]]
-- [[LLM APIs & SDKs]]
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]

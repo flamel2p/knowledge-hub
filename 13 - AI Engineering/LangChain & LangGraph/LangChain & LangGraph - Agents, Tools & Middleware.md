@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/langchain, topic/agents, lang/python]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
-version_checked: "langchain 1.4.2 — 2026-10"
+updated: 2026-10-13
+version_checked: "langchain 1.4.x (langchain-core 1.4.7+; no 1.5 found) — 2026-10"
 parent: "[[LangChain & LangGraph]]"
 related: ["[[LangChain & LangGraph - Graph API, State & Control Flow]]", "[[AI Agents]]", "[[Model Context Protocol]]", "[[Prompt Engineering]]"]
 ---

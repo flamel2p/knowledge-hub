@@ -17,14 +17,15 @@ parent: "[[00 - Home]]"
 
 ## Notes
 - [[Big O Notation]] — time/space complexity, common classes, data structure costs, complexity attacks
-- [[Design Patterns - Interview Questions]] — interview prep reference (OOP, patterns in real projects); overview [[Design Patterns]] still planned
-- [[System Design - Interview Questions]] — interview prep reference (payment flow, high-traffic ticketing); overview [[System Design]] still planned
+- [[Data Structures]] — arrays, hash maps, B-trees, heaps, tries, graphs, probabilistic; choose by operation; HashDoS
+- [[Algorithms]] — pattern catalog (hashing, binary search, BFS/DFS, topo, DP, greedy), production algorithms, ReDoS
+- [[System Design]] — requirements + estimates, building blocks, outbox/sagas/idempotency, multi-tenancy; provider-outage lessons
+  - [[System Design - Interview Questions]] — interview prep reference (payment flow, high-traffic ticketing)
+- [[Design Patterns]] — GoF essentials in modern TS/Dart, adapters for third-party APIs, state machines, hexagonal architecture
+  - [[Design Patterns - Interview Questions]] — interview prep reference (OOP, patterns in real projects)
 
 ## Planned
-- [[Data Structures]]
-- [[Algorithms]]
-- [[System Design]]
-- [[Design Patterns]]
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]

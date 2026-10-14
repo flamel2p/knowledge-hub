@@ -14,7 +14,7 @@ related: ["[[Design Patterns - Interview Questions]]", "[[Redis - Interview Ques
 
 # System Design - Interview Questions
 
-> [!info] Reference for [[System Design]] (overview planned) · index: [[Backend Interview Questions]]
+> [!info] Reference for [[System Design]] · index: [[Backend Interview Questions]]
 
 > [!abstract] TL;DR
 > Q1: **payment method design** — hosted checkout (minimal PCI scope), server-owned amount, webhook as source of truth, idempotency, state machine, double-entry ledger, reconciliation, Malaysian methods. Q2: **concert ticketing under huge traffic** — edge filtering, fair waiting room, atomic Redis seat holds, async orders, Postgres unique constraint as the oversell guard, Ticketmaster Eras Tour lessons.
@@ -172,7 +172,7 @@ return stock - qty
 - Deep dive: [[System Design]] · [[Redis - Data Structures & Patterns]] · [[Message Queues]] · [[Kafka]] · [[Cloudflare]]
 
 ## Related
-- [[System Design]] · [[Design Patterns]] — planned overviews
+- [[System Design]] · [[Design Patterns]] — overviews
 - [[Design Patterns - Interview Questions]] — Adapter/Strategy for gateways, idempotent consumer
 - [[Redis - Interview Questions]] · [[Redis - Data Structures & Patterns]] — atomic holds, Lua
 - [[PostgreSQL - Transactions & MVCC]] — row locks, `SKIP LOCKED`, constraints

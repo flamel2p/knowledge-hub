@@ -21,10 +21,11 @@ parent: "[[00 - Home]]"
 - [[Node.js]] — V8 + libuv runtime; 24 LTS, 26 → LTS Oct 2026, yearly majors from 27; npm supply-chain risk
 - [[Spring Boot]] — JVM framework; 4.1 on Spring Framework 7, virtual threads, JSpecify, Jakarta EE 11; actuator exposure risk
   - [[Spring Boot - Interview Questions]] — interview prep reference (DI, singleton vs prototype)
+- [[Testing Strategy]] — testing trophy, real-DB integration tests (Testcontainers/Supabase), authZ matrices, Playwright smoke, flaky-test hygiene
 - [[Backend Interview Questions]] — index of every interview-question note, plus general questions (tech stack, debugging)
 
 ## Planned
-- [[Testing Strategy]]
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]

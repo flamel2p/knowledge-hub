@@ -14,7 +14,7 @@ related: ["[[System Design - Interview Questions]]", "[[Spring Boot - Interview 
 
 # Design Patterns - Interview Questions
 
-> [!info] Reference for [[Design Patterns]] (overview planned) · index: [[Backend Interview Questions]]
+> [!info] Reference for [[Design Patterns]] · index: [[Backend Interview Questions]]
 
 > [!abstract] TL;DR
 > Q1: **OOP** — the four pillars with real examples (`Money` invariants, `PaymentMethod` sealed interface), composition over inheritance, SOLID. Q2: **design patterns in your recent projects** — Adapter, Strategy, queue-based load leveling, idempotent consumer, Repository, circuit breaker, told as *problem → pattern → result* on the WhatsApp AI-agent pipeline, with a `[!question]` box for your project numbers.
@@ -120,7 +120,7 @@ export async function handleWebhook(req: Request): Promise<Response> {
 > Project name/client type, message volume (msgs/day), p95 webhook latency, and one number the pattern moved (e.g. duplicate replies → 0, LLM cost −X% via routing).
 
 ## Related
-- [[Design Patterns]] · [[System Design]] — planned overviews
+- [[Design Patterns]] · [[System Design]] — overviews
 - [[System Design - Interview Questions]] — patterns applied to payments and ticketing
 - [[Spring Boot - Interview Questions]] — DI as dependency inversion
 - [[AI Agents - Tool Calling & Agent Loops]] — the agent loop behind Q2's example
