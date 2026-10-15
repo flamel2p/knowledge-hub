@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-14
+updated: 2026-10-15
 parent: "[[00 - Home]]"
 ---
 
@@ -23,7 +23,7 @@ parent: "[[00 - Home]]"
 - [[PostgreSQL]] — relational system of record: MVCC, indexes, RLS, pgvector, 18 async I/O
   - [[PostgreSQL - Indexing]]
   - [[PostgreSQL - Transactions & MVCC]]
-  - (planned) [[PostgreSQL - Query Planning & EXPLAIN]]
+  - [[PostgreSQL - Query Planning & EXPLAIN]]
 - [[MySQL]] — InnoDB OLTP workhorse; 8.4 & 9.7 LTS, 8.0 EOL 2026-04, Oracle stewardship risk, Vitess sharding
 - [[NoSQL]] — key-value/document/wide-column/graph families, CAP/PACELC, query-first modeling, MongoBleed, relicensing
   - [[NoSQL - Interview Questions]] — interview prep reference (SQL vs NoSQL)

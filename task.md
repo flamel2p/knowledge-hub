@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-15 (T101)
+Last run: 2026-10-15 (T102)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -155,6 +155,6 @@ Last run: 2026-10-15 (T101)
 - [x] T099 | deep-dive | Web3 Wallets - Key Management & Account Abstraction | 12 - Web3/Web3 Wallets/Web3 Wallets - Key Management & Account Abstraction.md | ✅ 2026-10-15
 - [x] T100 | deep-dive | WebSocket - Scaling & Reliability | 09 - Networking & APIs/WebSocket/WebSocket - Scaling & Reliability.md | ✅ 2026-10-15
 - [x] T101 | deep-dive | Supabase - Row Level Security | 04 - Backend/Supabase/Supabase - Row Level Security.md | ✅ 2026-10-15
-- [ ] T102 | deep-dive | PostgreSQL - Query Planning & EXPLAIN | 05 - Databases/PostgreSQL/PostgreSQL - Query Planning & EXPLAIN.md
+- [x] T102 | deep-dive | PostgreSQL - Query Planning & EXPLAIN | 05 - Databases/PostgreSQL/PostgreSQL - Query Planning & EXPLAIN.md | ✅ 2026-10-15
 - [ ] T103 | maint | Link audit + MOC sync + orphan check | -
 - [ ] T104 | replenish | Next 12 tasks per CLAUDE.md §9 | -
