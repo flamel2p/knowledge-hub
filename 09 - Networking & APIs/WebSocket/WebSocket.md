@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/websocket, topic/realtime]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-15
 version_checked: "RFC 6455 · ws 8.2x (Node) — 2026-10"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[REST API]]", "[[Redis]]", "[[Traefik]]", "[[Supabase]]"]
@@ -184,7 +184,7 @@ realtime/
 > - Load balancer health checks that never upgrade, so broken WS paths go unnoticed. Add a synthetic WS check.
 
 ## Deep Dives
-- (planned) [[WebSocket - Scaling & Reliability]]
+- [[WebSocket - Scaling & Reliability]]
 
 ## Related
 - [[HTTP & HTTPS]] — upgrade mechanism, TLS, proxies

@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/network-security]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-14
 version_checked: "n/a (concept) — TLS cert rules + CVEs checked 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[Docker]]", "[[Traefik]]", "[[OWASP Top 10]]"]
@@ -193,7 +193,7 @@ networks: { web: {}, data: { internal: true } }   # internal: no outbound intern
 > - Cert expiry outages: with 200-day (soon 47-day) lifetimes, a silently broken ACME renewal becomes an outage within weeks. Monitor expiry dates.
 
 ## Deep Dives
-- (planned) [[Network Security - Common Web Attacks]]
+- [[Network Security - Common Web Attacks]]
 
 ## Related
 - [[HTTP & HTTPS]] — TLS handshake, HSTS, HTTP/2/3

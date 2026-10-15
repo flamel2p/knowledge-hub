@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/overview, topic/solidity, topic/smart-contracts, lang/solidity]
 status: draft
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-14
 version_checked: "0.8.36 — 2026-10"
 parent: "[[Web3 MOC]]"
 related: ["[[Ethereum & EVM]]", "[[Blockchain Fundamentals]]", "[[Web3 Wallets]]", "[[TypeScript]]"]
@@ -206,7 +206,7 @@ function testFuzz_DepositMintsShares(uint256 amount) public {
 > - Fee-on-transfer, rebasing and non-standard tokens (USDT) break naive accounting. Measure balance deltas.
 
 ## Deep Dives
-- (planned) [[Solidity - Smart Contract Security]]
+- [[Solidity - Smart Contract Security]]
 
 ## Related
 - [[Ethereum & EVM]] — execution environment, gas, upgrades

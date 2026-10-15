@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-14
+updated: 2026-10-15
 parent: "[[00 - Home]]"
 ---
 
@@ -21,7 +21,7 @@ parent: "[[00 - Home]]"
 - [[JavaScript]] — ECMAScript 2026, event loop, modules, npm supply-chain risks
   - [[JavaScript - Event Loop & Async]]
 - [[Python]] — CPython 3.14/3.15, uv + ruff, asyncio, free-threading, PyPI supply chain
-  - (planned) [[Python - Async & Concurrency]]
+  - [[Python - Async & Concurrency]]
 - [[Go]] — static binaries, goroutines, Go 1.26/1.27, module supply chain
   - [[Go - Concurrency]]
 - [[Dart]] — sound null safety, sealed classes + patterns, AOT/JIT/Wasm; Flutter's language
@@ -36,6 +36,7 @@ parent: "[[00 - Home]]"
 - [[PHP]] — WordPress/Laravel language; 8.5 pipe operator + clone-with, 8.1 EOL, plugin-ecosystem security risk
 
 ## Planned
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]
