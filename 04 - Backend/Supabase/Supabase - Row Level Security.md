@@ -89,6 +89,9 @@ create or replace function private.user_tenants(roles text[] default null) retur
   select tenant_id from public.memberships
   where user_id = (select auth.uid()) and (roles is null or role = any(roles))
 $$;
+revoke all on function private.user_tenants(text[]) from public;
+grant usage on schema private to authenticated;                    -- 'private' is NOT in the API's exposed schemas
+grant execute on function private.user_tenants(text[]) to authenticated;
 
 alter table public.orders enable row level security;
 create index on public.orders (tenant_id);
