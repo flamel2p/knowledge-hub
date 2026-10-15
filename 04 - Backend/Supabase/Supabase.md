@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/baas]
 status: draft
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-15
 version_checked: "Platform 2026-10 (new API keys, JWT signing keys; legacy keys removal late 2026)"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
@@ -178,7 +178,7 @@ supabase db push                    # apply to linked project (CI)
 > - `auth.users` is in a managed schema. Mirror the needed fields into your own `profiles` table via trigger rather than querying `auth` from clients.
 
 ## Deep Dives
-- (planned) [[Supabase - Row Level Security]]
+- [[Supabase - Row Level Security]]
 
 ## Related
 - [[PostgreSQL]] — the database underneath
