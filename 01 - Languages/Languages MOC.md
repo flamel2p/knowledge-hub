@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-14
+updated: 2026-10-15
 parent: "[[00 - Home]]"
 ---
 
@@ -36,6 +36,7 @@ parent: "[[00 - Home]]"
 - [[PHP]] — WordPress/Laravel language; 8.5 pipe operator + clone-with, 8.1 EOL, plugin-ecosystem security risk
 
 ## Planned
+_None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
 
 ## Cross-domain Links
 - [[00 - Home]]
