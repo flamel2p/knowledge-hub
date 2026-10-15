@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-12
+updated: 2026-10-15
 parent: "[[00 - Home]]"
 ---
 
@@ -20,7 +20,7 @@ parent: "[[00 - Home]]"
   - [[HTTP & HTTPS - TLS Handshake & Certificates]]
 - [[REST API]] — resource design, OpenAPI 3.2, RFC 9457 errors, pagination, idempotency, BOLA
 - [[WebSocket]] — RFC 6455, auth on upgrade, heartbeats, Redis fan-out, CSWSH
-  - (planned) [[WebSocket - Scaling & Reliability]]
+  - [[WebSocket - Scaling & Reliability]]
 - [[GraphQL]] — typed client-driven queries; Sept 2025 spec (OneOf), DataLoader, federation, cost-limit/IDOR risks
 - [[gRPC]] — protobuf + HTTP/2 RPC for service-to-service; streaming, deadlines, Buf/Connect, HTTP/2 DoS risks
 
