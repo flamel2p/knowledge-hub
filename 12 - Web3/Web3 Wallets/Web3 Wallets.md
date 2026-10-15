@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/overview, topic/wallets, topic/key-management]
 status: draft
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-15
 version_checked: "ERC-4337 EntryPoint v0.8 · EIP-7702 (Pectra) · EIP-7951 (Fusaka) — 2026-10"
 parent: "[[Web3 MOC]]"
 related: ["[[Ethereum & EVM]]", "[[Solidity]]", "[[Blockchain Fundamentals]]", "[[Network Security]]", "[[OAuth 2.0 & OIDC]]"]
@@ -177,7 +177,7 @@ const ok = await verifySiweMessage(publicClient, { message, signature });   // a
 > - Seed phrases stored in cloud notes, screenshots or password managers synced to compromised accounts are a common real-world loss path.
 
 ## Deep Dives
-- (planned) [[Web3 Wallets - Key Management & Account Abstraction]]
+- [[Web3 Wallets - Key Management & Account Abstraction]]
 
 ## Related
 - [[Ethereum & EVM]] — accounts, tx types, EIP-7702

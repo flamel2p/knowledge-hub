@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-14
+updated: 2026-10-15
 parent: "[[00 - Home]]"
 ---
 
@@ -21,7 +21,7 @@ parent: "[[00 - Home]]"
 - [[Solidity]] — EVM contract language; 0.8.36, Foundry + OZ 5, storage layout, reentrancy/upgrade/compiler-bug risks
   - [[Solidity - Smart Contract Security]]
 - [[Web3 Wallets]] — EOA/hardware/MPC/smart accounts, EIP-712 & 7702 signing risks, custody architecture, drainers
-  - (planned) [[Web3 Wallets - Key Management & Account Abstraction]]
+  - [[Web3 Wallets - Key Management & Account Abstraction]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
