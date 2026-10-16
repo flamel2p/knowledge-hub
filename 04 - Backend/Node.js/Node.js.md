@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/nodejs, lang/javascript, lang/typescript]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-16
 version_checked: "26.x Current → LTS 2026-10 · 24.x LTS — 2026-10"
 parent: "[[Backend MOC]]"
 related: ["[[JavaScript]]", "[[TypeScript]]", "[[JavaScript - Event Loop & Async]]", "[[Next.js]]", "[[n8n]]", "[[Docker]]"]
@@ -186,7 +186,7 @@ for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, async () => {
 > - Type stripping doesn't type-check, and doesn't support `enum`/`namespace`/parameter properties (non-erasable syntax). Run `tsc --noEmit` in CI.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: event loop & performance diagnostics, streams & backpressure, npm supply-chain hardening.
+- [[Node.js - Performance & Diagnostics]]
 
 ## Related
 - [[JavaScript]] · [[TypeScript]] — the language

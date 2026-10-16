@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/coolify]
 status: draft
 created: 2026-10-03
-updated: 2026-10-08
+updated: 2026-10-16
 version_checked: "4.3.x (4.0.0 stable 2026) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -168,7 +168,7 @@ volumes: { pgdata: {} }
 > - Coolify updates restart the proxy. Schedule them outside client business hours (MYT).
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: hardening & multi-server topology, backup/restore drills.
+- [[Coolify - Operations, Backups & Hardening]]
 
 ## Related
 - [[Docker]] — runtime underneath

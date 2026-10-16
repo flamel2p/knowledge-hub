@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/cloudflare, topic/cdn, topic/edge]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 version_checked: "n/a (SaaS) — products, pricing + 2025 outages checked 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Traefik]]", "[[Network Security]]", "[[Coolify]]", "[[HTTP & HTTPS]]", "[[Next.js]]", "[[Docker]]"]
@@ -186,7 +186,7 @@ aws s3 cp backup.sql.gz s3://backups/ --endpoint-url https://<account>.r2.cloudf
 > - Worker CPU time limits (10 ms free, configurable on paid plans) and no raw TCP to arbitrary DBs without Hyperdrive/connect APIs.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: Zero Trust (Tunnel + Access) setup, Workers & R2 patterns.
+- [[Cloudflare - Zero Trust Tunnel & Access]]
 
 ## Related
 - [[Traefik]] — origin proxy, DNS-01 certificates via the Cloudflare API
