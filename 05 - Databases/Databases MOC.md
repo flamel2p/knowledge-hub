@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-15
+updated: 2026-10-16
 parent: "[[00 - Home]]"
 ---
 
@@ -28,6 +28,7 @@ parent: "[[00 - Home]]"
 - [[NoSQL]] — key-value/document/wide-column/graph families, CAP/PACELC, query-first modeling, MongoBleed, relicensing
   - [[NoSQL - Interview Questions]] — interview prep reference (SQL vs NoSQL)
 - [[Vector Databases]] — embeddings + ANN (HNSW/IVF/DiskANN), quantization, hybrid RRF, pgvector vs Qdrant/Milvus/Pinecone, tenant leakage
+  - [[Vector Databases - pgvector Tuning & Hybrid Search]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._

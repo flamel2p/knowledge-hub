@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-16 (T134)
+Last run: 2026-10-16 (T135)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -168,7 +168,7 @@ Last run: 2026-10-16 (T134)
 - [x] T132 | deep-dive | REST API - Webhooks & Idempotency | 09 - Networking & APIs/REST API/REST API - Webhooks & Idempotency.md | ✅ 2026-10-16
 - [x] T133 | deep-dive | LLM APIs & SDKs - Prompt Caching & Cost Optimization | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Prompt Caching & Cost Optimization.md | ✅ 2026-10-16
 - [x] T134 | deep-dive | Model Context Protocol - Building MCP Servers | 13 - AI Engineering/Model Context Protocol/Model Context Protocol - Building MCP Servers.md | ✅ 2026-10-16
-- [ ] T135 | deep-dive | Vector Databases - pgvector Tuning & Hybrid Search | 05 - Databases/Vector Databases/Vector Databases - pgvector Tuning & Hybrid Search.md
+- [x] T135 | deep-dive | Vector Databases - pgvector Tuning & Hybrid Search | 05 - Databases/Vector Databases/Vector Databases - pgvector Tuning & Hybrid Search.md | ✅ 2026-10-16
 - [ ] T136 | deep-dive | Authentication & Authorization - Passkeys & WebAuthn | 10 - Security/Authentication & Authorization/Authentication & Authorization - Passkeys & WebAuthn.md
 - [ ] T137 | deep-dive | CI-CD - GitHub Actions Security Hardening | 07 - DevOps & Infrastructure/CI-CD/CI-CD - GitHub Actions Security Hardening.md
 - [ ] T138 | maint | Link audit + refresh version_checked on 3 oldest notes | -

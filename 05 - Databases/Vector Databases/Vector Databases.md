@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/vector-databases, topic/rag]
 status: draft
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-16
 version_checked: "pgvector 0.8.x · Qdrant 1.17 — 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[PostgreSQL]]", "[[Supabase]]", "[[RAG]]", "[[LLM Fundamentals]]", "[[NoSQL]]", "[[Redis]]"]
@@ -186,7 +186,7 @@ set hnsw.iterative_scan = relaxed_order; -- pgvector 0.8: keep scanning when fil
 > - Cosine scores aren't calibrated across models. Don't hard-code similarity thresholds without evaluation.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: pgvector tuning & hybrid search, ANN index internals (HNSW/IVF/DiskANN).
+- [[Vector Databases - pgvector Tuning & Hybrid Search]]
 
 ## Related
 - [[PostgreSQL]] — pgvector host, RLS, hybrid with full-text search
