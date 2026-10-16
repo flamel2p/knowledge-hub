@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-16 (T128)
+Last run: 2026-10-16 (T129)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -162,7 +162,7 @@ Last run: 2026-10-16 (T128)
 ### Wave 6 — Stack deep dives (ZP's production stack first)
 
 - [x] T128 | deep-dive | Coolify - Operations, Backups & Hardening | 07 - DevOps & Infrastructure/Coolify/Coolify - Operations, Backups & Hardening.md | ✅ 2026-10-16
-- [ ] T129 | deep-dive | Traefik - Middlewares, TLS & Routing | 07 - DevOps & Infrastructure/Traefik/Traefik - Middlewares, TLS & Routing.md
+- [x] T129 | deep-dive | Traefik - Middlewares, TLS & Routing | 07 - DevOps & Infrastructure/Traefik/Traefik - Middlewares, TLS & Routing.md | ✅ 2026-10-16
 - [ ] T130 | deep-dive | Cloudflare - Zero Trust Tunnel & Access | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Zero Trust Tunnel & Access.md
 - [ ] T131 | deep-dive | Node.js - Performance & Diagnostics | 04 - Backend/Node.js/Node.js - Performance & Diagnostics.md
 - [ ] T132 | deep-dive | REST API - Webhooks & Idempotency | 09 - Networking & APIs/REST API/REST API - Webhooks & Idempotency.md

@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/traefik, topic/reverse-proxy]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-16
 version_checked: "v3.7.x (3.6.21+ maintained) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Coolify]]", "[[Cloudflare]]", "[[Nginx]]", "[[Kubernetes]]", "[[Network Security]]"]
@@ -182,7 +182,7 @@ metrics: { prometheus: {} }
 > - Two routers with the same rule: the one with the higher priority wins silently. Watch the dashboard for duplicates.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: Traefik middlewares & auth patterns, TLS/ACME with Cloudflare DNS-01.
+- [[Traefik - Middlewares, TLS & Routing]]
 
 ## Related
 - [[Docker]] — label-based discovery, networks

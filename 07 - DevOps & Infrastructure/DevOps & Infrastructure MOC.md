@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
 - [[Kubernetes]] — declarative orchestrator; Gateway API over retired Ingress NGINX, cgroup v2 only, k3s for small VPS
   - [[Kubernetes - Core Objects]]
 - [[Traefik]] — label-driven reverse proxy + ACME; Coolify default, v3.7, 2026 ForwardAuth-bypass CVEs, Docker socket risk
+  - [[Traefik - Middlewares, TLS & Routing]]
 - [[Cloudflare]] — DNS/CDN/WAF edge, Tunnel + Access, R2 zero-egress, Workers; 2025 global outages = concentration risk
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
 - [[Linux Essentials]] — VPS operations: users/perms, systemd/journald, ss/nftables, disk/OOM triage, LTS distros, kernel CVEs
