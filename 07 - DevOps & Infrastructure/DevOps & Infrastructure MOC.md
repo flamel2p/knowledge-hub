@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-14
+updated: 2026-10-16
 parent: "[[00 - Home]]"
 ---
 
@@ -20,6 +20,7 @@ parent: "[[00 - Home]]"
   - [[Docker - Dockerfile & Image Best Practices]]
   - [[Docker - Networking & Volumes]]
 - [[Coolify]] — self-hosted PaaS over SSH + Traefik; v4 stable, Jan 2026 critical CVEs
+  - [[Coolify - Operations, Backups & Hardening]]
 - [[Kubernetes]] — declarative orchestrator; Gateway API over retired Ingress NGINX, cgroup v2 only, k3s for small VPS
   - [[Kubernetes - Core Objects]]
 - [[Traefik]] — label-driven reverse proxy + ACME; Coolify default, v3.7, 2026 ForwardAuth-bypass CVEs, Docker socket risk
