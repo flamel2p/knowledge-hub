@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-16
+updated: 2026-10-17
 parent: "[[00 - Home]]"
 ---
 
@@ -30,6 +30,7 @@ parent: "[[00 - Home]]"
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
 - [[Linux Essentials]] — VPS operations: users/perms, systemd/journald, ss/nftables, disk/OOM triage, LTS distros, kernel CVEs
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
+  - [[CI-CD - GitHub Actions Security Hardening]]
 - [[Nginx]] — event-driven web server/proxy/cache; stable 1.30, 2026 memory-safety CVEs, SPA/PHP-FPM container use
 
 ## Planned
