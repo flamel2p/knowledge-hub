@@ -197,8 +197,9 @@ export async function updateOrder(req: Request, id: string, patch: OrderPatch) {
 
 ## Deep Dives
 - [[Authentication & Authorization - Interview Questions]] — finance-app auth interview answer (reference)
-Candidates: passkeys/WebAuthn implementation, multi-tenant authorization with RLS.
-- [[Authentication & Authorization - Passkeys & WebAuthn]]
+- [[Authentication & Authorization - Passkeys & WebAuthn]] — ceremonies, conditional UI, native apps, recovery
+
+Candidates: multi-tenant authorization with RLS.
 
 ## Related
 - [[OAuth 2.0 & OIDC]] — delegated authorization and SSO
