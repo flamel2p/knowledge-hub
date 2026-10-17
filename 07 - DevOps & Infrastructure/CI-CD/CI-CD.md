@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/ci-cd]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-17
 version_checked: "n/a (practice) — GitHub Actions pricing + supply-chain incidents checked 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Git]]", "[[Docker]]", "[[Coolify]]", "[[Kubernetes]]", "[[Network Security]]", "[[Flutter - Build, Release & Store Compliance]]"]
@@ -178,7 +178,7 @@ jobs:
 > - Database migrations inside app startup + rolling deploys → two versions racing migrations. Run migrations once as a job.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: GitHub Actions security hardening, deployment strategies & rollbacks.
+- [[CI-CD - GitHub Actions Security Hardening]]
 
 ## Related
 - [[Git]] — triggers, branching strategy, tags

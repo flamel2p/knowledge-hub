@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/rest, topic/api-design]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-16
 version_checked: "OpenAPI 3.2 (2025-09) · RFC 9457 — 2026-10"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[GraphQL]]", "[[gRPC]]", "[[WebSocket]]", "[[OAuth 2.0 & OIDC]]"]
@@ -180,7 +180,7 @@ api/
 > - Retrying non-idempotent `POST` without idempotency keys creates duplicate orders or charges.
 
 ## Deep Dives
-N/A — none planned yet. Candidates: API versioning & evolution, pagination/filtering conventions.
+- [[REST API - Webhooks & Idempotency]]
 
 ## Related
 - [[HTTP & HTTPS]] — methods, status codes, caching semantics

@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/langgraph, topic/multi-agent, topic/langsmith, lang/python]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
-version_checked: "langchain 1.4.2 · langgraph 1.2.12 — 2026-10"
+updated: 2026-10-17
+version_checked: "langchain 1.4.2 · langgraph 1.2.12 — 2026-10 (re-checked 2026-10-17: 1.2.x line current)"
 parent: "[[LangChain & LangGraph]]"
 related: ["[[LangChain & LangGraph - Agents, Tools & Middleware]]", "[[AI Agents]]", "[[AI Evals & Observability]]"]
 ---

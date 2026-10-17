@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/llm-api, topic/sdk, lang/typescript, lang/python]
 status: draft
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-16
 version_checked: "Claude API (Opus 5.5 / Sonnet 5.5 / Haiku 5.5 / Fable 5.1, cached 2026-10-06) · OpenAI / Gemini unverified — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[Prompt Engineering]]", "[[AI Agents - Tool Calling & Agent Loops]]", "[[Model Context Protocol]]", "[[AI Evals & Observability]]", "[[Fine-tuning LLMs]]"]
@@ -192,7 +192,7 @@ export ANTHROPIC_API_KEY=...     # from a secret manager / Coolify env, never in
 > - Third-party marketplaces lag first-party features and use different model ID formats (Bedrock `anthropic.` prefix).
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: prompt caching & cost optimization, tool use across providers.
+- [[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]
 
 ## Related
 - [[LLM Fundamentals]] — tokens, context windows, sampling, reasoning

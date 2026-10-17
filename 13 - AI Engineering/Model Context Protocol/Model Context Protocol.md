@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/mcp]
 status: draft
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-16
 version_checked: "spec 2026-07-28 — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[AI Agents]]", "[[OAuth 2.0 & OIDC]]", "[[LangChain & LangGraph]]", "[[LLM APIs & SDKs]]", "[[n8n]]"]
@@ -192,7 +192,7 @@ mcp-orders/
 > - Upgrading to the 2026-07-28 spec: code relying on `initialize`, sessions, sampling or roots needs refactoring.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: building a production remote server (auth + deployment), MCP security review checklist.
+- [[Model Context Protocol - Building MCP Servers]]
 
 ## Related
 - [[AI Agents]] — MCP is the standard tool layer

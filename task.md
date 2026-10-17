@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-16 (T131)
+Last run: 2026-10-17 (T140)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -165,11 +165,26 @@ Last run: 2026-10-16 (T131)
 - [x] T129 | deep-dive | Traefik - Middlewares, TLS & Routing | 07 - DevOps & Infrastructure/Traefik/Traefik - Middlewares, TLS & Routing.md | ✅ 2026-10-16
 - [x] T130 | deep-dive | Cloudflare - Zero Trust Tunnel & Access | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Zero Trust Tunnel & Access.md | ✅ 2026-10-16
 - [x] T131 | deep-dive | Node.js - Performance & Diagnostics | 04 - Backend/Node.js/Node.js - Performance & Diagnostics.md | ✅ 2026-10-16
-- [ ] T132 | deep-dive | REST API - Webhooks & Idempotency | 09 - Networking & APIs/REST API/REST API - Webhooks & Idempotency.md
-- [ ] T133 | deep-dive | LLM APIs & SDKs - Prompt Caching & Cost Optimization | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Prompt Caching & Cost Optimization.md
-- [ ] T134 | deep-dive | Model Context Protocol - Building MCP Servers | 13 - AI Engineering/Model Context Protocol/Model Context Protocol - Building MCP Servers.md
-- [ ] T135 | deep-dive | Vector Databases - pgvector Tuning & Hybrid Search | 05 - Databases/Vector Databases/Vector Databases - pgvector Tuning & Hybrid Search.md
-- [ ] T136 | deep-dive | Authentication & Authorization - Passkeys & WebAuthn | 10 - Security/Authentication & Authorization/Authentication & Authorization - Passkeys & WebAuthn.md
-- [ ] T137 | deep-dive | CI-CD - GitHub Actions Security Hardening | 07 - DevOps & Infrastructure/CI-CD/CI-CD - GitHub Actions Security Hardening.md
-- [ ] T138 | maint | Link audit + refresh version_checked on 3 oldest notes | -
-- [ ] T139 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T132 | deep-dive | REST API - Webhooks & Idempotency | 09 - Networking & APIs/REST API/REST API - Webhooks & Idempotency.md | ✅ 2026-10-16
+- [x] T133 | deep-dive | LLM APIs & SDKs - Prompt Caching & Cost Optimization | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Prompt Caching & Cost Optimization.md | ✅ 2026-10-16
+- [x] T134 | deep-dive | Model Context Protocol - Building MCP Servers | 13 - AI Engineering/Model Context Protocol/Model Context Protocol - Building MCP Servers.md | ✅ 2026-10-16
+- [x] T135 | deep-dive | Vector Databases - pgvector Tuning & Hybrid Search | 05 - Databases/Vector Databases/Vector Databases - pgvector Tuning & Hybrid Search.md | ✅ 2026-10-16
+- [x] T136 | deep-dive | Authentication & Authorization - Passkeys & WebAuthn | 10 - Security/Authentication & Authorization/Authentication & Authorization - Passkeys & WebAuthn.md | ✅ 2026-10-17
+- [x] T137 | deep-dive | CI-CD - GitHub Actions Security Hardening | 07 - DevOps & Infrastructure/CI-CD/CI-CD - GitHub Actions Security Hardening.md | ✅ 2026-10-17
+- [x] T138 | maint | Link audit + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-17
+- [x] T139 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-10-17
+
+### Wave 7 — Ops, auth & quality deep dives
+
+- [x] T140 | deep-dive | Message Queues - BullMQ in Production | 06 - Messaging & Streaming/Message Queues/Message Queues - BullMQ in Production.md | ✅ 2026-10-17
+- [ ] T141 | deep-dive | Linux Essentials - VPS Hardening Runbook | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - VPS Hardening Runbook.md
+- [ ] T142 | deep-dive | Testing Strategy - Integration Testing with Testcontainers & Supabase | 04 - Backend/Testing Strategy/Testing Strategy - Integration Testing with Testcontainers & Supabase.md
+- [ ] T143 | deep-dive | JWT - Signing Algorithms, Keys & Rotation | 10 - Security/JWT/JWT - Signing Algorithms, Keys & Rotation.md
+- [ ] T144 | deep-dive | OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle.md
+- [ ] T145 | deep-dive | Browser & Web Fundamentals - Core Web Vitals Optimization | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Core Web Vitals Optimization.md
+- [ ] T146 | deep-dive | AI Evals & Observability - Eval Datasets & LLM-as-Judge | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Eval Datasets & LLM-as-Judge.md
+- [ ] T147 | deep-dive | OWASP Top 10 - LLM & Agent Security | 10 - Security/OWASP Top 10/OWASP Top 10 - LLM & Agent Security.md
+- [ ] T148 | deep-dive | Git - Branching, Releases & Recovery | 07 - DevOps & Infrastructure/Git/Git - Branching, Releases & Recovery.md
+- [ ] T149 | overview | Valkey | 05 - Databases/Valkey/Valkey.md
+- [ ] T150 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T151 | replenish | Next 12 tasks per CLAUDE.md §9 | -
