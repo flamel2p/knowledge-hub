@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/langgraph, topic/memory, lang/python]
 status: draft
 created: 2026-10-02
-updated: 2026-10-02
-version_checked: "langgraph 1.2.12 · langgraph-checkpoint 3.x — 2026-10"
+updated: 2026-10-17
+version_checked: "langgraph 1.2.12 · langgraph-checkpoint 3.x — 2026-10 (re-checked 2026-10-17: 1.2.x line current)"
 parent: "[[LangChain & LangGraph]]"
 related: ["[[LangChain & LangGraph - Graph API, State & Control Flow]]", "[[LangChain & LangGraph - Agents, Tools & Middleware]]", "[[PostgreSQL]]", "[[Supabase]]", "[[Redis]]"]
 ---
