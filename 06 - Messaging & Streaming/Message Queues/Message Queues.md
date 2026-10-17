@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/overview, topic/message-queues, topic/async]
 status: draft
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-17
 version_checked: "RabbitMQ 4.2 (Khepri default) · BullMQ 5.x · Supabase Queues (pgmq) — 2026-10"
 parent: "[[Messaging & Streaming MOC]]"
 related: ["[[Kafka]]", "[[Redis]]", "[[PostgreSQL]]", "[[n8n]]", "[[System Design]]", "[[Node.js]]"]
@@ -193,7 +193,7 @@ docker-compose.yml       # redis (appendonly yes, maxmemory-policy noeviction), 
 > - Time zones in scheduled jobs: store UTC and compute local times (`Asia/Kuala_Lumpur`) explicitly.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: BullMQ in production (retries, DLQ, observability), Postgres-based queues.
+- [[Message Queues - BullMQ in Production]]
 
 ## Related
 - [[Kafka]] — log-based streaming peer

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-17 (T139)
+Last run: 2026-10-17 (T140)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -176,7 +176,7 @@ Last run: 2026-10-17 (T139)
 
 ### Wave 7 — Ops, auth & quality deep dives
 
-- [ ] T140 | deep-dive | Message Queues - BullMQ in Production | 06 - Messaging & Streaming/Message Queues/Message Queues - BullMQ in Production.md
+- [x] T140 | deep-dive | Message Queues - BullMQ in Production | 06 - Messaging & Streaming/Message Queues/Message Queues - BullMQ in Production.md | ✅ 2026-10-17
 - [ ] T141 | deep-dive | Linux Essentials - VPS Hardening Runbook | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - VPS Hardening Runbook.md
 - [ ] T142 | deep-dive | Testing Strategy - Integration Testing with Testcontainers & Supabase | 04 - Backend/Testing Strategy/Testing Strategy - Integration Testing with Testcontainers & Supabase.md
 - [ ] T143 | deep-dive | JWT - Signing Algorithms, Keys & Rotation | 10 - Security/JWT/JWT - Signing Algorithms, Keys & Rotation.md
