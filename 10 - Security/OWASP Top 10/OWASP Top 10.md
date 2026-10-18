@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/owasp, topic/appsec]
 status: draft
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-18
 version_checked: "OWASP Top 10:2025 (released 2025-11) · ASVS 5.0 — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[Authentication & Authorization]]", "[[Network Security]]", "[[JWT]]", "[[GraphQL]]", "[[REST API]]", "[[CI-CD]]"]
@@ -168,7 +168,7 @@ Permissions-Policy: camera=(), microphone=(), geolocation=()
 > - Logging (A09): logging tokens, passwords or full card data creates a new breach vector. Redact.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: OWASP API Top 10 for Supabase/REST, OWASP LLM Top 10 for AI agents.
+- [[OWASP Top 10 - LLM & Agent Security]]
 
 ## Related
 - [[Authentication & Authorization]] — A01 and A07 in depth

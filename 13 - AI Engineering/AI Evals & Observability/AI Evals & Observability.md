@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/evals, topic/observability, topic/llm]
 status: draft
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-18
 version_checked: "Langfuse (ClickHouse-owned, MIT) · OTel GenAI semconv (development) — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[RAG]]", "[[AI Agents]]", "[[Prompt Engineering]]", "[[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]", "[[Testing Strategy]]"]
@@ -177,7 +177,7 @@ npx promptfoo eval -c evals/promptfooconfig.yaml && npx promptfoo view
 > - Model providers deprecate snapshots on fixed schedules. Track deprecation dates and re-run evals before forced migrations.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: building eval datasets & LLM-as-judge validation, self-hosting Langfuse.
+- [[AI Evals & Observability - Eval Datasets & LLM-as-Judge]]
 
 ## Related
 - [[LLM Fundamentals]] — sampling, non-determinism, tokens and cost
