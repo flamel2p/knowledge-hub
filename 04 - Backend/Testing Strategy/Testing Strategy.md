@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/testing]
 status: draft
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-18
 version_checked: "Vitest 4.x · Jest 30 · Playwright 1.5x — 2026-10"
 parent: "[[Backend MOC]]"
 related: ["[[CI-CD]]", "[[Flutter - Testing]]", "[[PostgreSQL]]", "[[Supabase]]", "[[Node.js]]", "[[AI Evals & Observability]]"]
@@ -196,7 +196,7 @@ supabase test db
 > - E2E tests depending on fixed sleeps (`waitForTimeout`) are flaky. Use web-first assertions.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: integration testing with Testcontainers & Supabase, E2E with Playwright.
+- [[Testing Strategy - Integration Testing with Testcontainers & Supabase]]
 
 ## Related
 - [[CI-CD]] — where tests gate merges and deploys
