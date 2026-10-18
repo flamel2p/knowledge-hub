@@ -26,6 +26,7 @@ parent: "[[00 - Home]]"
   - [[Authentication & Authorization - Interview Questions]] — interview prep reference (finance-app auth, BNM rules)
   - [[Authentication & Authorization - Passkeys & WebAuthn]]
 - [[OWASP Top 10]] — 2025 edition: A01 access control (+SSRF), A03 supply chain, A10 exceptional conditions; ASVS + sibling lists
+  - [[OWASP Top 10 - LLM & Agent Security]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
