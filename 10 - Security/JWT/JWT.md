@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/jwt, topic/auth]
 status: draft
 created: 2026-10-02
-updated: 2026-10-08
+updated: 2026-10-18
 version_checked: "RFC 7519 + RFC 8725 BCP (8725bis draft-07 in RFC Editor Queue) — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[OAuth 2.0 & OIDC]]", "[[Authentication & Authorization]]", "[[Supabase]]", "[[OWASP Top 10]]", "[[HTTP & HTTPS]]"]
@@ -224,7 +224,7 @@ claims = jwt.decode(token, key, algorithms=["ES256"], audience=AUD, issuer=ISS, 
 > - JWKS fetch on every request (no cache) means a self-inflicted DoS on the IdP. Cache it, and re-fetch only on an unknown `kid`, with rate limiting.
 
 ## Deep Dives
-- (planned, unscheduled) JWT - Signing Algorithms, Keys & Rotation
+- [[JWT - Signing Algorithms, Keys & Rotation]] — ES256 vs RS256/HS256, JWKS, rotation runbook, Supabase signing keys
 - (planned, unscheduled) JWT - Refresh Tokens, Revocation & Storage
 
 ## Related

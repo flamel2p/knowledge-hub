@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-13
+updated: 2026-10-18
 parent: "[[00 - Home]]"
 ---
 
@@ -26,6 +26,7 @@ parent: "[[00 - Home]]"
 - [[WebGL]] — browser GPU API; WebGL 2 everywhere, WebGPU cross-browser, three.js WebGPURenderer with fallback, R3F
 - [[Tailwind CSS]] — utility-first CSS; v4 Rust engine + @theme CSS config, 4.3.x, shadcn/ui; 2026 Tailwind Labs layoffs risk
 - [[Browser & Web Fundamentals]] — rendering path, main thread, Core Web Vitals (LCP/INP/CLS), SOP/CORS/CSP/cookies, storage, Interop 2026
+  - [[Browser & Web Fundamentals - Core Web Vitals Optimization]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
