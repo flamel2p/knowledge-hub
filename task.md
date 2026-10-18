@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-18 (T145)
+Last run: 2026-10-18 (T146)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -182,7 +182,7 @@ Last run: 2026-10-18 (T145)
 - [x] T143 | deep-dive | JWT - Signing Algorithms, Keys & Rotation | 10 - Security/JWT/JWT - Signing Algorithms, Keys & Rotation.md | ✅ 2026-10-18
 - [x] T144 | deep-dive | OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle.md | ✅ 2026-10-18
 - [x] T145 | deep-dive | Browser & Web Fundamentals - Core Web Vitals Optimization | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Core Web Vitals Optimization.md | ✅ 2026-10-18
-- [ ] T146 | deep-dive | AI Evals & Observability - Eval Datasets & LLM-as-Judge | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Eval Datasets & LLM-as-Judge.md
+- [x] T146 | deep-dive | AI Evals & Observability - Eval Datasets & LLM-as-Judge | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Eval Datasets & LLM-as-Judge.md | ✅ 2026-10-18
 - [ ] T147 | deep-dive | OWASP Top 10 - LLM & Agent Security | 10 - Security/OWASP Top 10/OWASP Top 10 - LLM & Agent Security.md
 - [ ] T148 | deep-dive | Git - Branching, Releases & Recovery | 07 - DevOps & Infrastructure/Git/Git - Branching, Releases & Recovery.md
 - [ ] T149 | overview | Valkey | 05 - Databases/Valkey/Valkey.md
