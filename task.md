@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-18 (T149)
+Last run: 2026-10-18 (T150)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -186,5 +186,5 @@ Last run: 2026-10-18 (T149)
 - [x] T147 | deep-dive | OWASP Top 10 - LLM & Agent Security | 10 - Security/OWASP Top 10/OWASP Top 10 - LLM & Agent Security.md | ✅ 2026-10-18
 - [x] T148 | deep-dive | Git - Branching, Releases & Recovery | 07 - DevOps & Infrastructure/Git/Git - Branching, Releases & Recovery.md | ✅ 2026-10-18
 - [x] T149 | overview | Valkey | 05 - Databases/Valkey/Valkey.md | ✅ 2026-10-18
-- [ ] T150 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T150 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-18
 - [ ] T151 | replenish | Next 12 tasks per CLAUDE.md §9 | -

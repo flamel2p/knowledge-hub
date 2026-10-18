@@ -6,8 +6,8 @@ domain: languages
 tags: [domain/languages, type/overview, topic/javascript, lang/javascript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-05
-version_checked: "ECMAScript 2026 (approved 2026-06-30) — 2026-10"
+updated: 2026-10-18
+version_checked: "ECMAScript 2026 (approved 2026-06-30) — 2026-10 (re-checked 2026-10-18: ES2027 due mid-2027)"
 parent: "[[Languages MOC]]"
 related: ["[[TypeScript]]", "[[Node.js]]", "[[React]]", "[[Next.js]]", "[[Browser & Web Fundamentals]]"]
 ---

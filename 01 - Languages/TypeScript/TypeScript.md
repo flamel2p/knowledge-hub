@@ -6,8 +6,8 @@ domain: languages
 tags: [domain/languages, type/overview, topic/typescript, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-05
-version_checked: "7.0 (native, GA 2026-07-08) · 6.0 last JS-based — 2026-10"
+updated: 2026-10-18
+version_checked: "7.0 (native, GA 2026-07-08) · 6.0 last JS-based — 2026-10 (re-checked 2026-10-18: 7.1 with stable API not yet released)"
 parent: "[[Languages MOC]]"
 related: ["[[JavaScript]]", "[[Next.js]]", "[[React]]", "[[Node.js]]", "[[Supabase]]"]
 ---
@@ -181,6 +181,7 @@ my-app/
 | 5.9 | 2025-08 | `import defer`, `--module node20`, leaner `tsc --init` | — |
 | **6.0** | 2026-03-23 | Last JS-based compiler. Bridge release that deprecates everything 7.0 removes | Defaults: `strict: true`, `types: []`, `rootDir` = tsconfig dir. Deprecated: `baseUrl`, `moduleResolution node`/`node10`/`classic`, `target es5`, AMD/UMD/System, `outFile`. Silence with `"ignoreDeprecations": "6.0"`. Codemod: `ts5to6` |
 | **7.0** | 2026-07-08 | Go-native compiler + LSP language server. ~8–12× faster full builds, lower memory | 6.0 deprecations **removed** (no `ignoreDeprecations`). JS programmatic API not drop-in. Tools built on it (typescript-eslint typed rules, ts-morph, custom transformers, LS plugins) need updated versions or must keep 6.x side by side |
+| 7.1 | Planned (not released as of 2026-10-18; ~3–4-month cadence) | Stable programmatic API expected | Unblocks typescript-eslint typed rules and Vue/Svelte/Astro/Angular tooling on the native compiler |
 
 > [!warning] Unverified — check before relying on this
 > The full lists of 6.0 deprecations/default changes and 7.0 API-compat gaps came from secondary sources (the official release notes were unreachable this run). Read the official 6.0 and 7.0 release notes before migrating a client project.
