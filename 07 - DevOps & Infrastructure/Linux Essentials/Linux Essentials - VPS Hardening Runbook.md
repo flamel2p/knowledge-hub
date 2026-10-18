@@ -221,11 +221,7 @@ last -a | head; journalctl -u ssh --since "24 hours ago" | grep -c "Failed"
 
 > [!danger] Locking yourself out
 > A typo in `AllowUsers`, a UFW rule enabled before allowing your SSH path, or a Tailscale outage can lock you out. Always:
-> - keep an existing session open
-> - run `sshd -t`
-> - enable UFW only after adding the allow rule
-> - test console access first
-> - document the break-glass procedure
+> keep an existing session open, run `sshd -t`, enable UFW only after adding the allow rule, test console access first, and document the break-glass procedure.
 
 > [!warning] Gotchas
 > - `PermitRootLogin no` breaks Coolify setups that connect as root. Configure Coolify's non-root user first, or restrict root-by-key to the control-plane IP.
