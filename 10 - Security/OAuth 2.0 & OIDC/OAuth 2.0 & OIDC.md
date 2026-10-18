@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/oauth, topic/oidc, topic/auth]
 status: draft
 created: 2026-10-02
-updated: 2026-10-13
+updated: 2026-10-18
 version_checked: "OAuth 2.1 draft-16 (2026-09) · RFC 9700 BCP · OIDC Core 1.0 — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[JWT]]", "[[Authentication & Authorization]]", "[[Supabase]]", "[[Model Context Protocol]]", "[[OWASP Top 10]]"]
@@ -206,7 +206,7 @@ export async function callback(currentUrl: URL, session: Session) {
 > - Auth0/Okta MAU pricing climbs steeply for B2C. Self-hosted Keycloak/Zitadel/Authentik on [[Coolify]] are viable, but you then own patching and HA.
 
 ## Deep Dives
-- (planned, unscheduled) OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle
+- [[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]] — flow per client type, BFF, refresh rotation + reuse detection, token exchange
 - (planned, unscheduled) OAuth 2.0 & OIDC - Attacks & Hardening
 
 ## Related
