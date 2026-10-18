@@ -54,9 +54,8 @@ flowchart LR
 ## Practical Usage
 
 ### 0. Provider (before first login)
-- Enable **2FA** on the Hostinger account, and remove unused API tokens.
-- Enable the provider firewall: allow 80/443 from anywhere, 22 temporarily from your IP only, and **UDP 41641** for Tailscale direct connections (optional).
-- Choose Ubuntu LTS minimal. Enable weekly snapshots and note the retention.
+- Enable **2FA** on the Hostinger account, remove unused API tokens, choose Ubuntu LTS minimal and enable weekly snapshots.
+- Provider firewall: allow 80/443 from anywhere, 22 temporarily from your IP only, and optionally **UDP 41641** for Tailscale direct connections.
 
 ### 1. Base system
 ```bash
@@ -91,8 +90,7 @@ AllowUsers zp root@100.64.0.0/10 root@<coolify-control-plane-ip>
 EOF
 sshd -t && systemctl reload ssh      # Ubuntu 24.04 uses ssh.socket; port changes need: systemctl daemon-reload && systemctl restart ssh.socket
 ```
-- Test the login from a **new** terminal before closing the old one.
-- Use Ed25519 keys only, ideally FIDO-backed (`ssh-keygen -t ed25519-sk`) for your admin key.
+- Test the login from a **new** terminal before closing the old one. Use Ed25519 keys, ideally FIDO-backed (`ssh-keygen -t ed25519-sk`).
 
 ### 3. Tailscale for admin access
 ```bash
@@ -204,10 +202,7 @@ last -a | head; journalctl -u ssh --since "24 hours ago" | grep -c "Failed"
 > - **Remove `curl | sh` installers**, or download, read and pin them. Prefer apt repos with signed keys.
 > - **Review weekly** (10 min): `apt list --upgradable`, failed logins, disk (`df -h`, `docker system df`), backup success, cert expiry.
 > - **Offboarding**: rotate SSH keys and Coolify/API tokens when a freelancer or client developer leaves. Remove their keys from `authorized_keys` on every host.
-> - **In ZP's stack**:
->   - **Every new Hostinger KVM**: run steps 0–9, then install [[Coolify]] (control plane on its own small VPS).
->   - **Web traffic**: only via Cloudflare → [[Traefik]].
->   - **Backups and alerts**: nightly dumps to R2, with Telegram alerts from Uptime Kuma.
+> - **In ZP's stack**: every new Hostinger KVM gets steps 0–9, then [[Coolify]] (control plane on its own small VPS). Web traffic only via Cloudflare → [[Traefik]]. Nightly dumps to R2, Telegram alerts from Uptime Kuma.
 
 ## Version Notes
 | Item | Note |
