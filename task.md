@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-18 (T142)
+Last run: 2026-10-18 (T143)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -179,7 +179,7 @@ Last run: 2026-10-18 (T142)
 - [x] T140 | deep-dive | Message Queues - BullMQ in Production | 06 - Messaging & Streaming/Message Queues/Message Queues - BullMQ in Production.md | ✅ 2026-10-17
 - [x] T141 | deep-dive | Linux Essentials - VPS Hardening Runbook | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - VPS Hardening Runbook.md | ✅ 2026-10-18
 - [x] T142 | deep-dive | Testing Strategy - Integration Testing with Testcontainers & Supabase | 04 - Backend/Testing Strategy/Testing Strategy - Integration Testing with Testcontainers & Supabase.md | ✅ 2026-10-18
-- [ ] T143 | deep-dive | JWT - Signing Algorithms, Keys & Rotation | 10 - Security/JWT/JWT - Signing Algorithms, Keys & Rotation.md
+- [x] T143 | deep-dive | JWT - Signing Algorithms, Keys & Rotation | 10 - Security/JWT/JWT - Signing Algorithms, Keys & Rotation.md | ✅ 2026-10-18
 - [ ] T144 | deep-dive | OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle.md
 - [ ] T145 | deep-dive | Browser & Web Fundamentals - Core Web Vitals Optimization | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Core Web Vitals Optimization.md
 - [ ] T146 | deep-dive | AI Evals & Observability - Eval Datasets & LLM-as-Judge | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Eval Datasets & LLM-as-Judge.md
