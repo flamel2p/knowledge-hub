@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-18 (T147)
+Last run: 2026-10-18 (T148)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -184,7 +184,7 @@ Last run: 2026-10-18 (T147)
 - [x] T145 | deep-dive | Browser & Web Fundamentals - Core Web Vitals Optimization | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Core Web Vitals Optimization.md | ✅ 2026-10-18
 - [x] T146 | deep-dive | AI Evals & Observability - Eval Datasets & LLM-as-Judge | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Eval Datasets & LLM-as-Judge.md | ✅ 2026-10-18
 - [x] T147 | deep-dive | OWASP Top 10 - LLM & Agent Security | 10 - Security/OWASP Top 10/OWASP Top 10 - LLM & Agent Security.md | ✅ 2026-10-18
-- [ ] T148 | deep-dive | Git - Branching, Releases & Recovery | 07 - DevOps & Infrastructure/Git/Git - Branching, Releases & Recovery.md
+- [x] T148 | deep-dive | Git - Branching, Releases & Recovery | 07 - DevOps & Infrastructure/Git/Git - Branching, Releases & Recovery.md | ✅ 2026-10-18
 - [ ] T149 | overview | Valkey | 05 - Databases/Valkey/Valkey.md
 - [ ] T150 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T151 | replenish | Next 12 tasks per CLAUDE.md §9 | -
