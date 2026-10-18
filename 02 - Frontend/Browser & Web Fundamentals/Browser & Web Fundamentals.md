@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/browser, topic/web-performance, topic/web-security]
 status: draft
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-18
 version_checked: "Interop 2026 · LCP/INP Baseline (2025-12) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[JavaScript - Event Loop & Async]]", "[[Next.js]]", "[[Tailwind CSS]]", "[[OWASP Top 10]]", "[[WebGL]]"]
@@ -169,7 +169,7 @@ import { onLCP, onINP, onCLS } from 'web-vitals';
 > - Fonts: missing `font-display: swap` causes invisible text (FOIT). Mismatched fallback metrics cause CLS.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: Core Web Vitals optimization playbook, web security headers & CSP.
+- [[Browser & Web Fundamentals - Core Web Vitals Optimization]]
 
 ## Related
 - [[HTTP & HTTPS]] — transport, caching, TLS
