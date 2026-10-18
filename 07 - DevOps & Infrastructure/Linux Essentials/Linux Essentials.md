@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/linux, topic/sysadmin]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-18
 version_checked: "Ubuntu 24.04/26.04 LTS · Debian 13 · kernel 6.12/6.18 LTS — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Network Security]]", "[[Coolify]]", "[[Git]]", "[[Nginx]]", "[[Kubernetes]]"]
@@ -182,7 +182,7 @@ N/A — an OS skill set, not a codebase. A recommended VPS baseline layout:
 > - `rm -rf $DIR/` with an empty variable becomes `rm -rf /`. Use `set -euo pipefail` and `${DIR:?}` in scripts.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: VPS hardening runbook, performance triage (CPU/memory/disk/network).
+- [[Linux Essentials - VPS Hardening Runbook]]
 
 ## Related
 - [[Docker]] — namespaces, cgroups, overlayfs in practice
