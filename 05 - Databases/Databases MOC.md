@@ -27,6 +27,7 @@ parent: "[[00 - Home]]"
   - [[PostgreSQL - Transactions & MVCC]]
   - [[PostgreSQL - Query Planning & EXPLAIN]]
 - [[MySQL]] — InnoDB OLTP workhorse; 8.4 & 9.7 LTS, 8.0 EOL 2026-04, Oracle stewardship risk, Vitess sharding
+  - [[MySQL - InnoDB Internals & Tuning]]
 - [[NoSQL]] — key-value/document/wide-column/graph families, CAP/PACELC, query-first modeling, MongoBleed, relicensing
   - [[NoSQL - Interview Questions]] — interview prep reference (SQL vs NoSQL)
 - [[Vector Databases]] — embeddings + ANN (HNSW/IVF/DiskANN), quantization, hybrid RRF, pgvector vs Qdrant/Milvus/Pinecone, tenant leakage
