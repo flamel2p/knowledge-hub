@@ -6,8 +6,8 @@ domain: automation
 tags: [domain/automation, type/overview, topic/n8n]
 status: draft
 created: 2026-10-03
-updated: 2026-10-05
-version_checked: "2.41.6 stable · 2.42 beta — 2026-10"
+updated: 2026-10-19
+version_checked: "2.42.x stable · 2.43 beta — 2026-10 (re-checked 2026-10-19, secondary source)"
 parent: "[[Automation MOC]]"
 related: ["[[Redis]]", "[[PostgreSQL]]", "[[Docker]]", "[[Coolify]]", "[[Windmill]]", "[[AI Agents]]"]
 ---
@@ -153,7 +153,8 @@ N8N_PROXY_HOPS=1                       # behind Traefik/Cloudflare
 | 1.x (2024–25) | — | AI Agent/LangChain nodes, task runners, MCP nodes, Forms, Projects/RBAC | — |
 | **2.0** | 2025-12 | Security-first defaults, Save vs **Publish** separation, faster saves | Task runners on by default. `$env` blocked in Code/expressions (`N8N_BLOCK_ENV_ACCESS_IN_NODE`). ExecuteCommand + LocalFileTrigger disabled. In-memory binary mode removed. **MySQL/MariaDB unsupported**. `--tunnel` removed. Run the migration report (Settings → Migration) first |
 | 2.40 | 2026-09 | "Build once, use anywhere" agents | — |
-| **2.41.6 / 2.42** | 2026-09 | Current stable / beta | Weekly minors. Read release notes for node changes |
+| 2.41.6 / 2.42 | 2026-09 | Stable / beta at time of writing | Weekly minors. Read release notes for node changes |
+| **2.42.x / 2.43** | 2026-10 | Current stable (2.42.7) / beta (2.43.x) per secondary source 2026-10-12 | Confirm on GitHub releases before upgrading |
 
 > [!warning] Unverified — check before relying on this
 > The exact 2.0 GA date and per-minor details weren't verified this run. Check https://docs.n8n.io/release-notes/.

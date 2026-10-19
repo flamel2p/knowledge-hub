@@ -6,8 +6,8 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/react, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-05
-version_checked: "19.3 — 2026-10"
+updated: 2026-10-19
+version_checked: "19.3 — 2026-10 (re-checked 2026-10-19: no React 20; public sources show 19.2.8 Jul + 19.3 canaries, 19.3 stable per 2026-10-05 check)"
 parent: "[[Frontend MOC]]"
 related: ["[[Next.js]]", "[[JavaScript]]", "[[TypeScript]]", "[[React Native]]", "[[Tailwind CSS]]"]
 ---
