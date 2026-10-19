@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/astro, lang/typescript]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-19
 version_checked: "5.x stable · 6 (beta Jan 2026, Cloudflare-owned) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[Next.js]]", "[[React]]", "[[Cloudflare]]", "[[Tailwind CSS]]", "[[TypeScript]]", "[[Browser & Web Fundamentals]]"]
@@ -186,7 +186,7 @@ npx astro check && npx astro build
 > - Large content sites: build time grows with pages and image processing. Cache `node_modules/.astro` and images in CI.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: islands & server islands patterns, Content Layer with a headless CMS.
+- [[Astro - Islands & Content Layer]]
 
 ## Related
 - [[Next.js]] — app framework peer, when to choose which

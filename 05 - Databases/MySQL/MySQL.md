@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/mysql, topic/sql]
 status: draft
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-19
 version_checked: "9.7 LTS (2026-04) · 8.4 LTS — 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[PostgreSQL]]", "[[PostgreSQL - Transactions & MVCC]]", "[[Redis]]", "[[NoSQL]]", "[[Docker]]"]
@@ -175,7 +175,9 @@ mysqlsh -- util dump-instance /backups/full --threads=8                         
 > - `TIMESTAMP` columns overflow in 2038 (`DATETIME` doesn't). Use `DATETIME(3)` with UTC handling in the app.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: InnoDB internals & tuning, replication & InnoDB Cluster.
+- [[MySQL - InnoDB Internals & Tuning]]
+
+Candidates: replication & InnoDB Cluster.
 
 ## Related
 - [[PostgreSQL]] — preferred relational DB in ZP's stack; feature comparison

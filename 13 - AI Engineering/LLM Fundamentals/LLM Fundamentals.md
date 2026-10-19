@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/llm]
 status: draft
 created: 2026-10-03
-updated: 2026-10-05
-version_checked: "model landscape snapshot — 2026-10"
+updated: 2026-10-19
+version_checked: "model landscape snapshot — 2026-10 (Claude lineup re-checked 2026-10-19 against cached model table 2026-10-06)"
 parent: "[[AI Engineering MOC]]"
 related: ["[[Prompt Engineering]]", "[[RAG]]", "[[AI Agents]]", "[[LLM APIs & SDKs]]", "[[Fine-tuning LLMs]]"]
 ---
@@ -119,7 +119,7 @@ Model landscape snapshot (Oct 2026). Prices are USD per 1M input/output tokens:
 
 | Option | Strength | Weakness | Pick it when… |
 |---|---|---|---|
-| Claude (Fable 5.1 $10/$50 · Opus 5.5 $4/$20 · Sonnet 5.5 $2/$10 · Haiku 4.5 $1/$5) | Coding, agents, long-context reliability, 1M context (Haiku 200k), 128k output | Premium top tier. Some newer API constraints (no prefill, no forced tool choice on latest) | Agentic/coding workloads, careful document work |
+| Claude (Fable 5.1 $10/$50 · Opus 5.5 $4/$20 · Sonnet 5.5 $2/$10 · Haiku 5.5 $0.10/$0.50 ≤100K prompt) | Coding, agents, long-context reliability, 1M context, 128k output | Premium top tier. Some newer API constraints (no prefill, no forced tool choice on latest) | Agentic/coding workloads, careful document work |
 | OpenAI GPT-6 family (Astra / Sol / Luna) | Broad ecosystem, very cheap small tier | Frequent model/API changes | Cost-sensitive high-volume routes, OpenAI-native tooling |
 | Google Gemini 3.x / 4 | Multimodal (video/audio), huge context, Google Cloud integration | Behaviour/version churn | Media-heavy inputs, GCP shops |
 | Open-weight (Qwen, DeepSeek V4, Llama, gpt-oss, Mistral) | Self-host, data control, no per-token fees, fine-tunable | GPU ops cost, lower top-end quality, license nuances | Data must stay on-prem, steady high volume |

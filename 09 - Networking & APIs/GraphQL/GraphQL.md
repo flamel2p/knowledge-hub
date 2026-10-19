@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/graphql, topic/api]
 status: draft
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-19
 version_checked: "Spec September 2025 edition · GraphQL.js 17 — 2026-10"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[REST API]]", "[[gRPC]]", "[[HTTP & HTTPS]]", "[[Supabase]]", "[[WebSocket]]", "[[OWASP Top 10]]"]
@@ -188,7 +188,9 @@ select graphql.resolve($$ { ordersCollection(first: 10) { edges { node { id stat
 > - Schema changes: removing or renaming fields breaks old mobile app versions. Deprecate first and track field usage.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: GraphQL security hardening, federation architecture.
+- [[GraphQL - Security Hardening]]
+
+Candidates: federation architecture.
 
 ## Related
 - [[REST API]] — default API style, comparison
