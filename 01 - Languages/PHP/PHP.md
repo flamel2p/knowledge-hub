@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/php, lang/php]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-19
 version_checked: "8.5 (2025-11-20) · 8.4/8.3 supported — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[MySQL]]", "[[Nginx]]", "[[JavaScript]]", "[[Node.js]]", "[[Docker]]", "[[OWASP Top 10]]"]
@@ -180,7 +180,7 @@ composer audit                                     # known-vulnerable dependenci
 > - Timezone: set `date.timezone = Asia/Kuala_Lumpur` (or store UTC) explicitly.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: WordPress hardening & maintenance SOP, Laravel architecture.
+- [[PHP - WordPress Hardening & Maintenance SOP]]
 
 ## Related
 - [[MySQL]] — classic PHP datastore
