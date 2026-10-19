@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-19 (T156)
+Last run: 2026-10-19 (T157)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -196,7 +196,7 @@ Last run: 2026-10-19 (T156)
 - [x] T154 | deep-dive | PHP - WordPress Hardening & Maintenance SOP | 01 - Languages/PHP/PHP - WordPress Hardening & Maintenance SOP.md | ✅ 2026-10-19
 - [x] T155 | deep-dive | JWT - Refresh Tokens, Revocation & Storage | 10 - Security/JWT/JWT - Refresh Tokens, Revocation & Storage.md | ✅ 2026-10-19
 - [x] T156 | deep-dive | Tailwind CSS - Theming & Component Architecture | 02 - Frontend/Tailwind CSS/Tailwind CSS - Theming & Component Architecture.md | ✅ 2026-10-19
-- [ ] T157 | deep-dive | Windmill - Windmill vs n8n Architecture Decision | 08 - Automation/Windmill/Windmill - Windmill vs n8n Architecture Decision.md
+- [x] T157 | deep-dive | Windmill - Windmill vs n8n Architecture Decision | 08 - Automation/Windmill/Windmill - Windmill vs n8n Architecture Decision.md | ✅ 2026-10-19
 - [ ] T158 | deep-dive | Design Patterns - State Machines for Business Workflows | 11 - CS Fundamentals/Design Patterns/Design Patterns - State Machines for Business Workflows.md
 - [ ] T159 | deep-dive | Astro - Islands & Content Layer | 02 - Frontend/Astro/Astro - Islands & Content Layer.md
 - [ ] T160 | deep-dive | GraphQL - Security Hardening | 09 - Networking & APIs/GraphQL/GraphQL - Security Hardening.md

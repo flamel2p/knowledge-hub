@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/overview, topic/windmill, topic/workflow-engine]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-19
 version_checked: "v1.79x (2026-08) — 2026-10"
 parent: "[[Automation MOC]]"
 related: ["[[n8n]]", "[[PostgreSQL]]", "[[Python]]", "[[TypeScript]]", "[[Docker]]", "[[Kafka]]"]
@@ -169,7 +169,9 @@ services:
 > - Fast-moving UI: tutorials and screenshots from older versions may not match.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: Windmill vs n8n architecture decision, worker groups & sandboxing.
+- [[Windmill - Windmill vs n8n Architecture Decision]]
+
+Candidates: worker groups & sandboxing.
 
 ## Related
 - [[n8n]] — visual workflow peer, ZP's primary automation tool
