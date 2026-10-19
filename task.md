@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-19 (T160)
+Last run: 2026-10-19 (T161)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -200,6 +200,6 @@ Last run: 2026-10-19 (T160)
 - [x] T158 | deep-dive | Design Patterns - State Machines for Business Workflows | 11 - CS Fundamentals/Design Patterns/Design Patterns - State Machines for Business Workflows.md | ✅ 2026-10-19
 - [x] T159 | deep-dive | Astro - Islands & Content Layer | 02 - Frontend/Astro/Astro - Islands & Content Layer.md | ✅ 2026-10-19
 - [x] T160 | deep-dive | GraphQL - Security Hardening | 09 - Networking & APIs/GraphQL/GraphQL - Security Hardening.md | ✅ 2026-10-19
-- [ ] T161 | deep-dive | Ethereum & EVM - Gas Optimization & EVM Internals | 12 - Web3/Ethereum & EVM/Ethereum & EVM - Gas Optimization & EVM Internals.md
+- [x] T161 | deep-dive | Ethereum & EVM - Gas Optimization & EVM Internals | 12 - Web3/Ethereum & EVM/Ethereum & EVM - Gas Optimization & EVM Internals.md | ✅ 2026-10-19
 - [ ] T162 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T163 | replenish | Next 12 tasks per CLAUDE.md §9 | -

@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/overview, topic/ethereum, topic/evm]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-19
 version_checked: "Fusaka (2025-12) live · Glamsterdam targeting Q4 2026 — 2026-10"
 parent: "[[Web3 MOC]]"
 related: ["[[Blockchain Fundamentals]]", "[[Solidity]]", "[[Web3 Wallets]]", "[[TypeScript]]", "[[PostgreSQL]]"]
@@ -186,7 +186,9 @@ const receipt = await pub.waitForTransactionReceipt({ hash, confirmations: 2 });
 > - Archive data (historical state) needs archive nodes or paid RPC tiers. Plan indexing before launch.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: gas optimization & EVM internals, L2 rollups & bridging.
+- [[Ethereum & EVM - Gas Optimization & EVM Internals]]
+
+Candidates: L2 rollups & bridging.
 
 ## Related
 - [[Blockchain Fundamentals]] — consensus, finality, ledger models
