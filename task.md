@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-19 (T162)
+Last run: 2026-10-19 (T163)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -202,4 +202,19 @@ Last run: 2026-10-19 (T162)
 - [x] T160 | deep-dive | GraphQL - Security Hardening | 09 - Networking & APIs/GraphQL/GraphQL - Security Hardening.md | ✅ 2026-10-19
 - [x] T161 | deep-dive | Ethereum & EVM - Gas Optimization & EVM Internals | 12 - Web3/Ethereum & EVM/Ethereum & EVM - Gas Optimization & EVM Internals.md | ✅ 2026-10-19
 - [x] T162 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-19
-- [ ] T163 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T163 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-10-19
+
+### Wave 9 — Client-hosting ops, AI depth & remaining breadth
+
+- [ ] T164 | deep-dive | MySQL - InnoDB Internals & Tuning | 05 - Databases/MySQL/MySQL - InnoDB Internals & Tuning.md
+- [ ] T165 | deep-dive | Nginx - Caching & Performance Tuning | 07 - DevOps & Infrastructure/Nginx/Nginx - Caching & Performance Tuning.md
+- [ ] T166 | deep-dive | Fine-tuning LLMs - LoRA & QLoRA with Unsloth | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs - LoRA & QLoRA with Unsloth.md
+- [ ] T167 | deep-dive | OAuth 2.0 & OIDC - Attacks & Hardening | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Attacks & Hardening.md
+- [ ] T168 | deep-dive | Data Structures - Probabilistic Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures - Probabilistic Data Structures.md
+- [ ] T169 | deep-dive | NoSQL - MongoDB Data Modeling | 05 - Databases/NoSQL/NoSQL - MongoDB Data Modeling.md
+- [ ] T170 | deep-dive | gRPC - Protobuf Schema Evolution | 09 - Networking & APIs/gRPC/gRPC - Protobuf Schema Evolution.md
+- [ ] T171 | deep-dive | Spring Boot - Spring Security Resource Server | 04 - Backend/Spring Boot/Spring Boot - Spring Security Resource Server.md
+- [ ] T172 | deep-dive | Blockchain Fundamentals - L2 Rollups & Bridges | 12 - Web3/Blockchain Fundamentals/Blockchain Fundamentals - L2 Rollups & Bridges.md
+- [ ] T173 | deep-dive | Kotlin - Coroutines & Flow | 01 - Languages/Kotlin/Kotlin - Coroutines & Flow.md
+- [ ] T174 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T175 | replenish | Next 12 tasks per CLAUDE.md §9 | -
