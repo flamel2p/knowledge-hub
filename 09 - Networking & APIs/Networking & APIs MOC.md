@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-16
+updated: 2026-10-19
 parent: "[[00 - Home]]"
 ---
 
@@ -23,6 +23,7 @@ parent: "[[00 - Home]]"
 - [[WebSocket]] — RFC 6455, auth on upgrade, heartbeats, Redis fan-out, CSWSH
   - [[WebSocket - Scaling & Reliability]]
 - [[GraphQL]] — typed client-driven queries; Sept 2025 spec (OneOf), DataLoader, federation, cost-limit/IDOR risks
+  - [[GraphQL - Security Hardening]]
 - [[gRPC]] — protobuf + HTTP/2 RPC for service-to-service; streaming, deadlines, Buf/Connect, HTTP/2 DoS risks
 
 ## Planned
