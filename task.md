@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-19 (T164)
+Last run: 2026-10-19 (T165)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -207,7 +207,7 @@ Last run: 2026-10-19 (T164)
 ### Wave 9 — Client-hosting ops, AI depth & remaining breadth
 
 - [x] T164 | deep-dive | MySQL - InnoDB Internals & Tuning | 05 - Databases/MySQL/MySQL - InnoDB Internals & Tuning.md | ✅ 2026-10-19
-- [ ] T165 | deep-dive | Nginx - Caching & Performance Tuning | 07 - DevOps & Infrastructure/Nginx/Nginx - Caching & Performance Tuning.md
+- [x] T165 | deep-dive | Nginx - Caching & Performance Tuning | 07 - DevOps & Infrastructure/Nginx/Nginx - Caching & Performance Tuning.md | ✅ 2026-10-19
 - [ ] T166 | deep-dive | Fine-tuning LLMs - LoRA & QLoRA with Unsloth | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs - LoRA & QLoRA with Unsloth.md
 - [ ] T167 | deep-dive | OAuth 2.0 & OIDC - Attacks & Hardening | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Attacks & Hardening.md
 - [ ] T168 | deep-dive | Data Structures - Probabilistic Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures - Probabilistic Data Structures.md

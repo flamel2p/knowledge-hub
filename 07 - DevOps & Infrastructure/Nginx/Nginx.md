@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/nginx, topic/reverse-proxy, topic/web-server]
 status: draft
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-19
 version_checked: "stable 1.30.x · mainline 1.31.x (2026-08) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Traefik]]", "[[Cloudflare]]", "[[PHP]]", "[[Kubernetes]]", "[[Network Security]]", "[[HTTP & HTTPS]]"]
@@ -192,7 +192,9 @@ tail -f /var/log/nginx/error.log
 > - Resolving upstream hostnames happens once at startup. Container IP changes need `resolver 127.0.0.11 valid=10s;` + variables in `proxy_pass` (Docker DNS).
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: Nginx caching & performance tuning, Nginx security hardening.
+- [[Nginx - Caching & Performance Tuning]]
+
+Candidates: Nginx security hardening.
 
 ## Related
 - [[Traefik]] — dynamic proxy in Coolify, main peer
