@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/overview, topic/design-patterns, topic/architecture]
 status: draft
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-19
 version_checked: "n/a (concept) — language features replacing patterns noted 2026-10"
 parent: "[[CS Fundamentals MOC]]"
 related: ["[[System Design]]", "[[TypeScript]]", "[[Dart]]", "[[Flutter - State Management]]", "[[Spring Boot]]", "[[Algorithms]]"]
@@ -181,8 +181,9 @@ N/A — patterns don't version. Language features that replaced classic patterns
 
 ## Deep Dives
 - [[Design Patterns - Interview Questions]] — OOP and patterns-in-projects interview answers (reference)
+- [[Design Patterns - State Machines for Business Workflows]]
 
-Candidates: hexagonal architecture in TS/Dart, state machines for business workflows.
+Candidates: hexagonal architecture in TS/Dart.
 
 ## Related
 - [[System Design]] — architecture-level patterns (outbox, saga, CQRS)

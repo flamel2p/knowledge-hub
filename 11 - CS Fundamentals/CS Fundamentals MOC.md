@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
   - [[System Design - Multi-Tenant SaaS Architecture]]
 - [[Design Patterns]] — GoF essentials in modern TS/Dart, adapters for third-party APIs, state machines, hexagonal architecture
   - [[Design Patterns - Interview Questions]] — interview prep reference (OOP, patterns in real projects)
+  - [[Design Patterns - State Machines for Business Workflows]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
