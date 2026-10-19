@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/jwt, topic/auth]
 status: draft
 created: 2026-10-02
-updated: 2026-10-18
+updated: 2026-10-19
 version_checked: "RFC 7519 + RFC 8725 BCP (8725bis draft-07 in RFC Editor Queue) — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[OAuth 2.0 & OIDC]]", "[[Authentication & Authorization]]", "[[Supabase]]", "[[OWASP Top 10]]", "[[HTTP & HTTPS]]"]
@@ -225,7 +225,7 @@ claims = jwt.decode(token, key, algorithms=["ES256"], audience=AUD, issuer=ISS, 
 
 ## Deep Dives
 - [[JWT - Signing Algorithms, Keys & Rotation]] — ES256 vs RS256/HS256, JWKS, rotation runbook, Supabase signing keys
-- (planned, unscheduled) JWT - Refresh Tokens, Revocation & Storage
+- [[JWT - Refresh Tokens, Revocation & Storage]] — cookie vs localStorage vs secure storage, denylist/token-version revocation, Supabase sessions
 
 ## Related
 - [[OAuth 2.0 & OIDC]] — JWT is the token format, OAuth/OIDC is the protocol

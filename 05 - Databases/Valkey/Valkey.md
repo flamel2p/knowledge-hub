@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/valkey, topic/cache, topic/in-memory]
 status: draft
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-19
 version_checked: "9.1.1 (2026-07) · 9.0 (2025-10) — 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[Redis]]", "[[Redis - Persistence & High Availability]]", "[[Message Queues - BullMQ in Production]]", "[[n8n - Queue Mode & Scaling]]", "[[Docker]]", "[[Vector Databases]]"]
@@ -183,7 +183,7 @@ io-threads 2
 > - Cluster mode needs hash tags (`{tenant42}:...`) for multi-key operations and BullMQ prefixes, same as Redis.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: Redis → Valkey migration runbook, Valkey modules (search/JSON/bloom) in practice.
+- [[Valkey - Redis to Valkey Migration Runbook]]
 
 ## Related
 - [[Redis]] — upstream lineage, data structures, licensing
