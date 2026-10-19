@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/tailwind, topic/css]
 status: draft
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-19
 version_checked: "v4.3.1 (2026-06-12) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[Next.js]]", "[[React]]", "[[Astro]]", "[[Browser & Web Fundamentals]]", "[[TypeScript]]"]
@@ -180,7 +180,9 @@ npx shadcn@latest init && npx shadcn@latest add button dialog form
 > - Very long class lists hurt readability. Extract components, or use variants libraries (`cva`, `tailwind-variants`).
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: design tokens & theming with `@theme`, shadcn/ui component architecture.
+- [[Tailwind CSS - Theming & Component Architecture]]
+
+Candidates: Tailwind + Flutter design-token pipeline.
 
 ## Related
 - [[Next.js]] · [[React]] — primary usage with shadcn/ui
