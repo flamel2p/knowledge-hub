@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-19
+updated: 2026-10-20
 parent: "[[00 - Home]]"
 ---
 
@@ -21,6 +21,7 @@ parent: "[[00 - Home]]"
   - [[JWT - Refresh Tokens, Revocation & Storage]]
 - [[OAuth 2.0 & OIDC]] — delegated authz + identity layer, PKCE, OAuth 2.1, token-theft incidents
   - [[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]]
+  - [[OAuth 2.0 & OIDC - Attacks & Hardening]]
 - [[Network Security]] — firewalls, segmentation, zero trust, TLS (200-day certs), DDoS; Docker-bypasses-UFW, xz, regreSSHion
   - [[Network Security - Common Web Attacks]]
 - [[Authentication & Authorization]] — passkeys/MFA, sessions vs tokens, RBAC/ABAC/ReBAC, RLS, NIST 800-63-4; session theft + IDOR risks
