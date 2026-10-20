@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-20 (T169)
+Last run: 2026-10-20 (T170)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -212,7 +212,7 @@ Last run: 2026-10-20 (T169)
 - [x] T167 | deep-dive | OAuth 2.0 & OIDC - Attacks & Hardening | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Attacks & Hardening.md | ✅ 2026-10-20
 - [x] T168 | deep-dive | Data Structures - Probabilistic Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures - Probabilistic Data Structures.md | ✅ 2026-10-20
 - [x] T169 | deep-dive | NoSQL - MongoDB Data Modeling | 05 - Databases/NoSQL/NoSQL - MongoDB Data Modeling.md | ✅ 2026-10-20
-- [ ] T170 | deep-dive | gRPC - Protobuf Schema Evolution | 09 - Networking & APIs/gRPC/gRPC - Protobuf Schema Evolution.md
+- [x] T170 | deep-dive | gRPC - Protobuf Schema Evolution | 09 - Networking & APIs/gRPC/gRPC - Protobuf Schema Evolution.md | ✅ 2026-10-20
 - [ ] T171 | deep-dive | Spring Boot - Spring Security Resource Server | 04 - Backend/Spring Boot/Spring Boot - Spring Security Resource Server.md
 - [ ] T172 | deep-dive | Blockchain Fundamentals - L2 Rollups & Bridges | 12 - Web3/Blockchain Fundamentals/Blockchain Fundamentals - L2 Rollups & Bridges.md
 - [ ] T173 | deep-dive | Kotlin - Coroutines & Flow | 01 - Languages/Kotlin/Kotlin - Coroutines & Flow.md
