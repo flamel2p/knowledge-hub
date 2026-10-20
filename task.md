@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-20 (T167)
+Last run: 2026-10-20 (T168)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -210,7 +210,7 @@ Last run: 2026-10-20 (T167)
 - [x] T165 | deep-dive | Nginx - Caching & Performance Tuning | 07 - DevOps & Infrastructure/Nginx/Nginx - Caching & Performance Tuning.md | ✅ 2026-10-19
 - [x] T166 | deep-dive | Fine-tuning LLMs - LoRA & QLoRA with Unsloth | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs - LoRA & QLoRA with Unsloth.md | ✅ 2026-10-20
 - [x] T167 | deep-dive | OAuth 2.0 & OIDC - Attacks & Hardening | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Attacks & Hardening.md | ✅ 2026-10-20
-- [ ] T168 | deep-dive | Data Structures - Probabilistic Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures - Probabilistic Data Structures.md
+- [x] T168 | deep-dive | Data Structures - Probabilistic Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures - Probabilistic Data Structures.md | ✅ 2026-10-20
 - [ ] T169 | deep-dive | NoSQL - MongoDB Data Modeling | 05 - Databases/NoSQL/NoSQL - MongoDB Data Modeling.md
 - [ ] T170 | deep-dive | gRPC - Protobuf Schema Evolution | 09 - Networking & APIs/gRPC/gRPC - Protobuf Schema Evolution.md
 - [ ] T171 | deep-dive | Spring Boot - Spring Security Resource Server | 04 - Backend/Spring Boot/Spring Boot - Spring Security Resource Server.md

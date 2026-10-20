@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/overview, topic/data-structures]
 status: draft
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-20
 version_checked: "n/a (concept) — runtime implementation notes checked 2026-10"
 parent: "[[CS Fundamentals MOC]]"
 related: ["[[Big O Notation]]", "[[Algorithms]]", "[[Redis - Data Structures & Patterns]]", "[[PostgreSQL - Indexing]]", "[[System Design]]"]
@@ -178,7 +178,9 @@ N/A for the concepts themselves. Notable runtime implementation changes that aff
 > - "O(1)" hash operations still cost hashing + cache misses. Small arrays (< ~16 items) are often faster than maps.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: hash tables & B-trees internals, probabilistic data structures.
+- [[Data Structures - Probabilistic Data Structures]]
+
+Candidates: hash tables & B-trees internals.
 
 ## Related
 - [[Big O Notation]] — cost model for every operation
