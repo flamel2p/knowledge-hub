@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/webgl, topic/graphics]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-21
 version_checked: "WebGL 2.0 (stable) · WebGPU in all major browsers — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[React]]", "[[Next.js]]", "[[Browser & Web Fundamentals]]", "[[JavaScript]]", "[[Astro]]"]
@@ -189,7 +189,9 @@ const Viewer = dynamic(() => import('@/components/three/Viewer'), { ssr: false, 
 > - Next.js/SSR: three.js touches `window`, so import client-side only (`dynamic(..., { ssr: false })` or `'use client'` + lazy).
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: three.js/R3F performance, WebGPU & TSL migration.
+- [[WebGL - three.js & React Three Fiber Performance]]
+
+Candidates: WebGPU & TSL migration.
 
 ## Related
 - [[React]] — React Three Fiber
