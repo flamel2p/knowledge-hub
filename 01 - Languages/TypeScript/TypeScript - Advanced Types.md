@@ -6,8 +6,8 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/typescript, lang/typescript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "TypeScript 7.0 — 2026-10"
+updated: 2026-10-20
+version_checked: "TypeScript 7.0 — 2026-10 (re-checked 2026-10-20: 7.1 not yet released)"
 parent: "[[TypeScript]]"
 related: ["[[JavaScript]]", "[[React]]", "[[Next.js]]", "[[Supabase]]"]
 ---

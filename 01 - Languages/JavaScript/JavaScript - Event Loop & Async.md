@@ -6,8 +6,8 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/javascript, topic/async, lang/javascript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "Node 24 LTS · ES2026 — 2026-10"
+updated: 2026-10-20
+version_checked: "Node 24 (Maintenance LTS from 2026-10-20) · Node 26 Active LTS from 2026-10-28 · ES2026 — re-checked 2026-10-20"
 parent: "[[JavaScript]]"
 related: ["[[Node.js]]", "[[React]]", "[[Browser & Web Fundamentals]]", "[[TypeScript]]"]
 ---
