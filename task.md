@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-21 (T179)
+Last run: 2026-10-21 (T180)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -225,7 +225,7 @@ Last run: 2026-10-21 (T179)
 - [x] T177 | deep-dive | Swift - Concurrency, Actors & Sendable | 01 - Languages/Swift/Swift - Concurrency, Actors & Sendable.md | ✅ 2026-10-21
 - [x] T178 | deep-dive | WebGL - three.js & React Three Fiber Performance | 02 - Frontend/WebGL/WebGL - three.js & React Three Fiber Performance.md | ✅ 2026-10-21
 - [x] T179 | deep-dive | Algorithms - Graph Algorithms in Practice | 11 - CS Fundamentals/Algorithms/Algorithms - Graph Algorithms in Practice.md | ✅ 2026-10-21
-- [ ] T180 | deep-dive | System Design - Reliability Patterns | 11 - CS Fundamentals/System Design/System Design - Reliability Patterns.md
+- [x] T180 | deep-dive | System Design - Reliability Patterns | 11 - CS Fundamentals/System Design/System Design - Reliability Patterns.md | ✅ 2026-10-21
 - [ ] T181 | deep-dive | Authentication & Authorization - Multi-Tenant Authorization with RLS | 10 - Security/Authentication & Authorization/Authentication & Authorization - Multi-Tenant Authorization with RLS.md
 - [ ] T182 | deep-dive | Nginx - Security Hardening | 07 - DevOps & Infrastructure/Nginx/Nginx - Security Hardening.md
 - [ ] T183 | deep-dive | Design Patterns - Hexagonal Architecture in TypeScript & Dart | 11 - CS Fundamentals/Design Patterns/Design Patterns - Hexagonal Architecture in TypeScript & Dart.md

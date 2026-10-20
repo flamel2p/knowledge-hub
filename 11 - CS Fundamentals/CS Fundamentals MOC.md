@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
 - [[System Design]] — requirements + estimates, building blocks, outbox/sagas/idempotency, multi-tenancy; provider-outage lessons
   - [[System Design - Interview Questions]] — interview prep reference (payment flow, high-traffic ticketing)
   - [[System Design - Multi-Tenant SaaS Architecture]]
+  - [[System Design - Reliability Patterns]]
 - [[Design Patterns]] — GoF essentials in modern TS/Dart, adapters for third-party APIs, state machines, hexagonal architecture
   - [[Design Patterns - Interview Questions]] — interview prep reference (OOP, patterns in real projects)
   - [[Design Patterns - State Machines for Business Workflows]]
