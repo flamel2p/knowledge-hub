@@ -78,9 +78,9 @@ flowchart TD
 ```ts
 type Edge = { to: string; w: number };
 export function dijkstra(g: Map<string, Edge[]>, src: string) {
-  const dist = new Map<string, number>([[src, 0]]);
+  const dist = new Map<string, number>([ [src, 0] ]);
   const prev = new Map<string, string>();
-  const heap: [number, string][] = [[0, src]];                 // [distance, node]
+  const heap: [number, string][] = [ [0, src] ];                 // [distance, node]
   const push = (x: [number, string]) => { heap.push(x); let i = heap.length - 1;
     while (i > 0) { const p = (i - 1) >> 1; if (heap[p][0] <= heap[i][0]) break; [heap[p], heap[i]] = [heap[i], heap[p]]; i = p; } };
   const pop = () => { const top = heap[0], last = heap.pop()!; if (heap.length) { heap[0] = last; let i = 0;
