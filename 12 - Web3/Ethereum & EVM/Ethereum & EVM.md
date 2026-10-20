@@ -188,7 +188,7 @@ const receipt = await pub.waitForTransactionReceipt({ hash, confirmations: 2 });
 ## Deep Dives
 - [[Ethereum & EVM - Gas Optimization & EVM Internals]]
 
-Candidates: L2 rollups & bridging.
+See also: [[Blockchain Fundamentals - L2 Rollups & Bridges]].
 
 ## Related
 - [[Blockchain Fundamentals]] — consensus, finality, ledger models
