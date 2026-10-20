@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/fine-tuning, topic/llm]
 status: draft
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-20
 version_checked: "TRL 0.15+ · Unsloth (GRPO) · open-weight Qwen 3.x/Gemma/Llama/gpt-oss — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[Prompt Engineering]]", "[[RAG]]", "[[AI Evals & Observability]]", "[[Python]]", "[[LLM APIs & SDKs]]"]
@@ -170,7 +170,9 @@ ft-invoice-extractor/
 > - Fine-tuning won't fix hallucinations about facts the model doesn't know. That's a retrieval problem.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: LoRA/QLoRA hands-on with Unsloth, dataset curation for SFT/DPO.
+- [[Fine-tuning LLMs - LoRA & QLoRA with Unsloth]]
+
+Candidates: dataset curation for SFT/DPO.
 
 ## Related
 - [[LLM Fundamentals]] — training stages, tokens, sampling
