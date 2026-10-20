@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-20 (T172)
+Last run: 2026-10-20 (T173)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -215,6 +215,6 @@ Last run: 2026-10-20 (T172)
 - [x] T170 | deep-dive | gRPC - Protobuf Schema Evolution | 09 - Networking & APIs/gRPC/gRPC - Protobuf Schema Evolution.md | ✅ 2026-10-20
 - [x] T171 | deep-dive | Spring Boot - Spring Security Resource Server | 04 - Backend/Spring Boot/Spring Boot - Spring Security Resource Server.md | ✅ 2026-10-20
 - [x] T172 | deep-dive | Blockchain Fundamentals - L2 Rollups & Bridges | 12 - Web3/Blockchain Fundamentals/Blockchain Fundamentals - L2 Rollups & Bridges.md | ✅ 2026-10-20
-- [ ] T173 | deep-dive | Kotlin - Coroutines & Flow | 01 - Languages/Kotlin/Kotlin - Coroutines & Flow.md
+- [x] T173 | deep-dive | Kotlin - Coroutines & Flow | 01 - Languages/Kotlin/Kotlin - Coroutines & Flow.md | ✅ 2026-10-20
 - [ ] T174 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T175 | replenish | Next 12 tasks per CLAUDE.md §9 | -
