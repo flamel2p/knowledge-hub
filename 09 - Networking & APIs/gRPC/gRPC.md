@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/grpc, topic/api]
 status: draft
 created: 2026-10-12
-updated: 2026-10-12
+updated: 2026-10-20
 version_checked: "gRPC 1.7x · protobuf Editions 2023/2024 — 2026-10"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[REST API]]", "[[GraphQL]]", "[[HTTP & HTTPS]]", "[[Go]]", "[[Kubernetes]]", "[[Spring Boot]]"]
@@ -171,7 +171,9 @@ grpcurl -d '{"id":"o_42"}' -H "authorization: Bearer $TOKEN" localhost:50051 rar
 > - Default max receive message size 4 MB → `RESOURCE_EXHAUSTED` on large payloads. Stream large data or use object storage.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: protobuf schema evolution, gRPC load balancing & service mesh.
+- [[gRPC - Protobuf Schema Evolution]]
+
+Candidates: gRPC load balancing & service mesh.
 
 ## Related
 - [[REST API]] · [[GraphQL]] — other API styles

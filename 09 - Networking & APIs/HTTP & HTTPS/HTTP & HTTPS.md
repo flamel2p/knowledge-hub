@@ -6,8 +6,8 @@ domain: networking
 tags: [domain/networking, type/overview, topic/http, topic/tls]
 status: draft
 created: 2026-10-04
-updated: 2026-10-05
-version_checked: "RFC 9110–9114 · TLS 1.3 · CA/B 200-day certs (Mar 2026) — 2026-10"
+updated: 2026-10-20
+version_checked: "RFC 9110–9114 · TLS 1.3 · CA/B 200-day certs (Mar 2026) — 2026-10 (re-checked 2026-10-20: 100-day 2027-03-15, 47-day 2029-03-15 unchanged)"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[REST API]]", "[[WebSocket]]", "[[Traefik]]", "[[Cloudflare]]", "[[OAuth 2.0 & OIDC]]"]
 ---

@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/spring-boot, lang/java, lang/kotlin]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-20
 version_checked: "4.1 (2026-06-10) · Spring Framework 7 — 2026-10"
 parent: "[[Backend MOC]]"
 related: ["[[Java]]", "[[Kotlin]]", "[[PostgreSQL]]", "[[Kafka]]", "[[Node.js]]", "[[Docker]]"]
@@ -188,8 +188,9 @@ curl https://start.spring.io/starter.zip -d type=gradle-project-kotlin -d langua
 
 ## Deep Dives
 - [[Spring Boot - Interview Questions]] — DI and bean scopes interview answers (reference)
+- [[Spring Boot - Spring Security Resource Server]]
 
-Candidates: Spring Security (OAuth2/JWT resource server), JPA/Hibernate performance.
+Candidates: JPA/Hibernate performance.
 
 ## Related
 - [[Java]] · [[Kotlin]] — languages

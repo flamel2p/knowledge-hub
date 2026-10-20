@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/nosql]
 status: draft
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-20
 version_checked: "n/a (category) — MongoDB 8.x, Cassandra 5.0, licensing + CVEs checked 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[PostgreSQL]]", "[[Redis]]", "[[MySQL]]", "[[Vector Databases]]", "[[System Design]]", "[[Kafka]]"]
@@ -187,8 +187,9 @@ docs/data-model.md
 
 ## Deep Dives
 - [[NoSQL - Interview Questions]] — SQL vs NoSQL interview answer (reference)
+- [[NoSQL - MongoDB Data Modeling]]
 
-Candidates: MongoDB data modeling, DynamoDB single-table design.
+Candidates: DynamoDB single-table design.
 
 ## Related
 - [[PostgreSQL]] — relational default, JSONB as a document store

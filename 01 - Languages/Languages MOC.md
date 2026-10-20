@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-19
+updated: 2026-10-20
 parent: "[[00 - Home]]"
 ---
 
@@ -32,6 +32,7 @@ parent: "[[00 - Home]]"
   - [[Rust - Ownership & Borrowing]]
 - [[Java]] — JVM workhorse; 25 LTS, virtual threads, records/sealed/patterns, OpenJDK vs Oracle licensing
 - [[Kotlin]] — null-safe JVM/Android language; K2 (K1 removed in 2.4), coroutines, KMP + Compose Multiplatform iOS stable
+  - [[Kotlin - Coroutines & Flow]]
 - [[Swift]] — Apple-platform language; Swift 6 data-race safety, 6.2 approachable concurrency, SwiftUI, Flutter iOS modules
 - [[PHP]] — WordPress/Laravel language; 8.5 pipe operator + clone-with, 8.1 EOL, plugin-ecosystem security risk
   - [[PHP - WordPress Hardening & Maintenance SOP]]

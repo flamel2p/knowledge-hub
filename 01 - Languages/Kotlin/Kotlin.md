@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/kotlin, lang/kotlin]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-20
 version_checked: "2.4.x (2026-06, K1 removed) — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Java]]", "[[Spring Boot]]", "[[Swift]]", "[[Flutter]]", "[[React Native]]", "[[Dart]]"]
@@ -190,7 +190,9 @@ kotlin {
 > - Kotlin/Native and Swift interop: generics, sealed classes and suspend functions map imperfectly through Objective-C. Use SKIE or Swift export.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: coroutines & Flow, Kotlin Multiplatform architecture.
+- [[Kotlin - Coroutines & Flow]]
+
+Candidates: Kotlin Multiplatform architecture.
 
 ## Related
 - [[Java]] — JVM foundation and interop

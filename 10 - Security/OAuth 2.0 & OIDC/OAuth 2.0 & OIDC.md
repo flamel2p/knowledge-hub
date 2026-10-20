@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/oauth, topic/oidc, topic/auth]
 status: draft
 created: 2026-10-02
-updated: 2026-10-18
+updated: 2026-10-20
 version_checked: "OAuth 2.1 draft-16 (2026-09) · RFC 9700 BCP · OIDC Core 1.0 — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[JWT]]", "[[Authentication & Authorization]]", "[[Supabase]]", "[[Model Context Protocol]]", "[[OWASP Top 10]]"]
@@ -207,7 +207,7 @@ export async function callback(currentUrl: URL, session: Session) {
 
 ## Deep Dives
 - [[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]] — flow per client type, BFF, refresh rotation + reuse detection, token exchange
-- (planned, unscheduled) OAuth 2.0 & OIDC - Attacks & Hardening
+- [[OAuth 2.0 & OIDC - Attacks & Hardening]] — attack catalogue, device-code & consent phishing, tenant hardening
 
 ## Related
 - [[JWT]] — `id_token` format and access-token validation rules

@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-18
+updated: 2026-10-20
 parent: "[[00 - Home]]"
 ---
 
@@ -22,6 +22,7 @@ parent: "[[00 - Home]]"
   - [[Node.js - Performance & Diagnostics]]
 - [[Spring Boot]] — JVM framework; 4.1 on Spring Framework 7, virtual threads, JSpecify, Jakarta EE 11; actuator exposure risk
   - [[Spring Boot - Interview Questions]] — interview prep reference (DI, singleton vs prototype)
+  - [[Spring Boot - Spring Security Resource Server]]
 - [[Testing Strategy]] — testing trophy, real-DB integration tests (Testcontainers/Supabase), authZ matrices, Playwright smoke, flaky-test hygiene
   - [[Testing Strategy - Integration Testing with Testcontainers & Supabase]]
 - [[Backend Interview Questions]] — index of every interview-question note, plus general questions (tech stack, debugging)

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-19 (T165)
+Last run: 2026-10-20 (T175)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -208,13 +208,28 @@ Last run: 2026-10-19 (T165)
 
 - [x] T164 | deep-dive | MySQL - InnoDB Internals & Tuning | 05 - Databases/MySQL/MySQL - InnoDB Internals & Tuning.md | ✅ 2026-10-19
 - [x] T165 | deep-dive | Nginx - Caching & Performance Tuning | 07 - DevOps & Infrastructure/Nginx/Nginx - Caching & Performance Tuning.md | ✅ 2026-10-19
-- [ ] T166 | deep-dive | Fine-tuning LLMs - LoRA & QLoRA with Unsloth | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs - LoRA & QLoRA with Unsloth.md
-- [ ] T167 | deep-dive | OAuth 2.0 & OIDC - Attacks & Hardening | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Attacks & Hardening.md
-- [ ] T168 | deep-dive | Data Structures - Probabilistic Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures - Probabilistic Data Structures.md
-- [ ] T169 | deep-dive | NoSQL - MongoDB Data Modeling | 05 - Databases/NoSQL/NoSQL - MongoDB Data Modeling.md
-- [ ] T170 | deep-dive | gRPC - Protobuf Schema Evolution | 09 - Networking & APIs/gRPC/gRPC - Protobuf Schema Evolution.md
-- [ ] T171 | deep-dive | Spring Boot - Spring Security Resource Server | 04 - Backend/Spring Boot/Spring Boot - Spring Security Resource Server.md
-- [ ] T172 | deep-dive | Blockchain Fundamentals - L2 Rollups & Bridges | 12 - Web3/Blockchain Fundamentals/Blockchain Fundamentals - L2 Rollups & Bridges.md
-- [ ] T173 | deep-dive | Kotlin - Coroutines & Flow | 01 - Languages/Kotlin/Kotlin - Coroutines & Flow.md
-- [ ] T174 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
-- [ ] T175 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T166 | deep-dive | Fine-tuning LLMs - LoRA & QLoRA with Unsloth | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs - LoRA & QLoRA with Unsloth.md | ✅ 2026-10-20
+- [x] T167 | deep-dive | OAuth 2.0 & OIDC - Attacks & Hardening | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Attacks & Hardening.md | ✅ 2026-10-20
+- [x] T168 | deep-dive | Data Structures - Probabilistic Data Structures | 11 - CS Fundamentals/Data Structures/Data Structures - Probabilistic Data Structures.md | ✅ 2026-10-20
+- [x] T169 | deep-dive | NoSQL - MongoDB Data Modeling | 05 - Databases/NoSQL/NoSQL - MongoDB Data Modeling.md | ✅ 2026-10-20
+- [x] T170 | deep-dive | gRPC - Protobuf Schema Evolution | 09 - Networking & APIs/gRPC/gRPC - Protobuf Schema Evolution.md | ✅ 2026-10-20
+- [x] T171 | deep-dive | Spring Boot - Spring Security Resource Server | 04 - Backend/Spring Boot/Spring Boot - Spring Security Resource Server.md | ✅ 2026-10-20
+- [x] T172 | deep-dive | Blockchain Fundamentals - L2 Rollups & Bridges | 12 - Web3/Blockchain Fundamentals/Blockchain Fundamentals - L2 Rollups & Bridges.md | ✅ 2026-10-20
+- [x] T173 | deep-dive | Kotlin - Coroutines & Flow | 01 - Languages/Kotlin/Kotlin - Coroutines & Flow.md | ✅ 2026-10-20
+- [x] T174 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-20
+- [x] T175 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-10-20
+
+### Wave 10 — Remaining overviews + reliability & authorization depth
+
+- [ ] T176 | deep-dive | Java - Virtual Threads & Structured Concurrency | 01 - Languages/Java/Java - Virtual Threads & Structured Concurrency.md
+- [ ] T177 | deep-dive | Swift - Concurrency, Actors & Sendable | 01 - Languages/Swift/Swift - Concurrency, Actors & Sendable.md
+- [ ] T178 | deep-dive | WebGL - three.js & React Three Fiber Performance | 02 - Frontend/WebGL/WebGL - three.js & React Three Fiber Performance.md
+- [ ] T179 | deep-dive | Algorithms - Graph Algorithms in Practice | 11 - CS Fundamentals/Algorithms/Algorithms - Graph Algorithms in Practice.md
+- [ ] T180 | deep-dive | System Design - Reliability Patterns | 11 - CS Fundamentals/System Design/System Design - Reliability Patterns.md
+- [ ] T181 | deep-dive | Authentication & Authorization - Multi-Tenant Authorization with RLS | 10 - Security/Authentication & Authorization/Authentication & Authorization - Multi-Tenant Authorization with RLS.md
+- [ ] T182 | deep-dive | Nginx - Security Hardening | 07 - DevOps & Infrastructure/Nginx/Nginx - Security Hardening.md
+- [ ] T183 | deep-dive | Design Patterns - Hexagonal Architecture in TypeScript & Dart | 11 - CS Fundamentals/Design Patterns/Design Patterns - Hexagonal Architecture in TypeScript & Dart.md
+- [ ] T184 | deep-dive | Fine-tuning LLMs - Dataset Curation for SFT & DPO | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs - Dataset Curation for SFT & DPO.md
+- [ ] T185 | deep-dive | Tailwind CSS - Design Token Pipeline for Web & Flutter | 02 - Frontend/Tailwind CSS/Tailwind CSS - Design Token Pipeline for Web & Flutter.md
+- [ ] T186 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T187 | replenish | Next 12 tasks per CLAUDE.md §9 | -

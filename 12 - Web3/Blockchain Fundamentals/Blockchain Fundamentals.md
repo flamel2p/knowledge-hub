@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/overview, topic/blockchain]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-20
 version_checked: "n/a (concept) — protocol milestones checked 2026-10"
 parent: "[[Web3 MOC]]"
 related: ["[[Ethereum & EVM]]", "[[Web3 Wallets]]", "[[Solidity]]", "[[System Design]]", "[[PostgreSQL]]"]
@@ -175,7 +175,9 @@ N/A — a concept note. Practical setups live in [[Ethereum & EVM]] (nodes, RPC,
 > - Test on testnets (Sepolia, Holesky's successor Hoodi), but mainnet behaviour (MEV, gas spikes) differs.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: consensus & finality, L2 rollups & bridges.
+- [[Blockchain Fundamentals - L2 Rollups & Bridges]]
+
+Candidates: consensus & finality.
 
 ## Related
 - [[Ethereum & EVM]] — the dominant smart-contract platform
