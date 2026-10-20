@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/swift, lang/swift]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-21
 version_checked: "6.2 (Xcode 26, 2025-09) · 6.3 (2026-03) — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Kotlin]]", "[[Flutter]]", "[[Dart]]", "[[Rust]]", "[[React Native]]", "[[Flutter - Platform Channels & FFI]]"]
@@ -203,7 +203,9 @@ let package = Package(
 > - Minimum deployment target choices restrict APIs (`@Observable` needs iOS 17). Check client device demographics first.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: Swift concurrency (actors, Sendable, 6.2 defaults), SwiftUI architecture.
+- [[Swift - Concurrency, Actors & Sendable]]
+
+Candidates: SwiftUI architecture.
 
 ## Related
 - [[Kotlin]] — Android/KMP counterpart

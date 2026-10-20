@@ -35,6 +35,7 @@ parent: "[[00 - Home]]"
 - [[Kotlin]] — null-safe JVM/Android language; K2 (K1 removed in 2.4), coroutines, KMP + Compose Multiplatform iOS stable
   - [[Kotlin - Coroutines & Flow]]
 - [[Swift]] — Apple-platform language; Swift 6 data-race safety, 6.2 approachable concurrency, SwiftUI, Flutter iOS modules
+  - [[Swift - Concurrency, Actors & Sendable]]
 - [[PHP]] — WordPress/Laravel language; 8.5 pipe operator + clone-with, 8.1 EOL, plugin-ecosystem security risk
   - [[PHP - WordPress Hardening & Maintenance SOP]]
 
