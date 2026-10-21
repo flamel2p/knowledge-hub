@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-21 (T184)
+Last run: 2026-10-21 (T185)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -230,6 +230,6 @@ Last run: 2026-10-21 (T184)
 - [x] T182 | deep-dive | Nginx - Security Hardening | 07 - DevOps & Infrastructure/Nginx/Nginx - Security Hardening.md | ✅ 2026-10-21
 - [x] T183 | deep-dive | Design Patterns - Hexagonal Architecture in TypeScript & Dart | 11 - CS Fundamentals/Design Patterns/Design Patterns - Hexagonal Architecture in TypeScript & Dart.md | ✅ 2026-10-21
 - [x] T184 | deep-dive | Fine-tuning LLMs - Dataset Curation for SFT & DPO | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs - Dataset Curation for SFT & DPO.md | ✅ 2026-10-21
-- [ ] T185 | deep-dive | Tailwind CSS - Design Token Pipeline for Web & Flutter | 02 - Frontend/Tailwind CSS/Tailwind CSS - Design Token Pipeline for Web & Flutter.md
+- [x] T185 | deep-dive | Tailwind CSS - Design Token Pipeline for Web & Flutter | 02 - Frontend/Tailwind CSS/Tailwind CSS - Design Token Pipeline for Web & Flutter.md | ✅ 2026-10-21
 - [ ] T186 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T187 | replenish | Next 12 tasks per CLAUDE.md §9 | -
