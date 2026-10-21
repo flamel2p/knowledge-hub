@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/state-management, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-21
 version_checked: "Riverpod 3.4 · flutter_bloc 9.1 — 2026-10"
 parent: "[[Flutter]]"
 related: ["[[Flutter - Rendering & Widget Lifecycle]]", "[[Dart - Async, Streams & Isolates]]", "[[Supabase]]", "[[Flutter - Interview Questions]]"]
@@ -189,6 +189,7 @@ ValueListenableBuilder(valueListenable: _expanded, builder: (_, open, __) => ope
 - [[Flutter - Rendering & Widget Lifecycle]] — what rebuilds cost
 - [[Dart - Async, Streams & Isolates]] — streams under BLoC/StreamProvider
 - [[Supabase]] — data source in ZP's stack
+- [[Design Patterns - Hexagonal Architecture in TypeScript & Dart]] — providers as composition root for ports/adapters
 - [[Flutter - Interview Questions]] — Q7 (framework-managed subscriptions)
 
 ## References

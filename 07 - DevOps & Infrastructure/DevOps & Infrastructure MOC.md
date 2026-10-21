@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-19
+updated: 2026-10-21
 parent: "[[00 - Home]]"
 ---
 
@@ -35,6 +35,7 @@ parent: "[[00 - Home]]"
   - [[CI-CD - GitHub Actions Security Hardening]]
 - [[Nginx]] — event-driven web server/proxy/cache; stable 1.30, 2026 memory-safety CVEs, SPA/PHP-FPM container use
   - [[Nginx - Caching & Performance Tuning]]
+  - [[Nginx - Security Hardening]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._

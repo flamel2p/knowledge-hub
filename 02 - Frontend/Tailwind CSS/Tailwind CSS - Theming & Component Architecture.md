@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/tailwind, topic/design-tokens, topic/design-systems]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 version_checked: "Tailwind v4.3.x · shadcn/ui (Radix or Base UI primitives, 2026) — 2026-10"
 parent: "[[Tailwind CSS]]"
 related: ["[[React]]", "[[Next.js]]", "[[Astro]]", "[[Browser & Web Fundamentals]]", "[[System Design - Multi-Tenant SaaS Architecture]]", "[[Flutter]]"]
@@ -222,6 +222,7 @@ const tone = { success: "bg-emerald-500", danger: "bg-red-500" } as const;
 - [[System Design - Multi-Tenant SaaS Architecture]] — white-label tenants
 - [[Browser & Web Fundamentals]] — cascade layers, CSS variables, contrast
 - [[Flutter]] — sharing design tokens with mobile
+- [[Tailwind CSS - Design Token Pipeline for Web & Flutter]] — build pipeline feeding these tokens
 
 ## References
 - Tailwind CSS theme variables: https://tailwindcss.com/docs/theme

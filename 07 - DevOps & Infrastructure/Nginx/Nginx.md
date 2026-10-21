@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/nginx, topic/reverse-proxy, topic/web-server]
 status: draft
 created: 2026-10-12
-updated: 2026-10-19
+updated: 2026-10-21
 version_checked: "stable 1.30.x · mainline 1.31.x (2026-08) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Traefik]]", "[[Cloudflare]]", "[[PHP]]", "[[Kubernetes]]", "[[Network Security]]", "[[HTTP & HTTPS]]"]
@@ -193,8 +193,7 @@ tail -f /var/log/nginx/error.log
 
 ## Deep Dives
 - [[Nginx - Caching & Performance Tuning]]
-
-Candidates: Nginx security hardening.
+- [[Nginx - Security Hardening]] — default_server 444, TLS, header inheritance, limits, origin lock, alias traversal
 
 ## Related
 - [[Traefik]] — dynamic proxy in Coolify, main peer

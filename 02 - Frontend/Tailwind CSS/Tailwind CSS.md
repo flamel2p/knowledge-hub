@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/tailwind, topic/css]
 status: draft
 created: 2026-10-13
-updated: 2026-10-19
+updated: 2026-10-21
 version_checked: "v4.3.1 (2026-06-12) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[Next.js]]", "[[React]]", "[[Astro]]", "[[Browser & Web Fundamentals]]", "[[TypeScript]]"]
@@ -181,8 +181,7 @@ npx shadcn@latest init && npx shadcn@latest add button dialog form
 
 ## Deep Dives
 - [[Tailwind CSS - Theming & Component Architecture]]
-
-Candidates: Tailwind + Flutter design-token pipeline.
+- [[Tailwind CSS - Design Token Pipeline for Web & Flutter]] — DTCG tokens, Style Dictionary, @theme inline bridge, Flutter ThemeExtension
 
 ## Related
 - [[Next.js]] · [[React]] — primary usage with shadcn/ui

@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/network-security]
 status: draft
 created: 2026-10-08
-updated: 2026-10-14
+updated: 2026-10-21
 version_checked: "n/a (concept) — TLS cert rules + CVEs checked 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[Docker]]", "[[Traefik]]", "[[OWASP Top 10]]"]
@@ -199,6 +199,7 @@ networks: { web: {}, data: { internal: true } }   # internal: no outbound intern
 - [[HTTP & HTTPS]] — TLS handshake, HSTS, HTTP/2/3
 - [[Cloudflare]] — edge WAF, DDoS, Tunnel, Access
 - [[Traefik]] · [[Nginx]] — TLS termination, rate limiting
+- [[Nginx - Security Hardening]] — origin lock, catch-all server, limits, header pitfalls
 - [[Docker]] — port publishing vs firewall, internal networks
 - [[Linux Essentials]] — nftables, SSH, users
 - [[OWASP Top 10]] · [[Authentication & Authorization]] — app-layer and identity security
