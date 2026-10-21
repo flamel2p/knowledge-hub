@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-19
+updated: 2026-10-21
 parent: "[[00 - Home]]"
 ---
 
@@ -25,6 +25,7 @@ parent: "[[00 - Home]]"
 - [[Astro]] — zero-JS-by-default islands framework for content sites; Content Layer, server islands; Cloudflare-owned since 2026-01
   - [[Astro - Islands & Content Layer]]
 - [[WebGL]] — browser GPU API; WebGL 2 everywhere, WebGPU cross-browser, three.js WebGPURenderer with fallback, R3F
+  - [[WebGL - three.js & React Three Fiber Performance]]
 - [[Tailwind CSS]] — utility-first CSS; v4 Rust engine + @theme CSS config, 4.3.x, shadcn/ui; 2026 Tailwind Labs layoffs risk
   - [[Tailwind CSS - Theming & Component Architecture]]
 - [[Browser & Web Fundamentals]] — rendering path, main thread, Core Web Vitals (LCP/INP/CLS), SOP/CORS/CSP/cookies, storage, Interop 2026

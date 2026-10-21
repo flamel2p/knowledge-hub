@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/java, lang/java]
 status: draft
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-21
 version_checked: "25 LTS (2025-09) · 26 · 27 (2026-09, RC confirmed) — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Kotlin]]", "[[Spring Boot]]", "[[Go]]", "[[Kafka]]", "[[Docker]]", "[[Kubernetes]]"]
@@ -186,7 +186,9 @@ jfr start / JDK Mission Control      # low-overhead production profiling
 > - `BigDecimal` for money, constructed from strings or `long` sen, never from `double`.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: JVM memory & GC tuning, virtual threads & structured concurrency.
+- [[Java - Virtual Threads & Structured Concurrency]]
+
+Candidates: JVM memory & GC tuning.
 
 ## Related
 - [[Kotlin]] — modern JVM language, full interop

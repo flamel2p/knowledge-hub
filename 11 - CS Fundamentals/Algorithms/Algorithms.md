@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/overview, topic/algorithms]
 status: draft
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-21
 version_checked: "n/a (concept) — runtime sort implementations noted 2026-10"
 parent: "[[CS Fundamentals MOC]]"
 related: ["[[Data Structures]]", "[[Big O Notation]]", "[[System Design]]", "[[Design Patterns]]", "[[PostgreSQL]]"]
@@ -187,7 +187,9 @@ N/A for algorithms. Runtime implementation changes worth knowing:
 > - Unicode: sorting/compare strings with `Intl.Collator`/ICU collations (e.g. Malay/Chinese names), not code-unit order. Normalize (NFC) before comparing.
 
 ## Deep Dives
-N/A — no deep dives planned yet. Candidates: graph algorithms in practice, dynamic programming patterns.
+- [[Algorithms - Graph Algorithms in Practice]]
+
+Candidates: dynamic programming patterns.
 
 ## Related
 - [[Data Structures]] — the structures algorithms operate on
