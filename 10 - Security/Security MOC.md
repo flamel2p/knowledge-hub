@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-20
+updated: 2026-10-21
 parent: "[[00 - Home]]"
 ---
 
@@ -27,6 +27,7 @@ parent: "[[00 - Home]]"
 - [[Authentication & Authorization]] — passkeys/MFA, sessions vs tokens, RBAC/ABAC/ReBAC, RLS, NIST 800-63-4; session theft + IDOR risks
   - [[Authentication & Authorization - Interview Questions]] — interview prep reference (finance-app auth, BNM rules)
   - [[Authentication & Authorization - Passkeys & WebAuthn]]
+  - [[Authentication & Authorization - Multi-Tenant Authorization with RLS]]
 - [[OWASP Top 10]] — 2025 edition: A01 access control (+SSRF), A03 supply chain, A10 exceptional conditions; ASVS + sibling lists
   - [[OWASP Top 10 - LLM & Agent Security]]
 
