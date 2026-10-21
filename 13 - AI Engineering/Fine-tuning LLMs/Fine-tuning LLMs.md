@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/fine-tuning, topic/llm]
 status: draft
 created: 2026-10-13
-updated: 2026-10-20
+updated: 2026-10-21
 version_checked: "TRL 0.15+ · Unsloth (GRPO) · open-weight Qwen 3.x/Gemma/Llama/gpt-oss — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[Prompt Engineering]]", "[[RAG]]", "[[AI Evals & Observability]]", "[[Python]]", "[[LLM APIs & SDKs]]"]
@@ -171,8 +171,7 @@ ft-invoice-extractor/
 
 ## Deep Dives
 - [[Fine-tuning LLMs - LoRA & QLoRA with Unsloth]]
-
-Candidates: dataset curation for SFT/DPO.
+- [[Fine-tuning LLMs - Dataset Curation for SFT & DPO]] — redaction, dedup, group splits, edit-pair DPO, on-policy judging, PDPA
 
 ## Related
 - [[LLM Fundamentals]] — training stages, tokens, sampling

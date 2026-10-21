@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/evals, topic/llm-as-judge, lang/typescript]
 status: draft
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-21
 version_checked: "n/a (practice) — Claude structured outputs + model IDs cached 2026-10-06"
 parent: "[[AI Evals & Observability]]"
 related: ["[[LLM APIs & SDKs]]", "[[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]", "[[RAG]]", "[[Prompt Engineering]]", "[[AI Agents - Tool Calling & Agent Loops]]", "[[Testing Strategy]]"]
@@ -176,6 +176,7 @@ N/A: methodology, not a versioned product. Tool-specific notes (Langfuse, LangSm
 - [[Prompt Engineering]] — what the evals iterate on
 - [[AI Agents - Tool Calling & Agent Loops]] — end-state grading for agents
 - [[Testing Strategy]] — evals as the test suite for non-deterministic code
+- [[Fine-tuning LLMs - Dataset Curation for SFT & DPO]] — reusing traces and judges to build training data
 
 ## References
 - Anthropic, define success criteria & build evals: https://platform.claude.com/docs/en/test-and-evaluate/develop-tests
