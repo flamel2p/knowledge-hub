@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/overview, topic/big-o, topic/algorithms]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-22
 version_checked: "n/a"
 parent: "[[CS Fundamentals MOC]]"
 related: ["[[Data Structures]]", "[[Algorithms]]", "[[System Design]]", "[[PostgreSQL]]", "[[JavaScript]]"]
@@ -163,7 +163,7 @@ N/A — a mathematical notation, stable since the 1970s (Knuth's 1976 paper "Big
 > - Assuming the average case holds under adversarial input (hash collisions, sorted input for naive quicksort).
 
 ## Deep Dives
-N/A — none planned. Related CS topics: [[Data Structures]], [[Algorithms]].
+- [[Big O Notation - Amortized Analysis & Practical Complexity]] — amortization proofs, latency ladder, doubling experiment, hidden O(n) traps
 
 ## Related
 - [[Data Structures]] — where each complexity comes from

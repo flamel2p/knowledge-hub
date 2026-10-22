@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/overview, topic/data-structures]
 status: draft
 created: 2026-10-13
-updated: 2026-10-20
+updated: 2026-10-22
 version_checked: "n/a (concept) — runtime implementation notes checked 2026-10"
 parent: "[[CS Fundamentals MOC]]"
 related: ["[[Big O Notation]]", "[[Algorithms]]", "[[Redis - Data Structures & Patterns]]", "[[PostgreSQL - Indexing]]", "[[System Design]]"]
@@ -184,6 +184,7 @@ Candidates: hash tables & B-trees internals.
 
 ## Related
 - [[Big O Notation]] — cost model for every operation
+- [[Big O Notation - Amortized Analysis & Practical Complexity]] — amortized costs, hidden O(n) operations
 - [[Algorithms]] — algorithms operating on these structures
 - [[Redis - Data Structures & Patterns]] — structures as a service
 - [[PostgreSQL - Indexing]] — B-tree, GIN, BRIN, HNSW in practice

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-22 (T187)
+Last run: 2026-10-22 (T188)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -236,7 +236,7 @@ Last run: 2026-10-22 (T187)
 
 ### Wave 11 — Zero-deep-dive overviews + stack operations depth
 
-- [ ] T188 | deep-dive | Big O Notation - Amortized Analysis & Practical Complexity | 11 - CS Fundamentals/Big O Notation/Big O Notation - Amortized Analysis & Practical Complexity.md
+- [x] T188 | deep-dive | Big O Notation - Amortized Analysis & Practical Complexity | 11 - CS Fundamentals/Big O Notation/Big O Notation - Amortized Analysis & Practical Complexity.md | ✅ 2026-10-22
 - [ ] T189 | deep-dive | Supabase - Edge Functions, Cron & Queues | 04 - Backend/Supabase/Supabase - Edge Functions, Cron & Queues.md
 - [ ] T190 | deep-dive | Cloudflare - R2 Storage & Presigned Uploads | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - R2 Storage & Presigned Uploads.md
 - [ ] T191 | deep-dive | Docker - Compose Patterns for Production | 07 - DevOps & Infrastructure/Docker/Docker - Compose Patterns for Production.md
