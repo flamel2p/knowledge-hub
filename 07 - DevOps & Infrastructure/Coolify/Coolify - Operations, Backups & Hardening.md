@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/coolify, topic/backups, topic/hardening]
 status: draft
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-22
 version_checked: "Coolify 4.3.x — 2026-10"
 parent: "[[Coolify]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[Network Security]]", "[[PostgreSQL]]"]
@@ -179,6 +179,7 @@ services:
 - [[Docker]] — containers, volumes, log rotation
 - [[Traefik]] — the proxy Coolify manages per server
 - [[Cloudflare]] — Access/Tunnel in front of the dashboard, R2 for backups
+- [[Cloudflare - R2 Storage & Presigned Uploads]] — R2 bucket/token setup, lifecycle expiry for backups
 - [[Linux Essentials]] — firewall, SSH, disk management
 - [[PostgreSQL]] — dumps, restores, upgrades
 
