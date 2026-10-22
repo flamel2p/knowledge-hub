@@ -6,8 +6,8 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/scaling]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "n8n 2.41 — 2026-10"
+updated: 2026-10-22
+version_checked: "n8n 2.42.x (third-party; re-checked 2026-10-22)"
 parent: "[[n8n]]"
 related: ["[[n8n - Error Handling & Workflow Patterns]]", "[[Redis - Persistence & High Availability]]", "[[PostgreSQL]]", "[[Coolify]]", "[[Docker]]"]
 ---
@@ -149,6 +149,10 @@ N8N_CONCURRENCY_PRODUCTION_LIMIT=-1         # regular mode only; queue mode uses
 | 1.x (2024–25) | Task runners introduced (opt-in), multi-main (Enterprise), worker health checks |
 | 2.0 (2025-12) | Task runners on by default. In-memory binary mode removed. Binary defaults: `filesystem` (regular) / `database` (queue). MySQL/MariaDB dropped |
 | 2.x (2026) | Weekly minors. Check release notes for queue/runner changes |
+| 2.42.x (2026-10) | Stable line per third-party tracker (2.42.7 patch, 2.43.x beta). Official changelog only confirmed to 2.28 (2026-06) at re-check |
+
+> [!warning] Unverified — check before relying on this
+> The 2.42.x stable number came from a third-party release tracker, re-checked 2026-10-22. Confirm at https://github.com/n8n-io/n8n/releases before pinning images.
 
 ## Critical Issues & Gotchas
 > [!danger] Version mismatch & encryption key mismatch

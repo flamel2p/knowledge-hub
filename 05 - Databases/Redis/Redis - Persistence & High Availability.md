@@ -6,8 +6,8 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/redis, topic/high-availability]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "Redis 8.10 — 2026-10"
+updated: 2026-10-22
+version_checked: "Redis 8.8 GA confirmed (8.10 unverified) — re-checked 2026-10-22"
 parent: "[[Redis]]"
 related: ["[[Redis - Data Structures & Patterns]]", "[[n8n]]", "[[Docker]]", "[[Coolify]]"]
 ---
@@ -127,7 +127,12 @@ WAITAOF 1 0 1000     # 7.2+: until local AOF fsync'd (and optionally replicas)
 | 5.0 | Replica naming, Streams persisted |
 | 7.0 | Multi-part AOF (`appendonlydir/`), lower rewrite overhead |
 | 7.2 | `WAITAOF` |
+| 8.2–8.6 patches (2026-07-23) | Coordinated security releases 8.6.5 / 8.4.5 / 8.2.8. 8.6 and 8.2 lines now out of support |
+| 8.8 (GA 2026-05-25) | Latest GA confirmed at re-check. Newer minors (8.10) not confirmed |
 | 8.x | Performance improvements. Persistence semantics unchanged. New data types (JSON, vector sets) persisted in RDB, **not readable by 7.x** (no downgrade path) |
+
+> [!warning] Unverified — check before relying on this
+> At the 2026-10-22 re-check, endoflife.date listed 8.8.0 as the latest GA. Confirm newer minors at https://github.com/redis/redis/releases.
 
 ## Critical Issues & Gotchas
 > [!danger] Exposed, unauthenticated Redis = compromise
