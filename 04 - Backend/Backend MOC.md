@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-20
+updated: 2026-10-22
 parent: "[[00 - Home]]"
 ---
 
@@ -18,6 +18,7 @@ parent: "[[00 - Home]]"
 ## Notes
 - [[Supabase]] — Postgres platform: Auth, PostgREST, Realtime, Storage, Edge Functions; new API keys + JWT signing keys
   - [[Supabase - Row Level Security]]
+  - [[Supabase - Edge Functions, Cron & Queues]]
 - [[Node.js]] — V8 + libuv runtime; 24 LTS, 26 → LTS Oct 2026, yearly majors from 27; npm supply-chain risk
   - [[Node.js - Performance & Diagnostics]]
 - [[Spring Boot]] — JVM framework; 4.1 on Spring Framework 7, virtual threads, JSpecify, Jakarta EE 11; actuator exposure risk

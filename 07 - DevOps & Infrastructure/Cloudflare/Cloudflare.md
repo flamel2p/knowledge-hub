@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/cloudflare, topic/cdn, topic/edge]
 status: draft
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-22
 version_checked: "n/a (SaaS) — products, pricing + 2025 outages checked 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Traefik]]", "[[Network Security]]", "[[Coolify]]", "[[HTTP & HTTPS]]", "[[Next.js]]", "[[Docker]]"]
@@ -187,6 +187,7 @@ aws s3 cp backup.sql.gz s3://backups/ --endpoint-url https://<account>.r2.cloudf
 
 ## Deep Dives
 - [[Cloudflare - Zero Trust Tunnel & Access]]
+- [[Cloudflare - R2 Storage & Presigned Uploads]] — presigned PUT flow, CORS, checksum gotcha, lifecycle, ops pricing
 
 ## Related
 - [[Traefik]] — origin proxy, DNS-01 certificates via the Cloudflare API

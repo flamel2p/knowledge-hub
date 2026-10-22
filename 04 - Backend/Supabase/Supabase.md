@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/baas]
 status: draft
 created: 2026-10-06
-updated: 2026-10-15
+updated: 2026-10-22
 version_checked: "Platform 2026-10 (new API keys, JWT signing keys; legacy keys removal late 2026)"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
@@ -179,6 +179,7 @@ supabase db push                    # apply to linked project (CI)
 
 ## Deep Dives
 - [[Supabase - Row Level Security]]
+- [[Supabase - Edge Functions, Cron & Queues]] — pgmq outbox, cron-driven workers, waitUntil webhooks, limits, DLQ
 
 ## Related
 - [[PostgreSQL]] — the database underneath

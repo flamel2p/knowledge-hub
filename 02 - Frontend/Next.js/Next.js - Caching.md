@@ -6,8 +6,8 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/nextjs, topic/caching, lang/typescript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "Next.js 16.3 — 2026-10"
+updated: 2026-10-22
+version_checked: "Next.js 16.3 · 16.2 Active LTS — re-checked 2026-10-22"
 parent: "[[Next.js]]"
 related: ["[[Next.js - App Router & Rendering Strategies]]", "[[React - Server Components]]", "[[Redis]]", "[[HTTP & HTTPS]]"]
 ---
@@ -146,6 +146,7 @@ async function getOrdersForUser(uid: string) {
 | 15 (2024-10) | `fetch` and GET route handlers **uncached by default**. Router Cache `staleTimes` dynamic = 0 |
 | 15.x | `"use cache"` + `dynamicIO` experimental |
 | 16 (2025-10) | **Cache Components** stable (`cacheComponents: true`), `cacheLife`/`cacheTag` stable. `revalidateTag(tag, profile)` signature. `updateTag`, `refresh` added |
+| 2026-07 | Formal **monthly security releases** start (first 2026-07-21). LTS lines: 16.2.x Active LTS (16.2.11), 15.5.x Maintenance LTS (15.5.21) |
 | 16.3.8 (2026-09) | Security release fixing **cache-poisoning and cross-user content substitution** issues. Upgrade |
 
 > [!warning] Unverified — check before relying on this

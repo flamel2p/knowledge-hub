@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/deep-dive, topic/message-queues, topic/bullmq, topic/redis, lang/typescript]
 status: draft
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-22
 version_checked: "BullMQ 5.x (v6 unconfirmed) · Redis 8.10 — 2026-10"
 parent: "[[Message Queues]]"
 related: ["[[Redis]]", "[[Redis - Persistence & High Availability]]", "[[Node.js]]", "[[n8n - Queue Mode & Scaling]]", "[[REST API - Webhooks & Idempotency]]", "[[Docker]]"]
@@ -214,6 +214,7 @@ await new FlowProducer({ connection }).add({
 - [[Redis - Persistence & High Availability]] — AOF, Sentinel, failover behaviour
 - [[REST API - Webhooks & Idempotency]] — enqueue-and-ack receivers, dedupe keys
 - [[n8n - Queue Mode & Scaling]] — n8n's own Bull-based queue
+- [[Supabase - Edge Functions, Cron & Queues]] — Postgres-native pgmq alternative for Supabase apps
 - [[Node.js]] — event loop, graceful shutdown
 
 ## References
