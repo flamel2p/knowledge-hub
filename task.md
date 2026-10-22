@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-22 (T186)
+Last run: 2026-10-22 (T187)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -232,4 +232,19 @@ Last run: 2026-10-22 (T186)
 - [x] T184 | deep-dive | Fine-tuning LLMs - Dataset Curation for SFT & DPO | 13 - AI Engineering/Fine-tuning LLMs/Fine-tuning LLMs - Dataset Curation for SFT & DPO.md | ✅ 2026-10-21
 - [x] T185 | deep-dive | Tailwind CSS - Design Token Pipeline for Web & Flutter | 02 - Frontend/Tailwind CSS/Tailwind CSS - Design Token Pipeline for Web & Flutter.md | ✅ 2026-10-21
 - [x] T186 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-22
-- [ ] T187 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T187 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-10-22
+
+### Wave 11 — Zero-deep-dive overviews + stack operations depth
+
+- [ ] T188 | deep-dive | Big O Notation - Amortized Analysis & Practical Complexity | 11 - CS Fundamentals/Big O Notation/Big O Notation - Amortized Analysis & Practical Complexity.md
+- [ ] T189 | deep-dive | Supabase - Edge Functions, Cron & Queues | 04 - Backend/Supabase/Supabase - Edge Functions, Cron & Queues.md
+- [ ] T190 | deep-dive | Cloudflare - R2 Storage & Presigned Uploads | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - R2 Storage & Presigned Uploads.md
+- [ ] T191 | deep-dive | Docker - Compose Patterns for Production | 07 - DevOps & Infrastructure/Docker/Docker - Compose Patterns for Production.md
+- [ ] T192 | deep-dive | Model Context Protocol - Remote Servers, OAuth & Security | 13 - AI Engineering/Model Context Protocol/Model Context Protocol - Remote Servers, OAuth & Security.md
+- [ ] T193 | deep-dive | AI Agents - Memory & Context Engineering | 13 - AI Engineering/AI Agents/AI Agents - Memory & Context Engineering.md
+- [ ] T194 | deep-dive | Node.js - Streams & Backpressure | 04 - Backend/Node.js/Node.js - Streams & Backpressure.md
+- [ ] T195 | deep-dive | Testing Strategy - E2E Testing with Playwright | 04 - Backend/Testing Strategy/Testing Strategy - E2E Testing with Playwright.md
+- [ ] T196 | deep-dive | CI-CD - Deploy Pipelines for Coolify & Flutter Releases | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Deploy Pipelines for Coolify & Flutter Releases.md
+- [ ] T197 | deep-dive | Linux Essentials - systemd, Logs & Troubleshooting | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - systemd, Logs & Troubleshooting.md
+- [ ] T198 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T199 | replenish | Next 12 tasks per CLAUDE.md §9 | -
