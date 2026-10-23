@@ -27,6 +27,7 @@ parent: "[[00 - Home]]"
   - [[Spring Boot - Spring Security Resource Server]]
 - [[Testing Strategy]] — testing trophy, real-DB integration tests (Testcontainers/Supabase), authZ matrices, Playwright smoke, flaky-test hygiene
   - [[Testing Strategy - Integration Testing with Testcontainers & Supabase]]
+  - [[Testing Strategy - E2E Testing with Playwright]]
 - [[Backend Interview Questions]] — index of every interview-question note, plus general questions (tech stack, debugging)
 
 ## Planned
