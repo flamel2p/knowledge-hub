@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
   - [[RAG - Chunking & Retrieval Strategies]]
 - [[AI Agents]] — workflows vs agents, tool loops, harness, lethal trifecta
   - [[AI Agents - Tool Calling & Agent Loops]]
+  - [[AI Agents - Memory & Context Engineering]]
 - [[Model Context Protocol]] — MCP 2026-07-28 stateless spec, OAuth 2.1, server security
   - [[Model Context Protocol - Building MCP Servers]]
   - [[Model Context Protocol - Remote Servers, OAuth & Security]]

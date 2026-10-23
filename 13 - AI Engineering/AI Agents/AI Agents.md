@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/agents]
 status: draft
 created: 2026-10-04
-updated: 2026-10-05
+updated: 2026-10-23
 version_checked: "n/a — pattern; ecosystem snapshot 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LangChain & LangGraph]]", "[[Model Context Protocol]]", "[[LLM Fundamentals]]", "[[RAG]]", "[[Prompt Engineering]]"]
@@ -178,6 +178,7 @@ agent/
 
 ## Deep Dives
 - [[AI Agents - Tool Calling & Agent Loops]]
+- [[AI Agents - Memory & Context Engineering]] — memory taxonomy, write/select/compress/isolate, compaction vs context editing, Postgres memory store
 
 ## Related
 - [[LangChain & LangGraph]] — agent framework + durable runtime
