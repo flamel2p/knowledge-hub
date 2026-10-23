@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-23 (T193)
+Last run: 2026-10-23 (T194)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -242,7 +242,7 @@ Last run: 2026-10-23 (T193)
 - [x] T191 | deep-dive | Docker - Compose Patterns for Production | 07 - DevOps & Infrastructure/Docker/Docker - Compose Patterns for Production.md | ✅ 2026-10-23
 - [x] T192 | deep-dive | Model Context Protocol - Remote Servers, OAuth & Security | 13 - AI Engineering/Model Context Protocol/Model Context Protocol - Remote Servers, OAuth & Security.md | ✅ 2026-10-23
 - [x] T193 | deep-dive | AI Agents - Memory & Context Engineering | 13 - AI Engineering/AI Agents/AI Agents - Memory & Context Engineering.md | ✅ 2026-10-23
-- [ ] T194 | deep-dive | Node.js - Streams & Backpressure | 04 - Backend/Node.js/Node.js - Streams & Backpressure.md
+- [x] T194 | deep-dive | Node.js - Streams & Backpressure | 04 - Backend/Node.js/Node.js - Streams & Backpressure.md | ✅ 2026-10-23
 - [ ] T195 | deep-dive | Testing Strategy - E2E Testing with Playwright | 04 - Backend/Testing Strategy/Testing Strategy - E2E Testing with Playwright.md
 - [ ] T196 | deep-dive | CI-CD - Deploy Pipelines for Coolify & Flutter Releases | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Deploy Pipelines for Coolify & Flutter Releases.md
 - [ ] T197 | deep-dive | Linux Essentials - systemd, Logs & Troubleshooting | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - systemd, Logs & Troubleshooting.md

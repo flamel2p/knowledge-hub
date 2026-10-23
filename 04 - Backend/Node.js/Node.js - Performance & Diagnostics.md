@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/nodejs, topic/performance, topic/observability, lang/javascript]
 status: draft
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-23
 version_checked: "24.x LTS · 26.x (→ LTS 2026-10) — 2026-10"
 parent: "[[Node.js]]"
 related: ["[[JavaScript - Event Loop & Async]]", "[[Docker]]", "[[PostgreSQL]]", "[[Redis]]", "[[n8n]]", "[[Next.js]]"]
@@ -213,6 +213,7 @@ server.requestTimeout = 30_000;     // cap slow-loris style requests
 
 ## Related
 - [[Node.js]]
+- [[Node.js - Streams & Backpressure]] — stream instead of buffering; backpressure mechanics
 - [[JavaScript - Event Loop & Async]] — phases, microtasks, starvation
 - [[Docker]] — memory limits, OOM-kill, one process per container
 - [[PostgreSQL]] — pool sizing, slow queries (often the real bottleneck)
