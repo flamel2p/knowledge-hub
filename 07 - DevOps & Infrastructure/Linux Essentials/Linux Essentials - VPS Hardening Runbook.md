@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/linux, topic/hardening, topic/ssh]
 status: draft
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-23
 version_checked: "Ubuntu 24.04/26.04 LTS · OpenSSH 10.x (10.4 fixes 2026 CVEs) — 2026-10"
 parent: "[[Linux Essentials]]"
 related: ["[[Network Security]]", "[[Docker]]", "[[Docker - Networking & Volumes]]", "[[Coolify - Operations, Backups & Hardening]]", "[[Cloudflare - Zero Trust Tunnel & Access]]", "[[Traefik]]"]
@@ -232,6 +232,7 @@ last -a | head; journalctl -u ssh --since "24 hours ago" | grep -c "Failed"
 
 ## Related
 - [[Linux Essentials]]
+- [[Linux Essentials - systemd, Logs & Troubleshooting]] — unit sandboxing, timers, incident triage
 - [[Network Security]] — firewalls, exposure, SSH threat model
 - [[Docker - Networking & Volumes]] — internal networks, port publishing
 - [[Coolify - Operations, Backups & Hardening]] — control-plane hardening and backups

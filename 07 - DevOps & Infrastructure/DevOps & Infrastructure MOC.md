@@ -33,6 +33,7 @@ parent: "[[00 - Home]]"
   - [[Git - Branching, Releases & Recovery]]
 - [[Linux Essentials]] — VPS operations: users/perms, systemd/journald, ss/nftables, disk/OOM triage, LTS distros, kernel CVEs
   - [[Linux Essentials - VPS Hardening Runbook]]
+  - [[Linux Essentials - systemd, Logs & Troubleshooting]]
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
   - [[CI-CD - GitHub Actions Security Hardening]]
   - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]
