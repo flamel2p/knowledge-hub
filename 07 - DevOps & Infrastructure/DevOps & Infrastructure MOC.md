@@ -22,6 +22,7 @@ parent: "[[00 - Home]]"
   - [[Docker - Compose Patterns for Production]]
 - [[Coolify]] — self-hosted PaaS over SSH + Traefik; v4 stable, Jan 2026 critical CVEs
   - [[Coolify - Operations, Backups & Hardening]]
+  - [[Coolify - Multi-Server, Build Servers & Scaling]]
 - [[Kubernetes]] — declarative orchestrator; Gateway API over retired Ingress NGINX, cgroup v2 only, k3s for small VPS
   - [[Kubernetes - Core Objects]]
 - [[Traefik]] — label-driven reverse proxy + ACME; Coolify default, v3.7, 2026 ForwardAuth-bypass CVEs, Docker socket risk
