@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/testing, topic/testcontainers, topic/supabase, lang/typescript]
 status: draft
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-23
 version_checked: "@testcontainers/postgresql 11.x · Vitest 4.x · Supabase CLI (unverified) — 2026-10"
 parent: "[[Testing Strategy]]"
 related: ["[[Supabase]]", "[[Supabase - Row Level Security]]", "[[PostgreSQL]]", "[[Docker]]", "[[CI-CD]]", "[[Message Queues - BullMQ in Production]]"]
@@ -229,6 +229,7 @@ jobs:
 
 ## Related
 - [[Testing Strategy]]
+- [[Testing Strategy - E2E Testing with Playwright]] — browser-level smoke tests on top of these integration tests
 - [[Supabase - Row Level Security]] — policies these tests must prove
 - [[Supabase]] — local stack, CLI, roles
 - [[PostgreSQL]] — templates, transactions, roles

@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/docker]
 status: draft
 created: 2026-10-03
-updated: 2026-10-08
+updated: 2026-10-23
 version_checked: "Engine 29.x · Compose v2 — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Coolify]]", "[[Kubernetes]]", "[[Traefik]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -198,6 +198,7 @@ service/
 ## Deep Dives
 - [[Docker - Dockerfile & Image Best Practices]]
 - [[Docker - Networking & Volumes]]
+- [[Docker - Compose Patterns for Production]] — healthchecks, service_healthy/completed deps, migrations, secrets, log rotation, --wait
 
 ## Related
 - [[Coolify]] — PaaS layer on top of Docker in ZP's stack

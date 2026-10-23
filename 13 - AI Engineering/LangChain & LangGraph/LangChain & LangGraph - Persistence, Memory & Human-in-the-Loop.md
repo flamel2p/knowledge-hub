@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/langgraph, topic/memory, lang/python]
 status: draft
 created: 2026-10-02
-updated: 2026-10-17
+updated: 2026-10-23
 version_checked: "langgraph 1.2.12 · langgraph-checkpoint 3.x — 2026-10 (re-checked 2026-10-17: 1.2.x line current)"
 parent: "[[LangChain & LangGraph]]"
 related: ["[[LangChain & LangGraph - Graph API, State & Control Flow]]", "[[LangChain & LangGraph - Agents, Tools & Middleware]]", "[[PostgreSQL]]", "[[Supabase]]", "[[Redis]]"]
@@ -197,6 +197,7 @@ checkpointer = AsyncPostgresSaver(pool, serde=serde)
 
 ## Related
 - [[LangChain & LangGraph]]
+- [[AI Agents - Memory & Context Engineering]] — framework-agnostic memory design, compaction and context editing
 - [[LangChain & LangGraph - Graph API, State & Control Flow]] — super-steps define checkpoint boundaries
 - [[LangChain & LangGraph - Agents, Tools & Middleware]] — `HumanInTheLoopMiddleware`, `SummarizationMiddleware`
 - [[PostgreSQL]] · [[Supabase]] · [[Redis]]

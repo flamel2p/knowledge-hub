@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/coolify]
 status: draft
 created: 2026-10-03
-updated: 2026-10-16
+updated: 2026-10-23
 version_checked: "4.3.x (4.0.0 stable 2026) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -172,6 +172,7 @@ volumes: { pgdata: {} }
 
 ## Related
 - [[Docker]] — runtime underneath
+- [[Docker - Compose Patterns for Production]] — portable compose files for Coolify deployments
 - [[Kubernetes]] — next step when you outgrow single-node Coolify
 - [[Traefik]] — default proxy and TLS
 - [[Cloudflare]] — DNS, Tunnels, Access in front of the dashboard

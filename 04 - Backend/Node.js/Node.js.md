@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/nodejs, lang/javascript, lang/typescript]
 status: draft
 created: 2026-10-08
-updated: 2026-10-16
+updated: 2026-10-23
 version_checked: "26.x Current → LTS 2026-10 · 24.x LTS — 2026-10"
 parent: "[[Backend MOC]]"
 related: ["[[JavaScript]]", "[[TypeScript]]", "[[JavaScript - Event Loop & Async]]", "[[Next.js]]", "[[n8n]]", "[[Docker]]"]
@@ -187,6 +187,7 @@ for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, async () => {
 
 ## Deep Dives
 - [[Node.js - Performance & Diagnostics]]
+- [[Node.js - Streams & Backpressure]] — pipeline(), async-generator stages, COPY imports, bounded concurrency, Web↔Node streams
 
 ## Related
 - [[JavaScript]] · [[TypeScript]] — the language
