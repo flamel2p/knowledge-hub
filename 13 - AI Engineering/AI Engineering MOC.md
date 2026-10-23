@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-21
+updated: 2026-10-23
 parent: "[[00 - Home]]"
 ---
 
@@ -26,6 +26,7 @@ parent: "[[00 - Home]]"
   - [[AI Agents - Tool Calling & Agent Loops]]
 - [[Model Context Protocol]] — MCP 2026-07-28 stateless spec, OAuth 2.1, server security
   - [[Model Context Protocol - Building MCP Servers]]
+  - [[Model Context Protocol - Remote Servers, OAuth & Security]]
 - [[LangChain & LangGraph]] — agent framework + stateful graph runtime (1.x)
   - [[LangChain & LangGraph - Graph API, State & Control Flow]]
   - [[LangChain & LangGraph - Agents, Tools & Middleware]]

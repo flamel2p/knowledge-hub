@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/deep-dive, topic/oauth, topic/oidc, topic/attacks]
 status: draft
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-10-23
 version_checked: "RFC 9700 BCP · RFC 10017 · 2026 device-code & consent-phishing campaigns — 2026-10"
 parent: "[[OAuth 2.0 & OIDC]]"
 related: ["[[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]]", "[[JWT - Refresh Tokens, Revocation & Storage]]", "[[Authentication & Authorization - Passkeys & WebAuthn]]", "[[Network Security - Common Web Attacks]]", "[[Model Context Protocol - Building MCP Servers]]"]
@@ -164,6 +164,7 @@ if (!String(payload.scope).split(" ").includes("orders:read")) throw forbidden()
 
 ## Related
 - [[OAuth 2.0 & OIDC]]
+- [[Model Context Protocol - Remote Servers, OAuth & Security]] — MCP OAuth proxies: confused deputy in practice
 - [[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]] — the correct flows these attacks target
 - [[JWT - Refresh Tokens, Revocation & Storage]] — revocation and storage
 - [[Authentication & Authorization - Passkeys & WebAuthn]] — phishing-resistant MFA and its limits
