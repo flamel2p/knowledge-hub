@@ -35,6 +35,7 @@ parent: "[[00 - Home]]"
   - [[Linux Essentials - VPS Hardening Runbook]]
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
   - [[CI-CD - GitHub Actions Security Hardening]]
+  - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]
 - [[Nginx]] — event-driven web server/proxy/cache; stable 1.30, 2026 memory-safety CVEs, SPA/PHP-FPM container use
   - [[Nginx - Caching & Performance Tuning]]
   - [[Nginx - Security Hardening]]

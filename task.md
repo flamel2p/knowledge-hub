@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-23 (T195)
+Last run: 2026-10-23 (T196)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -244,7 +244,7 @@ Last run: 2026-10-23 (T195)
 - [x] T193 | deep-dive | AI Agents - Memory & Context Engineering | 13 - AI Engineering/AI Agents/AI Agents - Memory & Context Engineering.md | ✅ 2026-10-23
 - [x] T194 | deep-dive | Node.js - Streams & Backpressure | 04 - Backend/Node.js/Node.js - Streams & Backpressure.md | ✅ 2026-10-23
 - [x] T195 | deep-dive | Testing Strategy - E2E Testing with Playwright | 04 - Backend/Testing Strategy/Testing Strategy - E2E Testing with Playwright.md | ✅ 2026-10-23
-- [ ] T196 | deep-dive | CI-CD - Deploy Pipelines for Coolify & Flutter Releases | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Deploy Pipelines for Coolify & Flutter Releases.md
+- [x] T196 | deep-dive | CI-CD - Deploy Pipelines for Coolify & Flutter Releases | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Deploy Pipelines for Coolify & Flutter Releases.md | ✅ 2026-10-23
 - [ ] T197 | deep-dive | Linux Essentials - systemd, Logs & Troubleshooting | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - systemd, Logs & Troubleshooting.md
 - [ ] T198 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T199 | replenish | Next 12 tasks per CLAUDE.md §9 | -
