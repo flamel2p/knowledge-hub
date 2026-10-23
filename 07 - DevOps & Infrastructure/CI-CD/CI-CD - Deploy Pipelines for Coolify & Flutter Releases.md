@@ -113,7 +113,7 @@ curl -fsS -H "$H" "${COOLIFY_URL}/api/v1/deploy?uuid=${APP}&force=false"
 # 3. wait until the new version answers
 for i in $(seq 1 30); do
   v=$(curl -fsS "${APP_URL:-https://app.example.my}/api/health" | jq -r .version || true)
-  [[ "$v" == "$SHA" ]] && echo "live: $SHA" && exit 0
+  [ "$v" = "$SHA" ] && echo "live: $SHA" && exit 0
   sleep 10
 done
 echo "deploy did not become healthy" >&2; exit 1
