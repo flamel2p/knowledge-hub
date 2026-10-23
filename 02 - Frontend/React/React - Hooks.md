@@ -6,8 +6,8 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/react, topic/hooks, lang/typescript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "React 19.3 · Compiler 1.0 — 2026-10"
+updated: 2026-10-23
+version_checked: "React 19.3 (2026-09, third-party) · Compiler 1.0 — re-checked 2026-10-23"
 parent: "[[React]]"
 related: ["[[React - Server Components]]", "[[Next.js]]", "[[JavaScript - Event Loop & Async]]", "[[TypeScript]]"]
 ---
@@ -165,7 +165,11 @@ const deferredQuery = useDeferredValue(query);                                  
 | 18 (2022) | `useTransition`, `useDeferredValue`, `useId`, `useSyncExternalStore`, automatic batching. StrictMode double effects |
 | 19.0 (2024-12) | `use`, `useActionState` (replaces `useFormState`), `useOptimistic`, `useFormStatus`. Ref as prop |
 | 19.2 (2025-10) | `useEffectEvent` stable, `<Activity>` interplay with effects |
-| Compiler 1.0 (2025-10) | Automatic memoization. Manual memo mostly unnecessary |
+| Compiler 1.0 (2025-10) | Automatic memoization. Manual memo mostly unnecessary. Compiler lint rules ship in `eslint-plugin-react-hooks` `recommended` presets |
+| 19.3.0 (2026-09-09) | Latest minor at re-check. Ecosystem libs (e.g. react-konva 19.3) now require it. Check `useActionState` behaviour in libraries after upgrading |
+
+> [!warning] Unverified — check before relying on this
+> The 19.3.0 date came from third-party trackers (GitClear, react-konva notes), re-checked 2026-10-23. See https://react.dev/blog for the official feature list.
 
 ## Critical Issues & Gotchas
 > [!danger] Stale closures
