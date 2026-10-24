@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/typescript, lang/typescript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-20
+updated: 2026-10-24
 version_checked: "TypeScript 7.0 — 2026-10 (re-checked 2026-10-20: 7.1 not yet released)"
 parent: "[[TypeScript]]"
 related: ["[[JavaScript]]", "[[React]]", "[[Next.js]]", "[[Supabase]]"]
@@ -166,6 +166,7 @@ function tuple<const T extends readonly unknown[]>(...xs: T) { return xs; }     
 
 ## Related
 - [[TypeScript]]
+- [[TypeScript - Runtime Validation with Zod & Type-Safe APIs]] — runtime counterpart: parse unknown input into these types
 - [[JavaScript]] — runtime semantics
 - [[React]] — typed props, generics in components
 - [[Next.js]] — typed routes, `PageProps`
