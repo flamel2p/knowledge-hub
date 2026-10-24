@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/traefik, topic/tls, topic/reverse-proxy]
 status: draft
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-24
 version_checked: "Traefik v3.7.x (3.6.21+) — 2026-10"
 parent: "[[Traefik]]"
 related: ["[[Coolify]]", "[[Cloudflare]]", "[[Docker]]", "[[Network Security]]", "[[HTTP & HTTPS - TLS Handshake & Certificates]]"]
@@ -198,6 +198,7 @@ http:
 
 ## Related
 - [[Traefik]]
+- [[Traefik - Observability & Troubleshooting]] — debugging routers, access logs and certificate failures
 - [[Coolify]] — generates routers, hosts the dynamic config folder
 - [[Cloudflare]] — DNS-01, real-IP headers, edge rate limiting
 - [[Docker]] — label-based configuration

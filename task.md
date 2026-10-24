@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-23 (T200)
+Last run: 2026-10-24 (T201)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -252,7 +252,7 @@ Last run: 2026-10-23 (T200)
 ### Wave 12 — Platform depth: deploy infra, typed APIs, LLM I/O
 
 - [x] T200 | deep-dive | Coolify - Multi-Server, Build Servers & Scaling | 07 - DevOps & Infrastructure/Coolify/Coolify - Multi-Server, Build Servers & Scaling.md | ✅ 2026-10-23
-- [ ] T201 | deep-dive | Traefik - Observability & Troubleshooting | 07 - DevOps & Infrastructure/Traefik/Traefik - Observability & Troubleshooting.md
+- [x] T201 | deep-dive | Traefik - Observability & Troubleshooting | 07 - DevOps & Infrastructure/Traefik/Traefik - Observability & Troubleshooting.md | ✅ 2026-10-24
 - [ ] T202 | deep-dive | TypeScript - Runtime Validation with Zod & Type-Safe APIs | 01 - Languages/TypeScript/TypeScript - Runtime Validation with Zod & Type-Safe APIs.md
 - [ ] T203 | deep-dive | LLM APIs & SDKs - Structured Outputs & Tool Schemas | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Structured Outputs & Tool Schemas.md
 - [ ] T204 | deep-dive | RAG - Document Ingestion & PDF Parsing Pipelines | 13 - AI Engineering/RAG/RAG - Document Ingestion & PDF Parsing Pipelines.md
