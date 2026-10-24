@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/agents, topic/tool-use]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-24
 version_checked: "n/a — pattern; Claude/OpenAI tool APIs as of 2026-10"
 parent: "[[AI Agents]]"
 related: ["[[LangChain & LangGraph - Agents, Tools & Middleware]]", "[[Model Context Protocol]]", "[[LLM Fundamentals - Tokens, Context & Sampling]]", "[[Prompt Engineering]]"]
@@ -161,6 +161,7 @@ async function dispatch(name: string, input: unknown, ctx: Ctx) {
 
 ## Related
 - [[AI Agents]]
+- [[LLM APIs & SDKs - Structured Outputs & Tool Schemas]] — strict tool schemas, structured outputs, stop_reason handling
 - [[LangChain & LangGraph - Agents, Tools & Middleware]] — framework implementation of this loop
 - [[Model Context Protocol]] — external tool servers
 - [[LLM Fundamentals - Tokens, Context & Sampling]] — context and cost growth
