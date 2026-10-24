@@ -169,6 +169,7 @@ volumes: { pgdata: {} }
 
 ## Deep Dives
 - [[Coolify - Operations, Backups & Hardening]]
+- [[Coolify - Multi-Server, Build Servers & Scaling]] — scaling ladder, build servers, multi-server + external LB, stateless checklist, Swarm deprecation
 
 ## Related
 - [[Docker]] — runtime underneath

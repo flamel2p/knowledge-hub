@@ -6,8 +6,8 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/redis, topic/caching]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "Redis 8.10 — 2026-10"
+updated: 2026-10-23
+version_checked: "Redis 8.8 GA confirmed (8.10 unverified) — re-checked 2026-10-23"
 parent: "[[Redis]]"
 related: ["[[Redis - Persistence & High Availability]]", "[[n8n]]", "[[WebSocket]]", "[[Big O Notation]]"]
 ---
@@ -138,7 +138,10 @@ ZRANGE delayed -inf {now} BYSCORE LIMIT 0 100   # due jobs (move atomically via 
 | 7.0 | Functions, sharded Pub/Sub, `listpack` everywhere |
 | 7.4 | Hash field expiration (`HEXPIRE`…). License → RSALv2/SSPL |
 | 8.0 (2025) | JSON, Query Engine, TimeSeries, probabilistic types built in. Vector sets (beta). `HGETEX/HSETEX/HGETDEL`. AGPLv3 option |
-| 8.2–8.10 | Performance, stream/bitmap ops, vector set improvements |
+| 8.2–8.8 | Performance, stream/bitmap ops, vector set improvements. 8.8 GA 2026-05-25. 8.6.5/8.4.5/8.2.8 security patches 2026-07-23 |
+
+> [!warning] Unverified — check before relying on this
+> Re-check on 2026-10-22/23 confirmed 8.8 as the latest GA (endoflife.date). The earlier "8.10" claim couldn't be confirmed. See https://github.com/redis/redis/releases.
 
 ## Critical Issues & Gotchas
 > [!danger] Lua sandbox & Redis exposure CVEs

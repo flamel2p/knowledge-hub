@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/deep-dive, topic/rest, topic/webhooks, topic/idempotency]
 status: draft
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-24
 version_checked: "Standard Webhooks v1 · IETF Idempotency-Key draft (not yet RFC) — 2026-10"
 parent: "[[REST API]]"
 related: ["[[HTTP & HTTPS]]", "[[Message Queues]]", "[[PostgreSQL]]", "[[Redis]]", "[[n8n]]", "[[Supabase]]", "[[Network Security]]"]
@@ -213,6 +213,7 @@ commit;
 
 ## Related
 - [[REST API]]
+- [[REST API - Versioning, Pagination & Error Design]] — versioning, cursor pagination and problem+json errors
 - [[HTTP & HTTPS]] — methods, idempotency semantics, status codes
 - [[Message Queues]] — async processing, DLQs, at-least-once delivery
 - [[PostgreSQL]] — unique constraints, `SKIP LOCKED` outbox dispatch

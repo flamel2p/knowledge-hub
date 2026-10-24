@@ -6,8 +6,8 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/error-handling]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "n8n 2.41 — 2026-10"
+updated: 2026-10-23
+version_checked: "n8n 2.42.x (third-party; re-checked 2026-10-23)"
 parent: "[[n8n]]"
 related: ["[[n8n - Queue Mode & Scaling]]", "[[REST API]]", "[[Redis - Data Structures & Patterns]]", "[[AI Agents]]"]
 ---
@@ -136,6 +136,7 @@ IF amount > credit_limit → Stop and Error: "Order {{$json.id}} exceeds credit 
 | 1.0 (2023) | New execution order (per-branch depth-first). Error output on nodes |
 | 1.x (2024–25) | Execute Workflow Trigger input schemas, improved retry from failed node, workflow history |
 | 2.0 (2025-12) | Save vs **Publish** split: retries and production use the published version. Plan replays accordingly |
+| 2.42.x (2026-10) | Stable line per third-party tracker (2.43.x beta). Weekly minors, so read release notes for error-workflow / retry changes before upgrading |
 
 > [!warning] Unverified — check before relying on this
 > The exact option names in node "Settings" panels change between versions. Verify in your instance.

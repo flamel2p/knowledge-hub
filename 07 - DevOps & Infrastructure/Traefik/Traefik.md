@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/traefik, topic/reverse-proxy]
 status: draft
 created: 2026-10-11
-updated: 2026-10-16
+updated: 2026-10-24
 version_checked: "v3.7.x (3.6.21+ maintained) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Coolify]]", "[[Cloudflare]]", "[[Nginx]]", "[[Kubernetes]]", "[[Network Security]]"]
@@ -183,6 +183,7 @@ metrics: { prometheus: {} }
 
 ## Deep Dives
 - [[Traefik - Middlewares, TLS & Routing]]
+- [[Traefik - Observability & Troubleshooting]] — 404/502/504/TLS triage, JSON access logs, metrics, real IPs, Coolify proxy commands
 
 ## Related
 - [[Docker]] — label-based discovery, networks

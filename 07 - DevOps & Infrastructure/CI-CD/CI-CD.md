@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/ci-cd]
 status: draft
 created: 2026-10-11
-updated: 2026-10-17
+updated: 2026-10-23
 version_checked: "n/a (practice) — GitHub Actions pricing + supply-chain incidents checked 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Git]]", "[[Docker]]", "[[Coolify]]", "[[Kubernetes]]", "[[Network Security]]", "[[Flutter - Build, Release & Store Compliance]]"]
@@ -179,6 +179,7 @@ jobs:
 
 ## Deep Dives
 - [[CI-CD - GitHub Actions Security Hardening]]
+- [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]] — build once by SHA, Coolify API deploy + health verify, rollback, Flutter tag → Play internal/TestFlight
 
 ## Related
 - [[Git]] — triggers, branching strategy, tags

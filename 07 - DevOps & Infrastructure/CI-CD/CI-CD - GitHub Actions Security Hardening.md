@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/ci-cd, topic/github-actions, topic/supply-chain]
 status: draft
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-23
 version_checked: "GitHub Actions (SaaS) · 2026 incidents (trivy-action, Mini Shai-Hulud, actions-cool) checked 2026-10"
 parent: "[[CI-CD]]"
 related: ["[[Git]]", "[[Docker]]", "[[Coolify]]", "[[OAuth 2.0 & OIDC]]", "[[JWT]]", "[[Network Security]]"]
@@ -104,7 +104,7 @@ jobs:
       - name: Trigger Coolify deploy
         env:
           COOLIFY_TOKEN: ${{ secrets.COOLIFY_DEPLOY_TOKEN }}     # environment secret, scoped API token
-        run: curl -fsS -X POST -H "Authorization: Bearer $COOLIFY_TOKEN" "https://coolify.example.my/api/v1/deploy?uuid=${{ vars.COOLIFY_APP_UUID }}&tag=${{ github.sha }}"
+        run: curl -fsS -X POST -H "Authorization: Bearer $COOLIFY_TOKEN" "https://coolify.example.my/api/v1/deploy?uuid=${{ vars.COOLIFY_APP_UUID }}"   # set the image tag first; `tag=` selects Coolify resource tags
 ```
 (The SHAs above are illustrative. Let Dependabot resolve real ones.)
 
@@ -224,6 +224,7 @@ gh api repos/:owner/:repo/actions/permissions   # check allowed actions + defaul
 
 ## Related
 - [[CI-CD]]
+- [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]] — full pipeline: deploy by SHA, verify, rollback, mobile releases
 - [[Git]] — branch protection, rulesets, signed commits
 - [[Docker]] — image builds, digests, SBOM/provenance
 - [[Coolify]] — deploy webhooks and API tokens

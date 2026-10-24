@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/linux, topic/sysadmin]
 status: draft
 created: 2026-10-11
-updated: 2026-10-18
+updated: 2026-10-23
 version_checked: "Ubuntu 24.04/26.04 LTS · Debian 13 · kernel 6.12/6.18 LTS — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Network Security]]", "[[Coolify]]", "[[Git]]", "[[Nginx]]", "[[Kubernetes]]"]
@@ -183,6 +183,7 @@ N/A — an OS skill set, not a codebase. A recommended VPS baseline layout:
 
 ## Deep Dives
 - [[Linux Essentials - VPS Hardening Runbook]]
+- [[Linux Essentials - systemd, Logs & Troubleshooting]] — hardened units, timers, journalctl, USE-method triage, disk-full and OOM playbooks
 
 ## Related
 - [[Docker]] — namespaces, cgroups, overlayfs in practice
