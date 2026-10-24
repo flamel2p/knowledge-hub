@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/rag]
 status: draft
 created: 2026-10-04
-updated: 2026-10-05
+updated: 2026-10-24
 version_checked: "n/a — pattern; pgvector 0.8.x referenced — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[Vector Databases]]", "[[PostgreSQL]]", "[[AI Agents]]", "[[Prompt Engineering]]"]
@@ -170,6 +170,7 @@ rag/
 
 ## Deep Dives
 - [[RAG - Chunking & Retrieval Strategies]]
+- [[RAG - Document Ingestion & PDF Parsing Pipelines]] — parser routing (pypdf/Docling/Marker/OCR/vision LLM), idempotent upserts, ACL + deletion propagation
 
 ## Related
 - [[LLM Fundamentals]] — embeddings, context windows
