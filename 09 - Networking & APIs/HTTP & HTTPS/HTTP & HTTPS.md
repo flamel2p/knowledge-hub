@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/http, topic/tls]
 status: draft
 created: 2026-10-04
-updated: 2026-10-20
+updated: 2026-10-25
 version_checked: "RFC 9110–9114 · TLS 1.3 · CA/B 200-day certs (Mar 2026) — 2026-10 (re-checked 2026-10-20: 100-day 2027-03-15, 47-day 2029-03-15 unchanged)"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[REST API]]", "[[WebSocket]]", "[[Traefik]]", "[[Cloudflare]]", "[[OAuth 2.0 & OIDC]]"]
@@ -196,6 +196,7 @@ openssl s_client -connect example.com:443 -servername example.com </dev/null | o
 
 ## Deep Dives
 - [[HTTP & HTTPS - TLS Handshake & Certificates]]
+- [[HTTP & HTTPS - HTTP-2, HTTP-3 & Connection Management]] — per-hop protocols, keep-alive 502 race, pooled clients, HTTP/3 on Traefik, Flutter HTTP/2-3
 
 ## Related
 - [[REST API]] — resource design on HTTP semantics

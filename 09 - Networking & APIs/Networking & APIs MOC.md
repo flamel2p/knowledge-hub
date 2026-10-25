@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-24
+updated: 2026-10-25
 parent: "[[00 - Home]]"
 ---
 
@@ -18,6 +18,7 @@ parent: "[[00 - Home]]"
 ## Notes
 - [[HTTP & HTTPS]] — semantics, HTTP/2–3, TLS 1.3, 200→47-day certs, smuggling & Rapid Reset
   - [[HTTP & HTTPS - TLS Handshake & Certificates]]
+  - [[HTTP & HTTPS - HTTP-2, HTTP-3 & Connection Management]]
 - [[REST API]] — resource design, OpenAPI 3.2, RFC 9457 errors, pagination, idempotency, BOLA
   - [[REST API - Webhooks & Idempotency]]
   - [[REST API - Versioning, Pagination & Error Design]]
