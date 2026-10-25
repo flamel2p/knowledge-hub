@@ -6,8 +6,8 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/docker, topic/containers]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "Engine 29 · BuildKit / dockerfile 1.x — 2026-10"
+updated: 2026-10-25
+version_checked: "Engine 29.1 · BuildKit / dockerfile 1.x — re-checked 2026-10-25"
 parent: "[[Docker]]"
 related: ["[[Docker - Networking & Volumes]]", "[[Coolify]]", "[[CI-CD]]", "[[Next.js]]"]
 ---
@@ -154,6 +154,7 @@ docker scout cves ghcr.io/rarticle/web:1.8.0
 | Dockerfile 1.4 | Heredocs (`RUN <<EOF`), `COPY --link` |
 | Dockerfile 1.6–1.10 | Build checks, `--mount=type=secret,env=` to expose secrets as env vars, `--exclude` on COPY |
 | Engine 29 (2025-11) | containerd image store default for new installs (better multi-platform/attestation support) |
+| Engine 29.1 (2026-02) | Rolled out on GitHub hosted runners with Compose v2.40. CI builds now match the containerd-store behaviour |
 
 > [!warning] Unverified — check before relying on this
 > The exact Dockerfile frontend version that introduced each BuildKit flag wasn't checked this run. Pin `# syntax=docker/dockerfile:1` and consult https://docs.docker.com/build/buildkit/dockerfile-release-notes/.

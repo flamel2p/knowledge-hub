@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-24 (T205)
+Last run: 2026-10-25 (T210)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -257,9 +257,9 @@ Last run: 2026-10-24 (T205)
 - [x] T203 | deep-dive | LLM APIs & SDKs - Structured Outputs & Tool Schemas | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Structured Outputs & Tool Schemas.md | ✅ 2026-10-24
 - [x] T204 | deep-dive | RAG - Document Ingestion & PDF Parsing Pipelines | 13 - AI Engineering/RAG/RAG - Document Ingestion & PDF Parsing Pipelines.md | ✅ 2026-10-24
 - [x] T205 | deep-dive | REST API - Versioning, Pagination & Error Design | 09 - Networking & APIs/REST API/REST API - Versioning, Pagination & Error Design.md | ✅ 2026-10-24
-- [ ] T206 | deep-dive | HTTP & HTTPS - HTTP-2, HTTP-3 & Connection Management | 09 - Networking & APIs/HTTP & HTTPS/HTTP & HTTPS - HTTP-2, HTTP-3 & Connection Management.md
-- [ ] T207 | deep-dive | OWASP Top 10 - API Security Top 10 in Practice | 10 - Security/OWASP Top 10/OWASP Top 10 - API Security Top 10 in Practice.md
-- [ ] T208 | deep-dive | JavaScript - Modules, ESM-CJS Interop & Bundling | 01 - Languages/JavaScript/JavaScript - Modules, ESM-CJS Interop & Bundling.md
-- [ ] T209 | deep-dive | Python - Packaging & Tooling with uv | 01 - Languages/Python/Python - Packaging & Tooling with uv.md
-- [ ] T210 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T206 | deep-dive | HTTP & HTTPS - HTTP-2, HTTP-3 & Connection Management | 09 - Networking & APIs/HTTP & HTTPS/HTTP & HTTPS - HTTP-2, HTTP-3 & Connection Management.md | ✅ 2026-10-25
+- [x] T207 | deep-dive | OWASP Top 10 - API Security Top 10 in Practice | 10 - Security/OWASP Top 10/OWASP Top 10 - API Security Top 10 in Practice.md | ✅ 2026-10-25
+- [x] T208 | deep-dive | JavaScript - Modules, ESM-CJS Interop & Bundling | 01 - Languages/JavaScript/JavaScript - Modules, ESM-CJS Interop & Bundling.md | ✅ 2026-10-25
+- [x] T209 | deep-dive | Python - Packaging & Tooling with uv | 01 - Languages/Python/Python - Packaging & Tooling with uv.md | ✅ 2026-10-25
+- [x] T210 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-25
 - [ ] T211 | replenish | Next 12 tasks per CLAUDE.md §9 | -

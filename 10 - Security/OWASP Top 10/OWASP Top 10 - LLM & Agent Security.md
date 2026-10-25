@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/deep-dive, topic/owasp, topic/llm-security, topic/agents]
 status: draft
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-25
 version_checked: "OWASP LLM Top 10 2025 (2026 revision unverified) · Agentic Top 10 (2025-12) — 2026-10"
 parent: "[[OWASP Top 10]]"
 related: ["[[AI Agents - Tool Calling & Agent Loops]]", "[[Model Context Protocol - Building MCP Servers]]", "[[RAG]]", "[[Prompt Engineering]]", "[[n8n]]", "[[Supabase - Row Level Security]]"]
@@ -195,6 +195,7 @@ const safe = DOMPurify.sanitize(marked.parse(output, { breaks: true }), { FORBID
 
 ## Related
 - [[OWASP Top 10]]
+- [[OWASP Top 10 - API Security Top 10 in Practice]] — classic API risks underneath LLM/agent endpoints
 - [[AI Agents - Tool Calling & Agent Loops]] — tool design, loops, budgets
 - [[Model Context Protocol - Building MCP Servers]] — server-side authorization for tools
 - [[RAG]] — ingestion provenance, tenant filtering

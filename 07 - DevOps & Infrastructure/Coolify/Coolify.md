@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/coolify]
 status: draft
 created: 2026-10-03
-updated: 2026-10-23
+updated: 2026-10-25
 version_checked: "4.3.x (4.0.0 stable 2026) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -62,7 +62,7 @@ flowchart LR
 - Each managed server runs `coolify-proxy` (Traefik) on 80/443. Coolify writes Traefik labels/dynamic config per resource, and certificates come from Let's Encrypt (HTTP-01 or DNS-01 with Cloudflare).
 - Builds run on the target server by default. Heavy Next.js builds on a small KVM can starve production. Use a dedicated build server or build in CI and deploy the image.
 - Ports: dashboard `8000`, realtime `6001/6002`. Lock these down after setting a domain for the dashboard.
-- Horizontal scaling is limited: Coolify is single-host per resource (Docker Swarm support is experimental). HA means multiple servers + an external LB/DNS, done manually.
+- Horizontal scaling is limited: Coolify is single-host per resource (Docker Swarm support is **deprecated**, to be removed in v5; v5 plans native Compose replicas). HA means multiple servers + an external LB/DNS, done manually.
 
 ## Project Structure
 ```text

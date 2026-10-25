@@ -6,8 +6,8 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/nextjs, topic/rendering, lang/typescript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "Next.js 16.3 — 2026-10"
+updated: 2026-10-25
+version_checked: "Next.js 16.3 · 16.2 Active LTS — re-checked 2026-10-25"
 parent: "[[Next.js]]"
 related: ["[[Next.js - Caching]]", "[[React - Server Components]]", "[[React]]", "[[Supabase]]"]
 ---
@@ -153,6 +153,7 @@ app/
 | 15 | Async request APIs. Fetch uncached by default. `after()` |
 | 16 (2025-10) | **Cache Components** (`cacheComponents`, `"use cache"`, `cacheLife`, `cacheTag`) replace experimental PPR flags + segment configs. `proxy.ts`. Turbopack default |
 | 16.x (2026) | Refinements + security fixes. Run ≥ 16.3.8 |
+| 2026-07 | Formal monthly security releases. LTS lines: 16.2.x Active LTS, 15.5.x Maintenance LTS. Pin to a supported line and take the monthly patch |
 
 > [!warning] Unverified — check before relying on this
 > Exact error wording and some Cache Components APIs evolved across 16.x minors. Confirm against the docs for your installed version.

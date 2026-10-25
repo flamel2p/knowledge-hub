@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/deep-dive, topic/tls, topic/certificates]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-25
 version_checked: "TLS 1.3 · CA/B SC-081v3 (200-day certs from 2026-03) — 2026-10"
 parent: "[[HTTP & HTTPS]]"
 related: ["[[Traefik]]", "[[Cloudflare]]", "[[Coolify]]", "[[OAuth 2.0 & OIDC]]"]
@@ -150,6 +150,7 @@ days=$(( ( $(date -d "$(echo | openssl s_client -connect $H:443 -servername $H 2
 
 ## Related
 - [[HTTP & HTTPS]]
+- [[HTTP & HTTPS - HTTP-2, HTTP-3 & Connection Management]] — protocol negotiation, keep-alive and QUIC above the TLS layer
 - [[Traefik]] — ACME resolvers, TLS termination
 - [[Cloudflare]] — edge TLS, Origin CA, Authenticated Origin Pulls
 - [[Coolify]] — certificate automation for deployed apps

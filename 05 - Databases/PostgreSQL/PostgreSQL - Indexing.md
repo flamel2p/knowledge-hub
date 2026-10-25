@@ -6,8 +6,8 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/indexing]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "PostgreSQL 18 — 2026-10"
+updated: 2026-10-25
+version_checked: "PostgreSQL 18.6 (2026-08) · pgvector 0.8.2 — re-checked 2026-10-25"
 parent: "[[PostgreSQL]]"
 related: ["[[PostgreSQL - Query Planning & EXPLAIN]]", "[[PostgreSQL - Transactions & MVCC]]", "[[Supabase]]", "[[Big O Notation]]"]
 ---
@@ -133,7 +133,9 @@ SELECT relname, seq_scan, seq_tup_read, idx_scan FROM pg_stat_user_tables ORDER 
 | 14–16 | Bottom-up index deletion, BRIN multi-minmax/bloom, incremental sort improvements |
 | 17 | Faster B-tree `IN` list scans, BRIN parallel builds |
 | 18 (2025-09) | **B-tree skip scan** (use multicolumn index without the leading column when it has few distinct values), async I/O helps bitmap heap scans, GIN parallel builds |
-| pgvector 0.5 / 0.8 | HNSW (2023) / iterative index scans for filtered ANN (2024) |
+| 18.2 (2026-02-12) | Security release: 5 CVEs incl. CVE-2026-2007 (`pg_trgm` heap overflow, 18.0–18.1) — matters if you use trigram indexes |
+| 18.4 → 18.6 (2026-08-13) | 18.6 fixes 28 CVEs + 110 bugs. 18.5 was never shipped (regression). PG 14 EOL 2026-11-12 |
+| pgvector 0.5 / 0.8 | HNSW (2023) / iterative index scans for filtered ANN (2024). 0.8.2 fixed a security vulnerability: upgrade the extension |
 
 ## Critical Issues & Gotchas
 > [!danger] Locking during index creation

@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/javascript, lang/javascript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-18
+updated: 2026-10-25
 version_checked: "ECMAScript 2026 (approved 2026-06-30) — 2026-10 (re-checked 2026-10-18: ES2027 due mid-2027)"
 parent: "[[Languages MOC]]"
 related: ["[[TypeScript]]", "[[Node.js]]", "[[React]]", "[[Next.js]]", "[[Browser & Web Fundamentals]]"]
@@ -197,6 +197,7 @@ my-lib/
 
 ## Deep Dives
 - [[JavaScript - Event Loop & Async]]
+- [[JavaScript - Modules, ESM-CJS Interop & Bundling]] — ESM-only packages, require(esm), exports conditions, TS module settings, barrels and tree-shaking
 
 ## Related
 - [[TypeScript]] — typed superset, the default for serious JS
