@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-24
+updated: 2026-10-25
 parent: "[[00 - Home]]"
 ---
 
@@ -21,6 +21,7 @@ parent: "[[00 - Home]]"
   - [[TypeScript - Runtime Validation with Zod & Type-Safe APIs]]
 - [[JavaScript]] — ECMAScript 2026, event loop, modules, npm supply-chain risks
   - [[JavaScript - Event Loop & Async]]
+  - [[JavaScript - Modules, ESM-CJS Interop & Bundling]]
 - [[Python]] — CPython 3.14/3.15, uv + ruff, asyncio, free-threading, PyPI supply chain
   - [[Python - Async & Concurrency]]
 - [[Go]] — static binaries, goroutines, Go 1.26/1.27, module supply chain
