@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/python, lang/python]
 status: draft
 created: 2026-10-05
-updated: 2026-10-14
+updated: 2026-10-25
 version_checked: "3.15.0 (scheduled 2026-10-01) · 3.14.8 — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[JavaScript]]", "[[Go]]", "[[LangChain & LangGraph]]", "[[RAG]]", "[[PostgreSQL]]"]
@@ -188,6 +188,7 @@ lint.select = ["E", "F", "I", "B", "UP", "ASYNC", "S"]   # includes bandit-style
 
 ## Deep Dives
 - [[Python - Async & Concurrency]]
+- [[Python - Packaging & Tooling with uv]] — uv projects, universal lock, groups, PEP 723 scripts, Docker/CI patterns, 0.x pinning
 
 ## Related
 - [[LangChain & LangGraph]] · [[RAG]] · [[AI Agents]] — primary AI workloads

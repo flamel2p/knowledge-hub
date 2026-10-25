@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/python, topic/concurrency, lang/python]
 status: draft
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-25
 version_checked: "CPython 3.14.x (free-threaded supported) · 3.15 — 2026-10"
 parent: "[[Python]]"
 related: ["[[Go - Concurrency]]", "[[JavaScript - Event Loop & Async]]", "[[Rust - Ownership & Borrowing]]", "[[LLM APIs & SDKs]]", "[[System Design]]"]
@@ -190,6 +190,7 @@ async def run(jobs):
 
 ## Related
 - [[Python]]
+- [[Python - Packaging & Tooling with uv]] — project setup, locking and container builds for async services
 - [[Go - Concurrency]] — goroutines vs coroutines
 - [[JavaScript - Event Loop & Async]] — same cooperative event-loop model
 - [[Rust - Ownership & Borrowing]] — compile-time thread safety
