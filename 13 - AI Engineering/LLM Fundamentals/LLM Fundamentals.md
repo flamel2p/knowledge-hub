@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/llm]
 status: draft
 created: 2026-10-03
-updated: 2026-10-19
+updated: 2026-10-26
 version_checked: "model landscape snapshot — 2026-10 (Claude lineup re-checked 2026-10-19 against cached model table 2026-10-06)"
 parent: "[[AI Engineering MOC]]"
 related: ["[[Prompt Engineering]]", "[[RAG]]", "[[AI Agents]]", "[[LLM APIs & SDKs]]", "[[Fine-tuning LLMs]]"]
@@ -169,6 +169,7 @@ Model landscape snapshot (Oct 2026). Prices are USD per 1M input/output tokens:
 
 ## Deep Dives
 - [[LLM Fundamentals - Tokens, Context & Sampling]]
+- [[LLM Fundamentals - Model Selection & Routing]] — per-route models + effort, cost per task, cascades vs static routes, refusal/availability fallbacks
 
 ## Related
 - [[Prompt Engineering]] — steering behaviour within these mechanics

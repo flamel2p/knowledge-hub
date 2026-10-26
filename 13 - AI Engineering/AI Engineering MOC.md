@@ -20,6 +20,7 @@ parent: "[[00 - Home]]"
   - [[Build with AI]] — 11-part prompt playbook series for business tasks
 - [[LLM Fundamentals]] — tokens, context, sampling, reasoning, caching, model landscape
   - [[LLM Fundamentals - Tokens, Context & Sampling]]
+  - [[LLM Fundamentals - Model Selection & Routing]]
 - [[RAG]] — hybrid retrieval, reranking, contextual retrieval, agentic RAG, tenant isolation
   - [[RAG - Chunking & Retrieval Strategies]]
   - [[RAG - Document Ingestion & PDF Parsing Pipelines]]
