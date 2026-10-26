@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/prompt-engineering]
 status: draft
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-26
 version_checked: "n/a — concepts, checked against 2026-10 model behaviour"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[RAG]]", "[[AI Agents]]", "[[Build with AI]]", "[[AI Evals & Observability]]"]
@@ -162,6 +162,7 @@ prompts/
 ## Deep Dives
 - [[Build with AI]] — 11-part playbook series of chained business prompts (reference)
 - (planned, unscheduled) Prompt Engineering - Context Engineering for Agents
+- [[Prompt Engineering - System Prompts, Few-shot & Prompt Versioning]] — system prompt anatomy, few-shot design, versioned prompt files, CI eval gate, migration audits
 
 ## Related
 - [[LLM Fundamentals]] — tokens, context, sampling, effort

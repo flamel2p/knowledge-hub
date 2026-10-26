@@ -156,6 +156,7 @@ await langfuse.trace({ input: rawCustomerMessage });   // ❌ IC numbers and pho
 
 ## Related
 - [[AI Evals & Observability]]
+- [[Prompt Engineering - System Prompts, Few-shot & Prompt Versioning]] — prompt versions linked to traces and eval gates
 - [[AI Evals & Observability - Eval Datasets & LLM-as-Judge]] — offline evals that use these traces
 - [[AI Agents - Memory & Context Engineering]] — context growth visible in traces
 - [[LLM APIs & SDKs - Prompt Caching & Cost Optimization]] — cost attribution

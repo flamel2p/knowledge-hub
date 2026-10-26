@@ -18,6 +18,7 @@ parent: "[[00 - Home]]"
 ## Notes
 - [[Prompt Engineering]] — context engineering, structure, examples, structured outputs, evals
   - [[Build with AI]] — 11-part prompt playbook series for business tasks
+  - [[Prompt Engineering - System Prompts, Few-shot & Prompt Versioning]]
 - [[LLM Fundamentals]] — tokens, context, sampling, reasoning, caching, model landscape
   - [[LLM Fundamentals - Tokens, Context & Sampling]]
   - [[LLM Fundamentals - Model Selection & Routing]]
