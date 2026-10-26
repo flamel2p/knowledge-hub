@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-25 (T210)
+Last run: 2026-10-26 (T211)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -262,4 +262,19 @@ Last run: 2026-10-25 (T210)
 - [x] T208 | deep-dive | JavaScript - Modules, ESM-CJS Interop & Bundling | 01 - Languages/JavaScript/JavaScript - Modules, ESM-CJS Interop & Bundling.md | ✅ 2026-10-25
 - [x] T209 | deep-dive | Python - Packaging & Tooling with uv | 01 - Languages/Python/Python - Packaging & Tooling with uv.md | ✅ 2026-10-25
 - [x] T210 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-25
-- [ ] T211 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T211 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-10-26
+
+### Wave 13 — Workflow, LLM ops and web platform depth
+
+- [ ] T212 | deep-dive | Git - Monorepo Workflows with pnpm & Turborepo | 07 - DevOps & Infrastructure/Git/Git - Monorepo Workflows with pnpm & Turborepo.md
+- [ ] T213 | deep-dive | AI Evals & Observability - Tracing & Production Monitoring with Langfuse | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Tracing & Production Monitoring with Langfuse.md
+- [ ] T214 | deep-dive | LLM Fundamentals - Model Selection & Routing | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals - Model Selection & Routing.md
+- [ ] T215 | deep-dive | Prompt Engineering - System Prompts, Few-shot & Prompt Versioning | 13 - AI Engineering/Prompt Engineering/Prompt Engineering - System Prompts, Few-shot & Prompt Versioning.md
+- [ ] T216 | deep-dive | Vector Databases - Embedding Models & Multilingual Retrieval | 05 - Databases/Vector Databases/Vector Databases - Embedding Models & Multilingual Retrieval.md
+- [ ] T217 | deep-dive | Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS | 06 - Messaging & Streaming/Message Queues/Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS.md
+- [ ] T218 | deep-dive | Network Security - Cloudflare WAF & Rate Limiting Rules | 10 - Security/Network Security/Network Security - Cloudflare WAF & Rate Limiting Rules.md
+- [ ] T219 | deep-dive | Browser & Web Fundamentals - Storage, Cookies & Service Workers | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Storage, Cookies & Service Workers.md
+- [ ] T220 | deep-dive | Astro - Content Sites, SEO & Cloudflare Deployment | 02 - Frontend/Astro/Astro - Content Sites, SEO & Cloudflare Deployment.md
+- [ ] T221 | deep-dive | Data Structures - Hash Tables & B-Tree Internals | 11 - CS Fundamentals/Data Structures/Data Structures - Hash Tables & B-Tree Internals.md
+- [ ] T222 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T223 | replenish | Next 12 tasks per CLAUDE.md §9 | -
