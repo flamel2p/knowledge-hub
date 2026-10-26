@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/evals, topic/observability, topic/llm]
 status: draft
 created: 2026-10-13
-updated: 2026-10-18
+updated: 2026-10-26
 version_checked: "Langfuse (ClickHouse-owned, MIT) · OTel GenAI semconv (development) — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[RAG]]", "[[AI Agents]]", "[[Prompt Engineering]]", "[[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]", "[[Testing Strategy]]"]
@@ -178,6 +178,7 @@ npx promptfoo eval -c evals/promptfooconfig.yaml && npx promptfoo view
 
 ## Deep Dives
 - [[AI Evals & Observability - Eval Datasets & LLM-as-Judge]]
+- [[AI Evals & Observability - Tracing & Production Monitoring with Langfuse]] — trace/session/score model, OTel SDK instrumentation, self-hosting v3 on Coolify + R2, PII masking, cost dashboards
 
 ## Related
 - [[LLM Fundamentals]] — sampling, non-determinism, tokens and cost

@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/evals, topic/llm-as-judge, lang/typescript]
 status: draft
 created: 2026-10-18
-updated: 2026-10-21
+updated: 2026-10-26
 version_checked: "n/a (practice) — Claude structured outputs + model IDs cached 2026-10-06"
 parent: "[[AI Evals & Observability]]"
 related: ["[[LLM APIs & SDKs]]", "[[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]", "[[RAG]]", "[[Prompt Engineering]]", "[[AI Agents - Tool Calling & Agent Loops]]", "[[Testing Strategy]]"]
@@ -171,6 +171,7 @@ N/A: methodology, not a versioned product. Tool-specific notes (Langfuse, LangSm
 
 ## Related
 - [[AI Evals & Observability]]
+- [[AI Evals & Observability - Tracing & Production Monitoring with Langfuse]] — production traces and scores feeding these datasets
 - [[LLM APIs & SDKs]] — structured outputs, batch, usage fields
 - [[RAG]] — retrieval metrics (recall@k) alongside answer quality
 - [[Prompt Engineering]] — what the evals iterate on

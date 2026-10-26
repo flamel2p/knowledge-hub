@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-24
+updated: 2026-10-26
 parent: "[[00 - Home]]"
 ---
 
@@ -33,6 +33,7 @@ parent: "[[00 - Home]]"
   - [[Cloudflare - R2 Storage & Presigned Uploads]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
+  - [[Git - Monorepo Workflows with pnpm & Turborepo]]
 - [[Linux Essentials]] — VPS operations: users/perms, systemd/journald, ss/nftables, disk/OOM triage, LTS distros, kernel CVEs
   - [[Linux Essentials - VPS Hardening Runbook]]
   - [[Linux Essentials - systemd, Logs & Troubleshooting]]

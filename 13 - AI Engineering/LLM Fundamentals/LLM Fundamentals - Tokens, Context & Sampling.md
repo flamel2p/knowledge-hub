@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/llm, topic/tokens]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-26
 version_checked: "model landscape snapshot — 2026-10"
 parent: "[[LLM Fundamentals]]"
 related: ["[[Prompt Engineering]]", "[[RAG]]", "[[AI Agents]]", "[[LLM APIs & SDKs]]"]
@@ -156,6 +156,7 @@ if (input_tokens > 600_000) messages = await compactHistory(messages);   // budg
 
 ## Related
 - [[LLM Fundamentals]]
+- [[LLM Fundamentals - Model Selection & Routing]] — choosing model + effort per route
 - [[Prompt Engineering]] — structuring context
 - [[RAG]] — retrieval instead of stuffing context
 - [[AI Agents]] — context management in loops

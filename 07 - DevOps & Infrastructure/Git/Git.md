@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/git, topic/version-control]
 status: draft
 created: 2026-10-11
-updated: 2026-10-18
+updated: 2026-10-26
 version_checked: "2.5x (2.52–2.55 in 2026) · Git 3.0 planned ~late 2026 — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[CI-CD]]", "[[Linux Essentials]]", "[[Coolify]]", "[[Docker]]", "[[Network Security]]"]
@@ -174,6 +174,7 @@ repo/
 
 ## Deep Dives
 - [[Git - Branching, Releases & Recovery]]
+- [[Git - Monorepo Workflows with pnpm & Turborepo]] — pnpm workspaces + catalogs, turbo task graph and caching, prune for Docker, affected CI, cache poisoning
 
 ## Related
 - [[CI-CD]] — pipelines triggered by Git events

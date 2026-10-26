@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/git, topic/release-management]
 status: draft
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-26
 version_checked: "Git 2.55 (2026-06) · Git 3.0 unreleased (no date) — 2026-10"
 parent: "[[Git]]"
 related: ["[[CI-CD]]", "[[CI-CD - GitHub Actions Security Hardening]]", "[[Coolify]]", "[[Docker]]", "[[Network Security]]"]
@@ -184,6 +184,7 @@ git push --force --all && git push --force --tags
 
 ## Related
 - [[Git]]
+- [[Git - Monorepo Workflows with pnpm & Turborepo]] — repo structure and affected-only CI for multi-app products
 - [[CI-CD]] — build once, promote by tag
 - [[CI-CD - GitHub Actions Security Hardening]] — protected branches, CODEOWNERS, release workflows
 - [[Coolify]] — deploying branches/tags

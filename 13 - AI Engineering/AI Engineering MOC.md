@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-24
+updated: 2026-10-26
 parent: "[[00 - Home]]"
 ---
 
@@ -18,8 +18,10 @@ parent: "[[00 - Home]]"
 ## Notes
 - [[Prompt Engineering]] — context engineering, structure, examples, structured outputs, evals
   - [[Build with AI]] — 11-part prompt playbook series for business tasks
+  - [[Prompt Engineering - System Prompts, Few-shot & Prompt Versioning]]
 - [[LLM Fundamentals]] — tokens, context, sampling, reasoning, caching, model landscape
   - [[LLM Fundamentals - Tokens, Context & Sampling]]
+  - [[LLM Fundamentals - Model Selection & Routing]]
 - [[RAG]] — hybrid retrieval, reranking, contextual retrieval, agentic RAG, tenant isolation
   - [[RAG - Chunking & Retrieval Strategies]]
   - [[RAG - Document Ingestion & PDF Parsing Pipelines]]
@@ -36,6 +38,7 @@ parent: "[[00 - Home]]"
   - [[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]
 - [[AI Evals & Observability]] — graders (code, LLM-judge, human), RAG/agent metrics, tracing, Langfuse (ClickHouse 2026), PII in traces
   - [[AI Evals & Observability - Eval Datasets & LLM-as-Judge]]
+  - [[AI Evals & Observability - Tracing & Production Monitoring with Langfuse]]
 - [[Fine-tuning LLMs]] — when (not) to fine-tune, LoRA/QLoRA SFT, DPO, GRPO/RFT, open-weight serving; safety erosion + deprecation risks
   - [[Fine-tuning LLMs - LoRA & QLoRA with Unsloth]]
   - [[Fine-tuning LLMs - Dataset Curation for SFT & DPO]]
