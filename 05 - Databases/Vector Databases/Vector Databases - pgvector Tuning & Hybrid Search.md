@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/vector-databases, topic/pgvector, topic/hybrid-search, topic/rag]
 status: draft
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-27
 version_checked: "pgvector 0.8.x (0.8.5 packaged 2026-07) — 2026-10"
 parent: "[[Vector Databases]]"
 related: ["[[PostgreSQL]]", "[[PostgreSQL - Indexing]]", "[[PostgreSQL - Query Planning & EXPLAIN]]", "[[Supabase]]", "[[Supabase - Row Level Security]]", "[[RAG]]"]
@@ -218,6 +218,7 @@ limit 10;
 
 ## Related
 - [[Vector Databases]]
+- [[Vector Databases - Embedding Models & Multilingual Retrieval]] — choosing and migrating the embedding model behind these indexes
 - [[PostgreSQL - Indexing]] — GIN, partial and expression indexes
 - [[PostgreSQL - Query Planning & EXPLAIN]] — verifying index usage
 - [[Supabase]] — hosted pgvector, RPCs, compute sizing

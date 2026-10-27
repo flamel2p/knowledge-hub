@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-26 (T215)
+Last run: 2026-10-27 (T216)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -270,7 +270,7 @@ Last run: 2026-10-26 (T215)
 - [x] T213 | deep-dive | AI Evals & Observability - Tracing & Production Monitoring with Langfuse | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Tracing & Production Monitoring with Langfuse.md | ✅ 2026-10-26
 - [x] T214 | deep-dive | LLM Fundamentals - Model Selection & Routing | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals - Model Selection & Routing.md | ✅ 2026-10-26
 - [x] T215 | deep-dive | Prompt Engineering - System Prompts, Few-shot & Prompt Versioning | 13 - AI Engineering/Prompt Engineering/Prompt Engineering - System Prompts, Few-shot & Prompt Versioning.md | ✅ 2026-10-26
-- [ ] T216 | deep-dive | Vector Databases - Embedding Models & Multilingual Retrieval | 05 - Databases/Vector Databases/Vector Databases - Embedding Models & Multilingual Retrieval.md
+- [x] T216 | deep-dive | Vector Databases - Embedding Models & Multilingual Retrieval | 05 - Databases/Vector Databases/Vector Databases - Embedding Models & Multilingual Retrieval.md | ✅ 2026-10-27
 - [ ] T217 | deep-dive | Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS | 06 - Messaging & Streaming/Message Queues/Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS.md
 - [ ] T218 | deep-dive | Network Security - Cloudflare WAF & Rate Limiting Rules | 10 - Security/Network Security/Network Security - Cloudflare WAF & Rate Limiting Rules.md
 - [ ] T219 | deep-dive | Browser & Web Fundamentals - Storage, Cookies & Service Workers | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Storage, Cookies & Service Workers.md
