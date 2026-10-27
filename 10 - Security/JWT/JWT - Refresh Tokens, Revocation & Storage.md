@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/deep-dive, topic/jwt, topic/sessions, topic/auth]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-27
 version_checked: "Supabase Auth sessions (rotation on, reuse interval, time-box/inactivity, signOut scopes) — 2026-10"
 parent: "[[JWT]]"
 related: ["[[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]]", "[[JWT - Signing Algorithms, Keys & Rotation]]", "[[Supabase]]", "[[Redis]]", "[[Next.js]]", "[[Flutter]]"]
@@ -191,6 +191,7 @@ await storage.write(key: 'refresh_token', value: rt);
 
 ## Related
 - [[JWT]]
+- [[Browser & Web Fundamentals - Storage, Cookies & Service Workers]] — browser-side storage rules for sessions and tokens
 - [[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]] — refresh rotation, reuse detection, BFF
 - [[JWT - Signing Algorithms, Keys & Rotation]] — key compromise = mass revocation
 - [[Supabase]] — sessions, SSR cookies, sign-out scopes

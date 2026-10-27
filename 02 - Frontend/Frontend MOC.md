@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-21
+updated: 2026-10-27
 parent: "[[00 - Home]]"
 ---
 
@@ -31,6 +31,7 @@ parent: "[[00 - Home]]"
   - [[Tailwind CSS - Design Token Pipeline for Web & Flutter]]
 - [[Browser & Web Fundamentals]] — rendering path, main thread, Core Web Vitals (LCP/INP/CLS), SOP/CORS/CSP/cookies, storage, Interop 2026
   - [[Browser & Web Fundamentals - Core Web Vitals Optimization]]
+  - [[Browser & Web Fundamentals - Storage, Cookies & Service Workers]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
