@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/network-security]
 status: draft
 created: 2026-10-08
-updated: 2026-10-21
+updated: 2026-10-27
 version_checked: "n/a (concept) — TLS cert rules + CVEs checked 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[Docker]]", "[[Traefik]]", "[[OWASP Top 10]]"]
@@ -194,6 +194,7 @@ networks: { web: {}, data: { internal: true } }   # internal: no outbound intern
 
 ## Deep Dives
 - [[Network Security - Common Web Attacks]]
+- [[Network Security - Cloudflare WAF & Rate Limiting Rules]] — skip/block/challenge rule set as code, rate limits on Free, Turnstile, machine-client pitfalls
 
 ## Related
 - [[HTTP & HTTPS]] — TLS handshake, HSTS, HTTP/2/3

@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-25
+updated: 2026-10-27
 parent: "[[00 - Home]]"
 ---
 
@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
   - [[OAuth 2.0 & OIDC - Attacks & Hardening]]
 - [[Network Security]] — firewalls, segmentation, zero trust, TLS (200-day certs), DDoS; Docker-bypasses-UFW, xz, regreSSHion
   - [[Network Security - Common Web Attacks]]
+  - [[Network Security - Cloudflare WAF & Rate Limiting Rules]]
 - [[Authentication & Authorization]] — passkeys/MFA, sessions vs tokens, RBAC/ABAC/ReBAC, RLS, NIST 800-63-4; session theft + IDOR risks
   - [[Authentication & Authorization - Interview Questions]] — interview prep reference (finance-app auth, BNM rules)
   - [[Authentication & Authorization - Passkeys & WebAuthn]]

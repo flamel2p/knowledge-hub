@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/deep-dive, topic/web-security, topic/appsec]
 status: draft
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-27
 version_checked: "n/a (attack classes) — mapped to OWASP Top 10:2025 — 2026-10"
 parent: "[[Network Security]]"
 related: ["[[OWASP Top 10]]", "[[Authentication & Authorization]]", "[[Browser & Web Fundamentals]]", "[[HTTP & HTTPS]]", "[[GraphQL]]", "[[Next.js]]"]
@@ -165,6 +165,7 @@ Set-Cookie: __Host-session=...; Path=/; Secure; HttpOnly; SameSite=Lax
 
 ## Related
 - [[Network Security]]
+- [[Network Security - Cloudflare WAF & Rate Limiting Rules]] — edge rules that blunt these attacks before the origin
 - [[OWASP Top 10]] — risk categories these attacks map to
 - [[Authentication & Authorization]] — IDOR, session, credential attacks
 - [[Browser & Web Fundamentals]] — SOP, CORS, CSP, cookies
