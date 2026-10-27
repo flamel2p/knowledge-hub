@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
   - [[Next.js - Caching]]
 - [[Astro]] — zero-JS-by-default islands framework for content sites; Content Layer, server islands; Cloudflare-owned since 2026-01
   - [[Astro - Islands & Content Layer]]
+  - [[Astro - Content Sites, SEO & Cloudflare Deployment]]
 - [[WebGL]] — browser GPU API; WebGL 2 everywhere, WebGPU cross-browser, three.js WebGPURenderer with fallback, R3F
   - [[WebGL - three.js & React Three Fiber Performance]]
 - [[Tailwind CSS]] — utility-first CSS; v4 Rust engine + @theme CSS config, 4.3.x, shadcn/ui; 2026 Tailwind Labs layoffs risk
