@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/overview, topic/message-queues, topic/async]
 status: draft
 created: 2026-10-14
-updated: 2026-10-17
+updated: 2026-10-27
 version_checked: "RabbitMQ 4.2 (Khepri default) · BullMQ 5.x · Supabase Queues (pgmq) — 2026-10"
 parent: "[[Messaging & Streaming MOC]]"
 related: ["[[Kafka]]", "[[Redis]]", "[[PostgreSQL]]", "[[n8n]]", "[[System Design]]", "[[Node.js]]"]
@@ -194,6 +194,7 @@ docker-compose.yml       # redis (appendonly yes, maxmemory-policy noeviction), 
 
 ## Deep Dives
 - [[Message Queues - BullMQ in Production]]
+- [[Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS]] — decision matrix, transactional enqueue vs outbox, per-option snippets, ops cost for a solo founder
 
 ## Related
 - [[Kafka]] — log-based streaming peer

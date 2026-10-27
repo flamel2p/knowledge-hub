@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-17
+updated: 2026-10-27
 parent: "[[00 - Home]]"
 ---
 
@@ -20,6 +20,7 @@ parent: "[[00 - Home]]"
   - [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
 - [[Message Queues]] — job queues vs brokers vs logs; BullMQ, pgmq, RabbitMQ 4.2, SQS, NATS; idempotency, DLQ, Redis noeviction
   - [[Message Queues - BullMQ in Production]]
+  - [[Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
