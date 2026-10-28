@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-10-08
+updated: 2026-10-28
 version_checked: "3.47 / Dart 3.13 (2026-08) — 2026-10"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -177,6 +177,7 @@ my_app/
 - [[Flutter - Testing]]
 - [[Flutter - Navigation & Routing]]
 - [[Flutter - Offline Storage & Sync]]
+- [[Flutter - Push Notifications & Background Work]] — FCM HTTP v1, token hygiene, permission timing, WorkManager/BGTaskScheduler limits, lock-screen privacy
 
 ## Related
 - [[Dart]] — the language
