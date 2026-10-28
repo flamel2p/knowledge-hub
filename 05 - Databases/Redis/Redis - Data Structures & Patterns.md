@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/redis, topic/caching]
 status: draft
 created: 2026-10-05
-updated: 2026-10-23
+updated: 2026-10-28
 version_checked: "Redis 8.8 GA confirmed (8.10 unverified) — re-checked 2026-10-23"
 parent: "[[Redis]]"
 related: ["[[Redis - Persistence & High Availability]]", "[[n8n]]", "[[WebSocket]]", "[[Big O Notation]]"]
@@ -156,6 +156,7 @@ ZRANGE delayed -inf {now} BYSCORE LIMIT 0 100   # due jobs (move atomically via 
 
 ## Related
 - [[Redis]]
+- [[Redis - Caching Patterns & Invalidation]] — caching patterns built on these primitives
 - [[Redis - Persistence & High Availability]] — durability for queue/state roles
 - [[n8n]] — queue mode on Redis
 - [[WebSocket]] — Pub/Sub fan-out

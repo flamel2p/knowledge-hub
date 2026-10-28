@@ -20,6 +20,7 @@ parent: "[[00 - Home]]"
   - [[Redis - Data Structures & Patterns]]
   - [[Redis - Persistence & High Availability]]
   - [[Redis - Interview Questions]] — interview prep reference (deploy, HA, cache failure patterns)
+  - [[Redis - Caching Patterns & Invalidation]]
 - [[Valkey]] — BSD-3 Linux Foundation fork of Redis 7.2: RESP-compatible, 9.x I/O threading, hash-field TTL, atomic slot migration
   - [[Valkey - Redis to Valkey Migration Runbook]]
 - [[PostgreSQL]] — relational system of record: MVCC, indexes, RLS, pgvector, 18 async I/O
