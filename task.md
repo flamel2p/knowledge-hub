@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-28 (T221)
+Last run: 2026-10-28 (T222)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -276,5 +276,5 @@ Last run: 2026-10-28 (T221)
 - [x] T219 | deep-dive | Browser & Web Fundamentals - Storage, Cookies & Service Workers | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Storage, Cookies & Service Workers.md | ✅ 2026-10-27
 - [x] T220 | deep-dive | Astro - Content Sites, SEO & Cloudflare Deployment | 02 - Frontend/Astro/Astro - Content Sites, SEO & Cloudflare Deployment.md | ✅ 2026-10-27
 - [x] T221 | deep-dive | Data Structures - Hash Tables & B-Tree Internals | 11 - CS Fundamentals/Data Structures/Data Structures - Hash Tables & B-Tree Internals.md | ✅ 2026-10-28
-- [ ] T222 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T222 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-28
 - [ ] T223 | replenish | Next 12 tasks per CLAUDE.md §9 | -
