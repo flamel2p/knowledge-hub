@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-28 (T229)
+Last run: 2026-10-28 (T230)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -287,7 +287,7 @@ Last run: 2026-10-28 (T229)
 - [x] T227 | deep-dive | Flutter - Push Notifications & Background Work | 03 - Mobile/Flutter/Flutter - Push Notifications & Background Work.md | ✅ 2026-10-28
 - [x] T228 | deep-dive | n8n - Security, Credentials & Self-Hosting Hardening | 08 - Automation/n8n/n8n - Security, Credentials & Self-Hosting Hardening.md | ✅ 2026-10-28
 - [x] T229 | deep-dive | Redis - Caching Patterns & Invalidation | 05 - Databases/Redis/Redis - Caching Patterns & Invalidation.md | ✅ 2026-10-28
-- [ ] T230 | deep-dive | Cloudflare - Workers for Webhooks & Edge APIs | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Workers for Webhooks & Edge APIs.md
+- [x] T230 | deep-dive | Cloudflare - Workers for Webhooks & Edge APIs | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Workers for Webhooks & Edge APIs.md | ✅ 2026-10-28
 - [ ] T231 | deep-dive | Windmill - Worker Groups & Sandboxing | 08 - Automation/Windmill/Windmill - Worker Groups & Sandboxing.md
 - [ ] T232 | deep-dive | Algorithms - Dynamic Programming Patterns | 11 - CS Fundamentals/Algorithms/Algorithms - Dynamic Programming Patterns.md
 - [ ] T233 | deep-dive | Go - HTTP Services & Ops Tooling | 01 - Languages/Go/Go - HTTP Services & Ops Tooling.md
