@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-28 (T225)
+Last run: 2026-10-28 (T226)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -283,7 +283,7 @@ Last run: 2026-10-28 (T225)
 
 - [x] T224 | deep-dive | Next.js - Middleware, Auth & Multi-Tenant Routing | 02 - Frontend/Next.js/Next.js - Middleware, Auth & Multi-Tenant Routing.md | ✅ 2026-10-28
 - [x] T225 | deep-dive | Supabase - Realtime, Presence & Broadcast | 04 - Backend/Supabase/Supabase - Realtime, Presence & Broadcast.md | ✅ 2026-10-28
-- [ ] T226 | deep-dive | PostgreSQL - Backups, PITR & Restore Drills | 05 - Databases/PostgreSQL/PostgreSQL - Backups, PITR & Restore Drills.md
+- [x] T226 | deep-dive | PostgreSQL - Backups, PITR & Restore Drills | 05 - Databases/PostgreSQL/PostgreSQL - Backups, PITR & Restore Drills.md | ✅ 2026-10-28
 - [ ] T227 | deep-dive | Flutter - Push Notifications & Background Work | 03 - Mobile/Flutter/Flutter - Push Notifications & Background Work.md
 - [ ] T228 | deep-dive | n8n - Security, Credentials & Self-Hosting Hardening | 08 - Automation/n8n/n8n - Security, Credentials & Self-Hosting Hardening.md
 - [ ] T229 | deep-dive | Redis - Caching Patterns & Invalidation | 05 - Databases/Redis/Redis - Caching Patterns & Invalidation.md
