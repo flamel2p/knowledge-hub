@@ -6,8 +6,8 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/react, topic/rsc, lang/typescript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "React 19.3 · Next.js 16.3 — 2026-10"
+updated: 2026-10-28
+version_checked: "React 19.3 (2026-09) · Next.js 16.3 / 16.2 LTS — re-checked 2026-10-28"
 parent: "[[React]]"
 related: ["[[React - Hooks]]", "[[Next.js]]", "[[Next.js - App Router & Rendering Strategies]]", "[[Next.js - Caching]]"]
 ---
@@ -145,6 +145,7 @@ export async function archiveOrder(orderId: string) {
 | React 19.2 (2025-10) | `cacheSignal`, partial pre-rendering primitives |
 | 19.0.1 / 19.1.2 / 19.2.1 (2025-12) | **React2Shell** fix + follow-up DoS/source-exposure fixes |
 | 2025–26 | RSC support in React Router v7, Parcel, Vite plugins (expanding beyond Next.js) |
+| 19.3.0 (2026-09-09) | Latest minor (third-party trackers). Stay on Next.js supported lines (16.2 Active LTS / 16.3) and take the monthly security releases |
 
 ## Critical Issues & Gotchas
 > [!danger] React2Shell — CVE-2025-55182 (CVSS 10.0)

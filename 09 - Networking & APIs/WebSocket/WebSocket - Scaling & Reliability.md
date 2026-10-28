@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/deep-dive, topic/websocket, topic/realtime]
 status: draft
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-10-28
 version_checked: "RFC 6455 · ws 8.x · Socket.IO 4.x — 2026-10"
 parent: "[[WebSocket]]"
 related: ["[[Redis]]", "[[Traefik]]", "[[Cloudflare]]", "[[Kubernetes - Core Objects]]", "[[Supabase]]", "[[Message Queues]]"]
@@ -179,6 +179,7 @@ function connect(lastSeq = 0, attempt = 0) {
 
 ## Related
 - [[WebSocket]]
+- [[Supabase - Realtime, Presence & Broadcast]] — managed WebSocket fan-out with Supabase Realtime
 - [[Redis]] — pub/sub backplane, Streams for replay, presence
 - [[Traefik]] · [[Cloudflare]] — proxies, timeouts, WS support
 - [[Kubernetes - Core Objects]] — graceful termination, probes

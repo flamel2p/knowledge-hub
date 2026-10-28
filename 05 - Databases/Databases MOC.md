@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-20
+updated: 2026-10-27
 parent: "[[00 - Home]]"
 ---
 
@@ -33,6 +33,7 @@ parent: "[[00 - Home]]"
   - [[NoSQL - MongoDB Data Modeling]]
 - [[Vector Databases]] — embeddings + ANN (HNSW/IVF/DiskANN), quantization, hybrid RRF, pgvector vs Qdrant/Milvus/Pinecone, tenant leakage
   - [[Vector Databases - pgvector Tuning & Hybrid Search]]
+  - [[Vector Databases - Embedding Models & Multilingual Retrieval]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._

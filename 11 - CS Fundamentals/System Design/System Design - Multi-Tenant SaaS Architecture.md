@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/deep-dive, topic/system-design, topic/multi-tenancy, topic/saas]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-28
 version_checked: "n/a (architecture) — Supabase custom access token hook + RLS patterns as of 2026-10"
 parent: "[[System Design]]"
 related: ["[[Supabase - Row Level Security]]", "[[PostgreSQL]]", "[[Authentication & Authorization]]", "[[Message Queues - BullMQ in Production]]", "[[Cloudflare]]", "[[Redis]]"]
@@ -189,6 +189,7 @@ N/A: architecture patterns. Platform specifics:
 
 ## Related
 - [[System Design]]
+- [[Next.js - Middleware, Auth & Multi-Tenant Routing]] — host-based tenant routing in Next.js
 - [[Supabase - Row Level Security]] — enforcing tenant boundaries in Postgres
 - [[Authentication & Authorization]] — memberships, roles, impersonation
 - [[Message Queues - BullMQ in Production]] — fairness and per-tenant limits

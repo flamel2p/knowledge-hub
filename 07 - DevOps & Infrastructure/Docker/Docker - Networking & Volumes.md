@@ -6,8 +6,8 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/docker, topic/networking, topic/storage]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "Engine 29 — 2026-10"
+updated: 2026-10-28
+version_checked: "Engine 29.9 (nftables experimental) — re-checked 2026-10-28"
 parent: "[[Docker]]"
 related: ["[[Docker - Dockerfile & Image Best Practices]]", "[[Traefik]]", "[[Coolify]]", "[[Linux Essentials]]", "[[PostgreSQL]]"]
 ---
@@ -136,10 +136,11 @@ docker run --rm -v pgdata_restore:/data -v "$PWD":/backup alpine tar xzf /backup
 | 17.06 | `DOCKER-USER` iptables chain |
 | 20.10 | cgroup v2 support, rootless mode GA |
 | 28 (2025) | Stricter default iptables rules (direct routing to container IPs blocked from other hosts), firewalld integration improvements |
-| 29 (2025-11) | nftables backend work, containerd image store default |
+| 29 | **nftables firewall backend: experimental, opt-in** (`"firewall-backend": "nftables"` in `daemon.json`). iptables stays the default. Not usable with Swarm yet. Docker creates nftables rules directly even with firewalld. containerd image store default for new installs |
+| 29.9.2 (2026-10-20) | Latest patch at re-check. A future release will make nftables the default and deprecate iptables |
 
 > [!warning] Unverified — check before relying on this
-> Engine 28/29 firewall-backend specifics (iptables vs nftables defaults per distro) weren't verified this run. Check https://docs.docker.com/engine/network/packet-filtering-firewalls/.
+> The `firewall-backend` daemon key name and the Engine 29.0 release date weren't confirmed (sources differ). Check https://docs.docker.com/engine/network/packet-filtering-firewalls/ before switching UFW-protected hosts to nftables.
 
 ## Critical Issues & Gotchas
 > [!danger] Exposed databases despite a firewall

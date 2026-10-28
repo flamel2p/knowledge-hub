@@ -6,8 +6,8 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/transactions]
 status: draft
 created: 2026-10-05
-updated: 2026-10-05
-version_checked: "PostgreSQL 18 — 2026-10"
+updated: 2026-10-28
+version_checked: "PostgreSQL 18.6 · 19 RC1 (GA 2026-11-19) — re-checked 2026-10-28"
 parent: "[[PostgreSQL]]"
 related: ["[[PostgreSQL - Indexing]]", "[[PostgreSQL - Query Planning & EXPLAIN]]", "[[Supabase]]", "[[Redis]]"]
 ---
@@ -154,7 +154,8 @@ ALTER TABLE messages SET (autovacuum_vacuum_scale_factor = 0.02, autovacuum_vacu
 | 14 | `idle_session_timeout`, vacuum emergency failsafe for wraparound |
 | 17 | Vacuum memory rewrite (TID store), much lower memory use |
 | 18 (2025-09) | Async I/O speeds vacuum. Eager freezing improvements |
-| 19 (beta) | Parallel autovacuum of indexes, autovacuum priority scoring, `REPACK [CONCURRENTLY]` |
+| 18.6 (2026-08-13) | Current 18.x patch (28 CVEs fixed; 18.5 skipped). PG 14 EOL 2026-11-12 |
+| 19 (RC1 2026-10-15, GA planned 2026-11-19) | Parallel autovacuum of indexes, autovacuum priority scoring, native `REPACK [CONCURRENTLY]` (pg_repack-style table rewrite without long locks) |
 
 ## Critical Issues & Gotchas
 > [!danger] Transaction ID wraparound outages

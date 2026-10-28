@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-22
+updated: 2026-10-28
 parent: "[[00 - Home]]"
 ---
 
@@ -20,6 +20,7 @@ parent: "[[00 - Home]]"
   - [[Big O Notation - Amortized Analysis & Practical Complexity]]
 - [[Data Structures]] — arrays, hash maps, B-trees, heaps, tries, graphs, probabilistic; choose by operation; HashDoS
   - [[Data Structures - Probabilistic Data Structures]]
+  - [[Data Structures - Hash Tables & B-Tree Internals]]
 - [[Algorithms]] — pattern catalog (hashing, binary search, BFS/DFS, topo, DP, greedy), production algorithms, ReDoS
   - [[Algorithms - Graph Algorithms in Practice]]
 - [[System Design]] — requirements + estimates, building blocks, outbox/sagas/idempotency, multi-tenancy; provider-outage lessons

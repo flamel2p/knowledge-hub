@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/astro, topic/islands, topic/content, lang/typescript]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-27
 version_checked: "Astro 5.x stable · 6 beta (Jan 2026, stable unconfirmed) — 2026-10"
 parent: "[[Astro]]"
 related: ["[[React]]", "[[Cloudflare]]", "[[Supabase]]", "[[Browser & Web Fundamentals - Core Web Vitals Optimization]]", "[[Tailwind CSS]]", "[[Next.js]]"]
@@ -203,6 +203,7 @@ export default function AddToCart({ sku }: { sku: string }) {
 
 ## Related
 - [[Astro]]
+- [[Astro - Content Sites, SEO & Cloudflare Deployment]] — SEO, i18n and Cloudflare deployment for content sites
 - [[React]] — island components
 - [[Cloudflare]] — Workers adapter, deploy hooks, CDN caching
 - [[Supabase]] — server-island data source

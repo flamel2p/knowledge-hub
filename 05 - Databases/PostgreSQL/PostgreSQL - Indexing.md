@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/indexing]
 status: draft
 created: 2026-10-05
-updated: 2026-10-25
+updated: 2026-10-28
 version_checked: "PostgreSQL 18.6 (2026-08) · pgvector 0.8.2 — re-checked 2026-10-25"
 parent: "[[PostgreSQL]]"
 related: ["[[PostgreSQL - Query Planning & EXPLAIN]]", "[[PostgreSQL - Transactions & MVCC]]", "[[Supabase]]", "[[Big O Notation]]"]
@@ -150,6 +150,7 @@ SELECT relname, seq_scan, seq_tup_read, idx_scan FROM pg_stat_user_tables ORDER 
 
 ## Related
 - [[PostgreSQL]]
+- [[Data Structures - Hash Tables & B-Tree Internals]] — B-tree page mechanics and key-order effects
 - [[PostgreSQL - Query Planning & EXPLAIN]] — reading plans to validate indexes
 - [[PostgreSQL - Transactions & MVCC]] — HOT updates, visibility map, bloat
 - [[Supabase]] — Index Advisor, RLS-friendly indexes

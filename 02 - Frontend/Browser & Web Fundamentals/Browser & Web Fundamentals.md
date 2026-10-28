@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/browser, topic/web-performance, topic/web-security]
 status: draft
 created: 2026-10-13
-updated: 2026-10-18
+updated: 2026-10-27
 version_checked: "Interop 2026 · LCP/INP Baseline (2025-12) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[JavaScript - Event Loop & Async]]", "[[Next.js]]", "[[Tailwind CSS]]", "[[OWASP Top 10]]", "[[WebGL]]"]
@@ -170,6 +170,7 @@ import { onLCP, onINP, onCLS } from 'web-vitals';
 
 ## Deep Dives
 - [[Browser & Web Fundamentals - Core Web Vitals Optimization]]
+- [[Browser & Web Fundamentals - Storage, Cookies & Service Workers]] — cookie attributes + __Host-, storage quotas/eviction, IndexedDB outbox, Serwist SW strategies, logout hygiene
 
 ## Related
 - [[HTTP & HTTPS]] — transport, caching, TLS

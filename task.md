@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-26 (T215)
+Last run: 2026-10-28 (T225)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -270,11 +270,26 @@ Last run: 2026-10-26 (T215)
 - [x] T213 | deep-dive | AI Evals & Observability - Tracing & Production Monitoring with Langfuse | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Tracing & Production Monitoring with Langfuse.md | ✅ 2026-10-26
 - [x] T214 | deep-dive | LLM Fundamentals - Model Selection & Routing | 13 - AI Engineering/LLM Fundamentals/LLM Fundamentals - Model Selection & Routing.md | ✅ 2026-10-26
 - [x] T215 | deep-dive | Prompt Engineering - System Prompts, Few-shot & Prompt Versioning | 13 - AI Engineering/Prompt Engineering/Prompt Engineering - System Prompts, Few-shot & Prompt Versioning.md | ✅ 2026-10-26
-- [ ] T216 | deep-dive | Vector Databases - Embedding Models & Multilingual Retrieval | 05 - Databases/Vector Databases/Vector Databases - Embedding Models & Multilingual Retrieval.md
-- [ ] T217 | deep-dive | Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS | 06 - Messaging & Streaming/Message Queues/Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS.md
-- [ ] T218 | deep-dive | Network Security - Cloudflare WAF & Rate Limiting Rules | 10 - Security/Network Security/Network Security - Cloudflare WAF & Rate Limiting Rules.md
-- [ ] T219 | deep-dive | Browser & Web Fundamentals - Storage, Cookies & Service Workers | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Storage, Cookies & Service Workers.md
-- [ ] T220 | deep-dive | Astro - Content Sites, SEO & Cloudflare Deployment | 02 - Frontend/Astro/Astro - Content Sites, SEO & Cloudflare Deployment.md
-- [ ] T221 | deep-dive | Data Structures - Hash Tables & B-Tree Internals | 11 - CS Fundamentals/Data Structures/Data Structures - Hash Tables & B-Tree Internals.md
-- [ ] T222 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
-- [ ] T223 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T216 | deep-dive | Vector Databases - Embedding Models & Multilingual Retrieval | 05 - Databases/Vector Databases/Vector Databases - Embedding Models & Multilingual Retrieval.md | ✅ 2026-10-27
+- [x] T217 | deep-dive | Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS | 06 - Messaging & Streaming/Message Queues/Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS.md | ✅ 2026-10-27
+- [x] T218 | deep-dive | Network Security - Cloudflare WAF & Rate Limiting Rules | 10 - Security/Network Security/Network Security - Cloudflare WAF & Rate Limiting Rules.md | ✅ 2026-10-27
+- [x] T219 | deep-dive | Browser & Web Fundamentals - Storage, Cookies & Service Workers | 02 - Frontend/Browser & Web Fundamentals/Browser & Web Fundamentals - Storage, Cookies & Service Workers.md | ✅ 2026-10-27
+- [x] T220 | deep-dive | Astro - Content Sites, SEO & Cloudflare Deployment | 02 - Frontend/Astro/Astro - Content Sites, SEO & Cloudflare Deployment.md | ✅ 2026-10-27
+- [x] T221 | deep-dive | Data Structures - Hash Tables & B-Tree Internals | 11 - CS Fundamentals/Data Structures/Data Structures - Hash Tables & B-Tree Internals.md | ✅ 2026-10-28
+- [x] T222 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-28
+- [x] T223 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-10-28
+
+### Wave 14 — Core stack second deep dives (Next.js, Supabase, Postgres, Flutter, n8n, Redis, Cloudflare)
+
+- [x] T224 | deep-dive | Next.js - Middleware, Auth & Multi-Tenant Routing | 02 - Frontend/Next.js/Next.js - Middleware, Auth & Multi-Tenant Routing.md | ✅ 2026-10-28
+- [x] T225 | deep-dive | Supabase - Realtime, Presence & Broadcast | 04 - Backend/Supabase/Supabase - Realtime, Presence & Broadcast.md | ✅ 2026-10-28
+- [ ] T226 | deep-dive | PostgreSQL - Backups, PITR & Restore Drills | 05 - Databases/PostgreSQL/PostgreSQL - Backups, PITR & Restore Drills.md
+- [ ] T227 | deep-dive | Flutter - Push Notifications & Background Work | 03 - Mobile/Flutter/Flutter - Push Notifications & Background Work.md
+- [ ] T228 | deep-dive | n8n - Security, Credentials & Self-Hosting Hardening | 08 - Automation/n8n/n8n - Security, Credentials & Self-Hosting Hardening.md
+- [ ] T229 | deep-dive | Redis - Caching Patterns & Invalidation | 05 - Databases/Redis/Redis - Caching Patterns & Invalidation.md
+- [ ] T230 | deep-dive | Cloudflare - Workers for Webhooks & Edge APIs | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Workers for Webhooks & Edge APIs.md
+- [ ] T231 | deep-dive | Windmill - Worker Groups & Sandboxing | 08 - Automation/Windmill/Windmill - Worker Groups & Sandboxing.md
+- [ ] T232 | deep-dive | Algorithms - Dynamic Programming Patterns | 11 - CS Fundamentals/Algorithms/Algorithms - Dynamic Programming Patterns.md
+- [ ] T233 | deep-dive | Go - HTTP Services & Ops Tooling | 01 - Languages/Go/Go - HTTP Services & Ops Tooling.md
+- [ ] T234 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T235 | replenish | Next 12 tasks per CLAUDE.md §9 | -
