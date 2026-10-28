@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/overview, topic/data-structures]
 status: draft
 created: 2026-10-13
-updated: 2026-10-22
+updated: 2026-10-28
 version_checked: "n/a (concept) — runtime implementation notes checked 2026-10"
 parent: "[[CS Fundamentals MOC]]"
 related: ["[[Big O Notation]]", "[[Algorithms]]", "[[Redis - Data Structures & Patterns]]", "[[PostgreSQL - Indexing]]", "[[System Design]]"]
@@ -179,8 +179,7 @@ N/A for the concepts themselves. Notable runtime implementation changes that aff
 
 ## Deep Dives
 - [[Data Structures - Probabilistic Data Structures]]
-
-Candidates: hash tables & B-trees internals.
+- [[Data Structures - Hash Tables & B-Tree Internals]] — open addressing/Swiss tables, load factor, hash flooding, B+tree fanout, page splits, UUIDv7
 
 ## Related
 - [[Big O Notation]] — cost model for every operation
