@@ -6,8 +6,8 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/dart, topic/runtime, topic/garbage-collection, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
-version_checked: "Dart 3.13 — 2026-10"
+updated: 2026-10-29
+version_checked: "Dart 3.13 / Flutter 3.47 (2026-08-12) — re-checked 2026-10-29"
 parent: "[[Dart]]"
 related: ["[[Dart - Async, Streams & Isolates]]", "[[Flutter - Performance & DevTools]]", "[[Flutter - Interview Questions]]", "[[Flutter - Rendering & Widget Lifecycle]]"]
 ---
@@ -156,7 +156,7 @@ testWidgets('orders page does not leak', experimentalLeakTesting: LeakTesting.se
 | 3.0 (2023-05) | Only sound null-safe code: no more mixed-mode runtime checks |
 | 3.3–3.4 | dart2wasm stable for Flutter web (`--wasm`) |
 | 3.8 | Web hot reload (experimental, then default in Flutter 3.35) |
-| 3.13 | Current stable (2026-10) |
+| 3.13 (2026-08-12, with Flutter 3.47) | Current stable at re-check. Tree-shaking of native libraries via `@RecordUse` / `package:record_use`. Wasm deferred-loading preview. Flutter 3.47 makes Impeller the desktop default |
 
 > [!warning] Unverified — check before relying on this
 > GC internals (scavenger promotion thresholds, compaction triggers) are VM implementation details and change without language-version notice. Treat numbers here as orientation, not contract.

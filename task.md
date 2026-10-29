@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-29 (T233)
+Last run: 2026-10-29 (T234)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -291,5 +291,5 @@ Last run: 2026-10-29 (T233)
 - [x] T231 | deep-dive | Windmill - Worker Groups & Sandboxing | 08 - Automation/Windmill/Windmill - Worker Groups & Sandboxing.md | ✅ 2026-10-29
 - [x] T232 | deep-dive | Algorithms - Dynamic Programming Patterns | 11 - CS Fundamentals/Algorithms/Algorithms - Dynamic Programming Patterns.md | ✅ 2026-10-29
 - [x] T233 | deep-dive | Go - HTTP Services & Ops Tooling | 01 - Languages/Go/Go - HTTP Services & Ops Tooling.md | ✅ 2026-10-29
-- [ ] T234 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T234 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-29
 - [ ] T235 | replenish | Next 12 tasks per CLAUDE.md §9 | -

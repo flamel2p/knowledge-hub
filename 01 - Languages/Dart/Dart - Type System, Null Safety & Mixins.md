@@ -6,8 +6,8 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/dart, topic/type-system, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
-version_checked: "Dart 3.13 — 2026-10"
+updated: 2026-10-29
+version_checked: "Dart 3.13 (2026-08-12) — re-checked 2026-10-29"
 parent: "[[Dart]]"
 related: ["[[Flutter - Interview Questions]]", "[[Dart - Async, Streams & Isolates]]", "[[TypeScript - Advanced Types]]", "[[Flutter - Rendering & Widget Lifecycle]]"]
 ---
@@ -174,6 +174,7 @@ Order orderFromJson(Map<String, Object?> json) => switch (json) {
 | 3.3 | Extension types |
 | 3.8 | Null-aware elements (`?x` in collection literals) |
 | 3.10 | Dot shorthands (`.center`) |
+| 3.13 (2026-08) | **Primary constructors** stable (declare fields in the class header), reducing boilerplate for data classes |
 
 ## Critical Issues & Gotchas
 > [!danger] Unsound edges still crash at runtime
