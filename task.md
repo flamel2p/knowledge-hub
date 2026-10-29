@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-29 (T234)
+Last run: 2026-10-29 (T235)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -292,4 +292,19 @@ Last run: 2026-10-29 (T234)
 - [x] T232 | deep-dive | Algorithms - Dynamic Programming Patterns | 11 - CS Fundamentals/Algorithms/Algorithms - Dynamic Programming Patterns.md | ✅ 2026-10-29
 - [x] T233 | deep-dive | Go - HTTP Services & Ops Tooling | 01 - Languages/Go/Go - HTTP Services & Ops Tooling.md | ✅ 2026-10-29
 - [x] T234 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-29
-- [ ] T235 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T235 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-10-29
+
+### Wave 15 — Auth, payments, supply chain, streaming and domain ops
+
+- [ ] T236 | deep-dive | Supabase - Auth Flows, MFA & Custom Claims | 04 - Backend/Supabase/Supabase - Auth Flows, MFA & Custom Claims.md
+- [ ] T237 | deep-dive | React - Forms, Actions & Optimistic UI | 02 - Frontend/React/React - Forms, Actions & Optimistic UI.md
+- [ ] T238 | deep-dive | Flutter - Payments, In-App Purchases & Store Rules | 03 - Mobile/Flutter/Flutter - Payments, In-App Purchases & Store Rules.md
+- [ ] T239 | deep-dive | Node.js - Supply Chain Security & Dependency Hygiene | 04 - Backend/Node.js/Node.js - Supply Chain Security & Dependency Hygiene.md
+- [ ] T240 | deep-dive | Testing Strategy - Unit Testing with Vitest & Mocking Boundaries | 04 - Backend/Testing Strategy/Testing Strategy - Unit Testing with Vitest & Mocking Boundaries.md
+- [ ] T241 | deep-dive | WebSocket - SSE & Streaming LLM Responses | 09 - Networking & APIs/WebSocket/WebSocket - SSE & Streaming LLM Responses.md
+- [ ] T242 | deep-dive | LLM APIs & SDKs - Batch Processing & Async Workloads | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Batch Processing & Async Workloads.md
+- [ ] T243 | deep-dive | Cloudflare - DNS, Email Authentication & Domain Ops | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - DNS, Email Authentication & Domain Ops.md
+- [ ] T244 | deep-dive | TypeScript - Error Handling & Result Types | 01 - Languages/TypeScript/TypeScript - Error Handling & Result Types.md
+- [ ] T245 | deep-dive | Kubernetes - k3s vs Coolify for Small Teams | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - k3s vs Coolify for Small Teams.md
+- [ ] T246 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T247 | replenish | Next 12 tasks per CLAUDE.md §9 | -
