@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/windmill, topic/n8n, topic/architecture-decision]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-29
 version_checked: "Windmill v1.79x (2026-08) · n8n 2.41.x (2026-10) — per parent notes"
 parent: "[[Windmill]]"
 related: ["[[n8n]]", "[[n8n - Queue Mode & Scaling]]", "[[PostgreSQL]]", "[[Message Queues - BullMQ in Production]]", "[[Coolify]]", "[[AI Agents - Tool Calling & Agent Loops]]"]
@@ -153,6 +153,7 @@ N/A: decision framework. Platform versions and breaking changes live in [[n8n]] 
 
 ## Related
 - [[Windmill]]
+- [[Windmill - Worker Groups & Sandboxing]] — worker topology and isolation once Windmill is chosen
 - [[n8n]] — default integration platform
 - [[n8n - Queue Mode & Scaling]] — n8n runtime architecture
 - [[Message Queues - BullMQ in Production]] — code-first background jobs alternative
