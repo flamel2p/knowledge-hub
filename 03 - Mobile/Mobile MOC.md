@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-14
+updated: 2026-10-28
 parent: "[[00 - Home]]"
 ---
 
@@ -26,6 +26,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - Testing]]
   - [[Flutter - Navigation & Routing]]
   - [[Flutter - Offline Storage & Sync]]
+  - [[Flutter - Push Notifications & Background Work]]
 - [[React Native]] — React native views, New Architecture only (0.82+), Expo/EAS
   - [[React Native - New Architecture]]
 

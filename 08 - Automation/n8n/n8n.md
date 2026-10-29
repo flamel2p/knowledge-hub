@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/overview, topic/n8n]
 status: draft
 created: 2026-10-03
-updated: 2026-10-19
+updated: 2026-10-28
 version_checked: "2.42.x stable · 2.43 beta — 2026-10 (re-checked 2026-10-19, secondary source)"
 parent: "[[Automation MOC]]"
 related: ["[[Redis]]", "[[PostgreSQL]]", "[[Docker]]", "[[Coolify]]", "[[Windmill]]", "[[AI Agents]]"]
@@ -182,6 +182,7 @@ N8N_PROXY_HOPS=1                       # behind Traefik/Cloudflare
 ## Deep Dives
 - [[n8n - Queue Mode & Scaling]]
 - [[n8n - Error Handling & Workflow Patterns]]
+- [[n8n - Security, Credentials & Self-Hosting Hardening]] — 2026 CVE floor, editor behind Access, webhook-only routing, NODES_EXCLUDE, external runners, key custody
 
 ## Related
 - [[Redis]] — queue-mode broker

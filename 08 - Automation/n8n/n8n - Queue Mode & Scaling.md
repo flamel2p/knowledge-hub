@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/scaling]
 status: draft
 created: 2026-10-05
-updated: 2026-10-22
+updated: 2026-10-28
 version_checked: "n8n 2.42.x (third-party; re-checked 2026-10-22)"
 parent: "[[n8n]]"
 related: ["[[n8n - Error Handling & Workflow Patterns]]", "[[Redis - Persistence & High Availability]]", "[[PostgreSQL]]", "[[Coolify]]", "[[Docker]]"]
@@ -170,6 +170,7 @@ N8N_CONCURRENCY_PRODUCTION_LIMIT=-1         # regular mode only; queue mode uses
 
 ## Related
 - [[n8n]]
+- [[n8n - Security, Credentials & Self-Hosting Hardening]] — securing the editor, webhooks and credentials of this topology
 - [[n8n - Error Handling & Workflow Patterns]]
 - [[Redis - Persistence & High Availability]] — queue durability
 - [[PostgreSQL]] — execution storage, pruning

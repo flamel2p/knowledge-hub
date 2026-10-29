@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/offline-first, topic/sqlite, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-28
 version_checked: "drift 2.34 · Flutter 3.47 — 2026-10"
 parent: "[[Flutter]]"
 related: ["[[Supabase]]", "[[PostgreSQL]]", "[[Flutter - State Management]]", "[[Dart - Async, Streams & Isolates]]"]
@@ -214,6 +214,7 @@ Run `dart run drift_dev make-migrations` to snapshot schemas and generate migrat
 
 ## Related
 - [[Flutter]]
+- [[Flutter - Push Notifications & Background Work]] — background sync triggers and push-driven refresh
 - [[Supabase]] — backend, RLS, realtime vs pull sync
 - [[PostgreSQL]] — `updated_at` triggers, soft deletes, indexes
 - [[Flutter - State Management]] — exposing DB streams through providers

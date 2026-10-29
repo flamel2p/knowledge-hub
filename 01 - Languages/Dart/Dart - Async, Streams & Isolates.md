@@ -6,8 +6,8 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/dart, topic/async, lang/dart]
 status: draft
 created: 2026-10-07
-updated: 2026-10-07
-version_checked: "Dart 3.13 / Flutter 3.47 — 2026-10"
+updated: 2026-10-29
+version_checked: "Dart 3.13 / Flutter 3.47 (2026-08-12) — re-checked 2026-10-29"
 parent: "[[Dart]]"
 related: ["[[Flutter]]", "[[Flutter - Interview Questions]]", "[[JavaScript - Event Loop & Async]]", "[[Flutter - State Management]]"]
 ---
@@ -220,6 +220,7 @@ final thumbs = await compute(makeThumbnails, imageBytes);
 | Dart 3.0 | Patterns make `AsyncSnapshot`/result handling concise. Mandatory null safety |
 | Flutter 3.18+ | `leak_tracker` integration for widget tests |
 | Dart 3.x | Ongoing VM/GC improvements. Stream/Future semantics stable |
+| Dart 3.13 (2026-08-12, Flutter 3.47) | Primary constructors stable. Wasm deferred-loading preview. No async/isolate semantic changes. Next Flutter stable expected November 2026 |
 
 ## Critical Issues & Gotchas
 > [!danger] Uncancelled subscriptions = leaks + crashes

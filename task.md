@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-28 (T225)
+Last run: 2026-10-29 (T235)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -283,13 +283,28 @@ Last run: 2026-10-28 (T225)
 
 - [x] T224 | deep-dive | Next.js - Middleware, Auth & Multi-Tenant Routing | 02 - Frontend/Next.js/Next.js - Middleware, Auth & Multi-Tenant Routing.md | ✅ 2026-10-28
 - [x] T225 | deep-dive | Supabase - Realtime, Presence & Broadcast | 04 - Backend/Supabase/Supabase - Realtime, Presence & Broadcast.md | ✅ 2026-10-28
-- [ ] T226 | deep-dive | PostgreSQL - Backups, PITR & Restore Drills | 05 - Databases/PostgreSQL/PostgreSQL - Backups, PITR & Restore Drills.md
-- [ ] T227 | deep-dive | Flutter - Push Notifications & Background Work | 03 - Mobile/Flutter/Flutter - Push Notifications & Background Work.md
-- [ ] T228 | deep-dive | n8n - Security, Credentials & Self-Hosting Hardening | 08 - Automation/n8n/n8n - Security, Credentials & Self-Hosting Hardening.md
-- [ ] T229 | deep-dive | Redis - Caching Patterns & Invalidation | 05 - Databases/Redis/Redis - Caching Patterns & Invalidation.md
-- [ ] T230 | deep-dive | Cloudflare - Workers for Webhooks & Edge APIs | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Workers for Webhooks & Edge APIs.md
-- [ ] T231 | deep-dive | Windmill - Worker Groups & Sandboxing | 08 - Automation/Windmill/Windmill - Worker Groups & Sandboxing.md
-- [ ] T232 | deep-dive | Algorithms - Dynamic Programming Patterns | 11 - CS Fundamentals/Algorithms/Algorithms - Dynamic Programming Patterns.md
-- [ ] T233 | deep-dive | Go - HTTP Services & Ops Tooling | 01 - Languages/Go/Go - HTTP Services & Ops Tooling.md
-- [ ] T234 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
-- [ ] T235 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T226 | deep-dive | PostgreSQL - Backups, PITR & Restore Drills | 05 - Databases/PostgreSQL/PostgreSQL - Backups, PITR & Restore Drills.md | ✅ 2026-10-28
+- [x] T227 | deep-dive | Flutter - Push Notifications & Background Work | 03 - Mobile/Flutter/Flutter - Push Notifications & Background Work.md | ✅ 2026-10-28
+- [x] T228 | deep-dive | n8n - Security, Credentials & Self-Hosting Hardening | 08 - Automation/n8n/n8n - Security, Credentials & Self-Hosting Hardening.md | ✅ 2026-10-28
+- [x] T229 | deep-dive | Redis - Caching Patterns & Invalidation | 05 - Databases/Redis/Redis - Caching Patterns & Invalidation.md | ✅ 2026-10-28
+- [x] T230 | deep-dive | Cloudflare - Workers for Webhooks & Edge APIs | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Workers for Webhooks & Edge APIs.md | ✅ 2026-10-28
+- [x] T231 | deep-dive | Windmill - Worker Groups & Sandboxing | 08 - Automation/Windmill/Windmill - Worker Groups & Sandboxing.md | ✅ 2026-10-29
+- [x] T232 | deep-dive | Algorithms - Dynamic Programming Patterns | 11 - CS Fundamentals/Algorithms/Algorithms - Dynamic Programming Patterns.md | ✅ 2026-10-29
+- [x] T233 | deep-dive | Go - HTTP Services & Ops Tooling | 01 - Languages/Go/Go - HTTP Services & Ops Tooling.md | ✅ 2026-10-29
+- [x] T234 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-10-29
+- [x] T235 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-10-29
+
+### Wave 15 — Auth, payments, supply chain, streaming and domain ops
+
+- [ ] T236 | deep-dive | Supabase - Auth Flows, MFA & Custom Claims | 04 - Backend/Supabase/Supabase - Auth Flows, MFA & Custom Claims.md
+- [ ] T237 | deep-dive | React - Forms, Actions & Optimistic UI | 02 - Frontend/React/React - Forms, Actions & Optimistic UI.md
+- [ ] T238 | deep-dive | Flutter - Payments, In-App Purchases & Store Rules | 03 - Mobile/Flutter/Flutter - Payments, In-App Purchases & Store Rules.md
+- [ ] T239 | deep-dive | Node.js - Supply Chain Security & Dependency Hygiene | 04 - Backend/Node.js/Node.js - Supply Chain Security & Dependency Hygiene.md
+- [ ] T240 | deep-dive | Testing Strategy - Unit Testing with Vitest & Mocking Boundaries | 04 - Backend/Testing Strategy/Testing Strategy - Unit Testing with Vitest & Mocking Boundaries.md
+- [ ] T241 | deep-dive | WebSocket - SSE & Streaming LLM Responses | 09 - Networking & APIs/WebSocket/WebSocket - SSE & Streaming LLM Responses.md
+- [ ] T242 | deep-dive | LLM APIs & SDKs - Batch Processing & Async Workloads | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Batch Processing & Async Workloads.md
+- [ ] T243 | deep-dive | Cloudflare - DNS, Email Authentication & Domain Ops | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - DNS, Email Authentication & Domain Ops.md
+- [ ] T244 | deep-dive | TypeScript - Error Handling & Result Types | 01 - Languages/TypeScript/TypeScript - Error Handling & Result Types.md
+- [ ] T245 | deep-dive | Kubernetes - k3s vs Coolify for Small Teams | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - k3s vs Coolify for Small Teams.md
+- [ ] T246 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T247 | replenish | Next 12 tasks per CLAUDE.md §9 | -

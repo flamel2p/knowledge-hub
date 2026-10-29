@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/overview, topic/algorithms]
 status: draft
 created: 2026-10-13
-updated: 2026-10-21
+updated: 2026-10-29
 version_checked: "n/a (concept) — runtime sort implementations noted 2026-10"
 parent: "[[CS Fundamentals MOC]]"
 related: ["[[Data Structures]]", "[[Big O Notation]]", "[[System Design]]", "[[Design Patterns]]", "[[PostgreSQL]]"]
@@ -188,8 +188,7 @@ N/A for algorithms. Runtime implementation changes worth knowing:
 
 ## Deep Dives
 - [[Algorithms - Graph Algorithms in Practice]]
-
-Candidates: dynamic programming patterns.
+- [[Algorithms - Dynamic Programming Patterns]] — state/transition recipe, knapsack, edit distance, weighted intervals, bitmask TSP, greedy traps
 
 ## Related
 - [[Data Structures]] — the structures algorithms operate on
