@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/go, lang/go]
 status: draft
 created: 2026-10-05
-updated: 2026-10-14
+updated: 2026-10-29
 version_checked: "1.27 (2026-08-19) · 1.26 — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Python]]", "[[TypeScript]]", "[[Docker]]", "[[Kubernetes]]", "[[Traefik]]"]
@@ -194,6 +194,7 @@ _ = srv.Shutdown(shutdownCtx)
 
 ## Deep Dives
 - [[Go - Concurrency]]
+- [[Go - HTTP Services & Ops Tooling]] — ServeMux patterns, timeouts, graceful shutdown, slog, pgx, distroless static binaries, ops CLIs
 
 ## Related
 - [[Python]] · [[TypeScript]] · [[Rust]] — peer languages

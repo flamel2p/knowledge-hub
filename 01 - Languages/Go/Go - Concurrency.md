@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/go, topic/concurrency, lang/go]
 status: draft
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-29
 version_checked: "Go 1.27 (2026-08) · 1.26 — 2026-10"
 parent: "[[Go]]"
 related: ["[[JavaScript - Event Loop & Async]]", "[[Rust - Ownership & Borrowing]]", "[[Python - Async & Concurrency]]", "[[Kubernetes]]", "[[System Design]]"]
@@ -186,6 +186,7 @@ synctest.Test(t, func(t *testing.T) { /* time.Sleep advances instantly when all 
 
 ## Related
 - [[Go]]
+- [[Go - HTTP Services & Ops Tooling]] — concurrency applied in HTTP services and CLIs
 - [[JavaScript - Event Loop & Async]] — contrast: single-threaded event loop
 - [[Rust - Ownership & Borrowing]] — compile-time data-race prevention
 - [[Python - Async & Concurrency]] — asyncio vs goroutines
