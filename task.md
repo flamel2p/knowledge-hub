@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-29 (T231)
+Last run: 2026-10-29 (T232)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -289,7 +289,7 @@ Last run: 2026-10-29 (T231)
 - [x] T229 | deep-dive | Redis - Caching Patterns & Invalidation | 05 - Databases/Redis/Redis - Caching Patterns & Invalidation.md | ✅ 2026-10-28
 - [x] T230 | deep-dive | Cloudflare - Workers for Webhooks & Edge APIs | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Workers for Webhooks & Edge APIs.md | ✅ 2026-10-28
 - [x] T231 | deep-dive | Windmill - Worker Groups & Sandboxing | 08 - Automation/Windmill/Windmill - Worker Groups & Sandboxing.md | ✅ 2026-10-29
-- [ ] T232 | deep-dive | Algorithms - Dynamic Programming Patterns | 11 - CS Fundamentals/Algorithms/Algorithms - Dynamic Programming Patterns.md
+- [x] T232 | deep-dive | Algorithms - Dynamic Programming Patterns | 11 - CS Fundamentals/Algorithms/Algorithms - Dynamic Programming Patterns.md | ✅ 2026-10-29
 - [ ] T233 | deep-dive | Go - HTTP Services & Ops Tooling | 01 - Languages/Go/Go - HTTP Services & Ops Tooling.md
 - [ ] T234 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T235 | replenish | Next 12 tasks per CLAUDE.md §9 | -

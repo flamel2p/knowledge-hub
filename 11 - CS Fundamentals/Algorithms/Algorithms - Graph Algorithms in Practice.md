@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/deep-dive, topic/algorithms, topic/graphs, lang/typescript]
 status: draft
 created: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-29
 version_checked: "n/a (concept) — PostgreSQL 14+ CYCLE/SEARCH clauses · pgRouting — 2026-10"
 parent: "[[Algorithms]]"
 related: ["[[Data Structures]]", "[[Big O Notation]]", "[[PostgreSQL]]", "[[System Design]]", "[[Data Structures - Probabilistic Data Structures]]"]
@@ -198,6 +198,7 @@ N/A: classical algorithms. Tooling notes:
 
 ## Related
 - [[Algorithms]]
+- [[Algorithms - Dynamic Programming Patterns]] — DP formulations for routing and scheduling
 - [[Data Structures]] — heaps, hash maps, adjacency structures
 - [[Big O Notation]] — complexity analysis
 - [[PostgreSQL]] — recursive CTEs, PostGIS, pgRouting

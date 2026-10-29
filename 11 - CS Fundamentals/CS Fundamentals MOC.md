@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-28
+updated: 2026-10-29
 parent: "[[00 - Home]]"
 ---
 
@@ -23,6 +23,7 @@ parent: "[[00 - Home]]"
   - [[Data Structures - Hash Tables & B-Tree Internals]]
 - [[Algorithms]] — pattern catalog (hashing, binary search, BFS/DFS, topo, DP, greedy), production algorithms, ReDoS
   - [[Algorithms - Graph Algorithms in Practice]]
+  - [[Algorithms - Dynamic Programming Patterns]]
 - [[System Design]] — requirements + estimates, building blocks, outbox/sagas/idempotency, multi-tenancy; provider-outage lessons
   - [[System Design - Interview Questions]] — interview prep reference (payment flow, high-traffic ticketing)
   - [[System Design - Multi-Tenant SaaS Architecture]]
