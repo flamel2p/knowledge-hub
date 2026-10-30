@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-30 (T236)
+Last run: 2026-10-30 (T237)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -297,7 +297,7 @@ Last run: 2026-10-30 (T236)
 ### Wave 15 — Auth, payments, supply chain, streaming and domain ops
 
 - [x] T236 | deep-dive | Supabase - Auth Flows, MFA & Custom Claims | 04 - Backend/Supabase/Supabase - Auth Flows, MFA & Custom Claims.md | ✅ 2026-10-30
-- [ ] T237 | deep-dive | React - Forms, Actions & Optimistic UI | 02 - Frontend/React/React - Forms, Actions & Optimistic UI.md
+- [x] T237 | deep-dive | React - Forms, Actions & Optimistic UI | 02 - Frontend/React/React - Forms, Actions & Optimistic UI.md | ✅ 2026-10-30
 - [ ] T238 | deep-dive | Flutter - Payments, In-App Purchases & Store Rules | 03 - Mobile/Flutter/Flutter - Payments, In-App Purchases & Store Rules.md
 - [ ] T239 | deep-dive | Node.js - Supply Chain Security & Dependency Hygiene | 04 - Backend/Node.js/Node.js - Supply Chain Security & Dependency Hygiene.md
 - [ ] T240 | deep-dive | Testing Strategy - Unit Testing with Vitest & Mocking Boundaries | 04 - Backend/Testing Strategy/Testing Strategy - Unit Testing with Vitest & Mocking Boundaries.md

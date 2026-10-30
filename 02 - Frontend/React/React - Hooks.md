@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/react, topic/hooks, lang/typescript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-23
+updated: 2026-10-30
 version_checked: "React 19.3 (2026-09, third-party) · Compiler 1.0 — re-checked 2026-10-23"
 parent: "[[React]]"
 related: ["[[React - Server Components]]", "[[Next.js]]", "[[JavaScript - Event Loop & Async]]", "[[TypeScript]]"]
@@ -184,6 +184,7 @@ const deferredQuery = useDeferredValue(query);                                  
 
 ## Related
 - [[React]]
+- [[React - Forms, Actions & Optimistic UI]] — the Actions hooks applied to real forms
 - [[React - Server Components]] — where hooks don't run
 - [[Next.js]] — Server Actions with Actions hooks
 - [[JavaScript - Event Loop & Async]] — batching, transitions, async effects
