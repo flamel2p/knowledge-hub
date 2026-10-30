@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/release, topic/app-store, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-30
 version_checked: "Flutter 3.47 · Play API 36 · Xcode 26 — 2026-10"
 parent: "[[Flutter]]"
 related: ["[[Dart - VM, Compilation & Garbage Collection]]", "[[Flutter - Performance & DevTools]]", "[[CI-CD]]", "[[Flutter - Testing]]"]
@@ -179,6 +179,7 @@ iOS needs a `macos-*` runner (or Codemagic / Xcode Cloud) and fastlane match + a
 
 ## Related
 - [[Flutter]]
+- [[Flutter - Payments, In-App Purchases & Store Rules]] — payment-rail rules and IAP verification
 - [[Dart - VM, Compilation & Garbage Collection]] — AOT, obfuscation, debug symbols
 - [[Flutter - Performance & DevTools]] — app size analysis
 - [[Flutter - Testing]] — CI test gate before release
