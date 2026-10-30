@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
 - [[Node.js]] — V8 + libuv runtime; 24 LTS, 26 → LTS Oct 2026, yearly majors from 27; npm supply-chain risk
   - [[Node.js - Performance & Diagnostics]]
   - [[Node.js - Streams & Backpressure]]
+  - [[Node.js - Supply Chain Security & Dependency Hygiene]]
 - [[Spring Boot]] — JVM framework; 4.1 on Spring Framework 7, virtual threads, JSpecify, Jakarta EE 11; actuator exposure risk
   - [[Spring Boot - Interview Questions]] — interview prep reference (DI, singleton vs prototype)
   - [[Spring Boot - Spring Security Resource Server]]
