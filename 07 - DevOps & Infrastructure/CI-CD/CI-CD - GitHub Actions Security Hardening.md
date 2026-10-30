@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/ci-cd, topic/github-actions, topic/supply-chain]
 status: draft
 created: 2026-10-17
-updated: 2026-10-23
+updated: 2026-10-30
 version_checked: "GitHub Actions (SaaS) · 2026 incidents (trivy-action, Mini Shai-Hulud, actions-cool) checked 2026-10"
 parent: "[[CI-CD]]"
 related: ["[[Git]]", "[[Docker]]", "[[Coolify]]", "[[OAuth 2.0 & OIDC]]", "[[JWT]]", "[[Network Security]]"]
@@ -224,6 +224,7 @@ gh api repos/:owner/:repo/actions/permissions   # check allowed actions + defaul
 
 ## Related
 - [[CI-CD]]
+- [[Node.js - Supply Chain Security & Dependency Hygiene]] — npm-side controls for the same supply-chain threats
 - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]] — full pipeline: deploy by SHA, verify, rollback, mobile releases
 - [[Git]] — branch protection, rulesets, signed commits
 - [[Docker]] — image builds, digests, SBOM/provenance

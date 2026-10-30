@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/supabase, topic/rls, topic/access-control]
 status: draft
 created: 2026-10-15
-updated: 2026-10-21
+updated: 2026-10-30
 version_checked: "Supabase platform 2026-10 (publishable/secret keys) · PostgreSQL 15–17 RLS — 2026-10"
 parent: "[[Supabase]]"
 related: ["[[PostgreSQL]]", "[[Authentication & Authorization]]", "[[JWT]]", "[[Testing Strategy]]", "[[OWASP Top 10]]"]
@@ -188,6 +188,7 @@ Automate this with pgTAP (`supabase test db`) in [[CI-CD]], including negative c
 
 ## Related
 - [[Supabase]]
+- [[Supabase - Auth Flows, MFA & Custom Claims]] — where the JWT claims and AAL that policies read come from
 - [[PostgreSQL]] — RLS engine, indexes, planner
 - [[Authentication & Authorization]] — RBAC/ABAC, multi-tenancy, sessions
 - [[Authentication & Authorization - Multi-Tenant Authorization with RLS]] — permission model on top of these mechanics
