@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/testing]
 status: draft
 created: 2026-10-13
-updated: 2026-10-23
+updated: 2026-10-30
 version_checked: "Vitest 4.x · Jest 30 · Playwright 1.5x — 2026-10"
 parent: "[[Backend MOC]]"
 related: ["[[CI-CD]]", "[[Flutter - Testing]]", "[[PostgreSQL]]", "[[Supabase]]", "[[Node.js]]", "[[AI Evals & Observability]]"]
@@ -198,6 +198,7 @@ supabase test db
 ## Deep Dives
 - [[Testing Strategy - Integration Testing with Testcontainers & Supabase]]
 - [[Testing Strategy - E2E Testing with Playwright]] — storageState auth, API-seeded fixtures, route mocking, sharded CI, deploy smoke tests
+- [[Testing Strategy - Unit Testing with Vitest & Mocking Boundaries]] — fakes at ports, MSW for HTTP, fake timers in MYT, property-based money tests, Vitest 4 projects + browser mode
 
 ## Related
 - [[CI-CD]] — where tests gate merges and deploys
