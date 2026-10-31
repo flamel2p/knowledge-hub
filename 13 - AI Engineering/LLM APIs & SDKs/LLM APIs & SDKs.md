@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/llm-api, topic/sdk, lang/typescript, lang/python]
 status: draft
 created: 2026-10-14
-updated: 2026-10-24
+updated: 2026-10-31
 version_checked: "Claude API (Opus 5.5 / Sonnet 5.5 / Haiku 5.5 / Fable 5.1, cached 2026-10-06) · OpenAI / Gemini unverified — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LLM Fundamentals]]", "[[Prompt Engineering]]", "[[AI Agents - Tool Calling & Agent Loops]]", "[[Model Context Protocol]]", "[[AI Evals & Observability]]", "[[Fine-tuning LLMs]]"]
@@ -194,6 +194,7 @@ export ANTHROPIC_API_KEY=...     # from a secret manager / Coolify env, never in
 ## Deep Dives
 - [[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]
 - [[LLM APIs & SDKs - Structured Outputs & Tool Schemas]] — output_config.format vs strict tools, schema limits, no forced tool_choice, semantic validation
+- [[LLM APIs & SDKs - Batch Processing & Async Workloads]] — Batch API facts, job tables, custom_id ingestion, retries, batch vs queue, nightly analytics
 
 ## Related
 - [[LLM Fundamentals]] — tokens, context windows, sampling, reasoning

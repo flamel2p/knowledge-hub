@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-30 (T240)
+Last run: 2026-10-31 (T245)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -301,10 +301,10 @@ Last run: 2026-10-30 (T240)
 - [x] T238 | deep-dive | Flutter - Payments, In-App Purchases & Store Rules | 03 - Mobile/Flutter/Flutter - Payments, In-App Purchases & Store Rules.md | ✅ 2026-10-30
 - [x] T239 | deep-dive | Node.js - Supply Chain Security & Dependency Hygiene | 04 - Backend/Node.js/Node.js - Supply Chain Security & Dependency Hygiene.md | ✅ 2026-10-30
 - [x] T240 | deep-dive | Testing Strategy - Unit Testing with Vitest & Mocking Boundaries | 04 - Backend/Testing Strategy/Testing Strategy - Unit Testing with Vitest & Mocking Boundaries.md | ✅ 2026-10-30
-- [ ] T241 | deep-dive | WebSocket - SSE & Streaming LLM Responses | 09 - Networking & APIs/WebSocket/WebSocket - SSE & Streaming LLM Responses.md
-- [ ] T242 | deep-dive | LLM APIs & SDKs - Batch Processing & Async Workloads | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Batch Processing & Async Workloads.md
-- [ ] T243 | deep-dive | Cloudflare - DNS, Email Authentication & Domain Ops | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - DNS, Email Authentication & Domain Ops.md
-- [ ] T244 | deep-dive | TypeScript - Error Handling & Result Types | 01 - Languages/TypeScript/TypeScript - Error Handling & Result Types.md
-- [ ] T245 | deep-dive | Kubernetes - k3s vs Coolify for Small Teams | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - k3s vs Coolify for Small Teams.md
+- [x] T241 | deep-dive | WebSocket - SSE & Streaming LLM Responses | 09 - Networking & APIs/WebSocket/WebSocket - SSE & Streaming LLM Responses.md | ✅ 2026-10-31
+- [x] T242 | deep-dive | LLM APIs & SDKs - Batch Processing & Async Workloads | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Batch Processing & Async Workloads.md | ✅ 2026-10-31
+- [x] T243 | deep-dive | Cloudflare - DNS, Email Authentication & Domain Ops | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - DNS, Email Authentication & Domain Ops.md | ✅ 2026-10-31
+- [x] T244 | deep-dive | TypeScript - Error Handling & Result Types | 01 - Languages/TypeScript/TypeScript - Error Handling & Result Types.md | ✅ 2026-10-31
+- [x] T245 | deep-dive | Kubernetes - k3s vs Coolify for Small Teams | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - k3s vs Coolify for Small Teams.md | ✅ 2026-10-31
 - [ ] T246 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T247 | replenish | Next 12 tasks per CLAUDE.md §9 | -

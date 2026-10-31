@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/typescript, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-24
+updated: 2026-10-31
 version_checked: "7.0 (native, GA 2026-07-08) · 6.0 last JS-based — 2026-10 (re-checked 2026-10-18: 7.1 with stable API not yet released)"
 parent: "[[Languages MOC]]"
 related: ["[[JavaScript]]", "[[Next.js]]", "[[React]]", "[[Node.js]]", "[[Supabase]]"]
@@ -207,6 +207,7 @@ my-app/
 ## Deep Dives
 - [[TypeScript - Advanced Types]]
 - [[TypeScript - Runtime Validation with Zod & Type-Safe APIs]] — Zod 4 at every boundary, shared schemas, strictObject, Standard Schema, OpenAPI export, RPC options
+- [[TypeScript - Error Handling & Result Types]] — Result unions for expected outcomes, Error cause for faults, exhaustive mapping, boundaries, retryable errors
 
 ## Related
 - [[JavaScript]] — runtime semantics TS compiles to

@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/kubernetes, topic/containers]
 status: draft
 created: 2026-10-08
-updated: 2026-10-14
+updated: 2026-10-31
 version_checked: "1.36 (patch 1.36.x) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Coolify]]", "[[Traefik]]", "[[Nginx]]", "[[CI-CD]]", "[[Linux Essentials]]"]
@@ -201,6 +201,7 @@ deploy/
 
 ## Deep Dives
 - [[Kubernetes - Core Objects]]
+- [[Kubernetes - k3s vs Coolify for Small Teams]] — when to adopt k3s vs staying on Coolify, HA install, ops trade-offs
 
 ## Related
 - [[Docker]] — images and container runtime basics

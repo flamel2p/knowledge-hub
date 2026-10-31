@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-28
+updated: 2026-10-31
 parent: "[[00 - Home]]"
 ---
 
@@ -25,6 +25,7 @@ parent: "[[00 - Home]]"
   - [[Coolify - Multi-Server, Build Servers & Scaling]]
 - [[Kubernetes]] — declarative orchestrator; Gateway API over retired Ingress NGINX, cgroup v2 only, k3s for small VPS
   - [[Kubernetes - Core Objects]]
+  - [[Kubernetes - k3s vs Coolify for Small Teams]]
 - [[Traefik]] — label-driven reverse proxy + ACME; Coolify default, v3.7, 2026 ForwardAuth-bypass CVEs, Docker socket risk
   - [[Traefik - Middlewares, TLS & Routing]]
   - [[Traefik - Observability & Troubleshooting]]
@@ -32,6 +33,7 @@ parent: "[[00 - Home]]"
   - [[Cloudflare - Zero Trust Tunnel & Access]]
   - [[Cloudflare - R2 Storage & Presigned Uploads]]
   - [[Cloudflare - Workers for Webhooks & Edge APIs]]
+  - [[Cloudflare - DNS, Email Authentication & Domain Ops]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
   - [[Git - Monorepo Workflows with pnpm & Turborepo]]

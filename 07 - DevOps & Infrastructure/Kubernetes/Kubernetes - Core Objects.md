@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/kubernetes]
 status: draft
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-31
 version_checked: "Kubernetes 1.36 — 2026-10"
 parent: "[[Kubernetes]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[CI-CD]]", "[[Network Security]]", "[[Linux Essentials]]"]
@@ -218,6 +218,7 @@ spec:
 
 ## Related
 - [[Kubernetes]]
+- [[Kubernetes - k3s vs Coolify for Small Teams]] — k3s vs Coolify decision for small teams
 - [[Docker]] — container images and runtime basics
 - [[Traefik]] — Gateway API / ingress controller option
 - [[CI-CD]] — GitOps deployment of these manifests

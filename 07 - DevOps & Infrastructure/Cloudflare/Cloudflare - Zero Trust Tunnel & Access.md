@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/cloudflare, topic/zero-trust, topic/tunnel]
 status: draft
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-31
 version_checked: "cloudflared 2026.8.x — 2026-10"
 parent: "[[Cloudflare]]"
 related: ["[[Traefik]]", "[[Coolify]]", "[[n8n]]", "[[Network Security]]", "[[OAuth 2.0 & OIDC]]", "[[JWT]]", "[[Docker]]"]
@@ -233,6 +233,7 @@ Host vps-a
 
 ## Related
 - [[Cloudflare]]
+- [[Cloudflare - DNS, Email Authentication & Domain Ops]] — DNS records and domain ownership around Tunnel hostnames
 - [[Traefik]] — tunnel target, routes by Host
 - [[Coolify]] — dashboard protected by Access ([[Coolify - Operations, Backups & Hardening]])
 - [[n8n]] — editor behind Access, webhooks on a separate hostname

@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/websocket, topic/realtime]
 status: draft
 created: 2026-10-05
-updated: 2026-10-15
+updated: 2026-10-31
 version_checked: "RFC 6455 · ws 8.2x (Node) — 2026-10"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[REST API]]", "[[Redis]]", "[[Traefik]]", "[[Supabase]]"]
@@ -185,6 +185,7 @@ realtime/
 
 ## Deep Dives
 - [[WebSocket - Scaling & Reliability]]
+- [[WebSocket - SSE & Streaming LLM Responses]] — SSE vs WebSocket, Claude stream → SSE route, abort propagation, heartbeats, resumable streams, proxy buffering
 
 ## Related
 - [[HTTP & HTTPS]] — upgrade mechanism, TLS, proxies
