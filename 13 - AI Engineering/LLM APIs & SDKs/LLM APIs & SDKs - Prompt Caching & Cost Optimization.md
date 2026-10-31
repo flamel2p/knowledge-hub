@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/llm-api, topic/prompt-caching, topic/cost, lang/typescript]
 status: draft
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-31
 version_checked: "Claude API pricing + caching (cached 2026-10-06) · OpenAI / Gemini unverified — 2026-10"
 parent: "[[LLM APIs & SDKs]]"
 related: ["[[Prompt Engineering]]", "[[AI Agents - Tool Calling & Agent Loops]]", "[[RAG]]", "[[AI Evals & Observability]]", "[[Redis]]", "[[n8n]]"]
@@ -221,6 +221,7 @@ if (input_tokens > 150_000) messages = await summariseOldTurns(messages);
 
 ## Related
 - [[LLM APIs & SDKs]]
+- [[LLM APIs & SDKs - Batch Processing & Async Workloads]] — the 50% batch lever that stacks with caching
 - [[Prompt Engineering]] — stable prompt structure that caches well
 - [[AI Agents - Tool Calling & Agent Loops]] — loop hygiene, tool surface size
 - [[RAG]] — retrieval size vs caching whole documents

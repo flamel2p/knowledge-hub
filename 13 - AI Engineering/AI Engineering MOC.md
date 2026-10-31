@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-26
+updated: 2026-10-31
 parent: "[[00 - Home]]"
 ---
 
@@ -45,6 +45,7 @@ parent: "[[00 - Home]]"
 - [[LLM APIs & SDKs]] — Claude Messages API vs OpenAI vs Gemini: tools, structured outputs, caching, batches; key hygiene + deprecation risk
   - [[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]
   - [[LLM APIs & SDKs - Structured Outputs & Tool Schemas]]
+  - [[LLM APIs & SDKs - Batch Processing & Async Workloads]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
