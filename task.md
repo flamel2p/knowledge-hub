@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-10-31 (T244)
+Last run: 2026-10-31 (T245)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -305,6 +305,6 @@ Last run: 2026-10-31 (T244)
 - [x] T242 | deep-dive | LLM APIs & SDKs - Batch Processing & Async Workloads | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Batch Processing & Async Workloads.md | ✅ 2026-10-31
 - [x] T243 | deep-dive | Cloudflare - DNS, Email Authentication & Domain Ops | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - DNS, Email Authentication & Domain Ops.md | ✅ 2026-10-31
 - [x] T244 | deep-dive | TypeScript - Error Handling & Result Types | 01 - Languages/TypeScript/TypeScript - Error Handling & Result Types.md | ✅ 2026-10-31
-- [ ] T245 | deep-dive | Kubernetes - k3s vs Coolify for Small Teams | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - k3s vs Coolify for Small Teams.md
+- [x] T245 | deep-dive | Kubernetes - k3s vs Coolify for Small Teams | 07 - DevOps & Infrastructure/Kubernetes/Kubernetes - k3s vs Coolify for Small Teams.md | ✅ 2026-10-31
 - [ ] T246 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T247 | replenish | Next 12 tasks per CLAUDE.md §9 | -

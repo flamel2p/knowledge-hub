@@ -25,6 +25,7 @@ parent: "[[00 - Home]]"
   - [[Coolify - Multi-Server, Build Servers & Scaling]]
 - [[Kubernetes]] — declarative orchestrator; Gateway API over retired Ingress NGINX, cgroup v2 only, k3s for small VPS
   - [[Kubernetes - Core Objects]]
+  - [[Kubernetes - k3s vs Coolify for Small Teams]]
 - [[Traefik]] — label-driven reverse proxy + ACME; Coolify default, v3.7, 2026 ForwardAuth-bypass CVEs, Docker socket risk
   - [[Traefik - Middlewares, TLS & Routing]]
   - [[Traefik - Observability & Troubleshooting]]
