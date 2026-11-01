@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/deep-dive, topic/network-security, topic/cloudflare, topic/waf]
 status: draft
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-01
 version_checked: "Cloudflare WAF plan table (Free: Free Managed Ruleset + 1 rate limiting rule) — 2026-10"
 parent: "[[Network Security]]"
 related: ["[[Cloudflare]]", "[[Cloudflare - Zero Trust Tunnel & Access]]", "[[OWASP Top 10 - API Security Top 10 in Practice]]", "[[Nginx - Security Hardening]]", "[[Traefik - Observability & Troubleshooting]]", "[[REST API - Webhooks & Idempotency]]"]
@@ -165,6 +165,7 @@ if (!(await r.json()).success) return problem(403, 'bot_check_failed', 'Please r
 
 ## Related
 - [[Network Security]]
+- [[Redis - Rate Limiting & Distributed Locks]] — app-layer per-user/tenant limits behind the edge
 - [[Cloudflare]] — edge platform, plans, outages
 - [[Cloudflare - Zero Trust Tunnel & Access]] — admin tools behind Access
 - [[OWASP Top 10 - API Security Top 10 in Practice]] — API4/API6 controls behind the edge

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-01 (T251)
+Last run: 2026-11-01 (T252)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -315,7 +315,7 @@ Last run: 2026-11-01 (T251)
 - [x] T249 | deep-dive | Supabase - Storage, Uploads & Image Transformations | 04 - Backend/Supabase/Supabase - Storage, Uploads & Image Transformations.md | ✅ 2026-11-01
 - [x] T250 | deep-dive | PostgreSQL - Partitioning & Large Table Maintenance | 05 - Databases/PostgreSQL/PostgreSQL - Partitioning & Large Table Maintenance.md | ✅ 2026-11-01
 - [x] T251 | deep-dive | n8n - AI Agent Nodes & LLM Workflows | 08 - Automation/n8n/n8n - AI Agent Nodes & LLM Workflows.md | ✅ 2026-11-01
-- [ ] T252 | deep-dive | Redis - Rate Limiting & Distributed Locks | 05 - Databases/Redis/Redis - Rate Limiting & Distributed Locks.md
+- [x] T252 | deep-dive | Redis - Rate Limiting & Distributed Locks | 05 - Databases/Redis/Redis - Rate Limiting & Distributed Locks.md | ✅ 2026-11-01
 - [ ] T253 | deep-dive | Docker - Logging, Metrics & Resource Limits on a VPS | 07 - DevOps & Infrastructure/Docker/Docker - Logging, Metrics & Resource Limits on a VPS.md
 - [ ] T254 | deep-dive | Flutter - Internationalization & Localization | 03 - Mobile/Flutter/Flutter - Internationalization & Localization.md
 - [ ] T255 | deep-dive | Prompt Engineering - Long-Context & Structured Reasoning Prompts | 13 - AI Engineering/Prompt Engineering/Prompt Engineering - Long-Context & Structured Reasoning Prompts.md
