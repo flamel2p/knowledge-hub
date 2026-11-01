@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/cloudflare, topic/object-storage, topic/uploads, lang/typescript]
 status: draft
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-11-01
 version_checked: "R2 pricing (Standard $0.015/GB-mo, A $4.50/M, B $0.36/M, egress free) — 2026-10"
 parent: "[[Cloudflare]]"
 related: ["[[Supabase]]", "[[Next.js]]", "[[Flutter]]", "[[Coolify - Operations, Backups & Hardening]]", "[[REST API]]", "[[Network Security]]"]
@@ -188,6 +188,7 @@ new S3Client({ endpoint: 'https://cdn.example.com', ... });
 
 ## Related
 - [[Cloudflare]]
+- [[Supabase - Storage, Uploads & Image Transformations]] — Supabase Storage with RLS vs R2 for user uploads
 - [[Cloudflare - Zero Trust Tunnel & Access]] — protecting admin tools that manage uploads
 - [[Supabase]] — Storage as the RLS-integrated alternative
 - [[Coolify - Operations, Backups & Hardening]] — S3/R2 backup targets

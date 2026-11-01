@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-01 (T248)
+Last run: 2026-11-01 (T249)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -312,7 +312,7 @@ Last run: 2026-11-01 (T248)
 ### Wave 16 — Core stack third deep dives (mutations, storage, scale, ops, i18n)
 
 - [x] T248 | deep-dive | Next.js - Server Actions, Mutations & Security | 02 - Frontend/Next.js/Next.js - Server Actions, Mutations & Security.md | ✅ 2026-11-01
-- [ ] T249 | deep-dive | Supabase - Storage, Uploads & Image Transformations | 04 - Backend/Supabase/Supabase - Storage, Uploads & Image Transformations.md
+- [x] T249 | deep-dive | Supabase - Storage, Uploads & Image Transformations | 04 - Backend/Supabase/Supabase - Storage, Uploads & Image Transformations.md | ✅ 2026-11-01
 - [ ] T250 | deep-dive | PostgreSQL - Partitioning & Large Table Maintenance | 05 - Databases/PostgreSQL/PostgreSQL - Partitioning & Large Table Maintenance.md
 - [ ] T251 | deep-dive | n8n - AI Agent Nodes & LLM Workflows | 08 - Automation/n8n/n8n - AI Agent Nodes & LLM Workflows.md
 - [ ] T252 | deep-dive | Redis - Rate Limiting & Distributed Locks | 05 - Databases/Redis/Redis - Rate Limiting & Distributed Locks.md
