@@ -184,4 +184,4 @@ eas update --branch production --message "fix: order total rounding"
 - Expo SDK 56 changelog: https://expo.dev/changelog/sdk-56
 - New Architecture (Expo): https://docs.expo.dev/guides/new-architecture/
 - RN 0.82–0.84 overview (React Native Radio): https://infinite.red/react-native-radio/rnr-357-react-native-082084-expo-55
-- https://reactnative.dev/blog/2026/06/11/react-native-0.86
+- React Native 0.86 release: https://reactnative.dev/blog/2026/06/11/react-native-0.86
