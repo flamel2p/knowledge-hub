@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-29
+updated: 2026-11-01
 parent: "[[00 - Home]]"
 ---
 
@@ -20,6 +20,7 @@ parent: "[[00 - Home]]"
   - [[n8n - Queue Mode & Scaling]]
   - [[n8n - Error Handling & Workflow Patterns]]
   - [[n8n - Security, Credentials & Self-Hosting Hardening]]
+  - [[n8n - AI Agent Nodes & LLM Workflows]]
 - [[Windmill]] — code-first scripts/flows/apps on Rust + Postgres queue; AGPL/EE licensing nuance; complements n8n
   - [[Windmill - Windmill vs n8n Architecture Decision]]
   - [[Windmill - Worker Groups & Sandboxing]]
