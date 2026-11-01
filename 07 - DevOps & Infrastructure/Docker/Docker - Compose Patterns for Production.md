@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/docker, topic/compose, topic/deployment]
 status: draft
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-01
 version_checked: "Compose v5.6 (2026-10, aggregator) · v2.40 still shipped on CI runners · Engine 29 — 2026-10"
 parent: "[[Docker]]"
 related: ["[[Docker - Networking & Volumes]]", "[[Docker - Dockerfile & Image Best Practices]]", "[[Coolify]]", "[[Traefik]]", "[[PostgreSQL]]", "[[Redis]]"]
@@ -224,6 +224,7 @@ services:
 
 ## Related
 - [[Docker]]
+- [[Docker - Logging, Metrics & Resource Limits on a VPS]] — log drivers, limits sizing, OOM triage and monitoring stack
 - [[Docker - Networking & Volumes]] — internal networks, volumes, firewall bypass
 - [[Docker - Dockerfile & Image Best Practices]] — the images these services run
 - [[Coolify]] — Compose deployments with managed Traefik
