@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/transactions]
 status: draft
 created: 2026-10-05
-updated: 2026-10-28
+updated: 2026-11-01
 version_checked: "PostgreSQL 18.6 · 19 RC1 (GA 2026-11-19) — re-checked 2026-10-28"
 parent: "[[PostgreSQL]]"
 related: ["[[PostgreSQL - Indexing]]", "[[PostgreSQL - Query Planning & EXPLAIN]]", "[[Supabase]]", "[[Redis]]"]
@@ -173,6 +173,7 @@ ALTER TABLE messages SET (autovacuum_vacuum_scale_factor = 0.02, autovacuum_vacu
 
 ## Related
 - [[PostgreSQL]]
+- [[PostgreSQL - Partitioning & Large Table Maintenance]] — retention by partition drop instead of bloating DELETEs
 - [[PostgreSQL - Indexing]] — HOT updates, visibility map, index bloat
 - [[PostgreSQL - Query Planning & EXPLAIN]]
 - [[Supabase]] — pooler modes and transaction scope
