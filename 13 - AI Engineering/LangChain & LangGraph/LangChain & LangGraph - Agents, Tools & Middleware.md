@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/langchain, topic/agents, lang/python]
 status: draft
 created: 2026-10-02
-updated: 2026-10-13
-version_checked: "langchain 1.4.x (langchain-core 1.4.7+; no 1.5 found) — 2026-10"
+updated: 2026-11-01
+version_checked: "Python langchain 1.4.x (1.4.5+ on PyPI; no 1.5 found) · JS langchain 1.5.x — re-checked 2026-11-01"
 parent: "[[LangChain & LangGraph]]"
 related: ["[[LangChain & LangGraph - Graph API, State & Control Flow]]", "[[AI Agents]]", "[[Model Context Protocol]]", "[[Prompt Engineering]]"]
 ---
@@ -197,7 +197,7 @@ agent = create_agent("anthropic:claude-sonnet-4-5", tools=tools)
 | 1.2–1.4 (2026) | Additional built-in middleware and fixes |
 
 > [!warning] Unverified — check before relying on this
-> Exact middleware additions per 1.2–1.4 minor weren't verified. Check `langchain.agents.middleware` in the installed version.
+> Exact middleware additions per 1.2–1.4 minor weren't verified. Python and JS versions diverge: npm `langchain` is on 1.5.x while PyPI is on 1.4.x (re-checked 2026-11-01), so don't assume feature parity by version number. Check `langchain.agents.middleware` in the installed version.
 
 ## Critical Issues & Gotchas
 > [!danger] Prompt injection → tool abuse
