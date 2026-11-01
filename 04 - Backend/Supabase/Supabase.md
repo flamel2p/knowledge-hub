@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/baas]
 status: draft
 created: 2026-10-06
-updated: 2026-10-30
+updated: 2026-11-01
 version_checked: "Platform 2026-10 (new API keys, JWT signing keys; legacy keys removal late 2026)"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
@@ -182,6 +182,7 @@ supabase db push                    # apply to linked project (CI)
 - [[Supabase - Edge Functions, Cron & Queues]] — pgmq outbox, cron-driven workers, waitUntil webhooks, limits, DLQ
 - [[Supabase - Realtime, Presence & Broadcast]] — Broadcast from DB vs Postgres Changes, private channels + RLS, Presence, reconnect refetch, inbox pattern
 - [[Supabase - Auth Flows, MFA & Custom Claims]] — flow choice, AAL2 restrictive policies, Custom Access Token Hook, WhatsApp OTP hook, getClaims vs getUser
+- [[Supabase - Storage, Uploads & Image Transformations]] — storage.objects RLS per operation, signed/TUS uploads, transforms limits, public-bucket and S3-key risks
 
 ## Related
 - [[PostgreSQL]] — the database underneath

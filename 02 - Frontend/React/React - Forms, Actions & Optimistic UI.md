@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/react, topic/forms, topic/server-actions, lang/typescript]
 status: draft
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-01
 version_checked: "React 19.3 · Next.js 16 Server Actions (updateTag / revalidatePath) — 2026-10"
 parent: "[[React]]"
 related: ["[[React - Hooks]]", "[[React - Server Components]]", "[[TypeScript - Runtime Validation with Zod & Type-Safe APIs]]", "[[Next.js - Caching]]", "[[REST API - Webhooks & Idempotency]]", "[[Cloudflare - R2 Storage & Presigned Uploads]]"]
@@ -190,6 +190,7 @@ export async function deleteItem(id: string) { 'use server'; await db.delete(id)
 
 ## Related
 - [[React]]
+- [[Next.js - Server Actions, Mutations & Security]] — server-side security, self-hosting config and CVEs for actions
 - [[React - Hooks]] — the Actions hooks in context
 - [[React - Server Components]] — where Server Actions live
 - [[TypeScript - Runtime Validation with Zod & Type-Safe APIs]] — shared schemas and field errors

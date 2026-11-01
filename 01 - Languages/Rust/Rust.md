@@ -6,8 +6,8 @@ domain: languages
 tags: [domain/languages, type/overview, topic/rust, lang/rust]
 status: draft
 created: 2026-10-11
-updated: 2026-10-14
-version_checked: "1.96.1 (2026-06-30) confirmed; 6-week cadence · edition 2024 — 2026-10"
+updated: 2026-11-01
+version_checked: "1.96.1 (2026-06-30) latest confirmed; 1.97–1.99 expected by cadence · edition 2024 — re-checked 2026-11-01"
 parent: "[[Languages MOC]]"
 related: ["[[Go]]", "[[TypeScript]]", "[[Python]]", "[[WebGL]]", "[[Flutter - Platform Channels & FFI]]", "[[Solidity]]"]
 ---
@@ -182,7 +182,7 @@ cargo audit && cargo deny check                               # vulns, licenses,
 | 1.9x (later 2026) | every 6 weeks | Ongoing stabilizations | `rustup update stable` |
 
 > [!warning] Unverified — check before relying on this
-> Releases after 1.96.1 (expected ~1.97–1.99 by October 2026) weren't confirmed. Check https://blog.rust-lang.org/releases/.
+> Releases after 1.96.1 weren't confirmed (re-checked 2026-11-01). The 6-week cadence from 1.96.0 (2026-05-28) implies 1.97 ≈ 2026-07-09, 1.98 ≈ 2026-08-20, 1.99 ≈ 2026-10-01 and 1.100 ≈ 2026-11-12. Run `rustup update stable && rustc --version`, or check https://blog.rust-lang.org/releases/.
 
 ## Critical Issues & Gotchas
 > [!danger] crates.io supply-chain attacks

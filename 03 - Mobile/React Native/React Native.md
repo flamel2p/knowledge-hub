@@ -6,8 +6,8 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/react-native, lang/typescript]
 status: draft
 created: 2026-10-06
-updated: 2026-10-14
-version_checked: "0.85 (Expo SDK 56, 2026-05) — 2026-10"
+updated: 2026-11-01
+version_checked: "0.86 (2026-06-11) confirmed · 0.87 reported · Expo SDK 56 — re-checked 2026-11-01"
 parent: "[[Mobile MOC]]"
 related: ["[[React]]", "[[Flutter]]", "[[TypeScript]]", "[[Supabase]]"]
 ---
@@ -26,7 +26,7 @@ related: ["[[React]]", "[[Flutter]]", "[[TypeScript]]", "[[Supabase]]"]
 ## Introduction
 - Open-sourced by Meta in 2015, MIT license. Used by Meta (Facebook, Instagram parts, Ads Manager), Microsoft (Office, Teams parts), Shopify (all mobile apps), Discord, Coinbase.
 - **Expo** (Expo, Inc.) is the recommended framework by the React Native team: SDK of native modules, `expo-router` (file-based routing), **EAS Build/Submit/Update** (cloud builds, store submission, OTA updates), dev clients.
-- Release cadence: roughly every 2 months (0.82 Oct 2025, 0.83 Dec 2025, 0.84 Feb 2026, 0.85 ~May 2026). Expo SDKs follow (SDK 55 = RN 0.83, SDK 56 = RN 0.85).
+- Release cadence: roughly every 2 months (0.82 Oct 2025, 0.83 Dec 2025, 0.84 Feb 2026, 0.85 ~May 2026, 0.86 2026-06-11). Expo SDKs follow (SDK 55 = RN 0.83, SDK 56 = RN 0.85).
 - Where it sits: the client layer, sharing TypeScript types, validation (Zod) and sometimes business logic with [[Next.js]]/Node backends and [[Supabase]].
 
 ## Core Concepts
@@ -148,9 +148,10 @@ eas update --branch production --message "fix: order total rounding"
 | **0.82** | 2025-10-08 | **Legacy Architecture removed**: New Architecture only | `newArchEnabled=false` ignored. Upgrade or replace legacy-only libraries |
 | 0.83 / 0.84 | 2025-12-10 / 2026-02-09 | React 19.2, DevTools and performance improvements | Expo SDK 55 (RN 0.83) drops the legacy arch entirely |
 | 0.85 | ~2026-05 | Ships with Expo SDK 56 (2026-05-21) | — |
+| 0.86 | 2026-06-11 | Android 15+ edge-to-edge fixes, DevTools improvements. 0.83.x unsupported | No user-facing breaking changes: 0.85 → 0.86 needs no app-code changes |
 
 > [!warning] Unverified — check before relying on this
-> RN releases after 0.85 and the current Expo SDK as of Oct 2026 weren't verified this run. Check https://reactnative.dev/versions and https://expo.dev/changelog.
+> 0.87 is reported (React Native social account) but its date and changes, and the current Expo SDK as of Nov 2026, weren't verified. Check https://reactnative.dev/versions and https://expo.dev/changelog.
 
 ## Critical Issues & Gotchas
 > [!danger] CVE-2025-11953 — Metro dev server command injection (CVSS 9.8, Nov 2025)
@@ -183,3 +184,4 @@ eas update --branch production --message "fix: order total rounding"
 - Expo SDK 56 changelog: https://expo.dev/changelog/sdk-56
 - New Architecture (Expo): https://docs.expo.dev/guides/new-architecture/
 - RN 0.82–0.84 overview (React Native Radio): https://infinite.red/react-native-radio/rnr-357-react-native-082084-expo-55
+- React Native 0.86 release: https://reactnative.dev/blog/2026/06/11/react-native-0.86

@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/nextjs, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-28
+updated: 2026-11-01
 version_checked: "16.3.8 (Active LTS) · 15.5.27 (Maintenance LTS) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[React]]", "[[TypeScript]]", "[[Supabase]]", "[[Coolify]]", "[[Docker]]"]
@@ -251,6 +251,7 @@ CMD ["node", "server.js"]
 - [[Next.js - App Router & Rendering Strategies]]
 - [[Next.js - Caching]]
 - [[Next.js - Middleware, Auth & Multi-Tenant Routing]] — proxy.ts tenant rewrites, Supabase session refresh, header stripping, custom domains, auth beyond the proxy
+- [[Next.js - Server Actions, Mutations & Security]] — action security model, authedAction wrapper, encryption key + deploymentId for replicas, 2025–26 CVEs
 
 ## Related
 - [[React]] — RSC, Actions, compiler
