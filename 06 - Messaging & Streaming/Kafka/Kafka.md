@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/overview, topic/kafka, topic/streaming]
 status: draft
 created: 2026-10-06
-updated: 2026-10-14
+updated: 2026-11-02
 version_checked: "4.2 (2026-02-17) — 2026-10"
 parent: "[[Messaging & Streaming MOC]]"
 related: ["[[Message Queues]]", "[[Redis]]", "[[PostgreSQL]]", "[[System Design]]", "[[n8n]]"]
@@ -172,6 +172,7 @@ services:
 
 ## Deep Dives
 - [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
+- [[Kafka - KRaft, Redpanda & Small-Infra Trade-offs]] — when not to use Kafka, single-node KRaft vs Redpanda vs object-storage Kafka, listener/RF=1 pitfalls, 4.3 line
 
 ## Related
 - [[Message Queues]] — queue vs log semantics
