@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/nextjs, topic/caching, lang/typescript]
 status: draft
 created: 2026-10-05
-updated: 2026-10-22
+updated: 2026-11-02
 version_checked: "Next.js 16.3 · 16.2 Active LTS — re-checked 2026-10-22"
 parent: "[[Next.js]]"
 related: ["[[Next.js - App Router & Rendering Strategies]]", "[[React - Server Components]]", "[[Redis]]", "[[HTTP & HTTPS]]"]
@@ -165,6 +165,7 @@ async function getOrdersForUser(uid: string) {
 
 ## Related
 - [[Next.js]]
+- [[Next.js - Self-Hosting, Standalone Builds & ISR on Coolify]] — shared cache handlers for self-hosted multi-replica setups
 - [[Next.js - App Router & Rendering Strategies]] — PPR and static shells
 - [[React - Server Components]] — `React.cache`, request memoization
 - [[Redis]] — shared cache handler
