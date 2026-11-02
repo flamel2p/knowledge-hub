@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-01 (T254)
+Last run: 2026-11-02 (T259)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -318,8 +318,23 @@ Last run: 2026-11-01 (T254)
 - [x] T252 | deep-dive | Redis - Rate Limiting & Distributed Locks | 05 - Databases/Redis/Redis - Rate Limiting & Distributed Locks.md | ✅ 2026-11-01
 - [x] T253 | deep-dive | Docker - Logging, Metrics & Resource Limits on a VPS | 07 - DevOps & Infrastructure/Docker/Docker - Logging, Metrics & Resource Limits on a VPS.md | ✅ 2026-11-01
 - [x] T254 | deep-dive | Flutter - Internationalization & Localization | 03 - Mobile/Flutter/Flutter - Internationalization & Localization.md | ✅ 2026-11-01
-- [ ] T255 | deep-dive | Prompt Engineering - Long-Context & Structured Reasoning Prompts | 13 - AI Engineering/Prompt Engineering/Prompt Engineering - Long-Context & Structured Reasoning Prompts.md
-- [ ] T256 | deep-dive | Kafka - KRaft, Redpanda & Small-Infra Trade-offs | 06 - Messaging & Streaming/Kafka/Kafka - KRaft, Redpanda & Small-Infra Trade-offs.md
-- [ ] T257 | deep-dive | Coolify - Preview Deployments, Environments & Secrets | 07 - DevOps & Infrastructure/Coolify/Coolify - Preview Deployments, Environments & Secrets.md
-- [ ] T258 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
-- [ ] T259 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T255 | deep-dive | Prompt Engineering - Long-Context & Structured Reasoning Prompts | 13 - AI Engineering/Prompt Engineering/Prompt Engineering - Long-Context & Structured Reasoning Prompts.md | ✅ 2026-11-02
+- [x] T256 | deep-dive | Kafka - KRaft, Redpanda & Small-Infra Trade-offs | 06 - Messaging & Streaming/Kafka/Kafka - KRaft, Redpanda & Small-Infra Trade-offs.md | ✅ 2026-11-02
+- [x] T257 | deep-dive | Coolify - Preview Deployments, Environments & Secrets | 07 - DevOps & Infrastructure/Coolify/Coolify - Preview Deployments, Environments & Secrets.md | ✅ 2026-11-02
+- [x] T258 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-02
+- [x] T259 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-02
+
+### Wave 17 — WhatsApp, pooling, local dev, self-hosting, agent safety
+
+- [ ] T260 | deep-dive | n8n - WhatsApp Cloud API Workflows & Template Messaging | 08 - Automation/n8n/n8n - WhatsApp Cloud API Workflows & Template Messaging.md
+- [ ] T261 | deep-dive | PostgreSQL - Connection Pooling with Supavisor & PgBouncer | 05 - Databases/PostgreSQL/PostgreSQL - Connection Pooling with Supavisor & PgBouncer.md
+- [ ] T262 | deep-dive | Supabase - Migrations, Branching & Local Development | 04 - Backend/Supabase/Supabase - Migrations, Branching & Local Development.md
+- [ ] T263 | deep-dive | Next.js - Self-Hosting, Standalone Builds & ISR on Coolify | 02 - Frontend/Next.js/Next.js - Self-Hosting, Standalone Builds & ISR on Coolify.md
+- [ ] T264 | deep-dive | Flutter - App Security, Obfuscation & Secure Storage | 03 - Mobile/Flutter/Flutter - App Security, Obfuscation & Secure Storage.md
+- [ ] T265 | deep-dive | LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks.md
+- [ ] T266 | deep-dive | AI Agents - Human-in-the-Loop & Approval Workflows | 13 - AI Engineering/AI Agents/AI Agents - Human-in-the-Loop & Approval Workflows.md
+- [ ] T267 | deep-dive | Linux Essentials - Networking, Firewalls & Tailscale | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Networking, Firewalls & Tailscale.md
+- [ ] T268 | deep-dive | RAG - Evaluation & Answer Grounding | 13 - AI Engineering/RAG/RAG - Evaluation & Answer Grounding.md
+- [ ] T269 | deep-dive | System Design - Event-Driven Architecture & Outbox Pattern | 11 - CS Fundamentals/System Design/System Design - Event-Driven Architecture & Outbox Pattern.md
+- [ ] T270 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T271 | replenish | Next 12 tasks per CLAUDE.md §9 | -

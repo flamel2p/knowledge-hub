@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/coolify]
 status: draft
 created: 2026-10-03
-updated: 2026-10-25
+updated: 2026-11-02
 version_checked: "4.3.x (4.0.0 stable 2026) — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -170,6 +170,7 @@ volumes: { pgdata: {} }
 ## Deep Dives
 - [[Coolify - Operations, Backups & Hardening]]
 - [[Coolify - Multi-Server, Build Servers & Scaling]] — scaling ladder, build servers, multi-server + external LB, stateless checklist, Swarm deprecation
+- [[Coolify - Preview Deployments, Environments & Secrets]] — projects/environments, preview variable groups, shared variables, build vs runtime flags, BuildKit secrets, wildcard TLS and gating
 
 ## Related
 - [[Docker]] — runtime underneath

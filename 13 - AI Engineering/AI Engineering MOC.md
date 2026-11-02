@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-31
+updated: 2026-11-02
 parent: "[[00 - Home]]"
 ---
 
@@ -19,6 +19,7 @@ parent: "[[00 - Home]]"
 - [[Prompt Engineering]] — context engineering, structure, examples, structured outputs, evals
   - [[Build with AI]] — 11-part prompt playbook series for business tasks
   - [[Prompt Engineering - System Prompts, Few-shot & Prompt Versioning]]
+  - [[Prompt Engineering - Long-Context & Structured Reasoning Prompts]]
 - [[LLM Fundamentals]] — tokens, context, sampling, reasoning, caching, model landscape
   - [[LLM Fundamentals - Tokens, Context & Sampling]]
   - [[LLM Fundamentals - Model Selection & Routing]]

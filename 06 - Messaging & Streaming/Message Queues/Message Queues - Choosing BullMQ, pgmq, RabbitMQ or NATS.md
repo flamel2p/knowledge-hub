@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/deep-dive, topic/message-queues, topic/architecture-decision]
 status: draft
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-02
 version_checked: "BullMQ 5.x · pgmq (Supabase Queues) · RabbitMQ 4.2 · NATS 2.12–2.14 — 2026-10"
 parent: "[[Message Queues]]"
 related: ["[[Message Queues - BullMQ in Production]]", "[[Supabase - Edge Functions, Cron & Queues]]", "[[Kafka]]", "[[Redis]]", "[[System Design - Reliability Patterns]]", "[[n8n - Queue Mode & Scaling]]"]
@@ -150,6 +150,7 @@ await ch.prefetch(20);                                      // backpressure per 
 
 ## Related
 - [[Message Queues]]
+- [[Kafka - KRaft, Redpanda & Small-Infra Trade-offs]] — when Kafka (or Redpanda) is actually warranted
 - [[Message Queues - BullMQ in Production]] — BullMQ operations in depth
 - [[Supabase - Edge Functions, Cron & Queues]] — pgmq workers and cron
 - [[Kafka]] — when you need a log, not a queue
