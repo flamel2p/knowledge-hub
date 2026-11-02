@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/rag, topic/retrieval]
 status: draft
 created: 2026-10-05
-updated: 2026-10-24
+updated: 2026-11-02
 version_checked: "n/a — techniques; pgvector 0.8.x referenced — 2026-10"
 parent: "[[RAG]]"
 related: ["[[PostgreSQL - Indexing]]", "[[Vector Databases]]", "[[LLM Fundamentals - Tokens, Context & Sampling]]", "[[AI Evals & Observability]]"]
@@ -168,6 +168,7 @@ console.log({ recallAt5: recallAt5 / golden.length, mrr: mrr / golden.length });
 
 ## Related
 - [[RAG]]
+- [[Prompt Engineering - Long-Context & Structured Reasoning Prompts]] — when to stuff long context vs retrieve
 - [[RAG - Document Ingestion & PDF Parsing Pipelines]] — upstream parsing: layout, tables, OCR, idempotent ingestion
 - [[PostgreSQL - Indexing]] — GIN for FTS, HNSW for vectors
 - [[Vector Databases]] — dedicated stores beyond Postgres scale
