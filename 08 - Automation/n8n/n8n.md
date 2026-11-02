@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/overview, topic/n8n]
 status: draft
 created: 2026-10-03
-updated: 2026-11-01
+updated: 2026-11-02
 version_checked: "2.42.x stable · 2.43 beta — 2026-10 (re-checked 2026-10-19, secondary source)"
 parent: "[[Automation MOC]]"
 related: ["[[Redis]]", "[[PostgreSQL]]", "[[Docker]]", "[[Coolify]]", "[[Windmill]]", "[[AI Agents]]"]
@@ -184,6 +184,7 @@ N8N_PROXY_HOPS=1                       # behind Traefik/Cloudflare
 - [[n8n - Error Handling & Workflow Patterns]]
 - [[n8n - Security, Credentials & Self-Hosting Hardening]] — 2026 CVE floor, editor behind Access, webhook-only routing, NODES_EXCLUDE, external runners, key custody
 - [[n8n - AI Agent Nodes & LLM Workflows]] — agent vs single-shot nodes, tool sub-workflows, tenant-scoped memory, approvals, injection and cost limits
+- [[n8n - WhatsApp Cloud API Workflows & Template Messaging]] — 24h window vs templates, per-message pricing, HMAC + wamid dedupe, BSUID identity change, pacing, platform-ban risk
 
 ## Related
 - [[Redis]] — queue-mode broker

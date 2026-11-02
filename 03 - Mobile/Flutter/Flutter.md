@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-11-01
+updated: 2026-11-02
 version_checked: "3.47 / Dart 3.13 (2026-08) — 2026-10"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -180,6 +180,7 @@ my_app/
 - [[Flutter - Push Notifications & Background Work]] — FCM HTTP v1, token hygiene, permission timing, WorkManager/BGTaskScheduler limits, lock-screen privacy
 - [[Flutter - Payments, In-App Purchases & Store Rules]] — physical vs digital classification, IAP + server-verified entitlements, FPX/Billplz flow, regional rule changes
 - [[Flutter - Internationalization & Localization]] — gen-l10n into source (flutter_gen removed), ICU ARB, ms/en/zh-Hans, RM/date formatting, native locale config, PDPA notice languages
+- [[Flutter - App Security, Obfuscation & Secure Storage]] — no secrets in binaries, secure storage v10 (+Supabase session), obfuscation + symbols, App Check/Play Integrity, pinning and RASP trade-offs
 
 ## Related
 - [[Dart]] — the language
