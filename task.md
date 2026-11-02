@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-02 (T257)
+Last run: 2026-11-02 (T258)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -321,5 +321,5 @@ Last run: 2026-11-02 (T257)
 - [x] T255 | deep-dive | Prompt Engineering - Long-Context & Structured Reasoning Prompts | 13 - AI Engineering/Prompt Engineering/Prompt Engineering - Long-Context & Structured Reasoning Prompts.md | ✅ 2026-11-02
 - [x] T256 | deep-dive | Kafka - KRaft, Redpanda & Small-Infra Trade-offs | 06 - Messaging & Streaming/Kafka/Kafka - KRaft, Redpanda & Small-Infra Trade-offs.md | ✅ 2026-11-02
 - [x] T257 | deep-dive | Coolify - Preview Deployments, Environments & Secrets | 07 - DevOps & Infrastructure/Coolify/Coolify - Preview Deployments, Environments & Secrets.md | ✅ 2026-11-02
-- [ ] T258 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T258 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-02
 - [ ] T259 | replenish | Next 12 tasks per CLAUDE.md §9 | -

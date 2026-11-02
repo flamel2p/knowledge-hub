@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/langgraph, lang/python]
 status: draft
 created: 2026-10-02
-updated: 2026-10-13
-version_checked: "langgraph 1.2.x (1.2.12; no 1.3 found) — 2026-10"
+updated: 2026-11-02
+version_checked: "langgraph 1.2.x (1.2.16 on PyPI; no 1.3 found) — re-checked 2026-11-02"
 parent: "[[LangChain & LangGraph]]"
 related: ["[[LangChain & LangGraph - Agents, Tools & Middleware]]", "[[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]]", "[[AI Agents]]"]
 ---
@@ -166,7 +166,7 @@ class LoopState(State):
 | 0.3 (2025-02) | `Command` and `interrupt()` become the primary control primitives |
 | 0.4–0.6 (2025) | `defer`, node caching, `context_schema` + `Runtime` introduced. `config_schema` deprecated |
 | 1.0 (2025-10-22) | API frozen for stability. `create_react_agent` deprecated in favour of LangChain `create_agent` |
-| 1.2.x (2026) | Current line. No breaking changes to the Graph API |
+| 1.2.x (2026) | Current line (1.2.16 seen on PyPI, 2026-11). No breaking changes to the Graph API |
 
 > [!warning] Unverified — check before relying on this
 > The minor version that introduced `defer`, `CachePolicy` and `context_schema` (0.4 vs 0.5 vs 0.6) wasn't verified this run.

@@ -6,8 +6,8 @@ domain: web3
 tags: [domain/web3, type/overview, topic/solidity, topic/smart-contracts, lang/solidity]
 status: draft
 created: 2026-10-10
-updated: 2026-10-14
-version_checked: "0.8.36 — 2026-10"
+updated: 2026-11-02
+version_checked: "0.8.37 (2026-09-10) — re-checked 2026-11-02"
 parent: "[[Web3 MOC]]"
 related: ["[[Ethereum & EVM]]", "[[Blockchain Fundamentals]]", "[[Web3 Wallets]]", "[[TypeScript]]"]
 ---
@@ -179,10 +179,11 @@ function testFuzz_DepositMintsShares(uint256 amount) public {
 | 0.8.30 | 2025-05 | Default EVM Prague | — |
 | 0.8.34 | 2026-02 | Fix for a **high-severity IR-pipeline bug** clearing storage/transient variables | Affects `delete` on transient vars under via-IR. Recompile and redeploy if affected |
 | 0.8.35 | 2026-04 | `erc7201()` builtin, `--experimental` flag for in-dev features | — |
-| **0.8.36** | 2026-07 | Two medium-severity bug fixes. Experimental EOF backend removed (EOF dropped from Fusaka) | — |
+| 0.8.36 | 2026-07 | Two medium-severity bug fixes. Experimental EOF backend removed (EOF dropped from Fusaka) | — |
+| **0.8.37** | 2026-09-10 | Bug fixes incl. important security fixes. `SLOTNUM` opcode for the Amsterdam EVM version. Experimental Generic Solidity prototype (`pragma experimental solidity`) removed | Upgrade and recompile. Check the known-bugs list for your exact version |
 
 > [!warning] Unverified — check before relying on this
-> No 0.9.0 release was confirmed as of 2026-10. Breaking changes accumulate on the `breaking` branch. Check https://soliditylang.org/blog/category/releases/ and the per-version known-bugs list (`docs.soliditylang.org/en/latest/bugs.html`).
+> No 0.9.0 release was confirmed as of 2026-11-02 (deprecations for 0.9.0, such as `transfer`/`send`, started in 0.8.31). The 0.8.37 security-fix count differs between the release notes and third-party summaries. Breaking changes accumulate on the `breaking` branch. Check https://soliditylang.org/blog/category/releases/ and the per-version known-bugs list (`docs.soliditylang.org/en/latest/bugs.html`).
 
 ## Critical Issues & Gotchas
 > [!danger] Reentrancy and cross-function state
@@ -219,6 +220,7 @@ function testFuzz_DepositMintsShares(uint256 amount) public {
 - Solidity docs: https://docs.soliditylang.org/
 - Release announcements: https://soliditylang.org/blog/category/releases/
 - Known bugs list: https://docs.soliditylang.org/en/latest/bugs.html
+- Solidity 0.8.37 release: https://github.com/argotorg/solidity/releases/tag/v0.8.37
 - Foundry book: https://book.getfoundry.sh/
 - OpenZeppelin Contracts: https://docs.openzeppelin.com/contracts/5.x/
 - SWC / smart contract weakness patterns: https://swcregistry.io/

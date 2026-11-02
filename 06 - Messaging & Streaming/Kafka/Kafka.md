@@ -7,7 +7,7 @@ tags: [domain/messaging, type/overview, topic/kafka, topic/streaming]
 status: draft
 created: 2026-10-06
 updated: 2026-11-02
-version_checked: "4.2 (2026-02-17) — 2026-10"
+version_checked: "4.3.1 (2026-06-25) · 4.3.0 (2026-05-22) — re-checked 2026-11-02"
 parent: "[[Messaging & Streaming MOC]]"
 related: ["[[Message Queues]]", "[[Redis]]", "[[PostgreSQL]]", "[[System Design]]", "[[n8n]]"]
 ---
@@ -149,9 +149,11 @@ services:
 | **4.0** | 2025-03 | **ZooKeeper removed**, next-gen consumer rebalance protocol (KIP-848) GA, share groups early access | Must migrate to KRaft via 3.9 first. Java 17 for brokers, Java 11+ clients. Old message formats/APIs removed |
 | 4.1 | 2025-09 | Share groups preview, Streams rebalance protocol (KIP-1071) | — |
 | **4.2** | 2026-02-17 | **Share groups (queues) production-ready**: lock renewal, lag metrics, fetch limits | Review share-group configs before relying on them |
+| 4.3.0 | 2026-05-22 | Deprecations ahead of 5.0 | `group.coordinator.rebalance.protocols` deprecated for removal in 5.0 |
+| 4.3.1 | 2026-06-25 | Bugfix: Kafka Streams RocksDB native memory leak | Upgrade Streams apps on 4.3.0 |
 
 > [!warning] Unverified — check before relying on this
-> Whether 4.3 has shipped (expected ~Sep 2026) and the IBM–Confluent deal's completion status weren't verified this run. Check https://kafka.apache.org/downloads.
+> 4.3.0/4.3.1 dates come from the Kafka blog and a release aggregator (re-checked 2026-11-02). Whether 4.4 has shipped and the IBM–Confluent deal's completion status weren't verified. Check https://kafka.apache.org/downloads.
 
 ## Critical Issues & Gotchas
 > [!danger] Kafka client/Connect CVEs (2025)
@@ -184,6 +186,7 @@ services:
 ## References
 - Docs: https://kafka.apache.org/documentation/
 - Kafka 4.2 upgrade notes: https://kafka.apache.org/42/getting-started/upgrade/
+- Kafka 4.3.1 release announcement: https://kafka.apache.org/blog/2026/06/25/apache-kafka-4.3.1-release-announcement/
 - Kafka 4.1 release (Factor House): https://factorhouse.io/articles/kafka-4-1-release-announcement/
 - Share consumers GA (Confluent): https://www.confluent.io/blog/kafka-queue-semantics-share-consumer-ga/
 - Kafka news 2026 (Gravitee): https://www.gravitee.io/blog/apache-kafka-news-2026_whats-next
