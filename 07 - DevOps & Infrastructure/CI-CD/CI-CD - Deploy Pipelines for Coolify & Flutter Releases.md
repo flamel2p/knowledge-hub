@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/ci-cd, topic/coolify, topic/flutter, topic/release-engineering]
 status: draft
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-02
 version_checked: "Coolify 4.2 API (/api/v1/deploy) · GitHub Actions · fastlane — 2026-10"
 parent: "[[CI-CD]]"
 related: ["[[CI-CD - GitHub Actions Security Hardening]]", "[[Coolify]]", "[[Flutter - Build, Release & Store Compliance]]", "[[Docker - Compose Patterns for Production]]", "[[Testing Strategy - E2E Testing with Playwright]]", "[[Git - Branching, Releases & Recovery]]"]
@@ -218,6 +218,7 @@ jobs:
 
 ## Related
 - [[CI-CD]]
+- [[Coolify - Preview Deployments, Environments & Secrets]] — preview variables, environments and build secrets in Coolify
 - [[CI-CD - GitHub Actions Security Hardening]] — permissions, OIDC, pinned actions, environment secrets
 - [[Coolify]] — deploy API, previews, rolling updates
 - [[Flutter - Build, Release & Store Compliance]] — signing, store policies, build numbers
