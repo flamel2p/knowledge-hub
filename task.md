@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-03 (T266)
+Last run: 2026-11-03 (T267)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -333,7 +333,7 @@ Last run: 2026-11-03 (T266)
 - [x] T264 | deep-dive | Flutter - App Security, Obfuscation & Secure Storage | 03 - Mobile/Flutter/Flutter - App Security, Obfuscation & Secure Storage.md | ✅ 2026-11-02
 - [x] T265 | deep-dive | LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks.md | ✅ 2026-11-03
 - [x] T266 | deep-dive | AI Agents - Human-in-the-Loop & Approval Workflows | 13 - AI Engineering/AI Agents/AI Agents - Human-in-the-Loop & Approval Workflows.md | ✅ 2026-11-03
-- [ ] T267 | deep-dive | Linux Essentials - Networking, Firewalls & Tailscale | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Networking, Firewalls & Tailscale.md
+- [x] T267 | deep-dive | Linux Essentials - Networking, Firewalls & Tailscale | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Networking, Firewalls & Tailscale.md | ✅ 2026-11-03
 - [ ] T268 | deep-dive | RAG - Evaluation & Answer Grounding | 13 - AI Engineering/RAG/RAG - Evaluation & Answer Grounding.md
 - [ ] T269 | deep-dive | System Design - Event-Driven Architecture & Outbox Pattern | 11 - CS Fundamentals/System Design/System Design - Event-Driven Architecture & Outbox Pattern.md
 - [ ] T270 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
