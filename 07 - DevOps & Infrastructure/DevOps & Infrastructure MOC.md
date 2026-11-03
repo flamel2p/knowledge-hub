@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-02
+updated: 2026-11-03
 parent: "[[00 - Home]]"
 ---
 
@@ -42,6 +42,7 @@ parent: "[[00 - Home]]"
 - [[Linux Essentials]] — VPS operations: users/perms, systemd/journald, ss/nftables, disk/OOM triage, LTS distros, kernel CVEs
   - [[Linux Essentials - VPS Hardening Runbook]]
   - [[Linux Essentials - systemd, Logs & Troubleshooting]]
+  - [[Linux Essentials - Networking, Firewalls & Tailscale]]
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
   - [[CI-CD - GitHub Actions Security Hardening]]
   - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]

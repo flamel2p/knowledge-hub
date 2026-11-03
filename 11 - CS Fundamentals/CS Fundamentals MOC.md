@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-29
+updated: 2026-11-03
 parent: "[[00 - Home]]"
 ---
 
@@ -28,6 +28,7 @@ parent: "[[00 - Home]]"
   - [[System Design - Interview Questions]] — interview prep reference (payment flow, high-traffic ticketing)
   - [[System Design - Multi-Tenant SaaS Architecture]]
   - [[System Design - Reliability Patterns]]
+  - [[System Design - Event-Driven Architecture & Outbox Pattern]]
 - [[Design Patterns]] — GoF essentials in modern TS/Dart, adapters for third-party APIs, state machines, hexagonal architecture
   - [[Design Patterns - Interview Questions]] — interview prep reference (OOP, patterns in real projects)
   - [[Design Patterns - State Machines for Business Workflows]]

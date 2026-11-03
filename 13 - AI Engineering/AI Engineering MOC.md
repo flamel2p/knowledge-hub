@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-02
+updated: 2026-11-03
 parent: "[[00 - Home]]"
 ---
 
@@ -26,9 +26,11 @@ parent: "[[00 - Home]]"
 - [[RAG]] — hybrid retrieval, reranking, contextual retrieval, agentic RAG, tenant isolation
   - [[RAG - Chunking & Retrieval Strategies]]
   - [[RAG - Document Ingestion & PDF Parsing Pipelines]]
+  - [[RAG - Evaluation & Answer Grounding]]
 - [[AI Agents]] — workflows vs agents, tool loops, harness, lethal trifecta
   - [[AI Agents - Tool Calling & Agent Loops]]
   - [[AI Agents - Memory & Context Engineering]]
+  - [[AI Agents - Human-in-the-Loop & Approval Workflows]]
 - [[Model Context Protocol]] — MCP 2026-07-28 stateless spec, OAuth 2.1, server security
   - [[Model Context Protocol - Building MCP Servers]]
   - [[Model Context Protocol - Remote Servers, OAuth & Security]]
@@ -47,6 +49,7 @@ parent: "[[00 - Home]]"
   - [[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]
   - [[LLM APIs & SDKs - Structured Outputs & Tool Schemas]]
   - [[LLM APIs & SDKs - Batch Processing & Async Workloads]]
+  - [[LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._

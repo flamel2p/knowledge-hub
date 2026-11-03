@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/overview, topic/system-design, topic/distributed-systems]
 status: draft
 created: 2026-10-13
-updated: 2026-10-21
+updated: 2026-11-03
 version_checked: "n/a (concept) — recent large-scale outages checked 2026-10"
 parent: "[[CS Fundamentals MOC]]"
 related: ["[[Data Structures]]", "[[Algorithms]]", "[[PostgreSQL]]", "[[Redis]]", "[[Kafka]]", "[[NoSQL]]", "[[Cloudflare]]"]
@@ -177,6 +177,7 @@ N/A — concepts don't version. Influential papers/milestones that shaped modern
 - [[System Design - Interview Questions]] — payment flow and high-traffic ticketing interview answers (reference)
 - [[System Design - Multi-Tenant SaaS Architecture]]
 - [[System Design - Reliability Patterns]]
+- [[System Design - Event-Driven Architecture & Outbox Pattern]] — dual-write problem, Postgres outbox + SKIP LOCKED relay, inbox/idempotent consumers, ordering, sagas, CDC vs polling
 
 ## Related
 - [[Data Structures]] · [[Algorithms]] — building blocks inside components
