@@ -26,6 +26,7 @@ parent: "[[00 - Home]]"
 - [[RAG]] — hybrid retrieval, reranking, contextual retrieval, agentic RAG, tenant isolation
   - [[RAG - Chunking & Retrieval Strategies]]
   - [[RAG - Document Ingestion & PDF Parsing Pipelines]]
+  - [[RAG - Evaluation & Answer Grounding]]
 - [[AI Agents]] — workflows vs agents, tool loops, harness, lethal trifecta
   - [[AI Agents - Tool Calling & Agent Loops]]
   - [[AI Agents - Memory & Context Engineering]]
