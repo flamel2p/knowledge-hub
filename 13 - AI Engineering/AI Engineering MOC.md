@@ -29,6 +29,7 @@ parent: "[[00 - Home]]"
 - [[AI Agents]] — workflows vs agents, tool loops, harness, lethal trifecta
   - [[AI Agents - Tool Calling & Agent Loops]]
   - [[AI Agents - Memory & Context Engineering]]
+  - [[AI Agents - Human-in-the-Loop & Approval Workflows]]
 - [[Model Context Protocol]] — MCP 2026-07-28 stateless spec, OAuth 2.1, server security
   - [[Model Context Protocol - Building MCP Servers]]
   - [[Model Context Protocol - Remote Servers, OAuth & Security]]
