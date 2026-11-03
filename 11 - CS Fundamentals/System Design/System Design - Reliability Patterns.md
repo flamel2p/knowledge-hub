@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/deep-dive, topic/system-design, topic/reliability, lang/typescript]
 status: draft
 created: 2026-10-21
-updated: 2026-10-21
+updated: 2026-11-03
 version_checked: "n/a (patterns) — Node 24/26 fetch + AbortSignal.timeout, opossum circuit breaker — 2026-10"
 parent: "[[System Design]]"
 related: ["[[REST API - Webhooks & Idempotency]]", "[[Design Patterns - State Machines for Business Workflows]]", "[[Message Queues - BullMQ in Production]]", "[[Node.js - Performance & Diagnostics]]", "[[Traefik - Middlewares, TLS & Routing]]", "[[LLM APIs & SDKs]]"]
@@ -195,6 +195,7 @@ N/A: patterns. Platform notes:
 
 ## Related
 - [[System Design]]
+- [[LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks]] — retries, breakers and fallbacks applied to LLM providers
 - [[REST API - Webhooks & Idempotency]] — idempotency keys, outbox, retries on webhooks
 - [[Design Patterns - State Machines for Business Workflows]] — saga state
 - [[Message Queues - BullMQ in Production]] — async retries, DLQs

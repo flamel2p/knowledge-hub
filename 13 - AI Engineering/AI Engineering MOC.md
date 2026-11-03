@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-02
+updated: 2026-11-03
 parent: "[[00 - Home]]"
 ---
 
@@ -47,6 +47,7 @@ parent: "[[00 - Home]]"
   - [[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]
   - [[LLM APIs & SDKs - Structured Outputs & Tool Schemas]]
   - [[LLM APIs & SDKs - Batch Processing & Async Workloads]]
+  - [[LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
