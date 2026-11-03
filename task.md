@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-03 (T268)
+Last run: 2026-11-03 (T269)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -335,6 +335,6 @@ Last run: 2026-11-03 (T268)
 - [x] T266 | deep-dive | AI Agents - Human-in-the-Loop & Approval Workflows | 13 - AI Engineering/AI Agents/AI Agents - Human-in-the-Loop & Approval Workflows.md | ✅ 2026-11-03
 - [x] T267 | deep-dive | Linux Essentials - Networking, Firewalls & Tailscale | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Networking, Firewalls & Tailscale.md | ✅ 2026-11-03
 - [x] T268 | deep-dive | RAG - Evaluation & Answer Grounding | 13 - AI Engineering/RAG/RAG - Evaluation & Answer Grounding.md | ✅ 2026-11-03
-- [ ] T269 | deep-dive | System Design - Event-Driven Architecture & Outbox Pattern | 11 - CS Fundamentals/System Design/System Design - Event-Driven Architecture & Outbox Pattern.md
+- [x] T269 | deep-dive | System Design - Event-Driven Architecture & Outbox Pattern | 11 - CS Fundamentals/System Design/System Design - Event-Driven Architecture & Outbox Pattern.md | ✅ 2026-11-03
 - [ ] T270 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T271 | replenish | Next 12 tasks per CLAUDE.md §9 | -

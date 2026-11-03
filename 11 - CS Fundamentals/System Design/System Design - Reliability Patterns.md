@@ -195,6 +195,7 @@ N/A: patterns. Platform notes:
 
 ## Related
 - [[System Design]]
+- [[System Design - Event-Driven Architecture & Outbox Pattern]] — outbox + inbox for reliable async side effects
 - [[LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks]] — retries, breakers and fallbacks applied to LLM providers
 - [[REST API - Webhooks & Idempotency]] — idempotency keys, outbox, retries on webhooks
 - [[Design Patterns - State Machines for Business Workflows]] — saga state
