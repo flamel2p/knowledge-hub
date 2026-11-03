@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-04 (T271)
+Last run: 2026-11-04 (T272)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -341,7 +341,7 @@ Last run: 2026-11-04 (T271)
 
 ### Wave 18 — DB logic, edge caching, codegen, MCP clients, secrets, social login
 
-- [ ] T272 | deep-dive | Supabase - Database Functions, Triggers & RPC | 04 - Backend/Supabase/Supabase - Database Functions, Triggers & RPC.md
+- [x] T272 | deep-dive | Supabase - Database Functions, Triggers & RPC | 04 - Backend/Supabase/Supabase - Database Functions, Triggers & RPC.md | ✅ 2026-11-04
 - [ ] T273 | deep-dive | Cloudflare - Caching Rules, CDN & Cache Purging | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Caching Rules, CDN & Cache Purging.md
 - [ ] T274 | deep-dive | PostgreSQL - JSONB Patterns & Full-Text Search | 05 - Databases/PostgreSQL/PostgreSQL - JSONB Patterns & Full-Text Search.md
 - [ ] T275 | deep-dive | n8n - Code Node, Sub-workflows & Custom Nodes | 08 - Automation/n8n/n8n - Code Node, Sub-workflows & Custom Nodes.md
