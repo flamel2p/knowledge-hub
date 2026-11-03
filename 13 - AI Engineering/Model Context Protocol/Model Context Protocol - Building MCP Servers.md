@@ -6,8 +6,8 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/mcp, topic/agents, lang/typescript]
 status: draft
 created: 2026-10-16
-updated: 2026-10-16
-version_checked: "spec 2026-07-28 (stateless core) · TS SDK unverified — 2026-10"
+updated: 2026-11-04
+version_checked: "spec 2026-07-28 (stateless core) · TS SDK v2.4.0 (2026-10-23; v1 line 1.32.2 maintained) — re-checked 2026-11-04"
 parent: "[[Model Context Protocol]]"
 related: ["[[AI Agents - Tool Calling & Agent Loops]]", "[[OAuth 2.0 & OIDC]]", "[[JWT]]", "[[Docker]]", "[[Coolify]]", "[[Traefik]]", "[[LLM APIs & SDKs]]"]
 ---
@@ -114,7 +114,7 @@ app.listen(3000);
 ```
 
 > [!warning] Unverified — check before relying on this
-> The TS SDK's transport and registration API (`registerTool`, `StreamableHTTPServerTransport`, stateless options) is evolving with the 2026-07-28 stateless spec. Check the SDK README and the release that matches your target spec revision.
+> The TS SDK's v2 line is reported stable alongside the 2026-07-28 spec (v2.4.0, 2026-10-23, per a release aggregator), with v1.x (1.32.x) still getting fixes for at least 6 months. v2 reportedly splits packages (`@modelcontextprotocol/server`, `@modelcontextprotocol/client`, plus framework middleware), so the `@modelcontextprotocol/sdk` imports above may be v1-style. Check npm and the SDK migration guide before upgrading (re-checked 2026-11-04).
 
 ### Resource-server auth (RFC 9728 + JWT validation)
 ```ts
