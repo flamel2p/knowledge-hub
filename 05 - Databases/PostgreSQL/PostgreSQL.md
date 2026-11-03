@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/postgresql]
 status: draft
 created: 2026-10-03
-updated: 2026-11-02
+updated: 2026-11-04
 version_checked: "18.x stable · 19 in beta (GA expected Q4 2026) — 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[Supabase]]", "[[Redis]]", "[[MySQL]]", "[[Vector Databases]]", "[[n8n]]"]
@@ -191,6 +191,7 @@ shared_preload_libraries = 'pg_stat_statements'
 - [[PostgreSQL - Backups, PITR & Restore Drills]] — RPO/RTO, pg_dump vs PITR, pgBackRest to R2, PG17 incremental, automated restore drills
 - [[PostgreSQL - Partitioning & Large Table Maintenance]] — RANGE by time, pg_partman/pg_cron, DETACH CONCURRENTLY retention, batched deletes, safe DDL on big tables
 - [[PostgreSQL - Connection Pooling with Supavisor & PgBouncer]] — transaction vs session mode, Supavisor 6543/5432, PgBouncer config, pool budgeting, SET LOCAL, CVE-2025-12819
+- [[PostgreSQL - JSONB Patterns & Full-Text Search]] — JSONB vs columns, generated columns, GIN opclasses, pg_jsonschema, SQL/JSON 17, tsvector + simple config for Malay, pg_trgm for typos/CJK
 
 ## Related
 - [[Supabase]] — managed Postgres + Auth + RLS-first APIs
