@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-27
+updated: 2026-11-05
 parent: "[[00 - Home]]"
 ---
 
@@ -22,6 +22,7 @@ parent: "[[00 - Home]]"
 - [[OAuth 2.0 & OIDC]] — delegated authz + identity layer, PKCE, OAuth 2.1, token-theft incidents
   - [[OAuth 2.0 & OIDC - Flows, PKCE & Token Lifecycle]]
   - [[OAuth 2.0 & OIDC - Attacks & Hardening]]
+  - [[OAuth 2.0 & OIDC - Social Login with Google, Apple & Meta]]
 - [[Network Security]] — firewalls, segmentation, zero trust, TLS (200-day certs), DDoS; Docker-bypasses-UFW, xz, regreSSHion
   - [[Network Security - Common Web Attacks]]
   - [[Network Security - Cloudflare WAF & Rate Limiting Rules]]

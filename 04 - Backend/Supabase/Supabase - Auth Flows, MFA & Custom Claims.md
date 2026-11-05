@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/supabase, topic/auth, topic/mfa, lang/typescript]
 status: draft
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-05
 version_checked: "Supabase Auth: TOTP + phone MFA, Custom Access Token / Send SMS hooks, asymmetric JWT signing keys — 2026-10"
 parent: "[[Supabase]]"
 related: ["[[Supabase - Row Level Security]]", "[[Authentication & Authorization - Multi-Tenant Authorization with RLS]]", "[[JWT - Refresh Tokens, Revocation & Storage]]", "[[Next.js - Middleware, Auth & Multi-Tenant Routing]]", "[[Authentication & Authorization - Passkeys & WebAuthn]]", "[[OWASP Top 10 - API Security Top 10 in Practice]]"]
@@ -175,6 +175,7 @@ if (session?.user.user_metadata.role === 'admin') { /* … */ }      // ❌ user
 
 ## Related
 - [[Supabase]]
+- [[OAuth 2.0 & OIDC - Social Login with Google, Apple & Meta]] — native social login flows and verification details
 - [[Supabase - Row Level Security]] — `auth.jwt()`, restrictive policies
 - [[Authentication & Authorization - Multi-Tenant Authorization with RLS]] — permission tables + helpers
 - [[JWT - Refresh Tokens, Revocation & Storage]] — token lifetimes, revocation
