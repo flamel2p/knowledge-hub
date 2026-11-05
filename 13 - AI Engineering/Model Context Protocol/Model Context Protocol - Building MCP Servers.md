@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/mcp, topic/agents, lang/typescript]
 status: draft
 created: 2026-10-16
-updated: 2026-11-04
+updated: 2026-11-05
 version_checked: "spec 2026-07-28 (stateless core) · TS SDK v2.4.0 (2026-10-23; v1 line 1.32.2 maintained) — re-checked 2026-11-04"
 parent: "[[Model Context Protocol]]"
 related: ["[[AI Agents - Tool Calling & Agent Loops]]", "[[OAuth 2.0 & OIDC]]", "[[JWT]]", "[[Docker]]", "[[Coolify]]", "[[Traefik]]", "[[LLM APIs & SDKs]]"]
@@ -226,6 +226,7 @@ curl -i -X POST https://mcp.example.my/mcp     # expect 401 + WWW-Authenticate r
 
 ## Related
 - [[Model Context Protocol]]
+- [[Model Context Protocol - MCP Clients & Product Integration]] — the client side: consuming servers safely in products
 - [[AI Agents - Tool Calling & Agent Loops]] — how models choose and chain tools
 - [[OAuth 2.0 & OIDC]] — authorization server, PKCE, token exchange
 - [[JWT]] — access-token validation (`aud`, `iss`, JWKS rotation)

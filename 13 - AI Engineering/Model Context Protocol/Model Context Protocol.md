@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/mcp]
 status: draft
 created: 2026-10-04
-updated: 2026-10-23
+updated: 2026-11-05
 version_checked: "spec 2026-07-28 — 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[AI Agents]]", "[[OAuth 2.0 & OIDC]]", "[[LangChain & LangGraph]]", "[[LLM APIs & SDKs]]", "[[n8n]]"]
@@ -194,6 +194,7 @@ mcp-orders/
 ## Deep Dives
 - [[Model Context Protocol - Building MCP Servers]]
 - [[Model Context Protocol - Remote Servers, OAuth & Security]] — threat model, OAuth proxy confused deputy, lethal trifecta, local-server risks, 2025–26 CVEs
+- [[Model Context Protocol - MCP Clients & Product Integration]] — connector vs own client vs hosts, allowlists + definition pinning, per-tenant tokens, result caps, tool poisoning and rug pulls
 
 ## Related
 - [[AI Agents]] — MCP is the standard tool layer
