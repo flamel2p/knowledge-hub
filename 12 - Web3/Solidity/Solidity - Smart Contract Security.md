@@ -6,8 +6,8 @@ domain: web3
 tags: [domain/web3, type/deep-dive, topic/solidity, topic/smart-contract-security, lang/solidity]
 status: draft
 created: 2026-10-14
-updated: 2026-10-14
-version_checked: "Solidity 0.8.36 · OpenZeppelin Contracts 5.x — 2026-10"
+updated: 2026-11-05
+version_checked: "Solidity 0.8.37 (2026-09-10) · OpenZeppelin Contracts 5.x — re-checked 2026-11-05"
 parent: "[[Solidity]]"
 related: ["[[Ethereum & EVM]]", "[[Web3 Wallets]]", "[[Blockchain Fundamentals]]", "[[OWASP Top 10]]", "[[Testing Strategy]]"]
 ---
@@ -159,6 +159,7 @@ forge test --fork-url $MAINNET_RPC        # test integrations against real deplo
 | Pectra (2025-05) | EIP-7702 breaks `tx.origin == msg.sender` / `extcodesize` EOA checks. Delegated EOAs can run code |
 | OpenZeppelin Contracts 5.x | Custom errors, `Ownable` requires initial owner, ERC-7201 namespaced storage for upgradeables, `ReentrancyGuardTransient` |
 | Solidity 0.8.34–0.8.36 (2026) | Bug-fix releases incl. a high-severity IR pipeline issue (transient `delete`) |
+| Solidity 0.8.37 (2026-09-10) | Important security fixes. `SLOTNUM` opcode (Amsterdam EVM). Experimental Generic Solidity removed. Recompile and check the known-bugs list |
 
 > [!warning] Unverified — check before relying on this
 > Incident loss figures (notably Balancer 2025-11) are approximate and weren't re-checked this run. See rekt.news and the protocols' post-mortems.

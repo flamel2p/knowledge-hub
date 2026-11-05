@@ -6,8 +6,8 @@ domain: messaging
 tags: [domain/messaging, type/deep-dive, topic/kafka, topic/delivery-semantics]
 status: draft
 created: 2026-10-14
-updated: 2026-10-14
-version_checked: "Kafka 4.2 (2026-02-17) — 2026-10"
+updated: 2026-11-05
+version_checked: "Kafka 4.3.1 (2026-06-25) · 4.3.0 (2026-05-22) — re-checked 2026-11-05"
 parent: "[[Kafka]]"
 related: ["[[Message Queues]]", "[[System Design]]", "[[PostgreSQL]]", "[[Redis]]"]
 ---
@@ -166,6 +166,7 @@ group.instance.id=${POD_NAME}      # static membership
 | **4.0** (2025-03) | ZooKeeper removed. **KIP-848 consumer protocol GA**. Share groups early access |
 | 4.1 (2025-09) | Share groups preview. Streams rebalance protocol (KIP-1071) |
 | **4.2** (2026-02-17) | **Share groups production-ready** (lock renewal, lag metrics, fetch limits) |
+| 4.3.0 (2026-05-22) / 4.3.1 (2026-06-25) | `group.coordinator.rebalance.protocols` deprecated for removal in 5.0. 4.3.1 fixes a Kafka Streams RocksDB native memory leak |
 
 ## Critical Issues & Gotchas
 > [!danger] "Exactly-once" ends at Kafka's boundary

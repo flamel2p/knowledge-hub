@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-05 (T281)
+Last run: 2026-11-05 (T282)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -351,5 +351,5 @@ Last run: 2026-11-05 (T281)
 - [x] T279 | deep-dive | CI-CD - Secrets Management with SOPS & Infisical | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Secrets Management with SOPS & Infisical.md | ✅ 2026-11-05
 - [x] T280 | deep-dive | Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing | 07 - DevOps & Infrastructure/Traefik/Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing.md | ✅ 2026-11-05
 - [x] T281 | deep-dive | OAuth 2.0 & OIDC - Social Login with Google, Apple & Meta | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Social Login with Google, Apple & Meta.md | ✅ 2026-11-05
-- [ ] T282 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T282 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-05
 - [ ] T283 | replenish | Next 12 tasks per CLAUDE.md §9 | -
