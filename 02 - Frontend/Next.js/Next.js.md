@@ -254,6 +254,7 @@ CMD ["node", "server.js"]
 - [[Next.js - Server Actions, Mutations & Security]] — action security model, authedAction wrapper, encryption key + deploymentId for replicas, 2025–26 CVEs
 - [[Next.js - Self-Hosting, Standalone Builds & ISR on Coolify]] — standalone Dockerfile, build vs runtime env, cacheHandler + cacheHandlers on Redis for replicas, CDN rules, health checks, build off-box
 - [[Next.js - Metadata, SEO & Image Optimization]] — metadata API + hreflang, sitemap/robots from DB, JSON-LD local SEO, next/image v16 defaults, next/og and optimizer CVEs
+- [[Next.js - Error Handling, Logging & Observability]] — error boundaries, instrumentation register/onRequestError, pino with redaction, request IDs, Sentry vs GlitchTip vs OTel
 
 ## Related
 - [[React]] — RSC, Actions, compiler

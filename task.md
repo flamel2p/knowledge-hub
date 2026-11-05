@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-05 (T283)
+Last run: 2026-11-05 (T284)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -356,7 +356,7 @@ Last run: 2026-11-05 (T283)
 
 ### Wave 19 — Observability, forms, DB access, streams, supply chain, bots, multi-agent, stablecoins
 
-- [ ] T284 | deep-dive | Next.js - Error Handling, Logging & Observability | 02 - Frontend/Next.js/Next.js - Error Handling, Logging & Observability.md
+- [x] T284 | deep-dive | Next.js - Error Handling, Logging & Observability | 02 - Frontend/Next.js/Next.js - Error Handling, Logging & Observability.md | ✅ 2026-11-05
 - [ ] T285 | deep-dive | Flutter - Forms, Validation & Input UX | 03 - Mobile/Flutter/Flutter - Forms, Validation & Input UX.md
 - [ ] T286 | deep-dive | Supabase - Performance Tuning & Advisors | 04 - Backend/Supabase/Supabase - Performance Tuning & Advisors.md
 - [ ] T287 | deep-dive | PostgreSQL - Roles, Privileges & Least-Privilege Access | 05 - Databases/PostgreSQL/PostgreSQL - Roles, Privileges & Least-Privilege Access.md
