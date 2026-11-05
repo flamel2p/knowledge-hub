@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/nextjs, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-11-02
+updated: 2026-11-05
 version_checked: "16.3.8 (Active LTS) · 15.5.27 (Maintenance LTS) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[React]]", "[[TypeScript]]", "[[Supabase]]", "[[Coolify]]", "[[Docker]]"]
@@ -253,6 +253,7 @@ CMD ["node", "server.js"]
 - [[Next.js - Middleware, Auth & Multi-Tenant Routing]] — proxy.ts tenant rewrites, Supabase session refresh, header stripping, custom domains, auth beyond the proxy
 - [[Next.js - Server Actions, Mutations & Security]] — action security model, authedAction wrapper, encryption key + deploymentId for replicas, 2025–26 CVEs
 - [[Next.js - Self-Hosting, Standalone Builds & ISR on Coolify]] — standalone Dockerfile, build vs runtime env, cacheHandler + cacheHandlers on Redis for replicas, CDN rules, health checks, build off-box
+- [[Next.js - Metadata, SEO & Image Optimization]] — metadata API + hreflang, sitemap/robots from DB, JSON-LD local SEO, next/image v16 defaults, next/og and optimizer CVEs
 
 ## Related
 - [[React]] — RSC, Actions, compiler
