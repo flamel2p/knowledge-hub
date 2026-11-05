@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/state-management, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-21
+updated: 2026-11-05
 version_checked: "Riverpod 3.4 · flutter_bloc 9.1 — 2026-10"
 parent: "[[Flutter]]"
 related: ["[[Flutter - Rendering & Widget Lifecycle]]", "[[Dart - Async, Streams & Isolates]]", "[[Supabase]]", "[[Flutter - Interview Questions]]"]
@@ -186,6 +186,7 @@ ValueListenableBuilder(valueListenable: _expanded, builder: (_, open, __) => ope
 
 ## Related
 - [[Flutter]]
+- [[Dart - Code Generation with build_runner, freezed & json_serializable]] — freezed unions and value equality via codegen
 - [[Flutter - Rendering & Widget Lifecycle]] — what rebuilds cost
 - [[Dart - Async, Streams & Isolates]] — streams under BLoC/StreamProvider
 - [[Supabase]] — data source in ZP's stack

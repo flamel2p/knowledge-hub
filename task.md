@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-05 (T276)
+Last run: 2026-11-05 (T277)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -346,7 +346,7 @@ Last run: 2026-11-05 (T276)
 - [x] T274 | deep-dive | PostgreSQL - JSONB Patterns & Full-Text Search | 05 - Databases/PostgreSQL/PostgreSQL - JSONB Patterns & Full-Text Search.md | ✅ 2026-11-04
 - [x] T275 | deep-dive | n8n - Code Node, Sub-workflows & Custom Nodes | 08 - Automation/n8n/n8n - Code Node, Sub-workflows & Custom Nodes.md | ✅ 2026-11-05
 - [x] T276 | deep-dive | Next.js - Metadata, SEO & Image Optimization | 02 - Frontend/Next.js/Next.js - Metadata, SEO & Image Optimization.md | ✅ 2026-11-05
-- [ ] T277 | deep-dive | Dart - Code Generation with build_runner, freezed & json_serializable | 01 - Languages/Dart/Dart - Code Generation with build_runner, freezed & json_serializable.md
+- [x] T277 | deep-dive | Dart - Code Generation with build_runner, freezed & json_serializable | 01 - Languages/Dart/Dart - Code Generation with build_runner, freezed & json_serializable.md | ✅ 2026-11-05
 - [ ] T278 | deep-dive | Model Context Protocol - MCP Clients & Product Integration | 13 - AI Engineering/Model Context Protocol/Model Context Protocol - MCP Clients & Product Integration.md
 - [ ] T279 | deep-dive | CI-CD - Secrets Management with SOPS & Infisical | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Secrets Management with SOPS & Infisical.md
 - [ ] T280 | deep-dive | Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing | 07 - DevOps & Infrastructure/Traefik/Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing.md
