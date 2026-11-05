@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-05 (T278)
+Last run: 2026-11-05 (T279)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -348,7 +348,7 @@ Last run: 2026-11-05 (T278)
 - [x] T276 | deep-dive | Next.js - Metadata, SEO & Image Optimization | 02 - Frontend/Next.js/Next.js - Metadata, SEO & Image Optimization.md | ✅ 2026-11-05
 - [x] T277 | deep-dive | Dart - Code Generation with build_runner, freezed & json_serializable | 01 - Languages/Dart/Dart - Code Generation with build_runner, freezed & json_serializable.md | ✅ 2026-11-05
 - [x] T278 | deep-dive | Model Context Protocol - MCP Clients & Product Integration | 13 - AI Engineering/Model Context Protocol/Model Context Protocol - MCP Clients & Product Integration.md | ✅ 2026-11-05
-- [ ] T279 | deep-dive | CI-CD - Secrets Management with SOPS & Infisical | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Secrets Management with SOPS & Infisical.md
+- [x] T279 | deep-dive | CI-CD - Secrets Management with SOPS & Infisical | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Secrets Management with SOPS & Infisical.md | ✅ 2026-11-05
 - [ ] T280 | deep-dive | Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing | 07 - DevOps & Infrastructure/Traefik/Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing.md
 - [ ] T281 | deep-dive | OAuth 2.0 & OIDC - Social Login with Google, Apple & Meta | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Social Login with Google, Apple & Meta.md
 - [ ] T282 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -

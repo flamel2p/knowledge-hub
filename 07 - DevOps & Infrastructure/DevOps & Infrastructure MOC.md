@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-04
+updated: 2026-11-05
 parent: "[[00 - Home]]"
 ---
 
@@ -47,6 +47,7 @@ parent: "[[00 - Home]]"
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
   - [[CI-CD - GitHub Actions Security Hardening]]
   - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]
+  - [[CI-CD - Secrets Management with SOPS & Infisical]]
 - [[Nginx]] — event-driven web server/proxy/cache; stable 1.30, 2026 memory-safety CVEs, SPA/PHP-FPM container use
   - [[Nginx - Caching & Performance Tuning]]
   - [[Nginx - Security Hardening]]
