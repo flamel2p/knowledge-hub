@@ -31,6 +31,7 @@ parent: "[[00 - Home]]"
 - [[Traefik]] — label-driven reverse proxy + ACME; Coolify default, v3.7, 2026 ForwardAuth-bypass CVEs, Docker socket risk
   - [[Traefik - Middlewares, TLS & Routing]]
   - [[Traefik - Observability & Troubleshooting]]
+  - [[Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing]]
 - [[Cloudflare]] — DNS/CDN/WAF edge, Tunnel + Access, R2 zero-egress, Workers; 2025 global outages = concentration risk
   - [[Cloudflare - Zero Trust Tunnel & Access]]
   - [[Cloudflare - R2 Storage & Presigned Uploads]]
