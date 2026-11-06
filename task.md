@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-06 (T288)
+Last run: 2026-11-06 (T289)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -361,7 +361,7 @@ Last run: 2026-11-06 (T288)
 - [x] T286 | deep-dive | Supabase - Performance Tuning & Advisors | 04 - Backend/Supabase/Supabase - Performance Tuning & Advisors.md | ✅ 2026-11-06
 - [x] T287 | deep-dive | PostgreSQL - Roles, Privileges & Least-Privilege Access | 05 - Databases/PostgreSQL/PostgreSQL - Roles, Privileges & Least-Privilege Access.md | ✅ 2026-11-06
 - [x] T288 | deep-dive | Redis - Streams & Pub-Sub in Practice | 05 - Databases/Redis/Redis - Streams & Pub-Sub in Practice.md | ✅ 2026-11-06
-- [ ] T289 | deep-dive | n8n - Testing, Versioning & Deploying Workflows | 08 - Automation/n8n/n8n - Testing, Versioning & Deploying Workflows.md
+- [x] T289 | deep-dive | n8n - Testing, Versioning & Deploying Workflows | 08 - Automation/n8n/n8n - Testing, Versioning & Deploying Workflows.md | ✅ 2026-11-06
 - [ ] T290 | deep-dive | Docker - Image Scanning, SBOMs & Signing | 07 - DevOps & Infrastructure/Docker/Docker - Image Scanning, SBOMs & Signing.md
 - [ ] T291 | deep-dive | Cloudflare - Turnstile & Bot Protection for Forms | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Turnstile & Bot Protection for Forms.md
 - [ ] T292 | deep-dive | AI Agents - Multi-Agent Orchestration & Subagents | 13 - AI Engineering/AI Agents/AI Agents - Multi-Agent Orchestration & Subagents.md

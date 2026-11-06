@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/code-node, topic/custom-nodes, lang/typescript]
 status: draft
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 version_checked: "n8n 2.x — Code node on task runners (secure mode default), Pyodide removed → native Python via external runners (n8nio/runners) — 2026-11"
 parent: "[[n8n]]"
 related: ["[[n8n - Error Handling & Workflow Patterns]]", "[[n8n - Security, Credentials & Self-Hosting Hardening]]", "[[n8n - Queue Mode & Scaling]]", "[[n8n - AI Agent Nodes & LLM Workflows]]", "[[TypeScript - Runtime Validation with Zod & Type-Safe APIs]]", "[[Node.js - Supply Chain Security & Dependency Hygiene]]"]
@@ -180,6 +180,7 @@ return res.json();          // ❌ not an array of {json}; key leaked in workflo
 
 ## Related
 - [[n8n]]
+- [[n8n - Testing, Versioning & Deploying Workflows]] — versioning and promoting library sub-workflows
 - [[n8n - Error Handling & Workflow Patterns]] — error workflows, retries, DLQs
 - [[n8n - Security, Credentials & Self-Hosting Hardening]] — runners, env access, community packages
 - [[n8n - Queue Mode & Scaling]] — memory limits, batching, workers
