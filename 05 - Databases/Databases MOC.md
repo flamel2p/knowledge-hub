@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-02
+updated: 2026-11-06
 parent: "[[00 - Home]]"
 ---
 
@@ -22,6 +22,7 @@ parent: "[[00 - Home]]"
   - [[Redis - Interview Questions]] — interview prep reference (deploy, HA, cache failure patterns)
   - [[Redis - Caching Patterns & Invalidation]]
   - [[Redis - Rate Limiting & Distributed Locks]]
+  - [[Redis - Streams & Pub-Sub in Practice]]
 - [[Valkey]] — BSD-3 Linux Foundation fork of Redis 7.2: RESP-compatible, 9.x I/O threading, hash-field TTL, atomic slot migration
   - [[Valkey - Redis to Valkey Migration Runbook]]
 - [[PostgreSQL]] — relational system of record: MVCC, indexes, RLS, pgvector, 18 async I/O
@@ -31,6 +32,8 @@ parent: "[[00 - Home]]"
   - [[PostgreSQL - Backups, PITR & Restore Drills]]
   - [[PostgreSQL - Partitioning & Large Table Maintenance]]
   - [[PostgreSQL - Connection Pooling with Supavisor & PgBouncer]]
+  - [[PostgreSQL - JSONB Patterns & Full-Text Search]]
+  - [[PostgreSQL - Roles, Privileges & Least-Privilege Access]]
 - [[MySQL]] — InnoDB OLTP workhorse; 8.4 & 9.7 LTS, 8.0 EOL 2026-04, Oracle stewardship risk, Vitess sharding
   - [[MySQL - InnoDB Internals & Tuning]]
 - [[NoSQL]] — key-value/document/wide-column/graph families, CAP/PACELC, query-first modeling, MongoBleed, relicensing

@@ -6,8 +6,8 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/navigation, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
-version_checked: "go_router 18.0 · Flutter 3.47 — 2026-10"
+updated: 2026-11-05
+version_checked: "go_router 18.1.1 (2026-10-20) · Flutter 3.47.1 (3.50 scheduled Nov 2026, unconfirmed) — re-checked 2026-11-05"
 parent: "[[Flutter]]"
 related: ["[[Flutter - State Management]]", "[[Supabase]]", "[[Flutter - Testing]]", "[[Next.js]]"]
 ---
@@ -167,7 +167,7 @@ class OrderRoute extends GoRouteData with $OrderRoute {
 | 2025-08-25 | **Firebase Dynamic Links shut down**. Migrate to App Links / Universal Links |
 | go_router 16 (2025) | Typed-route (`GoRouteData`) breaking changes, case-sensitive path matching |
 | go_router 17 | `onPopPage` deprecated → `onDidRemovePage`. Min Flutter 3.38 / Dart 3.10 |
-| **go_router 18.0** (2026) | Current major. Read the 18.0 migration guide on pub.dev before upgrading |
+| **go_router 18.x** (2026) | Current major (18.1.1 on pub.dev, 2026-10-20). Read the 18.0 migration guide on pub.dev before upgrading |
 
 > [!warning] Unverified — check before relying on this
 > go_router 18's specific breaking changes weren't retrievable this run. Read https://pub.dev/packages/go_router/changelog before upgrading across majors.

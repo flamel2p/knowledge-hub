@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/testing, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-11-06
 version_checked: "Flutter 3.47 — 2026-10"
 parent: "[[Flutter]]"
 related: ["[[Flutter - State Management]]", "[[Flutter - Build, Release & Store Compliance]]", "[[Flutter - Performance & DevTools]]", "[[CI-CD]]"]
@@ -178,6 +178,7 @@ flutter test --coverage && genhtml coverage/lcov.info -o coverage/html
 
 ## Related
 - [[Flutter]]
+- [[Flutter - Forms, Validation & Input UX]] — widget-testing forms and validators
 - [[Flutter - State Management]] — testable state holders, overrides
 - [[Flutter - Performance & DevTools]] — perf traces in integration tests
 - [[Flutter - Build, Release & Store Compliance]] — CI test gate before store uploads

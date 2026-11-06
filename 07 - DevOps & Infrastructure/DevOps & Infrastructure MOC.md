@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-03
+updated: 2026-11-05
 parent: "[[00 - Home]]"
 ---
 
@@ -31,11 +31,13 @@ parent: "[[00 - Home]]"
 - [[Traefik]] — label-driven reverse proxy + ACME; Coolify default, v3.7, 2026 ForwardAuth-bypass CVEs, Docker socket risk
   - [[Traefik - Middlewares, TLS & Routing]]
   - [[Traefik - Observability & Troubleshooting]]
+  - [[Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing]]
 - [[Cloudflare]] — DNS/CDN/WAF edge, Tunnel + Access, R2 zero-egress, Workers; 2025 global outages = concentration risk
   - [[Cloudflare - Zero Trust Tunnel & Access]]
   - [[Cloudflare - R2 Storage & Presigned Uploads]]
   - [[Cloudflare - Workers for Webhooks & Edge APIs]]
   - [[Cloudflare - DNS, Email Authentication & Domain Ops]]
+  - [[Cloudflare - Caching Rules, CDN & Cache Purging]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
   - [[Git - Monorepo Workflows with pnpm & Turborepo]]
@@ -46,6 +48,7 @@ parent: "[[00 - Home]]"
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
   - [[CI-CD - GitHub Actions Security Hardening]]
   - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]
+  - [[CI-CD - Secrets Management with SOPS & Infisical]]
 - [[Nginx]] — event-driven web server/proxy/cache; stable 1.30, 2026 memory-safety CVEs, SPA/PHP-FPM container use
   - [[Nginx - Caching & Performance Tuning]]
   - [[Nginx - Security Hardening]]

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-03 (T269)
+Last run: 2026-11-06 (T289)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -336,5 +336,35 @@ Last run: 2026-11-03 (T269)
 - [x] T267 | deep-dive | Linux Essentials - Networking, Firewalls & Tailscale | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Networking, Firewalls & Tailscale.md | ✅ 2026-11-03
 - [x] T268 | deep-dive | RAG - Evaluation & Answer Grounding | 13 - AI Engineering/RAG/RAG - Evaluation & Answer Grounding.md | ✅ 2026-11-03
 - [x] T269 | deep-dive | System Design - Event-Driven Architecture & Outbox Pattern | 11 - CS Fundamentals/System Design/System Design - Event-Driven Architecture & Outbox Pattern.md | ✅ 2026-11-03
-- [ ] T270 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
-- [ ] T271 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T270 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-04
+- [x] T271 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-04
+
+### Wave 18 — DB logic, edge caching, codegen, MCP clients, secrets, social login
+
+- [x] T272 | deep-dive | Supabase - Database Functions, Triggers & RPC | 04 - Backend/Supabase/Supabase - Database Functions, Triggers & RPC.md | ✅ 2026-11-04
+- [x] T273 | deep-dive | Cloudflare - Caching Rules, CDN & Cache Purging | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Caching Rules, CDN & Cache Purging.md | ✅ 2026-11-04
+- [x] T274 | deep-dive | PostgreSQL - JSONB Patterns & Full-Text Search | 05 - Databases/PostgreSQL/PostgreSQL - JSONB Patterns & Full-Text Search.md | ✅ 2026-11-04
+- [x] T275 | deep-dive | n8n - Code Node, Sub-workflows & Custom Nodes | 08 - Automation/n8n/n8n - Code Node, Sub-workflows & Custom Nodes.md | ✅ 2026-11-05
+- [x] T276 | deep-dive | Next.js - Metadata, SEO & Image Optimization | 02 - Frontend/Next.js/Next.js - Metadata, SEO & Image Optimization.md | ✅ 2026-11-05
+- [x] T277 | deep-dive | Dart - Code Generation with build_runner, freezed & json_serializable | 01 - Languages/Dart/Dart - Code Generation with build_runner, freezed & json_serializable.md | ✅ 2026-11-05
+- [x] T278 | deep-dive | Model Context Protocol - MCP Clients & Product Integration | 13 - AI Engineering/Model Context Protocol/Model Context Protocol - MCP Clients & Product Integration.md | ✅ 2026-11-05
+- [x] T279 | deep-dive | CI-CD - Secrets Management with SOPS & Infisical | 07 - DevOps & Infrastructure/CI-CD/CI-CD - Secrets Management with SOPS & Infisical.md | ✅ 2026-11-05
+- [x] T280 | deep-dive | Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing | 07 - DevOps & Infrastructure/Traefik/Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing.md | ✅ 2026-11-05
+- [x] T281 | deep-dive | OAuth 2.0 & OIDC - Social Login with Google, Apple & Meta | 10 - Security/OAuth 2.0 & OIDC/OAuth 2.0 & OIDC - Social Login with Google, Apple & Meta.md | ✅ 2026-11-05
+- [x] T282 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-05
+- [x] T283 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-05
+
+### Wave 19 — Observability, forms, DB access, streams, supply chain, bots, multi-agent, stablecoins
+
+- [x] T284 | deep-dive | Next.js - Error Handling, Logging & Observability | 02 - Frontend/Next.js/Next.js - Error Handling, Logging & Observability.md | ✅ 2026-11-05
+- [x] T285 | deep-dive | Flutter - Forms, Validation & Input UX | 03 - Mobile/Flutter/Flutter - Forms, Validation & Input UX.md | ✅ 2026-11-06
+- [x] T286 | deep-dive | Supabase - Performance Tuning & Advisors | 04 - Backend/Supabase/Supabase - Performance Tuning & Advisors.md | ✅ 2026-11-06
+- [x] T287 | deep-dive | PostgreSQL - Roles, Privileges & Least-Privilege Access | 05 - Databases/PostgreSQL/PostgreSQL - Roles, Privileges & Least-Privilege Access.md | ✅ 2026-11-06
+- [x] T288 | deep-dive | Redis - Streams & Pub-Sub in Practice | 05 - Databases/Redis/Redis - Streams & Pub-Sub in Practice.md | ✅ 2026-11-06
+- [x] T289 | deep-dive | n8n - Testing, Versioning & Deploying Workflows | 08 - Automation/n8n/n8n - Testing, Versioning & Deploying Workflows.md | ✅ 2026-11-06
+- [ ] T290 | deep-dive | Docker - Image Scanning, SBOMs & Signing | 07 - DevOps & Infrastructure/Docker/Docker - Image Scanning, SBOMs & Signing.md
+- [ ] T291 | deep-dive | Cloudflare - Turnstile & Bot Protection for Forms | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Turnstile & Bot Protection for Forms.md
+- [ ] T292 | deep-dive | AI Agents - Multi-Agent Orchestration & Subagents | 13 - AI Engineering/AI Agents/AI Agents - Multi-Agent Orchestration & Subagents.md
+- [ ] T293 | deep-dive | Ethereum & EVM - Stablecoin Payments & On-Chain Settlement | 12 - Web3/Ethereum & EVM/Ethereum & EVM - Stablecoin Payments & On-Chain Settlement.md
+- [ ] T294 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T295 | replenish | Next 12 tasks per CLAUDE.md §9 | -

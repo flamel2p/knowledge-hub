@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/web-performance, topic/core-web-vitals, topic/browser]
 status: draft
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-11-05
 version_checked: "CWV thresholds unchanged (LCP 2.5 s · INP 200 ms · CLS 0.1, p75) · web-vitals v5 — 2026-10"
 parent: "[[Browser & Web Fundamentals]]"
 related: ["[[Next.js]]", "[[React]]", "[[JavaScript - Event Loop & Async]]", "[[Cloudflare]]", "[[HTTP & HTTPS]]", "[[Astro]]"]
@@ -202,6 +202,7 @@ img, video { max-width: 100%; height: auto; }   /* with width/height attributes 
 
 ## Related
 - [[Browser & Web Fundamentals]]
+- [[Next.js - Metadata, SEO & Image Optimization]] — Next.js image/font/metadata implementation of CWV fixes
 - [[Next.js]] — `next/image`, `next/font`, `next/script`, caching/ISR
 - [[React]] — transitions, deferred values, Server Components
 - [[JavaScript - Event Loop & Async]] — long tasks, yielding

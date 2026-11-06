@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/dart, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-10-08
+updated: 2026-11-05
 version_checked: "3.13 (with Flutter 3.47, 2026-08) — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Flutter]]", "[[TypeScript]]", "[[Kotlin]]", "[[Go]]"]
@@ -162,6 +162,7 @@ analyzer:
 - [[Dart - Type System, Null Safety & Mixins]]
 - [[Dart - VM, Compilation & Garbage Collection]]
 - Interview prep: [[Flutter - Interview Questions]]
+- [[Dart - Code Generation with build_runner, freezed & json_serializable]] — build_runner after macros, freezed 3 (abstract/sealed, no when/map), json_serializable build.yaml for Supabase, CI staleness check, when to skip codegen
 
 ## Related
 - [[Flutter]] — primary use of Dart

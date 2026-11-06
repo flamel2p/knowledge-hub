@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/typescript, topic/error-handling, lang/typescript]
 status: draft
 created: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-05
 version_checked: "TS 5.x–7 (useUnknownInCatchVariables in strict, `using` 5.2+) · ES2022 Error cause — 2026-10"
 parent: "[[TypeScript]]"
 related: ["[[TypeScript - Advanced Types]]", "[[TypeScript - Runtime Validation with Zod & Type-Safe APIs]]", "[[REST API - Versioning, Pagination & Error Design]]", "[[Design Patterns - Hexagonal Architecture in TypeScript & Dart]]", "[[System Design - Reliability Patterns]]", "[[React - Forms, Actions & Optimistic UI]]"]
@@ -176,6 +176,7 @@ catch (e) { return res.json({ error: e.message }) }     // ❌ leaks internals; 
 
 ## Related
 - [[TypeScript]]
+- [[Next.js - Error Handling, Logging & Observability]] — where faults are captured and logged in Next.js
 - [[TypeScript - Advanced Types]] — discriminated unions, `never` exhaustiveness
 - [[TypeScript - Runtime Validation with Zod & Type-Safe APIs]] — `safeParse` results at boundaries
 - [[REST API - Versioning, Pagination & Error Design]] — problem+json mapping

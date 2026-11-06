@@ -6,8 +6,8 @@ domain: backend
 tags: [domain/backend, type/reference, topic/spring-boot, topic/interview, lang/java]
 status: draft
 created: 2026-10-13
-updated: 2026-10-14
-version_checked: "Spring Boot 4.1 · Spring Framework 7 — 2026-10"
+updated: 2026-11-04
+version_checked: "Spring Boot 4.1.0 (2026-06; 4.2 expected 2026-11, not confirmed) · Spring Framework 7 — re-checked 2026-11-04"
 parent: "[[Spring Boot]]"
 related: ["[[Java]]", "[[Kotlin]]", "[[Design Patterns - Interview Questions]]", "[[Backend Interview Questions]]"]
 ---
@@ -138,3 +138,4 @@ class ReportService {
 - Spring Framework, dependency injection: https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html
 - Spring bean scopes: https://docs.spring.io/spring-framework/reference/core/beans/factory-scopes.html
 - Spring Boot reference: https://docs.spring.io/spring-boot/reference/
+- Spring Boot 4.1 release coverage: https://news.lavx.hu/article/spring-boot-4-1-ships-with-grpc-auto-configuration-ssrf-protection-and-kotlin-2-3
