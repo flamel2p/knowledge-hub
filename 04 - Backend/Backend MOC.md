@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-04
+updated: 2026-11-06
 parent: "[[00 - Home]]"
 ---
 
@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
   - [[Supabase - Storage, Uploads & Image Transformations]]
   - [[Supabase - Migrations, Branching & Local Development]]
   - [[Supabase - Database Functions, Triggers & RPC]]
+  - [[Supabase - Performance Tuning & Advisors]]
 - [[Node.js]] — V8 + libuv runtime; 24 LTS, 26 → LTS Oct 2026, yearly majors from 27; npm supply-chain risk
   - [[Node.js - Performance & Diagnostics]]
   - [[Node.js - Streams & Backpressure]]

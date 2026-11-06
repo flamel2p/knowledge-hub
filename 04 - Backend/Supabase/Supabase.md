@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/baas]
 status: draft
 created: 2026-10-06
-updated: 2026-11-04
+updated: 2026-11-06
 version_checked: "Platform 2026-10 (new API keys, JWT signing keys; legacy keys removal late 2026)"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
@@ -185,6 +185,7 @@ supabase db push                    # apply to linked project (CI)
 - [[Supabase - Storage, Uploads & Image Transformations]] — storage.objects RLS per operation, signed/TUS uploads, transforms limits, public-bucket and S3-key risks
 - [[Supabase - Migrations, Branching & Local Development]] — local stack, declarative schemas vs diff, pgTAP RLS tests, CI db push, preview branches (Git and dashboard), drift and destructive-migration guards
 - [[Supabase - Database Functions, Triggers & RPC]] — atomic RPCs with invoker security, definer helpers in private schema with empty search_path, exception-safe auth triggers, outbox over pg_net
+- [[Supabase - Performance Tuning & Advisors]] — advisors workflow, RLS initplan fix, pg_stat_statements + index_advisor, lean PostgREST queries, timeouts, IO limits before compute upgrades
 
 ## Related
 - [[PostgreSQL]] — the database underneath
