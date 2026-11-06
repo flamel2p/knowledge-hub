@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/supabase, topic/postgres-functions, lang/sql]
 status: draft
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-06
 version_checked: "n/a — PostgreSQL 17/18 functions + PostgREST /rpc on Supabase platform; Supabase advisors (function_search_path_mutable) — 2026-11"
 parent: "[[Supabase]]"
 related: ["[[Supabase - Row Level Security]]", "[[Supabase - Edge Functions, Cron & Queues]]", "[[Supabase - Migrations, Branching & Local Development]]", "[[PostgreSQL - Transactions & MVCC]]", "[[System Design - Event-Driven Architecture & Outbox Pattern]]", "[[TypeScript - Error Handling & Result Types]]"]
@@ -186,6 +186,7 @@ N/A — stable PostgreSQL/PostgREST features. Relevant: PostgREST exposes functi
 
 ## Related
 - [[Supabase]]
+- [[PostgreSQL - Roles, Privileges & Least-Privilege Access]] — role and EXECUTE privilege design behind RPCs
 - [[Supabase - Row Level Security]] — invoker functions inherit policies; definer helpers for membership checks
 - [[Supabase - Edge Functions, Cron & Queues]] — where external and slow work goes
 - [[Supabase - Migrations, Branching & Local Development]] — functions as versioned, tested schema
