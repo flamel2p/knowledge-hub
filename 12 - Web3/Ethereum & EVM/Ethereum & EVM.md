@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/overview, topic/ethereum, topic/evm]
 status: draft
 created: 2026-10-08
-updated: 2026-10-19
+updated: 2026-11-07
 version_checked: "Fusaka (2025-12) live · Glamsterdam targeting Q4 2026 — 2026-10"
 parent: "[[Web3 MOC]]"
 related: ["[[Blockchain Fundamentals]]", "[[Solidity]]", "[[Web3 Wallets]]", "[[TypeScript]]", "[[PostgreSQL]]"]
@@ -189,6 +189,7 @@ const receipt = await pub.waitForTransactionReceipt({ hash, confirmations: 2 });
 - [[Ethereum & EVM - Gas Optimization & EVM Internals]]
 
 See also: [[Blockchain Fundamentals - L2 Rollups & Bridges]].
+- [[Ethereum & EVM - Stablecoin Payments & On-Chain Settlement]] — invoice matching, Transfer log scanning with confirmations, idempotent crediting, custody, BNM 2026 ringgit stablecoin sandbox and licensing risk
 
 ## Related
 - [[Blockchain Fundamentals]] — consensus, finality, ledger models
