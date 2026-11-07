@@ -6,8 +6,8 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/performance, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
-version_checked: "Flutter 3.47 — 2026-10"
+updated: 2026-11-07
+version_checked: "Flutter 3.47.1 latest confirmed (3.50 scheduled Nov 2026) — re-checked 2026-11-07"
 parent: "[[Flutter]]"
 related: ["[[Flutter - Rendering & Widget Lifecycle]]", "[[Flutter - State Management]]", "[[Dart - VM, Compilation & Garbage Collection]]", "[[Flutter - Interview Questions]]"]
 ---
@@ -186,7 +186,7 @@ Run with `flutter drive --profile --driver=test_driver/perf_driver.dart --target
 | 3.16 (2023-11) | Impeller preview on Android (Vulkan) |
 | 3.27 (2024-12) | Impeller default on modern Android (Vulkan; OpenGL fallback) |
 | 3.29 (2025-02) | Merged UI/platform threads on iOS/Android by default, which makes synchronous platform interop possible and changes some thread-attribution in traces |
-| 3.47 | Current stable (2026-10) |
+| 3.47 (2026-08-12; 3.47.1 2026-08-19) | Current stable at re-check (2026-11-07). 3.50 scheduled for November 2026, branch cut 2026-10-06 |
 
 > [!warning] Unverified — check before relying on this
 > Thread-merging and Impeller fallback rules change across releases and device GPUs. Check https://docs.flutter.dev/perf/impeller and the release notes for your target version.

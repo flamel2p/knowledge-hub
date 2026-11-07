@@ -6,8 +6,8 @@ domain: mobile
 tags: [domain/mobile, type/reference, topic/flutter, topic/interview, lang/dart]
 status: draft
 created: 2026-10-07
-updated: 2026-10-07
-version_checked: "Dart 3.13 / Flutter 3.47 — 2026-10"
+updated: 2026-11-07
+version_checked: "Dart 3.13 / Flutter 3.47.1 latest confirmed (3.50 scheduled Nov 2026, not yet announced) — re-checked 2026-11-07"
 parent: "[[Flutter]]"
 related: ["[[Dart - Async, Streams & Isolates]]", "[[Flutter - Rendering & Widget Lifecycle]]", "[[Flutter - State Management]]", "[[Dart]]"]
 ---
