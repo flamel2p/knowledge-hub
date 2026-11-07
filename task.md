@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-07 (T290)
+Last run: 2026-11-07 (T291)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -363,7 +363,7 @@ Last run: 2026-11-07 (T290)
 - [x] T288 | deep-dive | Redis - Streams & Pub-Sub in Practice | 05 - Databases/Redis/Redis - Streams & Pub-Sub in Practice.md | ✅ 2026-11-06
 - [x] T289 | deep-dive | n8n - Testing, Versioning & Deploying Workflows | 08 - Automation/n8n/n8n - Testing, Versioning & Deploying Workflows.md | ✅ 2026-11-06
 - [x] T290 | deep-dive | Docker - Image Scanning, SBOMs & Signing | 07 - DevOps & Infrastructure/Docker/Docker - Image Scanning, SBOMs & Signing.md | ✅ 2026-11-07
-- [ ] T291 | deep-dive | Cloudflare - Turnstile & Bot Protection for Forms | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Turnstile & Bot Protection for Forms.md
+- [x] T291 | deep-dive | Cloudflare - Turnstile & Bot Protection for Forms | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Turnstile & Bot Protection for Forms.md | ✅ 2026-11-07
 - [ ] T292 | deep-dive | AI Agents - Multi-Agent Orchestration & Subagents | 13 - AI Engineering/AI Agents/AI Agents - Multi-Agent Orchestration & Subagents.md
 - [ ] T293 | deep-dive | Ethereum & EVM - Stablecoin Payments & On-Chain Settlement | 12 - Web3/Ethereum & EVM/Ethereum & EVM - Stablecoin Payments & On-Chain Settlement.md
 - [ ] T294 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -

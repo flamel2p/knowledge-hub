@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/cloudflare, topic/cdn, topic/edge]
 status: draft
 created: 2026-10-11
-updated: 2026-11-04
+updated: 2026-11-07
 version_checked: "n/a (SaaS) — products, pricing + 2025 outages checked 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Traefik]]", "[[Network Security]]", "[[Coolify]]", "[[HTTP & HTTPS]]", "[[Next.js]]", "[[Docker]]"]
@@ -191,6 +191,7 @@ aws s3 cp backup.sql.gz s3://backups/ --endpoint-url https://<account>.r2.cloudf
 - [[Cloudflare - Workers for Webhooks & Edge APIs]] — edge webhook gateway: verify, enqueue, ack; Queues consumer with DLQ; Durable Objects; limits and lock-in
 - [[Cloudflare - DNS, Email Authentication & Domain Ops]] — proxied vs DNS-only, SPF/DKIM/DMARC rollout, CAA/DNSSEC, client-owned domains, subdomain takeover
 - [[Cloudflare - Caching Rules, CDN & Cache Purging]] — cf-cache-status, Cache Rules order (bypass first), origin s-maxage/SWR, Cache-Tag purges on all plans, poisoning and personalized-page leaks
+- [[Cloudflare - Turnstile & Bot Protection for Forms]] — server-side siteverify, OTP/SMS pumping defenses, Supabase captcha, layering with rate limits and App Check
 
 ## Related
 - [[Traefik]] — origin proxy, DNS-01 certificates via the Cloudflare API
