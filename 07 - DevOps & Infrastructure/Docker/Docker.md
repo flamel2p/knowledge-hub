@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/docker]
 status: draft
 created: 2026-10-03
-updated: 2026-11-01
+updated: 2026-11-07
 version_checked: "Engine 29.x · Compose v2 — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Coolify]]", "[[Kubernetes]]", "[[Traefik]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -200,6 +200,7 @@ service/
 - [[Docker - Networking & Volumes]]
 - [[Docker - Compose Patterns for Production]] — healthchecks, service_healthy/completed deps, migrations, secrets, log rotation, --wait
 - [[Docker - Logging, Metrics & Resource Limits on a VPS]] — local log driver, cgroup v2 limits sized to runtimes, OOM triage, Alloy/Loki (Promtail EOL), lightweight monitoring tiers
+- [[Docker - Image Scanning, SBOMs & Signing]] — SBOM + provenance, fixable-only gates, cosign keyless + verify before deploy by digest, Trivy 2026 supply-chain compromise lessons
 
 ## Related
 - [[Coolify]] — PaaS layer on top of Docker in ZP's stack

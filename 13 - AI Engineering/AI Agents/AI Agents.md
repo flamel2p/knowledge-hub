@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/agents]
 status: draft
 created: 2026-10-04
-updated: 2026-11-03
+updated: 2026-11-07
 version_checked: "n/a — pattern; ecosystem snapshot 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LangChain & LangGraph]]", "[[Model Context Protocol]]", "[[LLM Fundamentals]]", "[[RAG]]", "[[Prompt Engineering]]"]
@@ -180,6 +180,7 @@ agent/
 - [[AI Agents - Tool Calling & Agent Loops]]
 - [[AI Agents - Memory & Context Engineering]] — memory taxonomy, write/select/compress/isolate, compaction vs context editing, Postgres memory store
 - [[AI Agents - Human-in-the-Loop & Approval Workflows]] — risk tiers, pending-action state machine, pause/resume in raw loops, approval UX + fatigue, injection against approvers
+- [[AI Agents - Multi-Agent Orchestration & Subagents]] — orchestrator–workers with isolated contexts, worker brief contracts, cheap-worker/strong-lead split, cost caps, when a single agent wins
 
 ## Related
 - [[LangChain & LangGraph]] — agent framework + durable runtime

@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/docker, topic/containers]
 status: draft
 created: 2026-10-05
-updated: 2026-10-25
+updated: 2026-11-07
 version_checked: "Engine 29.1 · BuildKit / dockerfile 1.x — re-checked 2026-10-25"
 parent: "[[Docker]]"
 related: ["[[Docker - Networking & Volumes]]", "[[Coolify]]", "[[CI-CD]]", "[[Next.js]]"]
@@ -175,6 +175,7 @@ docker scout cves ghcr.io/rarticle/web:1.8.0
 
 ## Related
 - [[Docker]]
+- [[Docker - Image Scanning, SBOMs & Signing]] — scanning, SBOMs and signing in the release pipeline
 - [[Docker - Networking & Volumes]] — runtime side of the same images
 - [[Coolify]] — deploying images
 - [[CI-CD]] — build/scan/push pipelines

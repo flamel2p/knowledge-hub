@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/deep-dive, topic/wallets, topic/account-abstraction, topic/key-management]
 status: draft
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-07
 version_checked: "ERC-4337 EntryPoint v0.8 · EIP-7702 (Pectra) · EIP-7951 (Fusaka) — 2026-10"
 parent: "[[Web3 Wallets]]"
 related: ["[[Ethereum & EVM]]", "[[Solidity - Smart Contract Security]]", "[[Authentication & Authorization]]", "[[Network Security]]", "[[Blockchain Fundamentals]]"]
@@ -181,6 +181,7 @@ Validated in the account's validator module; revocable by the owner passkey at a
 
 ## Related
 - [[Web3 Wallets]]
+- [[Ethereum & EVM - Stablecoin Payments & On-Chain Settlement]] — receiving and settling stablecoin payments
 - [[Ethereum & EVM]] — transaction types, EIP-7702, precompiles
 - [[Solidity - Smart Contract Security]] — risks in account/paymaster contracts
 - [[Authentication & Authorization]] — passkeys/WebAuthn, SIWE

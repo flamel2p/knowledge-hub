@@ -6,7 +6,7 @@ domain: web3
 tags: [domain/web3, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-20
+updated: 2026-11-07
 parent: "[[00 - Home]]"
 ---
 
@@ -20,6 +20,7 @@ parent: "[[00 - Home]]"
   - [[Blockchain Fundamentals - L2 Rollups & Bridges]]
 - [[Ethereum & EVM]] — PoS + EVM standard runtime; Pectra 7702, Fusaka PeerDAS, Glamsterdam ePBS target Q4 2026
   - [[Ethereum & EVM - Gas Optimization & EVM Internals]]
+  - [[Ethereum & EVM - Stablecoin Payments & On-Chain Settlement]]
 - [[Solidity]] — EVM contract language; 0.8.36, Foundry + OZ 5, storage layout, reentrancy/upgrade/compiler-bug risks
   - [[Solidity - Smart Contract Security]]
 - [[Web3 Wallets]] — EOA/hardware/MPC/smart accounts, EIP-712 & 7702 signing risks, custody architecture, drainers

@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/agents, topic/memory, topic/context-engineering, lang/typescript]
 status: draft
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-07
 version_checked: "Claude API: compaction beta compact-2026-01-12 · context editing context-management-2025-06-27 · memory_20250818 — 2026-10"
 parent: "[[AI Agents]]"
 related: ["[[AI Agents - Tool Calling & Agent Loops]]", "[[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]]", "[[LLM Fundamentals - Tokens, Context & Sampling]]", "[[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]", "[[RAG]]", "[[Vector Databases - pgvector Tuning & Hybrid Search]]"]
@@ -187,6 +187,7 @@ await db.from('memories').insert({ content: userMessage, embedding: await embed(
 
 ## Related
 - [[AI Agents]]
+- [[AI Agents - Multi-Agent Orchestration & Subagents]] — context isolation via subagents
 - [[AI Agents - Tool Calling & Agent Loops]] — the loop this context feeds
 - [[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]] — checkpointers and stores in LangGraph
 - [[LLM Fundamentals - Tokens, Context & Sampling]] — windows, tokens, context rot
