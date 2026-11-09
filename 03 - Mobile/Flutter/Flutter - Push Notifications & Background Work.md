@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/push-notifications, topic/background-work, lang/dart]
 status: draft
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-09
 version_checked: "FCM HTTP v1 (legacy API removed 2024) · Android 13+ POST_NOTIFICATIONS · Android 14 exact-alarm/FGS rules — 2026-10"
 parent: "[[Flutter]]"
 related: ["[[Flutter - Platform Channels & FFI]]", "[[Flutter - Build, Release & Store Compliance]]", "[[Flutter - Offline Storage & Sync]]", "[[Supabase - Edge Functions, Cron & Queues]]", "[[Supabase - Realtime, Presence & Broadcast]]", "[[n8n]]"]
@@ -185,6 +185,7 @@ Timer.periodic(const Duration(minutes: 1), (_) => poll());   // ❌ dies in back
 
 ## Related
 - [[Flutter]]
+- [[Flutter - Maps, Location & Geofencing]] — background location and geofencing limits
 - [[Flutter - Platform Channels & FFI]] — background isolates and native integrations
 - [[Flutter - Build, Release & Store Compliance]] — capabilities, store policy declarations
 - [[Flutter - Offline Storage & Sync]] — idempotent background sync
