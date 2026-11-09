@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-09 (T295)
+Last run: 2026-11-09 (T296)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -371,7 +371,7 @@ Last run: 2026-11-09 (T295)
 
 ### Wave 20 — Self-hosting, upgrades, i18n, location, services, memory, files, Expo, GraphQL, iOS native
 
-- [ ] T296 | deep-dive | Supabase - Self-Hosting with Docker & Coolify | 04 - Backend/Supabase/Supabase - Self-Hosting with Docker & Coolify.md
+- [x] T296 | deep-dive | Supabase - Self-Hosting with Docker & Coolify | 04 - Backend/Supabase/Supabase - Self-Hosting with Docker & Coolify.md | ✅ 2026-11-09
 - [ ] T297 | deep-dive | PostgreSQL - Major Version Upgrades & Migrations | 05 - Databases/PostgreSQL/PostgreSQL - Major Version Upgrades & Migrations.md
 - [ ] T298 | deep-dive | Next.js - Internationalization & Multi-Language Routing | 02 - Frontend/Next.js/Next.js - Internationalization & Multi-Language Routing.md
 - [ ] T299 | deep-dive | Flutter - Maps, Location & Geofencing | 03 - Mobile/Flutter/Flutter - Maps, Location & Geofencing.md
