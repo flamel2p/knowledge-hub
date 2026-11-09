@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/nextjs, topic/seo, topic/images, lang/typescript]
 status: draft
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-09
 version_checked: "Next.js 16.x (≥ 16.3.8 for next/og + image-optimizer fixes) · next/image 16 defaults: qualities [75], minimumCacheTTL 4 h (Vercel KB), domains removed — 2026-11"
 parent: "[[Next.js]]"
 related: ["[[Browser & Web Fundamentals - Core Web Vitals Optimization]]", "[[Next.js - Self-Hosting, Standalone Builds & ISR on Coolify]]", "[[Astro - Content Sites, SEO & Cloudflare Deployment]]", "[[Cloudflare - Caching Rules, CDN & Cache Purging]]", "[[Supabase - Storage, Uploads & Image Transformations]]", "[[Flutter - Internationalization & Localization]]"]
@@ -183,6 +183,7 @@ const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-int
 
 ## Related
 - [[Next.js]]
+- [[Next.js - Internationalization & Multi-Language Routing]] — locale routing behind the hreflang setup
 - [[Browser & Web Fundamentals - Core Web Vitals Optimization]] — LCP/CLS/INP fixes
 - [[Next.js - Self-Hosting, Standalone Builds & ISR on Coolify]] — image optimizer cache and CPU on your own servers
 - [[Astro - Content Sites, SEO & Cloudflare Deployment]] — lighter option for content sites
