@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/postgresql]
 status: draft
 created: 2026-10-03
-updated: 2026-11-06
+updated: 2026-11-09
 version_checked: "18.x stable · 19 in beta (GA expected Q4 2026) — 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[Supabase]]", "[[Redis]]", "[[MySQL]]", "[[Vector Databases]]", "[[n8n]]"]
@@ -193,6 +193,7 @@ shared_preload_libraries = 'pg_stat_statements'
 - [[PostgreSQL - Connection Pooling with Supavisor & PgBouncer]] — transaction vs session mode, Supavisor 6543/5432, PgBouncer config, pool budgeting, SET LOCAL, CVE-2025-12819
 - [[PostgreSQL - JSONB Patterns & Full-Text Search]] — JSONB vs columns, generated columns, GIN opclasses, pg_jsonschema, SQL/JSON 17, tsvector + simple config for Malay, pg_trgm for typos/CJK
 - [[PostgreSQL - Roles, Privileges & Least-Privilege Access]] — owner vs runtime roles, group roles, default privileges, FORCE RLS, dedicated integration roles, SCRAM, PUBLIC execute risk
+- [[PostgreSQL - Major Version Upgrades & Migrations]] — pg_upgrade vs dump/restore vs logical replication, rehearsal + rollback, collation reindex, PG14 EOL (2026-11-12) and PG19 GA timing
 
 ## Related
 - [[Supabase]] — managed Postgres + Auth + RLS-first APIs
