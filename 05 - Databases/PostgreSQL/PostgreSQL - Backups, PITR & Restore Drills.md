@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/backups, topic/disaster-recovery]
 status: draft
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-09
 version_checked: "PostgreSQL 17+ incremental pg_basebackup · pgBackRest 2.58 · PG 18.6 — 2026-10"
 parent: "[[PostgreSQL]]"
 related: ["[[PostgreSQL - Transactions & MVCC]]", "[[Coolify - Operations, Backups & Hardening]]", "[[Cloudflare - R2 Storage & Presigned Uploads]]", "[[Supabase]]", "[[Linux Essentials - systemd, Logs & Troubleshooting]]", "[[System Design - Reliability Patterns]]"]
@@ -167,6 +167,7 @@ pg_ctl -D /scratch/pg stop
 
 ## Related
 - [[PostgreSQL]]
+- [[PostgreSQL - Major Version Upgrades & Migrations]] — backups as the rollback path for major upgrades
 - [[PostgreSQL - Transactions & MVCC]] — WAL, checkpoints, vacuum
 - [[Coolify - Operations, Backups & Hardening]] — scheduled dumps, instance backups
 - [[Cloudflare - R2 Storage & Presigned Uploads]] — bucket and token scoping
