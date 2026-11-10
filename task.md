@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-10 (T302)
+Last run: 2026-11-10 (T303)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -378,7 +378,7 @@ Last run: 2026-11-10 (T302)
 - [x] T300 | deep-dive | Coolify - One-Click Services & Compose Deployments | 07 - DevOps & Infrastructure/Coolify/Coolify - One-Click Services & Compose Deployments.md | ✅ 2026-11-10
 - [x] T301 | deep-dive | Redis - Memory Management & Eviction Tuning | 05 - Databases/Redis/Redis - Memory Management & Eviction Tuning.md | ✅ 2026-11-10
 - [x] T302 | deep-dive | n8n - Binary Data, Files & Data Tables | 08 - Automation/n8n/n8n - Binary Data, Files & Data Tables.md | ✅ 2026-11-10
-- [ ] T303 | deep-dive | React Native - Expo Router & EAS Builds | 03 - Mobile/React Native/React Native - Expo Router & EAS Builds.md
+- [x] T303 | deep-dive | React Native - Expo Router & EAS Builds | 03 - Mobile/React Native/React Native - Expo Router & EAS Builds.md | ✅ 2026-11-10
 - [ ] T304 | deep-dive | GraphQL - Schema Design & Pagination | 09 - Networking & APIs/GraphQL/GraphQL - Schema Design & Pagination.md
 - [ ] T305 | deep-dive | Swift - iOS Native Integration for Flutter Apps | 01 - Languages/Swift/Swift - iOS Native Integration for Flutter Apps.md
 - [ ] T306 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
