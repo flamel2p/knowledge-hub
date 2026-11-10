@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/redis, topic/caching, topic/key-value]
 status: complete
 created: 2026-09-28
-updated: 2026-11-06
+updated: 2026-11-10
 version_checked: "8.10.2 — 2026-10 (re-checked 2026-10-17: 8.10 line current, 8.0 EOL 2026-12-01)"
 parent: "[[Databases MOC]]"
 related: ["[[Valkey]]", "[[PostgreSQL]]", "[[n8n]]", "[[Message Queues]]", "[[NoSQL]]", "[[Kafka]]"]
@@ -213,6 +213,7 @@ rename-command FLUSHALL ""      # optional hardening
 - [[Redis - Caching Patterns & Invalidation]] — cache-aside + jitter, single-flight locks, versioned namespaces, tenant-safe keys, separate cache instance
 - [[Redis - Rate Limiting & Distributed Locks]] — GCRA Lua limiter, layered limits, quotas, SET NX PX locks with fencing, when Postgres must own correctness
 - [[Redis - Streams & Pub-Sub in Practice]] — Pub/Sub vs Streams semantics, consumer groups with XACK/XAUTOCLAIM/DLQ, retention, idempotent handlers, fan-out across replicas
+- [[Redis - Memory Management & Eviction Tuning]] — maxmemory headroom, eviction policy per role (cache vs noeviction state), memory metrics, big keys, encodings, fork/COW sizing
 
 ## Related
 - [[Valkey]] · [[Message Queues]] · [[Kafka]]

@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/redis, topic/caching, lang/typescript]
 status: draft
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-10
 version_checked: "Redis 8.x (8.8 GA) · Valkey 8/9 compatible — 2026-10"
 parent: "[[Redis]]"
 related: ["[[Redis - Data Structures & Patterns]]", "[[Redis - Persistence & High Availability]]", "[[Next.js - Caching]]", "[[Valkey]]", "[[System Design - Reliability Patterns]]", "[[Supabase - Row Level Security]]"]
@@ -160,6 +160,7 @@ const keys = await redis.keys('menu:*'); await redis.del(keys);     // ❌ KEYS 
 
 ## Related
 - [[Redis]]
+- [[Redis - Memory Management & Eviction Tuning]] — eviction policies and memory sizing for cache instances
 - [[Redis - Data Structures & Patterns]] — commands, complexity, big keys
 - [[Redis - Persistence & High Availability]] — why cache instances can skip persistence
 - [[Next.js - Caching]] — framework-level caching vs Redis

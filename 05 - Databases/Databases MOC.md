@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-09
+updated: 2026-11-10
 parent: "[[00 - Home]]"
 ---
 
@@ -23,6 +23,7 @@ parent: "[[00 - Home]]"
   - [[Redis - Caching Patterns & Invalidation]]
   - [[Redis - Rate Limiting & Distributed Locks]]
   - [[Redis - Streams & Pub-Sub in Practice]]
+  - [[Redis - Memory Management & Eviction Tuning]]
 - [[Valkey]] — BSD-3 Linux Foundation fork of Redis 7.2: RESP-compatible, 9.x I/O threading, hash-field TTL, atomic slot migration
   - [[Valkey - Redis to Valkey Migration Runbook]]
 - [[PostgreSQL]] — relational system of record: MVCC, indexes, RLS, pgvector, 18 async I/O
