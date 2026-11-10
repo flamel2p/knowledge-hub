@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/graphql, topic/api]
 status: draft
 created: 2026-10-12
-updated: 2026-10-19
+updated: 2026-11-10
 version_checked: "Spec September 2025 edition · GraphQL.js 17 — 2026-10"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[REST API]]", "[[gRPC]]", "[[HTTP & HTTPS]]", "[[Supabase]]", "[[WebSocket]]", "[[OWASP Top 10]]"]
@@ -191,6 +191,7 @@ select graphql.resolve($$ { ordersCollection(first: 10) { edges { node { id stat
 - [[GraphQL - Security Hardening]]
 
 Candidates: federation architecture.
+- [[GraphQL - Schema Design & Pagination]] — client-oriented types, nullability trade-offs, mutation payloads with error unions, Relay connections over keyset SQL, deprecation-based evolution
 
 ## Related
 - [[REST API]] — default API style, comparison

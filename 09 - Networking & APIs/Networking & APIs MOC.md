@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-10-31
+updated: 2026-11-10
 parent: "[[00 - Home]]"
 ---
 
@@ -27,6 +27,7 @@ parent: "[[00 - Home]]"
   - [[WebSocket - SSE & Streaming LLM Responses]]
 - [[GraphQL]] — typed client-driven queries; Sept 2025 spec (OneOf), DataLoader, federation, cost-limit/IDOR risks
   - [[GraphQL - Security Hardening]]
+  - [[GraphQL - Schema Design & Pagination]]
 - [[gRPC]] — protobuf + HTTP/2 RPC for service-to-service; streaming, deadlines, Buf/Connect, HTTP/2 DoS risks
   - [[gRPC - Protobuf Schema Evolution]]
 
