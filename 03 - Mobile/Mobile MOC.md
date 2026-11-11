@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-09
+updated: 2026-11-10
 parent: "[[00 - Home]]"
 ---
 
@@ -34,6 +34,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - Maps, Location & Geofencing]]
 - [[React Native]] — React native views, New Architecture only (0.82+), Expo/EAS
   - [[React Native - New Architecture]]
+  - [[React Native - Expo Router & EAS Builds]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._

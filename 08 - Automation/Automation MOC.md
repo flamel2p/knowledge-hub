@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-06
+updated: 2026-11-10
 parent: "[[00 - Home]]"
 ---
 
@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
   - [[n8n - WhatsApp Cloud API Workflows & Template Messaging]]
   - [[n8n - Code Node, Sub-workflows & Custom Nodes]]
   - [[n8n - Testing, Versioning & Deploying Workflows]]
+  - [[n8n - Binary Data, Files & Data Tables]]
 - [[Windmill]] — code-first scripts/flows/apps on Rust + Postgres queue; AGPL/EE licensing nuance; complements n8n
   - [[Windmill - Windmill vs n8n Architecture Decision]]
   - [[Windmill - Worker Groups & Sandboxing]]

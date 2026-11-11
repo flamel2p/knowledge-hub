@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/react-native, lang/typescript]
 status: draft
 created: 2026-10-14
-updated: 2026-11-04
+updated: 2026-11-10
 version_checked: "RN 0.86 (2026-06-11) confirmed · 0.87 reported · New Architecture only since 0.82 — re-checked 2026-11-04"
 parent: "[[React Native]]"
 related: ["[[React]]", "[[Flutter - Platform Channels & FFI]]", "[[Kotlin]]", "[[Swift]]", "[[Flutter - Rendering & Widget Lifecycle]]"]
@@ -153,6 +153,7 @@ npx react-native info                   # shows architecture, Hermes, versions
 
 ## Related
 - [[React Native]]
+- [[React Native - Expo Router & EAS Builds]] — the Expo toolchain on top of the New Architecture
 - [[React]] — the UI model running on Fabric
 - [[Flutter - Platform Channels & FFI]] — Flutter's equivalent native-interop layer
 - [[Kotlin]] · [[Swift]] — native module implementations

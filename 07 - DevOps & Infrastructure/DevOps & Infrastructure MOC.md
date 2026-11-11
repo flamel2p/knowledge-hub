@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-07
+updated: 2026-11-10
 parent: "[[00 - Home]]"
 ---
 
@@ -26,6 +26,7 @@ parent: "[[00 - Home]]"
   - [[Coolify - Operations, Backups & Hardening]]
   - [[Coolify - Multi-Server, Build Servers & Scaling]]
   - [[Coolify - Preview Deployments, Environments & Secrets]]
+  - [[Coolify - One-Click Services & Compose Deployments]]
 - [[Kubernetes]] — declarative orchestrator; Gateway API over retired Ingress NGINX, cgroup v2 only, k3s for small VPS
   - [[Kubernetes - Core Objects]]
   - [[Kubernetes - k3s vs Coolify for Small Teams]]

@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/deep-dive, topic/graphql, topic/api-security]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-11-10
 version_checked: "Apollo Server 5.4+ (CVE-2026-23897 fix) · GraphQL Yoga 5 · pg_graphql (Supabase) — 2026-10"
 parent: "[[GraphQL]]"
 related: ["[[OWASP Top 10]]", "[[REST API]]", "[[Supabase - Row Level Security]]", "[[Authentication & Authorization]]", "[[Network Security - Common Web Attacks]]", "[[WebSocket]]"]
@@ -186,6 +186,7 @@ drop extension if exists pg_graphql;
 
 ## Related
 - [[GraphQL]]
+- [[GraphQL - Schema Design & Pagination]] — schema-level limits: page caps and per-resolver authorization
 - [[OWASP Top 10]] — BOLA, injection, security misconfiguration
 - [[REST API]] — alternative with simpler caching and rate limiting
 - [[Supabase - Row Level Security]] — DB-level enforcement behind pg_graphql/resolvers

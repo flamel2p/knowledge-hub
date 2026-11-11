@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/react-native, lang/typescript]
 status: draft
 created: 2026-10-06
-updated: 2026-11-01
+updated: 2026-11-10
 version_checked: "0.86 (2026-06-11) confirmed · 0.87 reported · Expo SDK 56 — re-checked 2026-11-01"
 parent: "[[Mobile MOC]]"
 related: ["[[React]]", "[[Flutter]]", "[[TypeScript]]", "[[Supabase]]"]
@@ -169,6 +169,7 @@ eas update --branch production --message "fix: order total rounding"
 
 ## Deep Dives
 - [[React Native - New Architecture]]
+- [[React Native - Expo Router & EAS Builds]] — file-based routing, CNG/prebuild + config plugins, eas.json profiles, OTA with fingerprint runtimeVersion, SDK 57/58 (RN 0.86 → 0.88)
 
 ## Related
 - [[React]] — the UI library underneath
