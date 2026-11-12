@@ -6,8 +6,8 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/release, topic/app-store, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-11-02
-version_checked: "Flutter 3.47 · Play API 36 · Xcode 26 — 2026-10"
+updated: 2026-11-12
+version_checked: "Flutter 3.47 (SwiftPM default since 3.44) · CocoaPods read-only 2026-12-02 · Play API 36 · Xcode 26 — re-checked 2026-11-12"
 parent: "[[Flutter]]"
 related: ["[[Dart - VM, Compilation & Garbage Collection]]", "[[Flutter - Performance & DevTools]]", "[[CI-CD]]", "[[Flutter - Testing]]"]
 ---
@@ -162,6 +162,8 @@ iOS needs a `macos-*` runner (or Codemagic / Xcode Cloud) and fastlane match + a
 | 2025-11-01 | Play: 16 KB page-size support for apps targeting Android 15+ |
 | **2026-04-28** | Apple: Xcode 26 / iOS 26 SDK required for uploads |
 | **2026-08-31** | Play: target API 36 for new apps and updates (extension to 2026-11-01) |
+| Flutter 3.44 (2026) | Swift Package Manager is the default iOS/macOS dependency manager |
+| **2026-12-02** | CocoaPods registry read-only. Migrate iOS builds to SwiftPM and replace pods-only plugins ([[Swift - iOS Native Integration for Flutter Apps]]) |
 
 ## Critical Issues & Gotchas
 > [!danger] Store deadlines block hotfixes, not just features

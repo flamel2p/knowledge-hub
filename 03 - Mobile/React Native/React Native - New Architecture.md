@@ -6,8 +6,8 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/react-native, lang/typescript]
 status: draft
 created: 2026-10-14
-updated: 2026-11-10
-version_checked: "RN 0.86 (2026-06-11) confirmed · 0.87 reported · New Architecture only since 0.82 — re-checked 2026-11-04"
+updated: 2026-11-12
+version_checked: "RN 0.88 (2026-10-15) · 0.87 breaking (2026-08-11) · New Architecture only since 0.82 — re-checked 2026-11-12"
 parent: "[[React Native]]"
 related: ["[[React]]", "[[Flutter - Platform Channels & FFI]]", "[[Kotlin]]", "[[Swift]]", "[[Flutter - Rendering & Widget Lifecycle]]"]
 ---
@@ -136,6 +136,8 @@ npx react-native info                   # shows architecture, Hermes, versions
 | **0.82** (2025-10-08) | **Legacy Architecture removed**. `newArchEnabled=false` ignored |
 | 0.83–0.85 (2025-12 → 2026-05) | React 19.2, DevTools/perf improvements. Expo SDK 55 drops legacy, SDK 56 ships 0.85 |
 | 0.86 (2026-06-11) | Android 15+ edge-to-edge fixes, DevTools improvements. No user-facing breaking changes. 0.83.x unsupported |
+| 0.87 (2026-08-11) | Strict TypeScript API default. Deep `react-native/Libraries/*` imports break. Node 22, AGP 9, Kotlin 2.0+ minimums. Native libraries relying on internals need updates |
+| 0.88 (2026-10-15) | SceneDelegate support (iOS scene lifecycle), W3C EventTarget dispatching, variable fonts. No user-facing breaking changes |
 
 ## Critical Issues & Gotchas
 > [!danger] Abandoned native libraries block upgrades

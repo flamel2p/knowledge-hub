@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-12 (T305)
+Last run: 2026-11-12 (T306)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -381,5 +381,5 @@ Last run: 2026-11-12 (T305)
 - [x] T303 | deep-dive | React Native - Expo Router & EAS Builds | 03 - Mobile/React Native/React Native - Expo Router & EAS Builds.md | ✅ 2026-11-10
 - [x] T304 | deep-dive | GraphQL - Schema Design & Pagination | 09 - Networking & APIs/GraphQL/GraphQL - Schema Design & Pagination.md | ✅ 2026-11-10
 - [x] T305 | deep-dive | Swift - iOS Native Integration for Flutter Apps | 01 - Languages/Swift/Swift - iOS Native Integration for Flutter Apps.md | ✅ 2026-11-12
-- [ ] T306 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T306 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-12
 - [ ] T307 | replenish | Next 12 tasks per CLAUDE.md §9 | -
