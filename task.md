@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-12 (T307)
+Last run: 2026-11-12 (T308)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -386,7 +386,7 @@ Last run: 2026-11-12 (T307)
 
 ### Wave 21 — Payments, CDC, monitoring, a11y, motion, multi-arch, edge state, OWASP 2025, vector ops, integrations
 
-- [ ] T308 | deep-dive | Next.js - Payments with Stripe & Malaysian Gateways | 02 - Frontend/Next.js/Next.js - Payments with Stripe & Malaysian Gateways.md
+- [x] T308 | deep-dive | Next.js - Payments with Stripe & Malaysian Gateways | 02 - Frontend/Next.js/Next.js - Payments with Stripe & Malaysian Gateways.md | ✅ 2026-11-12
 - [ ] T309 | deep-dive | PostgreSQL - Logical Replication & Change Data Capture | 05 - Databases/PostgreSQL/PostgreSQL - Logical Replication & Change Data Capture.md
 - [ ] T310 | deep-dive | n8n - Monitoring, Metrics & Alerting | 08 - Automation/n8n/n8n - Monitoring, Metrics & Alerting.md
 - [ ] T311 | deep-dive | Flutter - Accessibility & Semantics | 03 - Mobile/Flutter/Flutter - Accessibility & Semantics.md
