@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/overview, topic/swift, lang/swift]
 status: draft
 created: 2026-10-11
-updated: 2026-10-21
+updated: 2026-11-12
 version_checked: "6.2 (Xcode 26, 2025-09) · 6.3 (2026-03) — 2026-10"
 parent: "[[Languages MOC]]"
 related: ["[[Kotlin]]", "[[Flutter]]", "[[Dart]]", "[[Rust]]", "[[React Native]]", "[[Flutter - Platform Channels & FFI]]"]
@@ -206,6 +206,7 @@ let package = Package(
 - [[Swift - Concurrency, Actors & Sendable]]
 
 Candidates: SwiftUI architecture.
+- [[Swift - iOS Native Integration for Flutter Apps]] — Pigeon/channels/FFI from Swift, App Groups for extensions, SwiftPM default (3.44) and CocoaPods read-only 2026-12-02, privacy manifests
 
 ## Related
 - [[Kotlin]] — Android/KMP counterpart

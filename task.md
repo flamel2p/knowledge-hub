@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-10 (T304)
+Last run: 2026-11-12 (T309)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -380,6 +380,21 @@ Last run: 2026-11-10 (T304)
 - [x] T302 | deep-dive | n8n - Binary Data, Files & Data Tables | 08 - Automation/n8n/n8n - Binary Data, Files & Data Tables.md | ✅ 2026-11-10
 - [x] T303 | deep-dive | React Native - Expo Router & EAS Builds | 03 - Mobile/React Native/React Native - Expo Router & EAS Builds.md | ✅ 2026-11-10
 - [x] T304 | deep-dive | GraphQL - Schema Design & Pagination | 09 - Networking & APIs/GraphQL/GraphQL - Schema Design & Pagination.md | ✅ 2026-11-10
-- [ ] T305 | deep-dive | Swift - iOS Native Integration for Flutter Apps | 01 - Languages/Swift/Swift - iOS Native Integration for Flutter Apps.md
-- [ ] T306 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
-- [ ] T307 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T305 | deep-dive | Swift - iOS Native Integration for Flutter Apps | 01 - Languages/Swift/Swift - iOS Native Integration for Flutter Apps.md | ✅ 2026-11-12
+- [x] T306 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-12
+- [x] T307 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-12
+
+### Wave 21 — Payments, CDC, monitoring, a11y, motion, multi-arch, edge state, OWASP 2025, vector ops, integrations
+
+- [x] T308 | deep-dive | Next.js - Payments with Stripe & Malaysian Gateways | 02 - Frontend/Next.js/Next.js - Payments with Stripe & Malaysian Gateways.md | ✅ 2026-11-12
+- [x] T309 | deep-dive | PostgreSQL - Logical Replication & Change Data Capture | 05 - Databases/PostgreSQL/PostgreSQL - Logical Replication & Change Data Capture.md | ✅ 2026-11-12
+- [ ] T310 | deep-dive | n8n - Monitoring, Metrics & Alerting | 08 - Automation/n8n/n8n - Monitoring, Metrics & Alerting.md
+- [ ] T311 | deep-dive | Flutter - Accessibility & Semantics | 03 - Mobile/Flutter/Flutter - Accessibility & Semantics.md
+- [ ] T312 | deep-dive | Flutter - Animations & Motion | 03 - Mobile/Flutter/Flutter - Animations & Motion.md
+- [ ] T313 | deep-dive | Docker - Multi-Architecture Builds for ARM & x86 | 07 - DevOps & Infrastructure/Docker/Docker - Multi-Architecture Builds for ARM & x86.md
+- [ ] T314 | deep-dive | Cloudflare - KV, D1 & Durable Objects for Edge State | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - KV, D1 & Durable Objects for Edge State.md
+- [ ] T315 | deep-dive | OWASP Top 10 - Web Application Top 10 2025 in Practice | 10 - Security/OWASP Top 10/OWASP Top 10 - Web Application Top 10 2025 in Practice.md
+- [ ] T316 | deep-dive | Vector Databases - Qdrant & Dedicated Vector DB Operations | 05 - Databases/Vector Databases/Vector Databases - Qdrant & Dedicated Vector DB Operations.md
+- [ ] T317 | deep-dive | Supabase - Webhooks, pg_net & External Integrations | 04 - Backend/Supabase/Supabase - Webhooks, pg_net & External Integrations.md
+- [ ] T318 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T319 | replenish | Next 12 tasks per CLAUDE.md §9 | -

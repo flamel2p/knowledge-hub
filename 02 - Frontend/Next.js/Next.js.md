@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/nextjs, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-11-09
+updated: 2026-11-12
 version_checked: "16.3.8 (Active LTS) · 15.5.27 (Maintenance LTS) — 2026-10"
 parent: "[[Frontend MOC]]"
 related: ["[[React]]", "[[TypeScript]]", "[[Supabase]]", "[[Coolify]]", "[[Docker]]"]
@@ -256,6 +256,7 @@ CMD ["node", "server.js"]
 - [[Next.js - Metadata, SEO & Image Optimization]] — metadata API + hreflang, sitemap/robots from DB, JSON-LD local SEO, next/image v16 defaults, next/og and optimizer CVEs
 - [[Next.js - Error Handling, Logging & Observability]] — error boundaries, instrumentation register/onRequestError, pino with redaction, request IDs, Sentry vs GlitchTip vs OTel
 - [[Next.js - Internationalization & Multi-Language Routing]] — [lang] segment + proxy.ts detection, server-only dictionaries/next-intl, Intl formatting, locale-aware caching, shared catalogues with Flutter
+- [[Next.js - Payments with Stripe & Malaysian Gateways]] — server-computed checkout, webhook as source of truth (Stripe raw-body signature, Billplz X-Signature + re-query), idempotent mark-paid, MyInvois notes
 
 ## Related
 - [[React]] — RSC, Actions, compiler
