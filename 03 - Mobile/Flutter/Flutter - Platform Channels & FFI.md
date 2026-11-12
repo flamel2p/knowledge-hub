@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/native-interop, lang/dart, lang/kotlin, lang/swift]
 status: draft
 created: 2026-10-08
-updated: 2026-11-07
+updated: 2026-11-12
 version_checked: "Flutter 3.47.1 · Dart 3.13 · jni 1.x (3.50 scheduled Nov 2026) — re-checked 2026-11-07"
 parent: "[[Flutter]]"
 related: ["[[Dart - Async, Streams & Isolates]]", "[[Kotlin]]", "[[Swift]]", "[[Flutter - Build, Release & Store Compliance]]"]
@@ -178,6 +178,7 @@ try {
 
 ## Related
 - [[Flutter]]
+- [[Swift - iOS Native Integration for Flutter Apps]] — the Swift side of channels, Pigeon and extensions
 - [[Dart - Async, Streams & Isolates]] — isolates for long FFI calls, stream cancellation
 - [[Dart - VM, Compilation & Garbage Collection]] — native memory vs Dart heap, finalizers
 - [[Flutter - Build, Release & Store Compliance]] — plugin native maintenance
