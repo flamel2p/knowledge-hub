@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/upgrades, topic/operations]
 status: draft
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-12
 version_checked: "PostgreSQL 19 RC1 (2026-10-15), GA planned 2026-11-19 · PostgreSQL 14 final release 2026-11-12 (EOL) · 18 pg_upgrade --swap + statistics retention — 2026-11"
 parent: "[[PostgreSQL]]"
 related: ["[[PostgreSQL - Backups, PITR & Restore Drills]]", "[[PostgreSQL - Query Planning & EXPLAIN]]", "[[Supabase - Self-Hosting with Docker & Coolify]]", "[[Supabase - Migrations, Branching & Local Development]]", "[[PostgreSQL - Partitioning & Large Table Maintenance]]", "[[Docker - Compose Patterns for Production]]"]
@@ -158,6 +158,7 @@ select setval('orders_id_seq', (select max(id) from orders));         -- sequenc
 
 ## Related
 - [[PostgreSQL]]
+- [[PostgreSQL - Logical Replication & Change Data Capture]] — logical replication mechanics behind low-downtime upgrades
 - [[PostgreSQL - Backups, PITR & Restore Drills]] — the rollback safety net
 - [[PostgreSQL - Query Planning & EXPLAIN]] — verifying plans after upgrade
 - [[Supabase - Self-Hosting with Docker & Coolify]] — upgrading the Postgres inside self-hosted Supabase
