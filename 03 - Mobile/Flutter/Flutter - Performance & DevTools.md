@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/performance, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-11-07
+updated: 2026-11-13
 version_checked: "Flutter 3.47.1 latest confirmed (3.50 scheduled Nov 2026) — re-checked 2026-11-07"
 parent: "[[Flutter]]"
 related: ["[[Flutter - Rendering & Widget Lifecycle]]", "[[Flutter - State Management]]", "[[Dart - VM, Compilation & Garbage Collection]]", "[[Flutter - Interview Questions]]"]
@@ -207,6 +207,7 @@ Run with `flutter drive --profile --driver=test_driver/perf_driver.dart --target
 
 ## Related
 - [[Flutter]]
+- [[Flutter - Animations & Motion]] — profiling animation jank
 - [[Flutter - Rendering & Widget Lifecycle]] — the pipeline being profiled
 - [[Flutter - State Management]] — rebuild scope
 - [[Dart - VM, Compilation & Garbage Collection]] — build modes, GC, memory tooling

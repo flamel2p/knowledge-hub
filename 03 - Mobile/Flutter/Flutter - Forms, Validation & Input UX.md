@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/forms, topic/ux, lang/dart]
 status: draft
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-13
 version_checked: "Flutter 3.47 / Dart 3.13 — Form/TextFormField APIs stable; form packages not version-checked — 2026-11"
 parent: "[[Flutter]]"
 related: ["[[Flutter - State Management]]", "[[Flutter - Internationalization & Localization]]", "[[Flutter - Testing]]", "[[React - Forms, Actions & Optimistic UI]]", "[[TypeScript - Runtime Validation with Zod & Type-Safe APIs]]", "[[Supabase - Database Functions, Triggers & RPC]]"]
@@ -199,6 +199,7 @@ autovalidateMode: AutovalidateMode.always                             // ❌ err
 
 ## Related
 - [[Flutter]]
+- [[Flutter - Accessibility & Semantics]] — labeled fields, announced errors, screen readers
 - [[Flutter - State Management]] — form state in providers/BLoC
 - [[Flutter - Internationalization & Localization]] — localized error messages
 - [[Flutter - Testing]] — widget tests for forms

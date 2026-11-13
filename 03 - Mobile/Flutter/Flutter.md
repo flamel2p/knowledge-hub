@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-11-09
+updated: 2026-11-13
 version_checked: "3.47 / Dart 3.13 (2026-08) — 2026-10"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -183,6 +183,8 @@ my_app/
 - [[Flutter - App Security, Obfuscation & Secure Storage]] — no secrets in binaries, secure storage v10 (+Supabase session), obfuscation + symbols, App Check/Play Integrity, pinning and RASP trade-offs
 - [[Flutter - Forms, Validation & Input UX]] — Form/TextFormField patterns, pure validators for MY phone/IC, formatters + autofill, server error-code mapping, double-submit protection
 - [[Flutter - Maps, Location & Geofencing]] — maps options + 2025 Google pricing caps, permission levels, server-side PostGIS geofences, spoofing, background-location policy, PDPA
+- [[Flutter - Accessibility & Semantics]] — semantics tree, labels, text scaling, tap targets, contrast, a11y tests
+- [[Flutter - Animations & Motion]] — implicit vs explicit, Hero, Lottie/Rive, Impeller jank, reduce motion
 
 ## Related
 - [[Dart]] — the language

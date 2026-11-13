@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/error-handling]
 status: draft
 created: 2026-10-05
-updated: 2026-11-05
+updated: 2026-11-13
 version_checked: "n8n 2.42.x (third-party; re-checked 2026-10-23)"
 parent: "[[n8n]]"
 related: ["[[n8n - Queue Mode & Scaling]]", "[[REST API]]", "[[Redis - Data Structures & Patterns]]", "[[AI Agents]]"]
@@ -154,6 +154,7 @@ IF amount > credit_limit → Stop and Error: "Order {{$json.id}} exceeds credit 
 
 ## Related
 - [[n8n]]
+- [[n8n - Monitoring, Metrics & Alerting]] — alerting on top of error workflows
 - [[n8n - Code Node, Sub-workflows & Custom Nodes]] — reusable sub-workflows and Code node patterns
 - [[n8n - Queue Mode & Scaling]] — runtime behind retries and executions
 - [[REST API]] — idempotency keys, status codes

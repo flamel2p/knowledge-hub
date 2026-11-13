@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-10
+updated: 2026-11-13
 parent: "[[00 - Home]]"
 ---
 
@@ -22,6 +22,7 @@ parent: "[[00 - Home]]"
   - [[Docker - Compose Patterns for Production]]
   - [[Docker - Logging, Metrics & Resource Limits on a VPS]]
   - [[Docker - Image Scanning, SBOMs & Signing]]
+  - [[Docker - Multi-Architecture Builds for ARM & x86]]
 - [[Coolify]] — self-hosted PaaS over SSH + Traefik; v4 stable, Jan 2026 critical CVEs
   - [[Coolify - Operations, Backups & Hardening]]
   - [[Coolify - Multi-Server, Build Servers & Scaling]]
@@ -41,6 +42,7 @@ parent: "[[00 - Home]]"
   - [[Cloudflare - DNS, Email Authentication & Domain Ops]]
   - [[Cloudflare - Caching Rules, CDN & Cache Purging]]
   - [[Cloudflare - Turnstile & Bot Protection for Forms]]
+  - [[Cloudflare - KV, D1 & Durable Objects for Edge State]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
   - [[Git - Monorepo Workflows with pnpm & Turborepo]]
