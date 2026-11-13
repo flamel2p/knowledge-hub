@@ -33,6 +33,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - Forms, Validation & Input UX]]
   - [[Flutter - Maps, Location & Geofencing]]
   - [[Flutter - Accessibility & Semantics]]
+  - [[Flutter - Animations & Motion]]
 - [[React Native]] — React native views, New Architecture only (0.82+), Expo/EAS
   - [[React Native - New Architecture]]
   - [[React Native - Expo Router & EAS Builds]]

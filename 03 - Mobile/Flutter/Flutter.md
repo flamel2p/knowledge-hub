@@ -184,6 +184,7 @@ my_app/
 - [[Flutter - Forms, Validation & Input UX]] — Form/TextFormField patterns, pure validators for MY phone/IC, formatters + autofill, server error-code mapping, double-submit protection
 - [[Flutter - Maps, Location & Geofencing]] — maps options + 2025 Google pricing caps, permission levels, server-side PostGIS geofences, spoofing, background-location policy, PDPA
 - [[Flutter - Accessibility & Semantics]] — semantics tree, labels, text scaling, tap targets, contrast, a11y tests
+- [[Flutter - Animations & Motion]] — implicit vs explicit, Hero, Lottie/Rive, Impeller jank, reduce motion
 
 ## Related
 - [[Dart]] — the language
