@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-13 (T310)
+Last run: 2026-11-13 (T311)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -389,7 +389,7 @@ Last run: 2026-11-13 (T310)
 - [x] T308 | deep-dive | Next.js - Payments with Stripe & Malaysian Gateways | 02 - Frontend/Next.js/Next.js - Payments with Stripe & Malaysian Gateways.md | ✅ 2026-11-12
 - [x] T309 | deep-dive | PostgreSQL - Logical Replication & Change Data Capture | 05 - Databases/PostgreSQL/PostgreSQL - Logical Replication & Change Data Capture.md | ✅ 2026-11-12
 - [x] T310 | deep-dive | n8n - Monitoring, Metrics & Alerting | 08 - Automation/n8n/n8n - Monitoring, Metrics & Alerting.md | ✅ 2026-11-13
-- [ ] T311 | deep-dive | Flutter - Accessibility & Semantics | 03 - Mobile/Flutter/Flutter - Accessibility & Semantics.md
+- [x] T311 | deep-dive | Flutter - Accessibility & Semantics | 03 - Mobile/Flutter/Flutter - Accessibility & Semantics.md | ✅ 2026-11-13
 - [ ] T312 | deep-dive | Flutter - Animations & Motion | 03 - Mobile/Flutter/Flutter - Animations & Motion.md
 - [ ] T313 | deep-dive | Docker - Multi-Architecture Builds for ARM & x86 | 07 - DevOps & Infrastructure/Docker/Docker - Multi-Architecture Builds for ARM & x86.md
 - [ ] T314 | deep-dive | Cloudflare - KV, D1 & Durable Objects for Edge State | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - KV, D1 & Durable Objects for Edge State.md
