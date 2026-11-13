@@ -42,6 +42,7 @@ parent: "[[00 - Home]]"
   - [[Cloudflare - DNS, Email Authentication & Domain Ops]]
   - [[Cloudflare - Caching Rules, CDN & Cache Purging]]
   - [[Cloudflare - Turnstile & Bot Protection for Forms]]
+  - [[Cloudflare - KV, D1 & Durable Objects for Edge State]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
   - [[Git - Monorepo Workflows with pnpm & Turborepo]]
