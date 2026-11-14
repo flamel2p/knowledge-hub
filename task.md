@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-14 (T316)
+Last run: 2026-11-14 (T317)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -395,6 +395,6 @@ Last run: 2026-11-14 (T316)
 - [x] T314 | deep-dive | Cloudflare - KV, D1 & Durable Objects for Edge State | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - KV, D1 & Durable Objects for Edge State.md | ✅ 2026-11-13
 - [x] T315 | deep-dive | OWASP Top 10 - Web Application Top 10 2025 in Practice | 10 - Security/OWASP Top 10/OWASP Top 10 - Web Application Top 10 2025 in Practice.md | ✅ 2026-11-14
 - [x] T316 | deep-dive | Vector Databases - Qdrant & Dedicated Vector DB Operations | 05 - Databases/Vector Databases/Vector Databases - Qdrant & Dedicated Vector DB Operations.md | ✅ 2026-11-14
-- [ ] T317 | deep-dive | Supabase - Webhooks, pg_net & External Integrations | 04 - Backend/Supabase/Supabase - Webhooks, pg_net & External Integrations.md
+- [x] T317 | deep-dive | Supabase - Webhooks, pg_net & External Integrations | 04 - Backend/Supabase/Supabase - Webhooks, pg_net & External Integrations.md | ✅ 2026-11-14
 - [ ] T318 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T319 | replenish | Next 12 tasks per CLAUDE.md §9 | -

@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/supabase, topic/background-jobs, topic/queues, lang/typescript]
 status: draft
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-11-14
 version_checked: "Edge Functions limits 150 s/400 s wall, 2 s CPU · Supabase Queues (pgmq) · pg_cron — 2026-10"
 parent: "[[Supabase]]"
 related: ["[[PostgreSQL]]", "[[Message Queues]]", "[[Message Queues - BullMQ in Production]]", "[[n8n]]", "[[System Design - Reliability Patterns]]", "[[Supabase - Row Level Security]]"]
@@ -188,6 +188,7 @@ Deno.serve(async (req) => { const b = await req.json(); await runAgent(b); await
 
 ## Related
 - [[Supabase]]
+- [[Supabase - Webhooks, pg_net & External Integrations]] — outbound webhooks and reliable delivery
 - [[Supabase - Row Level Security]] — jobs bypass RLS; re-check tenancy
 - [[Message Queues]] · [[Message Queues - BullMQ in Production]] — Redis-based alternative and comparison
 - [[System Design - Reliability Patterns]] — outbox, idempotency, retries, DLQs
