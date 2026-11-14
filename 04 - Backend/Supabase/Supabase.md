@@ -7,7 +7,7 @@ tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/ba
 status: draft
 created: 2026-10-06
 updated: 2026-11-14
-version_checked: "Platform 2026-10 (new API keys, JWT signing keys; legacy keys removal late 2026)"
+version_checked: "Platform — publishable/secret keys, JWT signing keys; legacy anon/service_role removal \"late 2026, TBC\" — re-checked 2026-11-14"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
 ---
@@ -157,10 +157,10 @@ supabase db push                    # apply to linked project (CI)
 | Publishable / secret API keys | 2025 | Revocable, scoped keys. GitHub secret scanning auto-revocation | Replace `anon`/`service_role` in all apps and envs |
 | Postgres 17 for new projects / self-host image | 2025–26 | Newer PG features | Upgrade older projects via dashboard (downtime window) |
 | Self-hosted gateway Kong → Envoy | 2026 | Config-as-code routing | Review custom Kong configs |
-| **Legacy `anon`/`service_role` keys removed** | Late 2026 | Old keys stop working | **Deadline: migrate before removal** |
+| **Legacy `anon`/`service_role` keys removed** | Late 2026 (TBC per changelog) | Old keys stop working. Legacy keys/JWT secret can no longer be rotated. Restored paused projects may lack legacy keys | **Deadline: migrate before removal**. New keys coexist with legacy ones, so migrate per app with no downtime |
 
 > [!warning] Unverified — check before relying on this
-> The exact removal date for legacy keys and per-plan pricing weren't verified this run. Check https://supabase.com/docs/guides/getting-started/api-keys and the changelog.
+> The exact removal date for legacy keys is still "late 2026, TBC" in Supabase's changelog (re-checked 2026-11-14). Per-plan pricing wasn't verified. Check https://supabase.com/docs/guides/getting-started/api-keys and the changelog.
 
 ## Critical Issues & Gotchas
 > [!danger] Missing RLS → public data exposure
