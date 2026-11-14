@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/vector-databases, topic/rag]
 status: draft
 created: 2026-10-10
-updated: 2026-10-27
+updated: 2026-11-14
 version_checked: "pgvector 0.8.x · Qdrant 1.17 — 2026-10"
 parent: "[[Databases MOC]]"
 related: ["[[PostgreSQL]]", "[[Supabase]]", "[[RAG]]", "[[LLM Fundamentals]]", "[[NoSQL]]", "[[Redis]]"]
@@ -188,6 +188,7 @@ set hnsw.iterative_scan = relaxed_order; -- pgvector 0.8: keep scanning when fil
 ## Deep Dives
 - [[Vector Databases - pgvector Tuning & Hybrid Search]]
 - [[Vector Databases - Embedding Models & Multilingual Retrieval]] — model candidates, own-data recall eval, BM/EN/ZH + Manglish, rerankers, re-embedding migrations
+- [[Vector Databases - Qdrant & Dedicated Vector DB Operations]] — collections, payload/tenant indexes, quantization, hybrid queries, snapshots, pgvector vs Qdrant
 
 ## Related
 - [[PostgreSQL]] — pgvector host, RLS, hybrid with full-text search
