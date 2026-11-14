@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-14 (T318)
+Last run: 2026-11-14 (T319)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -397,4 +397,19 @@ Last run: 2026-11-14 (T318)
 - [x] T316 | deep-dive | Vector Databases - Qdrant & Dedicated Vector DB Operations | 05 - Databases/Vector Databases/Vector Databases - Qdrant & Dedicated Vector DB Operations.md | ✅ 2026-11-14
 - [x] T317 | deep-dive | Supabase - Webhooks, pg_net & External Integrations | 04 - Backend/Supabase/Supabase - Webhooks, pg_net & External Integrations.md | ✅ 2026-11-14
 - [x] T318 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-14
-- [ ] T319 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T319 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-14
+
+### Wave 22 — Flutter+Supabase, cost control, audit trails, multi-instance n8n, custom domains, jobs, backups, Redis ops, support agents, edge logs
+
+- [ ] T320 | deep-dive | Flutter - Supabase Integration, Auth & Realtime | 03 - Mobile/Flutter/Flutter - Supabase Integration, Auth & Realtime.md
+- [ ] T321 | deep-dive | Supabase - Usage, Cost Control & Plan Limits | 04 - Backend/Supabase/Supabase - Usage, Cost Control & Plan Limits.md
+- [ ] T322 | deep-dive | PostgreSQL - Audit Logging & Change History | 05 - Databases/PostgreSQL/PostgreSQL - Audit Logging & Change History.md
+- [ ] T323 | deep-dive | n8n - Managing Multiple Client Instances | 08 - Automation/n8n/n8n - Managing Multiple Client Instances.md
+- [ ] T324 | deep-dive | Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates | 07 - DevOps & Infrastructure/Traefik/Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates.md
+- [ ] T325 | deep-dive | Next.js - Background Jobs, Cron & Long-Running Tasks | 02 - Frontend/Next.js/Next.js - Background Jobs, Cron & Long-Running Tasks.md
+- [ ] T326 | deep-dive | Linux Essentials - Backups with restic & Off-Site Storage | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Backups with restic & Off-Site Storage.md
+- [ ] T327 | deep-dive | Redis - Observability, Slow Log & Latency Troubleshooting | 05 - Databases/Redis/Redis - Observability, Slow Log & Latency Troubleshooting.md
+- [ ] T328 | deep-dive | AI Agents - Customer Support Agents for WhatsApp & Messaging | 13 - AI Engineering/AI Agents/AI Agents - Customer Support Agents for WhatsApp & Messaging.md
+- [ ] T329 | deep-dive | Cloudflare - Logs, Analytics & Security Events | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Logs, Analytics & Security Events.md
+- [ ] T330 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T331 | replenish | Next 12 tasks per CLAUDE.md §9 | -
