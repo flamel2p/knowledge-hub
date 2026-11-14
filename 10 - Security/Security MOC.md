@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-05
+updated: 2026-11-14
 parent: "[[00 - Home]]"
 ---
 
@@ -33,6 +33,7 @@ parent: "[[00 - Home]]"
 - [[OWASP Top 10]] — 2025 edition: A01 access control (+SSRF), A03 supply chain, A10 exceptional conditions; ASVS + sibling lists
   - [[OWASP Top 10 - LLM & Agent Security]]
   - [[OWASP Top 10 - API Security Top 10 in Practice]]
+  - [[OWASP Top 10 - Web Application Top 10 2025 in Practice]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._

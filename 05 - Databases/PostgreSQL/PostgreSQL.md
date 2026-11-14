@@ -6,8 +6,8 @@ domain: databases
 tags: [domain/databases, type/overview, topic/postgresql]
 status: draft
 created: 2026-10-03
-updated: 2026-11-12
-version_checked: "18.x stable · 19 in beta (GA expected Q4 2026) — 2026-10"
+updated: 2026-11-14
+version_checked: "18.7 (2026-11-12) · 19 RC2, GA planned 2026-11-19 · 14 EOL (final 14.25) — re-checked 2026-11-14"
 parent: "[[Databases MOC]]"
 related: ["[[Supabase]]", "[[Redis]]", "[[MySQL]]", "[[Vector Databases]]", "[[n8n]]"]
 ---
@@ -156,15 +156,15 @@ shared_preload_libraries = 'pg_stat_statements'
 ## Versions & Breaking Changes
 | Version | Released | Key changes | Breaking / migration notes |
 |---|---|---|---|
-| 14 | 2021-09 | Pipeline mode, multirange types | EOL 2026-11 |
+| 14 | 2021-09 | Pipeline mode, multirange types | **EOL**: final release 14.25 (2026-11-12). Upgrade now ([[PostgreSQL - Major Version Upgrades & Migrations]]) |
 | 15 | 2022-10 | `MERGE`, zstd/lz4 WAL compression, logical replication filters | `public` schema no longer world-writable `CREATE` |
 | 16 | 2023-09 | Logical replication from standbys, `pg_stat_io`, SQL/JSON constructors | — |
 | 17 | 2024-09 | Incremental backup, `JSON_TABLE`, `MERGE … RETURNING`, faster vacuum memory | — |
 | **18** | 2025-09-25 | Async I/O, `uuidv7()`, virtual generated columns, B-tree skip scan, OAuth auth, stats kept on `pg_upgrade`, `OLD/NEW` in `RETURNING`, temporal `WITHOUT OVERLAPS` | Data checksums on by default in `initdb`. MD5 auth deprecated. Generated columns default to virtual |
-| 19 | Beta (2026-06+) | `REPACK [CONCURRENTLY]` (replaces `VACUUM FULL`/`CLUSTER`), `pg_plan_advice`, parallel index autovacuum + priority scoring, `WAIT` for read-your-writes on standbys | Six features (incl. SQL/PGQ graph queries) pulled in beta 4 (2026-09-24). Not GA yet |
+| 19 | RC2 (2026-11-12). GA planned 2026-11-19 | `REPACK [CONCURRENTLY]` (replaces `VACUUM FULL`/`CLUSTER`), `pg_plan_advice`, parallel index autovacuum + priority scoring, `WAIT` for read-your-writes on standbys | Six features (incl. SQL/PGQ graph queries) pulled in beta 4 (2026-09-24). Not GA yet |
 
 > [!warning] Unverified — check before relying on this
-> The current 18.x minor and the 19 GA date weren't confirmed this run. Check https://www.postgresql.org/support/versioning/.
+> 18.7/17.12/16.16/15.20/14.25 shipped 2026-11-12 (official release notes). 19 GA on 2026-11-19 is planned per the RC announcement, not confirmed. Check https://www.postgresql.org/support/versioning/.
 
 ## Critical Issues & Gotchas
 > [!danger] CVE-2025-1094 — psql quoting SQL injection (Feb 2025)
