@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/owasp, topic/appsec]
 status: draft
 created: 2026-10-12
-updated: 2026-10-25
+updated: 2026-11-14
 version_checked: "OWASP Top 10:2025 (released 2025-11) · ASVS 5.0 — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[Authentication & Authorization]]", "[[Network Security]]", "[[JWT]]", "[[GraphQL]]", "[[REST API]]", "[[CI-CD]]"]
@@ -170,6 +170,7 @@ Permissions-Policy: camera=(), microphone=(), geolocation=()
 ## Deep Dives
 - [[OWASP Top 10 - LLM & Agent Security]]
 - [[OWASP Top 10 - API Security Top 10 in Practice]] — API1–API10 mapped to Supabase/Next.js/n8n, column grants, SSRF guard, OTP pumping, authz matrix
+- [[OWASP Top 10 - Web Application Top 10 2025 in Practice]] — A01–A10 controls, code and verification for Next.js/Supabase/n8n, pre-launch review
 
 ## Related
 - [[Authentication & Authorization]] — A01 and A07 in depth
