@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/supabase, topic/performance, lang/sql]
 status: draft
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-16
 version_checked: "Supabase platform (advisors/splinter lints, index_advisor, Query Performance) · compute/IO limits not re-checked — 2026-11"
 parent: "[[Supabase]]"
 related: ["[[Supabase - Row Level Security]]", "[[PostgreSQL - Query Planning & EXPLAIN]]", "[[PostgreSQL - Indexing]]", "[[PostgreSQL - Connection Pooling with Supavisor & PgBouncer]]", "[[Supabase - Database Functions, Triggers & RPC]]", "[[Supabase - Realtime, Presence & Broadcast]]"]
@@ -159,6 +159,7 @@ create policy p on orders using (tenant_id in (select tenant_id from memberships
 
 ## Related
 - [[Supabase]]
+- [[Supabase - Usage, Cost Control & Plan Limits]] — cost drivers and plan limits
 - [[Supabase - Row Level Security]] — policy patterns that perform
 - [[PostgreSQL - Query Planning & EXPLAIN]] — reading plans and buffers
 - [[PostgreSQL - Indexing]] — composite, partial and covering indexes
