@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-13
+updated: 2026-11-16
 parent: "[[00 - Home]]"
 ---
 
@@ -35,6 +35,7 @@ parent: "[[00 - Home]]"
   - [[Traefik - Middlewares, TLS & Routing]]
   - [[Traefik - Observability & Troubleshooting]]
   - [[Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing]]
+  - [[Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates]]
 - [[Cloudflare]] — DNS/CDN/WAF edge, Tunnel + Access, R2 zero-egress, Workers; 2025 global outages = concentration risk
   - [[Cloudflare - Zero Trust Tunnel & Access]]
   - [[Cloudflare - R2 Storage & Presigned Uploads]]
