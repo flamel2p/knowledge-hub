@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/security, topic/hardening]
 status: draft
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-16
 version_checked: "n8n 2.x (fix floor ≥ 2.14.1 / 1.123.27 for CVE-2026-33660) · 2.42.x stable per tracker — 2026-10"
 parent: "[[n8n]]"
 related: ["[[n8n - Queue Mode & Scaling]]", "[[n8n - Error Handling & Workflow Patterns]]", "[[Cloudflare - Zero Trust Tunnel & Access]]", "[[Traefik - Middlewares, TLS & Routing]]", "[[REST API - Webhooks & Idempotency]]", "[[Coolify - Operations, Backups & Hardening]]"]
@@ -166,6 +166,7 @@ docker compose pull n8n && docker compose up -d --wait n8n   # after reading rel
 
 ## Related
 - [[n8n]]
+- [[n8n - Managing Multiple Client Instances]] — per-client hardening across a fleet
 - [[n8n - Queue Mode & Scaling]] — process topology, Redis, workers
 - [[n8n - Error Handling & Workflow Patterns]] — error workflows, retries
 - [[Cloudflare - Zero Trust Tunnel & Access]] — protecting the editor

@@ -75,13 +75,12 @@ declare
   v_actor uuid := coalesce(
     nullif(current_setting('request.jwt.claim.sub', true), '')::uuid,     -- PostgREST / Supabase
     nullif(current_setting('app.actor', true), '')::uuid);                -- workers, n8n, scripts
-  v_old jsonb := case when tg_op <> 'INSERT' then to_jsonb(old) end;
-  v_new jsonb := case when tg_op <> 'DELETE' then to_jsonb(new) end;
+  v_old jsonb := case when tg_op <> 'INSERT' then to_jsonb(old) - array['password_hash','ic_number'] end;   -- redact first
+  v_new jsonb := case when tg_op <> 'DELETE' then to_jsonb(new) - array['password_hash','ic_number'] end;
 begin
   insert into audit.log (actor, table_name, op, row_pk, old_data, new_data, changed)
   values (v_actor, tg_table_name, tg_op, coalesce(v_new->>'id', v_old->>'id'),
-          v_old - array['password_hash','ic_number'],           -- redact sensitive columns
-          v_new - array['password_hash','ic_number'],
+          v_old, v_new,
           case when tg_op = 'UPDATE' then
             (select jsonb_object_agg(k, v_new->k) from jsonb_object_keys(v_new) k
              where v_new->k is distinct from v_old->k) end);

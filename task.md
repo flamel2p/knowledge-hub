@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-16 (T322)
+Last run: 2026-11-16 (T323)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -404,7 +404,7 @@ Last run: 2026-11-16 (T322)
 - [x] T320 | deep-dive | Flutter - Supabase Integration, Auth & Realtime | 03 - Mobile/Flutter/Flutter - Supabase Integration, Auth & Realtime.md | ✅ 2026-11-16
 - [x] T321 | deep-dive | Supabase - Usage, Cost Control & Plan Limits | 04 - Backend/Supabase/Supabase - Usage, Cost Control & Plan Limits.md | ✅ 2026-11-16
 - [x] T322 | deep-dive | PostgreSQL - Audit Logging & Change History | 05 - Databases/PostgreSQL/PostgreSQL - Audit Logging & Change History.md | ✅ 2026-11-16
-- [ ] T323 | deep-dive | n8n - Managing Multiple Client Instances | 08 - Automation/n8n/n8n - Managing Multiple Client Instances.md
+- [x] T323 | deep-dive | n8n - Managing Multiple Client Instances | 08 - Automation/n8n/n8n - Managing Multiple Client Instances.md | ✅ 2026-11-16
 - [ ] T324 | deep-dive | Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates | 07 - DevOps & Infrastructure/Traefik/Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates.md
 - [ ] T325 | deep-dive | Next.js - Background Jobs, Cron & Long-Running Tasks | 02 - Frontend/Next.js/Next.js - Background Jobs, Cron & Long-Running Tasks.md
 - [ ] T326 | deep-dive | Linux Essentials - Backups with restic & Off-Site Storage | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Backups with restic & Off-Site Storage.md
