@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-13
+updated: 2026-11-16
 parent: "[[00 - Home]]"
 ---
 
@@ -34,6 +34,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - Maps, Location & Geofencing]]
   - [[Flutter - Accessibility & Semantics]]
   - [[Flutter - Animations & Motion]]
+  - [[Flutter - Supabase Integration, Auth & Realtime]]
 - [[React Native]] — React native views, New Architecture only (0.82+), Expo/EAS
   - [[React Native - New Architecture]]
   - [[React Native - Expo Router & EAS Builds]]

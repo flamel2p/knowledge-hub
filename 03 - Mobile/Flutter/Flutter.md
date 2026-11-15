@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-11-13
+updated: 2026-11-16
 version_checked: "3.47 / Dart 3.13 (2026-08) — 2026-10"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -185,6 +185,7 @@ my_app/
 - [[Flutter - Maps, Location & Geofencing]] — maps options + 2025 Google pricing caps, permission levels, server-side PostGIS geofences, spoofing, background-location policy, PDPA
 - [[Flutter - Accessibility & Semantics]] — semantics tree, labels, text scaling, tap targets, contrast, a11y tests
 - [[Flutter - Animations & Motion]] — implicit vs explicit, Hero, Lottie/Rive, Impeller jank, reduce motion
+- [[Flutter - Supabase Integration, Auth & Realtime]] — supabase_flutter init, auth-driven routing, native Apple/Google sign-in, realtime cleanup, v3 upgrade
 
 ## Related
 - [[Dart]] — the language

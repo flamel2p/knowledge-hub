@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-14 (T319)
+Last run: 2026-11-16 (T320)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -401,7 +401,7 @@ Last run: 2026-11-14 (T319)
 
 ### Wave 22 — Flutter+Supabase, cost control, audit trails, multi-instance n8n, custom domains, jobs, backups, Redis ops, support agents, edge logs
 
-- [ ] T320 | deep-dive | Flutter - Supabase Integration, Auth & Realtime | 03 - Mobile/Flutter/Flutter - Supabase Integration, Auth & Realtime.md
+- [x] T320 | deep-dive | Flutter - Supabase Integration, Auth & Realtime | 03 - Mobile/Flutter/Flutter - Supabase Integration, Auth & Realtime.md | ✅ 2026-11-16
 - [ ] T321 | deep-dive | Supabase - Usage, Cost Control & Plan Limits | 04 - Backend/Supabase/Supabase - Usage, Cost Control & Plan Limits.md
 - [ ] T322 | deep-dive | PostgreSQL - Audit Logging & Change History | 05 - Databases/PostgreSQL/PostgreSQL - Audit Logging & Change History.md
 - [ ] T323 | deep-dive | n8n - Managing Multiple Client Instances | 08 - Automation/n8n/n8n - Managing Multiple Client Instances.md
