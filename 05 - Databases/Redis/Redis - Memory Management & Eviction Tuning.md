@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/redis, topic/memory, topic/operations]
 status: draft
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-16
 version_checked: "Redis 8.10.x · Valkey 8–9 (same maxmemory/eviction model; Valkey 8 reduced per-key overhead) — 2026-11"
 parent: "[[Redis]]"
 related: ["[[Redis - Caching Patterns & Invalidation]]", "[[Redis - Persistence & High Availability]]", "[[Redis - Rate Limiting & Distributed Locks]]", "[[Message Queues - BullMQ in Production]]", "[[Docker - Logging, Metrics & Resource Limits on a VPS]]", "[[Valkey]]"]
@@ -163,6 +163,7 @@ await redis.set(`cache:menu:${tenantId}`, json, 'EX', ttl);
 
 ## Related
 - [[Redis]]
+- [[Redis - Observability, Slow Log & Latency Troubleshooting]] — latency and memory troubleshooting
 - [[Redis - Caching Patterns & Invalidation]] — TTLs, stampede protection, invalidation
 - [[Redis - Persistence & High Availability]] — fork behaviour, AOF/RDB
 - [[Redis - Rate Limiting & Distributed Locks]] — state that must not be evicted
