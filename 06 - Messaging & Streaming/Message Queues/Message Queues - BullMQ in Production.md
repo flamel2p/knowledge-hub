@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/deep-dive, topic/message-queues, topic/bullmq, topic/redis, lang/typescript]
 status: draft
 created: 2026-10-17
-updated: 2026-10-27
+updated: 2026-11-16
 version_checked: "BullMQ 5.x (v6 unconfirmed) · Redis 8.10 — 2026-10"
 parent: "[[Message Queues]]"
 related: ["[[Redis]]", "[[Redis - Persistence & High Availability]]", "[[Node.js]]", "[[n8n - Queue Mode & Scaling]]", "[[REST API - Webhooks & Idempotency]]", "[[Docker]]"]
@@ -210,6 +210,7 @@ await new FlowProducer({ connection }).add({
 
 ## Related
 - [[Message Queues]]
+- [[Next.js - Background Jobs, Cron & Long-Running Tasks]] — Next.js web + worker pattern
 - [[Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS]] — when BullMQ vs pgmq, NATS or RabbitMQ
 - [[Redis]] — data structures, memory, `noeviction`
 - [[Redis - Persistence & High Availability]] — AOF, Sentinel, failover behaviour

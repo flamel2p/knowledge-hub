@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/security, topic/access-control, lang/sql]
 status: draft
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-16
 version_checked: "PostgreSQL 15 (PUBLIC CREATE on public schema revoked) · 14 (pg_read_all_data) · 17 (pg_maintain) · 18 (MD5 passwords deprecated) — 2026-11"
 parent: "[[PostgreSQL]]"
 related: ["[[Supabase - Row Level Security]]", "[[Supabase - Database Functions, Triggers & RPC]]", "[[PostgreSQL - Connection Pooling with Supavisor & PgBouncer]]", "[[Authentication & Authorization - Multi-Tenant Authorization with RLS]]", "[[n8n - Security, Credentials & Self-Hosting Hardening]]", "[[CI-CD - Secrets Management with SOPS & Infisical]]"]
@@ -174,6 +174,7 @@ hostssl  app  reporting_ro 100.64.0.0/10 scram-sha-256   # tailnet only
 
 ## Related
 - [[PostgreSQL]]
+- [[PostgreSQL - Audit Logging & Change History]] — append-only audit trails
 - [[Supabase - Row Level Security]] — row-level rules on top of privileges
 - [[Supabase - Database Functions, Triggers & RPC]] — function execution rights and definer risks
 - [[PostgreSQL - Connection Pooling with Supavisor & PgBouncer]] — per-role pools and auth

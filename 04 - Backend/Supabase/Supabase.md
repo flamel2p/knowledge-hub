@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/baas]
 status: draft
 created: 2026-10-06
-updated: 2026-11-14
+updated: 2026-11-16
 version_checked: "Platform — publishable/secret keys, JWT signing keys; legacy anon/service_role removal \"late 2026, TBC\" — re-checked 2026-11-14"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
@@ -188,6 +188,7 @@ supabase db push                    # apply to linked project (CI)
 - [[Supabase - Performance Tuning & Advisors]] — advisors workflow, RLS initplan fix, pg_stat_statements + index_advisor, lean PostgREST queries, timeouts, IO limits before compute upgrades
 - [[Supabase - Self-Hosting with Docker & Coolify]] — official compose stack, Envoy gateway switch (Aug 2026), new keys, private Studio, R2 storage + WAL backups, Cloud vs self-host economics
 - [[Supabase - Webhooks, pg_net & External Integrations]] — Database Webhooks vs pg_net vs outbox+pgmq relay, signing, Vault secrets, failure inspection
+- [[Supabase - Usage, Cost Control & Plan Limits]] — org vs project billing, spend cap, egress/disk drivers, client billing structure
 
 ## Related
 - [[PostgreSQL]] — the database underneath

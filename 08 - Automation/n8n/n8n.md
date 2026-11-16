@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/overview, topic/n8n]
 status: draft
 created: 2026-10-03
-updated: 2026-11-14
+updated: 2026-11-16
 version_checked: "2.47.x stable · 2.48 beta (docs snapshot) — re-checked 2026-11-14"
 parent: "[[Automation MOC]]"
 related: ["[[Redis]]", "[[PostgreSQL]]", "[[Docker]]", "[[Coolify]]", "[[Windmill]]", "[[AI Agents]]"]
@@ -190,6 +190,7 @@ N8N_PROXY_HOPS=1                       # behind Traefik/Cloudflare
 - [[n8n - Testing, Versioning & Deploying Workflows]] — Save vs Publish, git via CLI/API export, dev→staging→prod promotion, drift checks, staging E2E tests, secrets in workflow JSON
 - [[n8n - Binary Data, Files & Data Tables]] — binary modes (database/filesystem/s3) and queue-mode limits, upload-early-pass-keys pattern, pruning, Data Tables 50 MB cap and fit
 - [[n8n - Monitoring, Metrics & Alerting]] — healthz/readiness, Prometheus + queue metrics, deduped error-workflow alerts, business heartbeats for silent failures, private /metrics
+- [[n8n - Managing Multiple Client Instances]] — tenancy models, fleet inventory, staged upgrades, per-client keys, license boundaries
 
 ## Related
 - [[Redis]] — queue-mode broker

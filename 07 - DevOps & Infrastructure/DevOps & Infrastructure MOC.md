@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-13
+updated: 2026-11-16
 parent: "[[00 - Home]]"
 ---
 
@@ -35,6 +35,7 @@ parent: "[[00 - Home]]"
   - [[Traefik - Middlewares, TLS & Routing]]
   - [[Traefik - Observability & Troubleshooting]]
   - [[Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing]]
+  - [[Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates]]
 - [[Cloudflare]] — DNS/CDN/WAF edge, Tunnel + Access, R2 zero-egress, Workers; 2025 global outages = concentration risk
   - [[Cloudflare - Zero Trust Tunnel & Access]]
   - [[Cloudflare - R2 Storage & Presigned Uploads]]
@@ -43,6 +44,7 @@ parent: "[[00 - Home]]"
   - [[Cloudflare - Caching Rules, CDN & Cache Purging]]
   - [[Cloudflare - Turnstile & Bot Protection for Forms]]
   - [[Cloudflare - KV, D1 & Durable Objects for Edge State]]
+  - [[Cloudflare - Logs, Analytics & Security Events]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
   - [[Git - Monorepo Workflows with pnpm & Turborepo]]
@@ -50,6 +52,7 @@ parent: "[[00 - Home]]"
   - [[Linux Essentials - VPS Hardening Runbook]]
   - [[Linux Essentials - systemd, Logs & Troubleshooting]]
   - [[Linux Essentials - Networking, Firewalls & Tailscale]]
+  - [[Linux Essentials - Backups with restic & Off-Site Storage]]
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
   - [[CI-CD - GitHub Actions Security Hardening]]
   - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]

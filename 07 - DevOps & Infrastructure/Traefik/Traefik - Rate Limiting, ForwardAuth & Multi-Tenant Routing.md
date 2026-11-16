@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/traefik, topic/rate-limiting, topic/auth, topic/multi-tenant]
 status: draft
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-16
 version_checked: "Traefik v3.7.x/3.8 docs — rateLimit `redis` option (distributed, OSS) · ForwardAuth CVE-2026-35051 fixed 3.6.14 · HTTPRoute injection CVE-2026-29777 fixed 3.6.10 — 2026-11"
 parent: "[[Traefik]]"
 related: ["[[Traefik - Middlewares, TLS & Routing]]", "[[Traefik - Observability & Troubleshooting]]", "[[Redis - Rate Limiting & Distributed Locks]]", "[[Next.js - Middleware, Auth & Multi-Tenant Routing]]", "[[Cloudflare - Zero Trust Tunnel & Access]]", "[[System Design - Multi-Tenant SaaS Architecture]]"]
@@ -178,6 +178,7 @@ http:
 
 ## Related
 - [[Traefik]]
+- [[Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates]] — certificates for tenant domains
 - [[Traefik - Middlewares, TLS & Routing]] — middleware basics, TLS resolvers
 - [[Traefik - Observability & Troubleshooting]] — access logs and metrics for tuning
 - [[Redis - Rate Limiting & Distributed Locks]] — app-level per-user/tenant limits
