@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-17 (T337)
+Last run: 2026-11-17 (T338)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -422,7 +422,7 @@ Last run: 2026-11-17 (T337)
 - [x] T335 | deep-dive | PostgreSQL - Locking, Deadlocks & Concurrency Control | 05 - Databases/PostgreSQL/PostgreSQL - Locking, Deadlocks & Concurrency Control.md | ✅ 2026-11-17
 - [x] T336 | deep-dive | n8n - Forms, Approvals & Human-in-the-Loop Workflows | 08 - Automation/n8n/n8n - Forms, Approvals & Human-in-the-Loop Workflows.md | ✅ 2026-11-17
 - [x] T337 | deep-dive | Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys | 07 - DevOps & Infrastructure/Docker/Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys.md | ✅ 2026-11-17
-- [ ] T338 | deep-dive | Coolify - Server Migration & Disaster Recovery | 07 - DevOps & Infrastructure/Coolify/Coolify - Server Migration & Disaster Recovery.md
+- [x] T338 | deep-dive | Coolify - Server Migration & Disaster Recovery | 07 - DevOps & Infrastructure/Coolify/Coolify - Server Migration & Disaster Recovery.md | ✅ 2026-11-17
 - [ ] T339 | deep-dive | LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM.md
 - [ ] T340 | deep-dive | TypeScript - Supabase Generated Types & Typed Queries | 01 - Languages/TypeScript/TypeScript - Supabase Generated Types & Typed Queries.md
 - [ ] T341 | deep-dive | Authentication & Authorization - Session Management & Account Recovery | 10 - Security/Authentication & Authorization/Authentication & Authorization - Session Management & Account Recovery.md

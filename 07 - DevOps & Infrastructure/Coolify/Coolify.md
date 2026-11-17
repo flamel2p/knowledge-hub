@@ -174,6 +174,7 @@ volumes: { pgdata: {} }
 - [[Coolify - Multi-Server, Build Servers & Scaling]] — scaling ladder, build servers, multi-server + external LB, stateless checklist, Swarm deprecation
 - [[Coolify - Preview Deployments, Environments & Secrets]] — projects/environments, preview variable groups, shared variables, build vs runtime flags, BuildKit secrets, wildcard TLS and gating
 - [[Coolify - One-Click Services & Compose Deployments]] — resource types, magic variables, hardened n8n compose example, domains only on UIs, volume backups templates don't do
+- [[Coolify - Server Migration & Disaster Recovery]] — APP_KEY escrow, control-plane restore, data migration, DNS cutover, RPO/RTO tiers, DR drills
 
 ## Related
 - [[Docker]] — runtime underneath
