@@ -6,8 +6,8 @@ domain: devops
 tags: [domain/devops, type/overview, topic/docker]
 status: draft
 created: 2026-10-03
-updated: 2026-11-13
-version_checked: "Engine 29.x · Compose v2 — 2026-10"
+updated: 2026-11-17
+version_checked: "Engine 29.9.1 (2026-10-14, security fixes) · no Engine 30 yet · Compose v2 — re-checked 2026-11-17"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Coolify]]", "[[Kubernetes]]", "[[Traefik]]", "[[Linux Essentials]]", "[[CI-CD]]"]
 ---
@@ -171,9 +171,10 @@ service/
 | Engine 28 | 2025-02 | Firewall/iptables hardening, GPU/CDI improvements | Stricter default networking rules can break hacks relying on cross-bridge access |
 | Engine 29 | 2025-11 | containerd image store default for new installs, nftables work | **Min API version raised (1.44)**: old clients, including Traefik < 3.6.1's Docker provider, broke. Upgrade clients before the Engine |
 | Engine 29.3.1 | 2026-04 | Fix for CVE-2026-34040 | Upgrade if you use authorization plugins |
+| **Engine 29.9.1** | 2026-10-14 | Latest patch, includes security fixes | Patch hosts (`apt upgrade docker-ce`). Engine 29 and 25 are the supported lines per lifecycle trackers |
 
 > [!warning] Unverified — check before relying on this
-> Exact Engine 28/29 release months, current 29.x patch and Docker Hub rate-limit numbers weren't verified this run. Check https://docs.docker.com/engine/release-notes/.
+> Engine 29.9.1 (2026-10-14) is from the official release notes. Engine 28 release month, the support-line claim (third-party tracker) and Docker Hub rate-limit numbers weren't verified. Check https://docs.docker.com/engine/release-notes/.
 
 ## Critical Issues & Gotchas
 > [!danger] runc container escapes (Nov 2025)

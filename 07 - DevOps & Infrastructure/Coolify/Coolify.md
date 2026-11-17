@@ -6,8 +6,8 @@ domain: devops
 tags: [domain/devops, type/overview, topic/coolify]
 status: draft
 created: 2026-10-03
-updated: 2026-11-10
-version_checked: "4.3.x (4.0.0 stable 2026) — 2026-10"
+updated: 2026-11-17
+version_checked: "4.4.x–4.6.0 (changelog tops at 4.6.0, undated) — re-checked 2026-11-17"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[CI-CD]]"]
 ---
@@ -139,10 +139,12 @@ volumes: { pgdata: {} }
 | v4 beta | 2023-11 → 2026 | Laravel rewrite, multi-server, Traefik/Caddy, compose, previews | ~470 beta releases. Security fixes landed in late betas (466, 471) |
 | **4.0.0** | 2026 (spring) | First stable v4, rolling up the Jan 2026 critical CVE fixes | Upgrade from any beta |
 | 4.2.0 | 2026-07-21 | Volume backup scheduling, expanded API, resource migration, registry config, tags, **audit logging** | Breaking changes to **team permissions and API endpoints**. Update API clients/scripts |
-| 4.3.x | 2026-09 | Current line | Check release notes per patch |
+| 4.3.x | 2026-09 | Security patch: reduced remotely callable Livewire API (4.3.15) | Upgrade off older 4.3 patches |
+| 4.4.x | 2026-10 | Optional Cloudflare proxy mode for new DNS records. Database proxy fix after IP changes | — |
+| **4.6.0** | 2026 (undated on changelog) | Lockfile-based GitHub workflows, new release process, **preview channel** for betas/RCs | Breaking: workflows must use the lockfile. Stay on the stable channel for client servers |
 
 > [!warning] Unverified — check before relying on this
-> The 4.0.0 stable month and current 4.3.x patch number came from secondary sources. Check https://github.com/coollabsio/coolify/releases.
+> The 4.0.0 stable month, 4.4/4.6 release dates and whether 4.6.0 is stable (vs preview) came from the changelog page and newreleases.io mirrors without dates. Check https://github.com/coollabsio/coolify/releases.
 
 ## Critical Issues & Gotchas
 > [!danger] Jan 2026: 11 critical CVEs (several CVSS 10.0)

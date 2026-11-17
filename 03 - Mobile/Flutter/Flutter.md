@@ -6,8 +6,8 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-11-16
-version_checked: "3.47 / Dart 3.13 (2026-08) — 2026-10"
+updated: 2026-11-17
+version_checked: "3.47 / Dart 3.13 (2026-08) latest confirmed · Dart 3.14 released 2026-11-11 · Flutter 3.50 release-notes page exists, GA unconfirmed — re-checked 2026-11-17"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
 ---
@@ -147,10 +147,11 @@ my_app/
 | 3.29 / Dart 3.7 | 2025-02 | Web HTML renderer removed, new Dart formatter | Web apps must use CanvasKit/Skwasm |
 | 3.38 / Dart 3.10 | 2025-11-12 | iOS 26 / Xcode 26 support, dot shorthands | — |
 | 3.41 / Dart 3.11 | 2026-02-11 | Quarterly-release cadence begins | — |
-| **3.47 / Dart 3.13** | 2026-08-19 | Latest stable | Check the breaking-changes page before upgrading |
+| 3.47 / Dart 3.13 | 2026-08-19 | Stable | Check the breaking-changes page before upgrading |
+| **3.50 / Dart 3.14** | 2026-11 (Dart 3.14 out 2026-11-11) | Quarterly release. Official 3.50.0 release-notes page published | Confirm GA on flutter-announce. Pair with supabase_flutter v3 and the CocoaPods read-only date (2026-12-02) when planning upgrades |
 
 > [!warning] Unverified — check before relying on this
-> The exact feature lists of 3.41–3.47 and current store deadlines weren't verified this run. Check https://docs.flutter.dev/release/breaking-changes and Play/App Store policy pages.
+> The Flutter 3.50 GA date and contents weren't confirmed (only a release-notes stub was indexed on 2026-11-17). The exact feature lists of 3.41–3.47 and current store deadlines weren't verified either. Check https://docs.flutter.dev/release/breaking-changes and Play/App Store policy pages.
 
 ## Critical Issues & Gotchas
 > [!danger] App-store compliance deadlines break releases
