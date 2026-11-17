@@ -203,6 +203,7 @@ service/
 - [[Docker - Logging, Metrics & Resource Limits on a VPS]] — local log driver, cgroup v2 limits sized to runtimes, OOM triage, Alloy/Loki (Promtail EOL), lightweight monitoring tiers
 - [[Docker - Image Scanning, SBOMs & Signing]] — SBOM + provenance, fixable-only gates, cosign keyless + verify before deploy by digest, Trivy 2026 supply-chain compromise lessons
 - [[Docker - Multi-Architecture Builds for ARM & x86]] — buildx, manifest lists, native ARM runners vs QEMU, exec format error
+- [[Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys]] — health endpoints, restart policies, graceful SIGTERM, rolling deploys, expand/contract migrations
 
 ## Related
 - [[Coolify]] — PaaS layer on top of Docker in ZP's stack
