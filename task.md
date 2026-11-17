@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-17 (T330)
+Last run: 2026-11-17 (T331)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -412,4 +412,19 @@ Last run: 2026-11-17 (T330)
 - [x] T328 | deep-dive | AI Agents - Customer Support Agents for WhatsApp & Messaging | 13 - AI Engineering/AI Agents/AI Agents - Customer Support Agents for WhatsApp & Messaging.md | ✅ 2026-11-16
 - [x] T329 | deep-dive | Cloudflare - Logs, Analytics & Security Events | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Logs, Analytics & Security Events.md | ✅ 2026-11-16
 - [x] T330 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-17
-- [ ] T331 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T331 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-17
+
+### Wave 23 — DB tests, mobile uploads, admin tables, locking, n8n approvals, zero-downtime, DR, local LLMs, typed queries, sessions
+
+- [ ] T332 | deep-dive | Supabase - Database Testing with pgTAP & Policy Tests | 04 - Backend/Supabase/Supabase - Database Testing with pgTAP & Policy Tests.md
+- [ ] T333 | deep-dive | Flutter - Camera, Image Picking & File Uploads | 03 - Mobile/Flutter/Flutter - Camera, Image Picking & File Uploads.md
+- [ ] T334 | deep-dive | Next.js - Admin Dashboards, Data Tables & Server-Side Filtering | 02 - Frontend/Next.js/Next.js - Admin Dashboards, Data Tables & Server-Side Filtering.md
+- [ ] T335 | deep-dive | PostgreSQL - Locking, Deadlocks & Concurrency Control | 05 - Databases/PostgreSQL/PostgreSQL - Locking, Deadlocks & Concurrency Control.md
+- [ ] T336 | deep-dive | n8n - Forms, Approvals & Human-in-the-Loop Workflows | 08 - Automation/n8n/n8n - Forms, Approvals & Human-in-the-Loop Workflows.md
+- [ ] T337 | deep-dive | Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys | 07 - DevOps & Infrastructure/Docker/Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys.md
+- [ ] T338 | deep-dive | Coolify - Server Migration & Disaster Recovery | 07 - DevOps & Infrastructure/Coolify/Coolify - Server Migration & Disaster Recovery.md
+- [ ] T339 | deep-dive | LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM.md
+- [ ] T340 | deep-dive | TypeScript - Supabase Generated Types & Typed Queries | 01 - Languages/TypeScript/TypeScript - Supabase Generated Types & Typed Queries.md
+- [ ] T341 | deep-dive | Authentication & Authorization - Session Management & Account Recovery | 10 - Security/Authentication & Authorization/Authentication & Authorization - Session Management & Account Recovery.md
+- [ ] T342 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T343 | replenish | Next 12 tasks per CLAUDE.md §9 | -
