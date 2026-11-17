@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/llm, topic/model-selection, topic/cost, lang/typescript]
 status: draft
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-11-17
 version_checked: "Claude lineup per cached model table 2026-10-06 (Fable 5.1 · Opus 5.5 · Sonnet 5.5 · Haiku 5.5) — 2026-10"
 parent: "[[LLM Fundamentals]]"
 related: ["[[LLM Fundamentals - Tokens, Context & Sampling]]", "[[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]", "[[LLM APIs & SDKs - Structured Outputs & Tool Schemas]]", "[[AI Evals & Observability - Tracing & Production Monitoring with Langfuse]]", "[[Fine-tuning LLMs]]", "[[AI Agents]]"]
@@ -167,6 +167,7 @@ const model = await askRouterModel(userMessage);
 
 ## Related
 - [[LLM Fundamentals]]
+- [[LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM]] — self-hosting open-weight models
 - [[LLM Fundamentals - Tokens, Context & Sampling]] — tokens, context, effort
 - [[LLM APIs & SDKs - Prompt Caching & Cost Optimization]] — cost levers per route
 - [[LLM APIs & SDKs - Structured Outputs & Tool Schemas]] — validators that drive escalation
