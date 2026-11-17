@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-17 (T335)
+Last run: 2026-11-17 (T336)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -420,7 +420,7 @@ Last run: 2026-11-17 (T335)
 - [x] T333 | deep-dive | Flutter - Camera, Image Picking & File Uploads | 03 - Mobile/Flutter/Flutter - Camera, Image Picking & File Uploads.md | ✅ 2026-11-17
 - [x] T334 | deep-dive | Next.js - Admin Dashboards, Data Tables & Server-Side Filtering | 02 - Frontend/Next.js/Next.js - Admin Dashboards, Data Tables & Server-Side Filtering.md | ✅ 2026-11-17
 - [x] T335 | deep-dive | PostgreSQL - Locking, Deadlocks & Concurrency Control | 05 - Databases/PostgreSQL/PostgreSQL - Locking, Deadlocks & Concurrency Control.md | ✅ 2026-11-17
-- [ ] T336 | deep-dive | n8n - Forms, Approvals & Human-in-the-Loop Workflows | 08 - Automation/n8n/n8n - Forms, Approvals & Human-in-the-Loop Workflows.md
+- [x] T336 | deep-dive | n8n - Forms, Approvals & Human-in-the-Loop Workflows | 08 - Automation/n8n/n8n - Forms, Approvals & Human-in-the-Loop Workflows.md | ✅ 2026-11-17
 - [ ] T337 | deep-dive | Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys | 07 - DevOps & Infrastructure/Docker/Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys.md
 - [ ] T338 | deep-dive | Coolify - Server Migration & Disaster Recovery | 07 - DevOps & Infrastructure/Coolify/Coolify - Server Migration & Disaster Recovery.md
 - [ ] T339 | deep-dive | LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM.md
