@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-16
+updated: 2026-11-17
 parent: "[[00 - Home]]"
 ---
 
@@ -23,11 +23,13 @@ parent: "[[00 - Home]]"
   - [[Docker - Logging, Metrics & Resource Limits on a VPS]]
   - [[Docker - Image Scanning, SBOMs & Signing]]
   - [[Docker - Multi-Architecture Builds for ARM & x86]]
+  - [[Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys]]
 - [[Coolify]] — self-hosted PaaS over SSH + Traefik; v4 stable, Jan 2026 critical CVEs
   - [[Coolify - Operations, Backups & Hardening]]
   - [[Coolify - Multi-Server, Build Servers & Scaling]]
   - [[Coolify - Preview Deployments, Environments & Secrets]]
   - [[Coolify - One-Click Services & Compose Deployments]]
+  - [[Coolify - Server Migration & Disaster Recovery]]
 - [[Kubernetes]] — declarative orchestrator; Gateway API over retired Ingress NGINX, cgroup v2 only, k3s for small VPS
   - [[Kubernetes - Core Objects]]
   - [[Kubernetes - k3s vs Coolify for Small Teams]]

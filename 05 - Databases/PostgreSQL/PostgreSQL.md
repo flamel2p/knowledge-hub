@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/postgresql]
 status: draft
 created: 2026-10-03
-updated: 2026-11-16
+updated: 2026-11-17
 version_checked: "18.7 (2026-11-12) · 19 RC2, GA planned 2026-11-19 · 14 EOL (final 14.25) — re-checked 2026-11-14"
 parent: "[[Databases MOC]]"
 related: ["[[Supabase]]", "[[Redis]]", "[[MySQL]]", "[[Vector Databases]]", "[[n8n]]"]
@@ -196,6 +196,7 @@ shared_preload_libraries = 'pg_stat_statements'
 - [[PostgreSQL - Major Version Upgrades & Migrations]] — pg_upgrade vs dump/restore vs logical replication, rehearsal + rollback, collation reindex, PG14 EOL (2026-11-12) and PG19 GA timing
 - [[PostgreSQL - Logical Replication & Change Data Capture]] — publications/slots/subscriptions, column lists and row filters, slot WAL retention risk, CDC vs outbox, failover slots (17)
 - [[PostgreSQL - Audit Logging & Change History]] — trigger-based JSONB audit, actor capture, pgaudit, partitioned retention, PII redaction
+- [[PostgreSQL - Locking, Deadlocks & Concurrency Control]] — row/table lock modes, SKIP LOCKED queues, deadlock ordering, advisory locks, lock_timeout migrations
 
 ## Related
 - [[Supabase]] — managed Postgres + Auth + RLS-first APIs

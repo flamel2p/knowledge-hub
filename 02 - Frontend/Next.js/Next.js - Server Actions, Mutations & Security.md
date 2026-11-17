@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/nextjs, topic/server-actions, topic/security, lang/typescript]
 status: draft
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-17
 version_checked: "Next.js 16.2.11+ / 15.5.21+ (CVE-2026-64641 fixes, 2026-07) · CVE-2026-27978 fixed 16.1.7 — 2026-11"
 parent: "[[Next.js]]"
 related: ["[[React - Forms, Actions & Optimistic UI]]", "[[Next.js - Middleware, Auth & Multi-Tenant Routing]]", "[[Next.js - Caching]]", "[[TypeScript - Runtime Validation with Zod & Type-Safe APIs]]", "[[OWASP Top 10 - API Security Top 10 in Practice]]", "[[Supabase - Row Level Security]]"]
@@ -193,6 +193,7 @@ export async function exportAll() { return db.from('customers').select('*'); }  
 
 ## Related
 - [[Next.js]]
+- [[Next.js - Admin Dashboards, Data Tables & Server-Side Filtering]] — admin bulk actions and tables
 - [[React - Forms, Actions & Optimistic UI]] — client side: `useActionState`, optimistic UI, progressive enhancement
 - [[Next.js - Middleware, Auth & Multi-Tenant Routing]] — sessions and tenant resolution the wrapper uses
 - [[Next.js - Caching]] — `updateTag`, `revalidateTag`, cache profiles

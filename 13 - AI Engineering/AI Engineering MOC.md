@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-16
+updated: 2026-11-17
 parent: "[[00 - Home]]"
 ---
 
@@ -53,6 +53,7 @@ parent: "[[00 - Home]]"
   - [[LLM APIs & SDKs - Structured Outputs & Tool Schemas]]
   - [[LLM APIs & SDKs - Batch Processing & Async Workloads]]
   - [[LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks]]
+  - [[LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
