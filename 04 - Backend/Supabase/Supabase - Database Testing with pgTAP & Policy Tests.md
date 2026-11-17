@@ -72,9 +72,10 @@ supabase/
 supabase start && supabase db reset    # apply migrations + seed
 supabase test db                       # runs all *.test.sql with pg_prove
 ```
-**Impersonation helpers** (plain SQL, no extension needed):
+**Impersonation helpers** (plain SQL, no extension needed). The `000-` file runs first and deliberately **commits** (no `begin … rollback`), so later files can use the helpers on the local/CI database:
 ```sql
--- in 000-setup-helpers (or a shared tests schema created in a migration used only locally)
+-- 000-setup-helpers.test.sql
+create extension if not exists pgtap with schema extensions;
 create schema if not exists tests;
 create or replace function tests.authenticate_as(p_user uuid, p_tenant uuid) returns void
 language plpgsql as $$
@@ -87,6 +88,7 @@ end $$;
 create or replace function tests.clear_auth() returns void language sql as $$
   select set_config('role', 'postgres', true), set_config('request.jwt.claims', null, true);
 $$;
+select plan(1); select ok(true, 'helpers installed'); select * from finish();
 ```
 **RLS isolation test** (`010-rls-orders.test.sql`):
 ```sql

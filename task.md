@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-17 (T332)
+Last run: 2026-11-17 (T333)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -417,7 +417,7 @@ Last run: 2026-11-17 (T332)
 ### Wave 23 — DB tests, mobile uploads, admin tables, locking, n8n approvals, zero-downtime, DR, local LLMs, typed queries, sessions
 
 - [x] T332 | deep-dive | Supabase - Database Testing with pgTAP & Policy Tests | 04 - Backend/Supabase/Supabase - Database Testing with pgTAP & Policy Tests.md | ✅ 2026-11-17
-- [ ] T333 | deep-dive | Flutter - Camera, Image Picking & File Uploads | 03 - Mobile/Flutter/Flutter - Camera, Image Picking & File Uploads.md
+- [x] T333 | deep-dive | Flutter - Camera, Image Picking & File Uploads | 03 - Mobile/Flutter/Flutter - Camera, Image Picking & File Uploads.md | ✅ 2026-11-17
 - [ ] T334 | deep-dive | Next.js - Admin Dashboards, Data Tables & Server-Side Filtering | 02 - Frontend/Next.js/Next.js - Admin Dashboards, Data Tables & Server-Side Filtering.md
 - [ ] T335 | deep-dive | PostgreSQL - Locking, Deadlocks & Concurrency Control | 05 - Databases/PostgreSQL/PostgreSQL - Locking, Deadlocks & Concurrency Control.md
 - [ ] T336 | deep-dive | n8n - Forms, Approvals & Human-in-the-Loop Workflows | 08 - Automation/n8n/n8n - Forms, Approvals & Human-in-the-Loop Workflows.md

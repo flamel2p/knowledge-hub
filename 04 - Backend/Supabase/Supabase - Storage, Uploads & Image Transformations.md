@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/supabase, topic/storage, topic/uploads, lang/typescript]
 status: draft
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-17
 version_checked: "Supabase Storage (platform) — transforms Pro+, ≤2500 px, ≤25 MB, ≤50 MP · signed URLs embed transforms — 2026-11"
 parent: "[[Supabase]]"
 related: ["[[Supabase - Row Level Security]]", "[[Cloudflare - R2 Storage & Presigned Uploads]]", "[[Supabase - Auth Flows, MFA & Custom Claims]]", "[[Next.js - Server Actions, Mutations & Security]]", "[[Flutter - Offline Storage & Sync]]", "[[Supabase - Edge Functions, Cron & Queues]]"]
@@ -177,6 +177,7 @@ supabase.storage.from('receipts').upload(`${form.tenantId}/${form.name}`, file);
 
 ## Related
 - [[Supabase]]
+- [[Flutter - Camera, Image Picking & File Uploads]] — Flutter client uploads
 - [[Supabase - Row Level Security]] — policy patterns reused on `storage.objects`
 - [[Cloudflare - R2 Storage & Presigned Uploads]] — zero-egress alternative for public media and backups
 - [[Supabase - Auth Flows, MFA & Custom Claims]] — tenant claims used in storage policies

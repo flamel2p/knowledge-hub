@@ -187,6 +187,7 @@ my_app/
 - [[Flutter - Accessibility & Semantics]] — semantics tree, labels, text scaling, tap targets, contrast, a11y tests
 - [[Flutter - Animations & Motion]] — implicit vs explicit, Hero, Lottie/Rive, Impeller jank, reduce motion
 - [[Flutter - Supabase Integration, Auth & Realtime]] — supabase_flutter init, auth-driven routing, native Apple/Google sign-in, realtime cleanup, v3 upgrade
+- [[Flutter - Camera, Image Picking & File Uploads]] — image_picker/camera/file_picker, on-device compression, signed uploads, Play media policy
 
 ## Related
 - [[Dart]] — the language
