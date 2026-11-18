@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-19 (T346)
+Last run: 2026-11-19 (T347)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -434,7 +434,7 @@ Last run: 2026-11-19 (T346)
 - [x] T344 | deep-dive | n8n - MyInvois e-Invoicing Integration | 08 - Automation/n8n/n8n - MyInvois e-Invoicing Integration.md | ✅ 2026-11-18
 - [x] T345 | deep-dive | Supabase - Data Retention, PDPA & Account Deletion | 04 - Backend/Supabase/Supabase - Data Retention, PDPA & Account Deletion.md | ✅ 2026-11-19
 - [x] T346 | deep-dive | PostgreSQL - Reporting Queries, Window Functions & Materialized Views | 05 - Databases/PostgreSQL/PostgreSQL - Reporting Queries, Window Functions & Materialized Views.md | ✅ 2026-11-19
-- [ ] T347 | deep-dive | Next.js - Performance Profiling & Bundle Optimization | 02 - Frontend/Next.js/Next.js - Performance Profiling & Bundle Optimization.md
+- [x] T347 | deep-dive | Next.js - Performance Profiling & Bundle Optimization | 02 - Frontend/Next.js/Next.js - Performance Profiling & Bundle Optimization.md | ✅ 2026-11-19
 - [ ] T348 | deep-dive | Flutter - Web Support, PWA & Desktop Trade-offs | 03 - Mobile/Flutter/Flutter - Web Support, PWA & Desktop Trade-offs.md
 - [ ] T349 | deep-dive | n8n - Google Workspace & Sheets Integrations | 08 - Automation/n8n/n8n - Google Workspace & Sheets Integrations.md
 - [ ] T350 | deep-dive | AI Agents - Document Processing & Invoice Extraction | 13 - AI Engineering/AI Agents/AI Agents - Document Processing & Invoice Extraction.md
