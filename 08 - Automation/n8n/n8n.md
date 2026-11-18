@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/overview, topic/n8n]
 status: draft
 created: 2026-10-03
-updated: 2026-11-17
+updated: 2026-11-18
 version_checked: "2.47.x stable · 2.48 beta (docs snapshot) — re-checked 2026-11-14"
 parent: "[[Automation MOC]]"
 related: ["[[Redis]]", "[[PostgreSQL]]", "[[Docker]]", "[[Coolify]]", "[[Windmill]]", "[[AI Agents]]"]
@@ -192,6 +192,7 @@ N8N_PROXY_HOPS=1                       # behind Traefik/Cloudflare
 - [[n8n - Monitoring, Metrics & Alerting]] — healthz/readiness, Prometheus + queue metrics, deduped error-workflow alerts, business heartbeats for silent failures, private /metrics
 - [[n8n - Managing Multiple Client Instances]] — tenancy models, fleet inventory, staged upgrades, per-client keys, license boundaries
 - [[n8n - Forms, Approvals & Human-in-the-Loop Workflows]] — Form Trigger/Form node, Wait resume, Send and Wait approvals, signed links, escalation
+- [[n8n - MyInvois e-Invoicing Integration]] — MyInvois API flow, idempotent submission, signing, polling, QR links, 2026 scope caveats
 
 ## Related
 - [[Redis]] — queue-mode broker

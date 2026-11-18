@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-18 (T343)
+Last run: 2026-11-18 (T344)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -431,7 +431,7 @@ Last run: 2026-11-18 (T343)
 
 ### Wave 24 — e-Invoicing, PDPA deletion, reporting SQL, perf, Flutter web, Workspace, document AI, hardening, Pages, disk ops
 
-- [ ] T344 | deep-dive | n8n - MyInvois e-Invoicing Integration | 08 - Automation/n8n/n8n - MyInvois e-Invoicing Integration.md
+- [x] T344 | deep-dive | n8n - MyInvois e-Invoicing Integration | 08 - Automation/n8n/n8n - MyInvois e-Invoicing Integration.md | ✅ 2026-11-18
 - [ ] T345 | deep-dive | Supabase - Data Retention, PDPA & Account Deletion | 04 - Backend/Supabase/Supabase - Data Retention, PDPA & Account Deletion.md
 - [ ] T346 | deep-dive | PostgreSQL - Reporting Queries, Window Functions & Materialized Views | 05 - Databases/PostgreSQL/PostgreSQL - Reporting Queries, Window Functions & Materialized Views.md
 - [ ] T347 | deep-dive | Next.js - Performance Profiling & Bundle Optimization | 02 - Frontend/Next.js/Next.js - Performance Profiling & Bundle Optimization.md

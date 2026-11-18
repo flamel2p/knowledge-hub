@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-17
+updated: 2026-11-18
 parent: "[[00 - Home]]"
 ---
 
@@ -28,6 +28,7 @@ parent: "[[00 - Home]]"
   - [[n8n - Monitoring, Metrics & Alerting]]
   - [[n8n - Managing Multiple Client Instances]]
   - [[n8n - Forms, Approvals & Human-in-the-Loop Workflows]]
+  - [[n8n - MyInvois e-Invoicing Integration]]
 - [[Windmill]] — code-first scripts/flows/apps on Rust + Postgres queue; AGPL/EE licensing nuance; complements n8n
   - [[Windmill - Windmill vs n8n Architecture Decision]]
   - [[Windmill - Worker Groups & Sandboxing]]
