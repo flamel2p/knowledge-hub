@@ -94,9 +94,10 @@ export async function requestReset(form: FormData) {
 ```
 **Step-up for sensitive actions** (require recent auth + MFA):
 ```ts
-const { data: { session } } = await supabase.auth.getSession();
 const claims = (await supabase.auth.getClaims()).data?.claims;
-const recent = claims && Date.now() / 1000 - (claims.iat ?? 0) < 10 * 60;
+// iat changes on every refresh — use the authentication-method timestamps (amr) instead
+const lastAuth = Math.max(0, ...((claims?.amr ?? []) as { timestamp: number }[]).map((m) => m.timestamp));
+const recent = Date.now() / 1000 - lastAuth < 10 * 60;
 if (claims?.aal !== "aal2" || !recent) redirect("/auth/reauthenticate?next=/admin/export");
 ```
 **Recovery codes** (store hashed, single use):
