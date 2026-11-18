@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-19 (T348)
+Last run: 2026-11-19 (T349)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -436,7 +436,7 @@ Last run: 2026-11-19 (T348)
 - [x] T346 | deep-dive | PostgreSQL - Reporting Queries, Window Functions & Materialized Views | 05 - Databases/PostgreSQL/PostgreSQL - Reporting Queries, Window Functions & Materialized Views.md | ✅ 2026-11-19
 - [x] T347 | deep-dive | Next.js - Performance Profiling & Bundle Optimization | 02 - Frontend/Next.js/Next.js - Performance Profiling & Bundle Optimization.md | ✅ 2026-11-19
 - [x] T348 | deep-dive | Flutter - Web Support, PWA & Desktop Trade-offs | 03 - Mobile/Flutter/Flutter - Web Support, PWA & Desktop Trade-offs.md | ✅ 2026-11-19
-- [ ] T349 | deep-dive | n8n - Google Workspace & Sheets Integrations | 08 - Automation/n8n/n8n - Google Workspace & Sheets Integrations.md
+- [x] T349 | deep-dive | n8n - Google Workspace & Sheets Integrations | 08 - Automation/n8n/n8n - Google Workspace & Sheets Integrations.md | ✅ 2026-11-19
 - [ ] T350 | deep-dive | AI Agents - Document Processing & Invoice Extraction | 13 - AI Engineering/AI Agents/AI Agents - Document Processing & Invoice Extraction.md
 - [ ] T351 | deep-dive | Docker - Container Hardening, Rootless & Seccomp | 07 - DevOps & Infrastructure/Docker/Docker - Container Hardening, Rootless & Seccomp.md
 - [ ] T352 | deep-dive | Cloudflare - Pages & Workers Static Assets for Frontends | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Pages & Workers Static Assets for Frontends.md

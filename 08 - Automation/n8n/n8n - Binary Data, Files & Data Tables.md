@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/files, topic/storage]
 status: draft
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-19
 version_checked: "n8n 2.x — binary modes database/filesystem/s3 (filesystem unsupported in queue mode; S3 external storage needs a license) · Data Tables default 50 MB total, raise via N8N_DATA_TABLES_MAX_SIZE_BYTES — 2026-11"
 parent: "[[n8n]]"
 related: ["[[n8n - Queue Mode & Scaling]]", "[[n8n - WhatsApp Cloud API Workflows & Template Messaging]]", "[[Cloudflare - R2 Storage & Presigned Uploads]]", "[[Supabase - Storage, Uploads & Image Transformations]]", "[[RAG - Document Ingestion & PDF Parsing Pipelines]]", "[[n8n - Error Handling & Workflow Patterns]]"]
@@ -154,6 +154,7 @@ Cleanup: daily Schedule → delete rows older than 7 days
 
 ## Related
 - [[n8n]]
+- [[n8n - Google Workspace & Sheets Integrations]] — Sheets vs Data Tables
 - [[n8n - Queue Mode & Scaling]] — binary modes across main and workers
 - [[n8n - WhatsApp Cloud API Workflows & Template Messaging]] — media download flow
 - [[Cloudflare - R2 Storage & Presigned Uploads]] — durable, zero-egress file storage
