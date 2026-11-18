@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-12
+updated: 2026-11-18
 parent: "[[00 - Home]]"
 ---
 
@@ -20,6 +20,7 @@ parent: "[[00 - Home]]"
   - [[TypeScript - Advanced Types]]
   - [[TypeScript - Runtime Validation with Zod & Type-Safe APIs]]
   - [[TypeScript - Error Handling & Result Types]]
+  - [[TypeScript - Supabase Generated Types & Typed Queries]]
 - [[JavaScript]] — ECMAScript 2026, event loop, modules, npm supply-chain risks
   - [[JavaScript - Event Loop & Async]]
   - [[JavaScript - Modules, ESM-CJS Interop & Bundling]]
