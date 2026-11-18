@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/baas]
 status: draft
 created: 2026-10-06
-updated: 2026-11-17
+updated: 2026-11-19
 version_checked: "Platform — publishable/secret keys, JWT signing keys; legacy anon/service_role removal \"late 2026, TBC\" — re-checked 2026-11-14"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
@@ -190,6 +190,7 @@ supabase db push                    # apply to linked project (CI)
 - [[Supabase - Webhooks, pg_net & External Integrations]] — Database Webhooks vs pg_net vs outbox+pgmq relay, signing, Vault secrets, failure inspection
 - [[Supabase - Usage, Cost Control & Plan Limits]] — org vs project billing, spend cap, egress/disk drivers, client billing structure
 - [[Supabase - Database Testing with pgTAP & Policy Tests]] — pgTAP via supabase test db, impersonation helpers, negative RLS tests, schema guards, CI
+- [[Supabase - Data Retention, PDPA & Account Deletion]] — PDPA 2024 duties, retention rules + pg_cron purges, deletion/anonymization flow, exports, breach runbook
 
 ## Related
 - [[PostgreSQL]] — the database underneath
