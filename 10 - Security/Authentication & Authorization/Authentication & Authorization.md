@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/overview, topic/auth, topic/access-control]
 status: draft
 created: 2026-10-12
-updated: 2026-10-21
+updated: 2026-11-18
 version_checked: "NIST SP 800-63-4 (final 2025-07) · WebAuthn L3 · OWASP Top 10 2025 — 2026-10"
 parent: "[[Security MOC]]"
 related: ["[[OAuth 2.0 & OIDC]]", "[[JWT]]", "[[Supabase]]", "[[OWASP Top 10]]", "[[Network Security]]", "[[Web3 Wallets]]"]
@@ -199,6 +199,7 @@ export async function updateOrder(req: Request, id: string, patch: OrderPatch) {
 - [[Authentication & Authorization - Interview Questions]] — finance-app auth interview answer (reference)
 - [[Authentication & Authorization - Passkeys & WebAuthn]] — ceremonies, conditional UI, native apps, recovery
 - [[Authentication & Authorization - Multi-Tenant Authorization with RLS]] — RBAC tables, has_permission(), ABAC + sharing, when to adopt OpenFGA
+- [[Authentication & Authorization - Session Management & Account Recovery]] — timeouts by risk, rotation, revoke-on-change, step-up, reset flows, recovery codes, SIM swap
 
 ## Related
 - [[OAuth 2.0 & OIDC]] — delegated authorization and SSO

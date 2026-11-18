@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-18 (T340)
+Last run: 2026-11-18 (T341)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -425,6 +425,6 @@ Last run: 2026-11-18 (T340)
 - [x] T338 | deep-dive | Coolify - Server Migration & Disaster Recovery | 07 - DevOps & Infrastructure/Coolify/Coolify - Server Migration & Disaster Recovery.md | ✅ 2026-11-17
 - [x] T339 | deep-dive | LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM.md | ✅ 2026-11-17
 - [x] T340 | deep-dive | TypeScript - Supabase Generated Types & Typed Queries | 01 - Languages/TypeScript/TypeScript - Supabase Generated Types & Typed Queries.md | ✅ 2026-11-18
-- [ ] T341 | deep-dive | Authentication & Authorization - Session Management & Account Recovery | 10 - Security/Authentication & Authorization/Authentication & Authorization - Session Management & Account Recovery.md
+- [x] T341 | deep-dive | Authentication & Authorization - Session Management & Account Recovery | 10 - Security/Authentication & Authorization/Authentication & Authorization - Session Management & Account Recovery.md | ✅ 2026-11-18
 - [ ] T342 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T343 | replenish | Next 12 tasks per CLAUDE.md §9 | -
