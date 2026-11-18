@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/performance]
 status: draft
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-19
 version_checked: "PostgreSQL 18.x (19 beta) — 2026-10"
 parent: "[[PostgreSQL]]"
 related: ["[[PostgreSQL - Indexing]]", "[[PostgreSQL - Transactions & MVCC]]", "[[Supabase - Row Level Security]]", "[[Big O Notation]]", "[[Algorithms]]"]
@@ -172,6 +172,7 @@ analyze orders;
 
 ## Related
 - [[PostgreSQL]]
+- [[PostgreSQL - Reporting Queries, Window Functions & Materialized Views]] — reporting query patterns
 - [[PostgreSQL - Indexing]] — index types and design
 - [[PostgreSQL - Transactions & MVCC]] — vacuum, bloat, visibility map
 - [[Supabase - Row Level Security]] — policy cost in plans

@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-17
+updated: 2026-11-19
 parent: "[[00 - Home]]"
 ---
 
@@ -40,6 +40,7 @@ parent: "[[00 - Home]]"
   - [[PostgreSQL - Logical Replication & Change Data Capture]]
   - [[PostgreSQL - Audit Logging & Change History]]
   - [[PostgreSQL - Locking, Deadlocks & Concurrency Control]]
+  - [[PostgreSQL - Reporting Queries, Window Functions & Materialized Views]]
 - [[MySQL]] — InnoDB OLTP workhorse; 8.4 & 9.7 LTS, 8.0 EOL 2026-04, Oracle stewardship risk, Vitess sharding
   - [[MySQL - InnoDB Internals & Tuning]]
 - [[NoSQL]] — key-value/document/wide-column/graph families, CAP/PACELC, query-first modeling, MongoBleed, relicensing
