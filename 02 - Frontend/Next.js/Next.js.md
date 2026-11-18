@@ -6,8 +6,8 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/nextjs, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-11-17
-version_checked: "16.3.8 (Active LTS) · 15.5.27 (Maintenance LTS) — 2026-10"
+updated: 2026-11-18
+version_checked: "16.4.x (npm latest 16.4.6 per secondary source) · 15.5.29 backport · November 2026 security release (2026-11-03) — re-checked 2026-11-18"
 parent: "[[Frontend MOC]]"
 related: ["[[React]]", "[[TypeScript]]", "[[Supabase]]", "[[Coolify]]", "[[Docker]]"]
 ---
@@ -222,10 +222,12 @@ CMD ["node", "server.js"]
 | 15.5 | 2025-08 | Turbopack builds beta, typed routes, `next lint` deprecated | Becomes Maintenance LTS |
 | **16** | 2025-10-21 | Turbopack default (dev + build), Cache Components (`"use cache"`, PPR), `proxy.ts`, React Compiler stable, `updateTag`/`refresh`, Build Adapters alpha, React 19.2 | Sync access to async APIs removed. `middleware` → `proxy` (deprecated name). `revalidateTag` needs a `cacheLife` profile arg. `next lint` removed. AMP removed. Node ≥ 20.9. Image defaults changed |
 | 16.1–16.3 | 2026 | Incremental features + security fixes | 16.x = Active LTS |
-| **16.3.8 / 15.5.27** | 2026-09 | September security release | Upgrade now (see below) |
+| 16.3.8 / 15.5.27 | 2026-09 | September security release | Superseded |
+| 16.4 | 2026-10 | New minor (Oct 2026 blog post) | Read the upgrade notes |
+| **16.4.5 / 15.5.29** | 2026-11-03 | **November security release: 7 medium advisories**, incl. a reported cross-tenant cache leak | **Upgrade now**. npm `latest` reportedly 16.4.6 since 2026-11-09 |
 
 > [!warning] Unverified — check before relying on this
-> The feature content of 16.1–16.3 wasn't verified this run, because nextjs.org was unreachable. Check https://nextjs.org/blog before planning upgrades.
+> The 16.4.5/15.5.29/16.4.6 version numbers and the cross-tenant cache-leak detail come from a third-party write-up. The official blog confirms the 2026-11-03 security release (7 medium vulnerabilities). The feature content of 16.1–16.4 wasn't verified. Check https://nextjs.org/blog before planning upgrades.
 
 ## Critical Issues & Gotchas
 > [!danger] CVE-2025-29927 — middleware authorization bypass (CVSS 9.1, Mar 2025)

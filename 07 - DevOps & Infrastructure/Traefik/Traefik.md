@@ -6,8 +6,8 @@ domain: devops
 tags: [domain/devops, type/overview, topic/traefik, topic/reverse-proxy]
 status: draft
 created: 2026-10-11
-updated: 2026-11-16
-version_checked: "v3.7.x (3.6.21+ maintained) — 2026-10"
+updated: 2026-11-18
+version_checked: "v3.7.x (GA 2026-05-05, latest patch ~3.7.14 per tracker) · v3.8 in development (docs exist, no GA) · minors supported 6 months since v3.6 — re-checked 2026-11-18"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Coolify]]", "[[Cloudflare]]", "[[Nginx]]", "[[Kubernetes]]", "[[Network Security]]"]
 ---
@@ -157,7 +157,8 @@ metrics: { prometheus: {} }
 | **v3.0** | 2024-04 | OpenTelemetry, WASM plugins, HTTP/3 GA, Gateway API, SPIFFE | Rule matcher changes (`HostRegexp` uses Go regex, `Headers` → `Header`, `ClientIP`), `ruleSyntax: v2` per router for gradual migration. Some Docker/K8s defaults changed |
 | v3.1–v3.5 | 2024–2025 | Gateway API conformance, Knative, NGINX Ingress annotation compatibility provider (ingress-nginx migration) | — |
 | v3.6 | 2025–2026 | Maintained line with many 2026 security fixes (3.6.10 → 3.6.21+) | Upgrade to ≥ 3.6.21 |
-| **v3.7** | 2026 | Current minor (3.7.5+ fixes CVE-2026-54761) | Check release notes per minor |
+| **v3.7** | 2026-05-05 | Current minor (3.7.5+ fixes CVE-2026-54761). Latest patch ~3.7.14 (tracker) | Since v3.6 each minor is supported 6 months from GA, so plan the move to v3.8 |
+| v3.8 | Not GA (2026-11) | In development. Deprecates `peerCertURI` | Watch the release. Check the v3.8 migration guide |
 
 > [!warning] Unverified — check before relying on this
 > The latest patch versions and v2.11 EOL date weren't confirmed against the official releases page this run. Check https://github.com/traefik/traefik/releases and https://doc.traefik.io/traefik/deprecation/releases/.

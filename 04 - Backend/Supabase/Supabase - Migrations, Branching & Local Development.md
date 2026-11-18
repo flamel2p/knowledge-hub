@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/supabase, topic/migrations, topic/local-dev]
 status: draft
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-18
 version_checked: "Supabase CLI v2.106 (2026-06: declarative schema sync, branches --git-branch) · branching without Git default (2026-05) · pg-delta diff (alpha) — 2026-11"
 parent: "[[Supabase]]"
 related: ["[[Supabase - Row Level Security]]", "[[Testing Strategy - Integration Testing with Testcontainers & Supabase]]", "[[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]", "[[Coolify - Preview Deployments, Environments & Secrets]]", "[[PostgreSQL - Partitioning & Large Table Maintenance]]", "[[Git - Branching, Releases & Recovery]]"]
@@ -177,6 +177,7 @@ supabase db pull                                    # only to capture known, int
 
 ## Related
 - [[Supabase]]
+- [[TypeScript - Supabase Generated Types & Typed Queries]] — generated TypeScript types
 - [[Supabase - Row Level Security]] — policies that must ship with every table
 - [[Testing Strategy - Integration Testing with Testcontainers & Supabase]] — pgTAP and real-DB tests
 - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]] — pipeline stages around `db push`

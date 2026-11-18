@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-17 (T339)
+Last run: 2026-11-18 (T344)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -424,7 +424,22 @@ Last run: 2026-11-17 (T339)
 - [x] T337 | deep-dive | Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys | 07 - DevOps & Infrastructure/Docker/Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys.md | ✅ 2026-11-17
 - [x] T338 | deep-dive | Coolify - Server Migration & Disaster Recovery | 07 - DevOps & Infrastructure/Coolify/Coolify - Server Migration & Disaster Recovery.md | ✅ 2026-11-17
 - [x] T339 | deep-dive | LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM | 13 - AI Engineering/LLM APIs & SDKs/LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM.md | ✅ 2026-11-17
-- [ ] T340 | deep-dive | TypeScript - Supabase Generated Types & Typed Queries | 01 - Languages/TypeScript/TypeScript - Supabase Generated Types & Typed Queries.md
-- [ ] T341 | deep-dive | Authentication & Authorization - Session Management & Account Recovery | 10 - Security/Authentication & Authorization/Authentication & Authorization - Session Management & Account Recovery.md
-- [ ] T342 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
-- [ ] T343 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T340 | deep-dive | TypeScript - Supabase Generated Types & Typed Queries | 01 - Languages/TypeScript/TypeScript - Supabase Generated Types & Typed Queries.md | ✅ 2026-11-18
+- [x] T341 | deep-dive | Authentication & Authorization - Session Management & Account Recovery | 10 - Security/Authentication & Authorization/Authentication & Authorization - Session Management & Account Recovery.md | ✅ 2026-11-18
+- [x] T342 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-18
+- [x] T343 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-18
+
+### Wave 24 — e-Invoicing, PDPA deletion, reporting SQL, perf, Flutter web, Workspace, document AI, hardening, Pages, disk ops
+
+- [x] T344 | deep-dive | n8n - MyInvois e-Invoicing Integration | 08 - Automation/n8n/n8n - MyInvois e-Invoicing Integration.md | ✅ 2026-11-18
+- [ ] T345 | deep-dive | Supabase - Data Retention, PDPA & Account Deletion | 04 - Backend/Supabase/Supabase - Data Retention, PDPA & Account Deletion.md
+- [ ] T346 | deep-dive | PostgreSQL - Reporting Queries, Window Functions & Materialized Views | 05 - Databases/PostgreSQL/PostgreSQL - Reporting Queries, Window Functions & Materialized Views.md
+- [ ] T347 | deep-dive | Next.js - Performance Profiling & Bundle Optimization | 02 - Frontend/Next.js/Next.js - Performance Profiling & Bundle Optimization.md
+- [ ] T348 | deep-dive | Flutter - Web Support, PWA & Desktop Trade-offs | 03 - Mobile/Flutter/Flutter - Web Support, PWA & Desktop Trade-offs.md
+- [ ] T349 | deep-dive | n8n - Google Workspace & Sheets Integrations | 08 - Automation/n8n/n8n - Google Workspace & Sheets Integrations.md
+- [ ] T350 | deep-dive | AI Agents - Document Processing & Invoice Extraction | 13 - AI Engineering/AI Agents/AI Agents - Document Processing & Invoice Extraction.md
+- [ ] T351 | deep-dive | Docker - Container Hardening, Rootless & Seccomp | 07 - DevOps & Infrastructure/Docker/Docker - Container Hardening, Rootless & Seccomp.md
+- [ ] T352 | deep-dive | Cloudflare - Pages & Workers Static Assets for Frontends | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Pages & Workers Static Assets for Frontends.md
+- [ ] T353 | deep-dive | Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting.md
+- [ ] T354 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T355 | replenish | Next 12 tasks per CLAUDE.md §9 | -

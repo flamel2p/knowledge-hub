@@ -6,8 +6,8 @@ domain: databases
 tags: [domain/databases, type/overview, topic/redis, topic/caching, topic/key-value]
 status: complete
 created: 2026-09-28
-updated: 2026-11-16
-version_checked: "8.10.2 — 2026-10 (re-checked 2026-10-17: 8.10 line current, 8.0 EOL 2026-12-01)"
+updated: 2026-11-18
+version_checked: "8.10.2 (2026-09-17) latest GA · 8.12-RC1 (2026-10, not for production) · 8.8 support ended · 8.0 EOL 2026-12-01 — re-checked 2026-11-18"
 parent: "[[Databases MOC]]"
 related: ["[[Valkey]]", "[[PostgreSQL]]", "[[n8n]]", "[[Message Queues]]", "[[NoSQL]]", "[[Kafka]]"]
 ---
@@ -183,6 +183,7 @@ rename-command FLUSHALL ""      # optional hardening
 | 8.2 | 2025-08 | Performance and memory improvements, new stream and bitmap ops, vector set improvements | Minor. |
 | 8.4 → 8.10 | 2025-11 → 2026 | Continued feature releases on a roughly quarterly cadence | > [!warning] Unverified — check the per-version release notes before relying on specific features |
 | 8.10.2 | 2026-09-17 | Latest stable; security release shipped alongside 8.8.3 / 8.6.7 / 8.4.7 / 8.2.10 | Patch within your line; no breaking changes expected in patch releases. |
+| 8.12-RC1 | 2026-10 | First release candidate of 8.12 | Pre-release, not for production. 8.8 support has ended per endoflife.date, so move 8.8 hosts to 8.10 |
 
 > [!info] Licensing today (8.x)
 > Tri-licensed RSALv2 / SSPLv1 / **AGPLv3**. Self-hosting for your own SaaS is fine under any of the three. Offering Redis *as a managed service*, or modifying and redistributing it, is where RSAL/SSPL/AGPL obligations bite. If that matters, use [[Valkey]] (BSD-3).
