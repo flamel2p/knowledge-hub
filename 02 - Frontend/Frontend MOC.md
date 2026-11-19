@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-17
+updated: 2026-11-19
 parent: "[[00 - Home]]"
 ---
 
@@ -32,6 +32,7 @@ parent: "[[00 - Home]]"
   - [[Next.js - Payments with Stripe & Malaysian Gateways]]
   - [[Next.js - Background Jobs, Cron & Long-Running Tasks]]
   - [[Next.js - Admin Dashboards, Data Tables & Server-Side Filtering]]
+  - [[Next.js - Performance Profiling & Bundle Optimization]]
 - [[Astro]] — zero-JS-by-default islands framework for content sites; Content Layer, server islands; Cloudflare-owned since 2026-01
   - [[Astro - Islands & Content Layer]]
   - [[Astro - Content Sites, SEO & Cloudflare Deployment]]

@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/nextjs, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-11-18
+updated: 2026-11-19
 version_checked: "16.4.x (npm latest 16.4.6 per secondary source) · 15.5.29 backport · November 2026 security release (2026-11-03) — re-checked 2026-11-18"
 parent: "[[Frontend MOC]]"
 related: ["[[React]]", "[[TypeScript]]", "[[Supabase]]", "[[Coolify]]", "[[Docker]]"]
@@ -261,6 +261,7 @@ CMD ["node", "server.js"]
 - [[Next.js - Payments with Stripe & Malaysian Gateways]] — server-computed checkout, webhook as source of truth (Stripe raw-body signature, Billplz X-Signature + re-query), idempotent mark-paid, MyInvois notes
 - [[Next.js - Background Jobs, Cron & Long-Running Tasks]] — after(), BullMQ worker container, protected cron routes, idempotent jobs
 - [[Next.js - Admin Dashboards, Data Tables & Server-Side Filtering]] — URL-driven filters, server-side pagination with RLS, TanStack Table, bulk actions, CSV export
+- [[Next.js - Performance Profiling & Bundle Optimization]] — field Web Vitals, bundle analysis, client boundaries, dynamic imports, waterfalls, server profiling
 
 ## Related
 - [[React]] — RSC, Actions, compiler

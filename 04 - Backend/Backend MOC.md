@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-17
+updated: 2026-11-19
 parent: "[[00 - Home]]"
 ---
 
@@ -29,6 +29,7 @@ parent: "[[00 - Home]]"
   - [[Supabase - Webhooks, pg_net & External Integrations]]
   - [[Supabase - Usage, Cost Control & Plan Limits]]
   - [[Supabase - Database Testing with pgTAP & Policy Tests]]
+  - [[Supabase - Data Retention, PDPA & Account Deletion]]
 - [[Node.js]] — V8 + libuv runtime; 24 LTS, 26 → LTS Oct 2026, yearly majors from 27; npm supply-chain risk
   - [[Node.js - Performance & Diagnostics]]
   - [[Node.js - Streams & Backpressure]]
