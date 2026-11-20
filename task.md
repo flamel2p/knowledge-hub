@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-20 (T353)
+Last run: 2026-11-20 (T354)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -441,5 +441,5 @@ Last run: 2026-11-20 (T353)
 - [x] T351 | deep-dive | Docker - Container Hardening, Rootless & Seccomp | 07 - DevOps & Infrastructure/Docker/Docker - Container Hardening, Rootless & Seccomp.md | ✅ 2026-11-20
 - [x] T352 | deep-dive | Cloudflare - Pages & Workers Static Assets for Frontends | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Pages & Workers Static Assets for Frontends.md | ✅ 2026-11-20
 - [x] T353 | deep-dive | Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting.md | ✅ 2026-11-20
-- [ ] T354 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T354 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-20
 - [ ] T355 | replenish | Next 12 tasks per CLAUDE.md §9 | -
