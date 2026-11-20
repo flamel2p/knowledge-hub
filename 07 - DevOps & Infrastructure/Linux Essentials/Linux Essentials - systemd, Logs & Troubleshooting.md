@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/linux, topic/systemd, topic/troubleshooting]
 status: draft
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-20
 version_checked: "systemd 255 (Ubuntu 24.04) · 257 (Debian 13) — 2026-10"
 parent: "[[Linux Essentials]]"
 related: ["[[Linux Essentials - VPS Hardening Runbook]]", "[[Docker]]", "[[Coolify]]", "[[Node.js - Performance & Diagnostics]]", "[[PostgreSQL]]", "[[Network Security]]"]
@@ -201,6 +201,7 @@ rm /var/log/big.log             # ❌ space not reclaimed while the writer holds
 
 ## Related
 - [[Linux Essentials]]
+- [[Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting]] — disk and log space troubleshooting
 - [[Linux Essentials - VPS Hardening Runbook]] — SSH, firewall, updates, journald retention
 - [[Docker]] — container logs and restart policies vs systemd
 - [[Coolify]] — what runs on the host vs in containers
