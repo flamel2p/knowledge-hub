@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-17
+updated: 2026-11-20
 parent: "[[00 - Home]]"
 ---
 
@@ -24,6 +24,7 @@ parent: "[[00 - Home]]"
   - [[Docker - Image Scanning, SBOMs & Signing]]
   - [[Docker - Multi-Architecture Builds for ARM & x86]]
   - [[Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys]]
+  - [[Docker - Container Hardening, Rootless & Seccomp]]
 - [[Coolify]] — self-hosted PaaS over SSH + Traefik; v4 stable, Jan 2026 critical CVEs
   - [[Coolify - Operations, Backups & Hardening]]
   - [[Coolify - Multi-Server, Build Servers & Scaling]]
