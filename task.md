@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-21 (T356)
+Last run: 2026-11-21 (T357)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -447,7 +447,7 @@ Last run: 2026-11-21 (T356)
 ### Wave 25 — SaaS billing, WhatsApp Flows, email, remote config, bulk imports, API keys, AI cost, email routing, Traefik plugins, Kafka Connect
 
 - [x] T356 | deep-dive | Next.js - SaaS Subscription Billing & Plan Entitlements | 02 - Frontend/Next.js/Next.js - SaaS Subscription Billing & Plan Entitlements.md | ✅ 2026-11-21
-- [ ] T357 | deep-dive | n8n - WhatsApp Flows & Interactive Messages | 08 - Automation/n8n/n8n - WhatsApp Flows & Interactive Messages.md
+- [x] T357 | deep-dive | n8n - WhatsApp Flows & Interactive Messages | 08 - Automation/n8n/n8n - WhatsApp Flows & Interactive Messages.md | ✅ 2026-11-21
 - [ ] T358 | deep-dive | Supabase - Transactional Email, Auth SMTP & Deliverability | 04 - Backend/Supabase/Supabase - Transactional Email, Auth SMTP & Deliverability.md
 - [ ] T359 | deep-dive | Flutter - Feature Flags, Remote Config & Forced Updates | 03 - Mobile/Flutter/Flutter - Feature Flags, Remote Config & Forced Updates.md
 - [ ] T360 | deep-dive | PostgreSQL - Bulk Imports, COPY & Legacy Data Migration | 05 - Databases/PostgreSQL/PostgreSQL - Bulk Imports, COPY & Legacy Data Migration.md
