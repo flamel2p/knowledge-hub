@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-20 (T354)
+Last run: 2026-11-21 (T355)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -442,4 +442,19 @@ Last run: 2026-11-20 (T354)
 - [x] T352 | deep-dive | Cloudflare - Pages & Workers Static Assets for Frontends | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Pages & Workers Static Assets for Frontends.md | ✅ 2026-11-20
 - [x] T353 | deep-dive | Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting.md | ✅ 2026-11-20
 - [x] T354 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-20
-- [ ] T355 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T355 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-21
+
+### Wave 25 — SaaS billing, WhatsApp Flows, email, remote config, bulk imports, API keys, AI cost, email routing, Traefik plugins, Kafka Connect
+
+- [ ] T356 | deep-dive | Next.js - SaaS Subscription Billing & Plan Entitlements | 02 - Frontend/Next.js/Next.js - SaaS Subscription Billing & Plan Entitlements.md
+- [ ] T357 | deep-dive | n8n - WhatsApp Flows & Interactive Messages | 08 - Automation/n8n/n8n - WhatsApp Flows & Interactive Messages.md
+- [ ] T358 | deep-dive | Supabase - Transactional Email, Auth SMTP & Deliverability | 04 - Backend/Supabase/Supabase - Transactional Email, Auth SMTP & Deliverability.md
+- [ ] T359 | deep-dive | Flutter - Feature Flags, Remote Config & Forced Updates | 03 - Mobile/Flutter/Flutter - Feature Flags, Remote Config & Forced Updates.md
+- [ ] T360 | deep-dive | PostgreSQL - Bulk Imports, COPY & Legacy Data Migration | 05 - Databases/PostgreSQL/PostgreSQL - Bulk Imports, COPY & Legacy Data Migration.md
+- [ ] T361 | deep-dive | REST API - Rate Limiting & API Keys for Public APIs | 09 - Networking & APIs/REST API/REST API - Rate Limiting & API Keys for Public APIs.md
+- [ ] T362 | deep-dive | AI Evals & Observability - Cost Tracking & Budgets per Tenant | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Cost Tracking & Budgets per Tenant.md
+- [ ] T363 | deep-dive | Cloudflare - Email Routing & Email Workers | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Email Routing & Email Workers.md
+- [ ] T364 | deep-dive | Traefik - Plugins, Geo-Blocking & Bot Filtering | 07 - DevOps & Infrastructure/Traefik/Traefik - Plugins, Geo-Blocking & Bot Filtering.md
+- [ ] T365 | deep-dive | Kafka - Kafka Connect & Debezium Pipelines | 06 - Messaging & Streaming/Kafka/Kafka - Kafka Connect & Debezium Pipelines.md
+- [ ] T366 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T367 | replenish | Next 12 tasks per CLAUDE.md §9 | -
