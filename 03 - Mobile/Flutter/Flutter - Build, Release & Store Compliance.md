@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/release, topic/app-store, lang/dart]
 status: draft
 created: 2026-10-08
-updated: 2026-11-12
+updated: 2026-11-21
 version_checked: "Flutter 3.47 (SwiftPM default since 3.44) · CocoaPods read-only 2026-12-02 · Play API 36 · Xcode 26 — re-checked 2026-11-12"
 parent: "[[Flutter]]"
 related: ["[[Dart - VM, Compilation & Garbage Collection]]", "[[Flutter - Performance & DevTools]]", "[[CI-CD]]", "[[Flutter - Testing]]"]
@@ -181,6 +181,7 @@ iOS needs a `macos-*` runner (or Codemagic / Xcode Cloud) and fastlane match + a
 
 ## Related
 - [[Flutter]]
+- [[Flutter - Feature Flags, Remote Config & Forced Updates]] — forced updates and remote kill switches
 - [[Flutter - App Security, Obfuscation & Secure Storage]] — obfuscation, secure storage and attestation for release builds
 - [[Flutter - Internationalization & Localization]] — localized permission prompts, store listings and locale config
 - [[Flutter - Payments, In-App Purchases & Store Rules]] — payment-rail rules and IAP verification

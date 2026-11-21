@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-11-19
+updated: 2026-11-21
 version_checked: "3.47 / Dart 3.13 (2026-08) latest confirmed · Dart 3.14 released 2026-11-11 · Flutter 3.50 release-notes page exists, GA unconfirmed — re-checked 2026-11-17"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -189,6 +189,7 @@ my_app/
 - [[Flutter - Supabase Integration, Auth & Realtime]] — supabase_flutter init, auth-driven routing, native Apple/Google sign-in, realtime cleanup, v3 upgrade
 - [[Flutter - Camera, Image Picking & File Uploads]] — image_picker/camera/file_picker, on-device compression, signed uploads, Play media policy
 - [[Flutter - Web Support, PWA & Desktop Trade-offs]] — CanvasKit vs Skwasm, PWA limits, desktop, when to use Next.js instead
+- [[Flutter - Feature Flags, Remote Config & Forced Updates]] — app_config table, cached flags, kill switches, min-version gate, in-app updates, Shorebird
 
 ## Related
 - [[Dart]] — the language
