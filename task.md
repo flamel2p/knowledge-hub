@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-21 (T357)
+Last run: 2026-11-21 (T358)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -448,7 +448,7 @@ Last run: 2026-11-21 (T357)
 
 - [x] T356 | deep-dive | Next.js - SaaS Subscription Billing & Plan Entitlements | 02 - Frontend/Next.js/Next.js - SaaS Subscription Billing & Plan Entitlements.md | ✅ 2026-11-21
 - [x] T357 | deep-dive | n8n - WhatsApp Flows & Interactive Messages | 08 - Automation/n8n/n8n - WhatsApp Flows & Interactive Messages.md | ✅ 2026-11-21
-- [ ] T358 | deep-dive | Supabase - Transactional Email, Auth SMTP & Deliverability | 04 - Backend/Supabase/Supabase - Transactional Email, Auth SMTP & Deliverability.md
+- [x] T358 | deep-dive | Supabase - Transactional Email, Auth SMTP & Deliverability | 04 - Backend/Supabase/Supabase - Transactional Email, Auth SMTP & Deliverability.md | ✅ 2026-11-21
 - [ ] T359 | deep-dive | Flutter - Feature Flags, Remote Config & Forced Updates | 03 - Mobile/Flutter/Flutter - Feature Flags, Remote Config & Forced Updates.md
 - [ ] T360 | deep-dive | PostgreSQL - Bulk Imports, COPY & Legacy Data Migration | 05 - Databases/PostgreSQL/PostgreSQL - Bulk Imports, COPY & Legacy Data Migration.md
 - [ ] T361 | deep-dive | REST API - Rate Limiting & API Keys for Public APIs | 09 - Networking & APIs/REST API/REST API - Rate Limiting & API Keys for Public APIs.md
