@@ -65,7 +65,7 @@ import { randomBytes, createHash, timingSafeEqual } from "node:crypto";
 const b62 = (buf: Buffer) => buf.toString("base64url").replace(/[-_]/g, "").slice(0, 43);
 
 export function createApiKey(env: "live" | "test") {
-  const keyId = b62(randomBytes(6)).slice(0, 8);
+  const keyId = b62(randomBytes(12)).slice(0, 8);         // extra bytes so 8 alphanumerics remain after stripping -/_
   const secret = b62(randomBytes(32));
   const full = `rk_${env}_${keyId}_${secret}`;
   const hash = createHash("sha256").update(full).digest("hex");

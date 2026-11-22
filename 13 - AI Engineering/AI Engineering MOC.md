@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-20
+updated: 2026-11-23
 parent: "[[00 - Home]]"
 ---
 
@@ -46,6 +46,7 @@ parent: "[[00 - Home]]"
 - [[AI Evals & Observability]] — graders (code, LLM-judge, human), RAG/agent metrics, tracing, Langfuse (ClickHouse 2026), PII in traces
   - [[AI Evals & Observability - Eval Datasets & LLM-as-Judge]]
   - [[AI Evals & Observability - Tracing & Production Monitoring with Langfuse]]
+  - [[AI Evals & Observability - Cost Tracking & Budgets per Tenant]]
 - [[Fine-tuning LLMs]] — when (not) to fine-tune, LoRA/QLoRA SFT, DPO, GRPO/RFT, open-weight serving; safety erosion + deprecation risks
   - [[Fine-tuning LLMs - LoRA & QLoRA with Unsloth]]
   - [[Fine-tuning LLMs - Dataset Curation for SFT & DPO]]
