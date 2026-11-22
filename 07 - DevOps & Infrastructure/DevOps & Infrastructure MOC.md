@@ -39,6 +39,7 @@ parent: "[[00 - Home]]"
   - [[Traefik - Observability & Troubleshooting]]
   - [[Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing]]
   - [[Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates]]
+  - [[Traefik - Plugins, Geo-Blocking & Bot Filtering]]
 - [[Cloudflare]] — DNS/CDN/WAF edge, Tunnel + Access, R2 zero-egress, Workers; 2025 global outages = concentration risk
   - [[Cloudflare - Zero Trust Tunnel & Access]]
   - [[Cloudflare - R2 Storage & Presigned Uploads]]

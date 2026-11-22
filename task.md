@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-23 (T363)
+Last run: 2026-11-23 (T364)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -454,7 +454,7 @@ Last run: 2026-11-23 (T363)
 - [x] T361 | deep-dive | REST API - Rate Limiting & API Keys for Public APIs | 09 - Networking & APIs/REST API/REST API - Rate Limiting & API Keys for Public APIs.md | ✅ 2026-11-23
 - [x] T362 | deep-dive | AI Evals & Observability - Cost Tracking & Budgets per Tenant | 13 - AI Engineering/AI Evals & Observability/AI Evals & Observability - Cost Tracking & Budgets per Tenant.md | ✅ 2026-11-23
 - [x] T363 | deep-dive | Cloudflare - Email Routing & Email Workers | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Email Routing & Email Workers.md | ✅ 2026-11-23
-- [ ] T364 | deep-dive | Traefik - Plugins, Geo-Blocking & Bot Filtering | 07 - DevOps & Infrastructure/Traefik/Traefik - Plugins, Geo-Blocking & Bot Filtering.md
+- [x] T364 | deep-dive | Traefik - Plugins, Geo-Blocking & Bot Filtering | 07 - DevOps & Infrastructure/Traefik/Traefik - Plugins, Geo-Blocking & Bot Filtering.md | ✅ 2026-11-23
 - [ ] T365 | deep-dive | Kafka - Kafka Connect & Debezium Pipelines | 06 - Messaging & Streaming/Kafka/Kafka - Kafka Connect & Debezium Pipelines.md
 - [ ] T366 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T367 | replenish | Next 12 tasks per CLAUDE.md §9 | -
