@@ -6,8 +6,8 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/react, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-10-30
-version_checked: "19.3 — 2026-10 (re-checked 2026-10-19: no React 20; public sources show 19.2.8 Jul + 19.3 canaries, 19.3 stable per 2026-10-05 check)"
+updated: 2026-11-20
+version_checked: "19.3 (2026-09-09, official blog) — ViewTransition + Fragment Refs stable · no React 20 — re-checked 2026-11-20"
 parent: "[[Frontend MOC]]"
 related: ["[[Next.js]]", "[[JavaScript]]", "[[TypeScript]]", "[[React Native]]", "[[Tailwind CSS]]"]
 ---
@@ -173,10 +173,10 @@ src/
 | 19.2 | 2025-10-01 | `<Activity>`, `useEffectEvent`, `cacheSignal`, Performance Tracks, partial pre-rendering | `eslint-plugin-react-hooks` v6 flat config |
 | Compiler 1.0 | 2025-10 | Stable automatic memoization | Opt-in per project |
 | 19.0.1 / 19.1.2 / 19.2.1 | 2025-12-03 | React2Shell fix (see below) | **Mandatory** for any RSC app |
-| **19.3** | 2026-09-09 | Current stable | — |
+| **19.3** | 2026-09-09 | Current stable. `<ViewTransition>` and Fragment Refs promoted to stable (per release coverage) | No breaking changes reported |
 
 > [!warning] Unverified — check before relying on this
-> 19.3's feature list wasn't verified this run. React 20 isn't released, and RFCs only discuss it. Check https://react.dev/versions.
+> 19.3's release is confirmed on react.dev. Its feature list comes from secondary coverage. React 20 isn't released, and RFCs only discuss it. Check https://react.dev/versions.
 
 ## Critical Issues & Gotchas
 > [!danger] React2Shell — CVE-2025-55182 (CVSS 10.0, Dec 2025)

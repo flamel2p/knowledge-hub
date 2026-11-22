@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/overview, topic/n8n]
 status: draft
 created: 2026-10-03
-updated: 2026-11-19
+updated: 2026-11-21
 version_checked: "2.47.x stable · 2.48 beta (docs snapshot) — re-checked 2026-11-14"
 parent: "[[Automation MOC]]"
 related: ["[[Redis]]", "[[PostgreSQL]]", "[[Docker]]", "[[Coolify]]", "[[Windmill]]", "[[AI Agents]]"]
@@ -194,6 +194,7 @@ N8N_PROXY_HOPS=1                       # behind Traefik/Cloudflare
 - [[n8n - Forms, Approvals & Human-in-the-Loop Workflows]] — Form Trigger/Form node, Wait resume, Send and Wait approvals, signed links, escalation
 - [[n8n - MyInvois e-Invoicing Integration]] — MyInvois API flow, idempotent submission, signing, polling, QR links, 2026 scope caveats
 - [[n8n - Google Workspace & Sheets Integrations]] — OAuth vs service accounts, Testing-mode 7-day expiry, Sheets upserts, quotas, Sheets-as-view pattern
+- [[n8n - WhatsApp Flows & Interactive Messages]] — reply buttons, lists, Flow JSON, encrypted data_exchange endpoint, nfm_reply routing
 
 ## Related
 - [[Redis]] — queue-mode broker

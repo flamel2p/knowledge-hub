@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/astro, topic/seo, topic/cloudflare, lang/typescript]
 status: draft
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-20
 version_checked: "Astro 6 (2026-03, Cloudflare-owned since 2026-01-16) · Workers static assets — 2026-10"
 parent: "[[Astro]]"
 related: ["[[Astro - Islands & Content Layer]]", "[[Cloudflare]]", "[[Browser & Web Fundamentals - Core Web Vitals Optimization]]", "[[Network Security - Cloudflare WAF & Rate Limiting Rules]]", "[[Tailwind CSS]]", "[[Coolify]]"]
@@ -189,6 +189,7 @@ jobs:
 
 ## Related
 - [[Astro]]
+- [[Cloudflare - Pages & Workers Static Assets for Frontends]] — Workers static assets deployment
 - [[Astro - Islands & Content Layer]] — islands, server islands, content loaders
 - [[Cloudflare]] — Workers, Pages, analytics, redirects
 - [[Browser & Web Fundamentals - Core Web Vitals Optimization]] — LCP/INP/CLS targets

@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/rag, topic/document-parsing, lang/python]
 status: draft
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-11-20
 version_checked: "Docling (MIT) · Marker 2 · MinerU — vendor benchmark 2026; Claude PDF input 32 MB / 600 pages — 2026-10"
 parent: "[[RAG]]"
 related: ["[[RAG - Chunking & Retrieval Strategies]]", "[[Vector Databases - pgvector Tuning & Hybrid Search]]", "[[LLM APIs & SDKs - Structured Outputs & Tool Schemas]]", "[[Supabase - Edge Functions, Cron & Queues]]", "[[n8n]]", "[[Python]]"]
@@ -181,6 +181,7 @@ db.insert_chunks(chunks)                          # ❌ re-sync duplicates every
 
 ## Related
 - [[RAG]]
+- [[AI Agents - Document Processing & Invoice Extraction]] — structured extraction from invoices/receipts
 - [[RAG - Chunking & Retrieval Strategies]] — what happens after parsing
 - [[Vector Databases - pgvector Tuning & Hybrid Search]] — index and hybrid search
 - [[LLM APIs & SDKs - Structured Outputs & Tool Schemas]] — field extraction from parsed documents

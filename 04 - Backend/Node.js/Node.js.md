@@ -6,8 +6,8 @@ domain: backend
 tags: [domain/backend, type/overview, topic/nodejs, lang/javascript, lang/typescript]
 status: draft
 created: 2026-10-08
-updated: 2026-10-30
-version_checked: "26.x Current → LTS 2026-10 · 24.x LTS — 2026-10"
+updated: 2026-11-20
+version_checked: "26.x Active LTS since 2026-10-28 (26.13.0 per secondary source) · 24.x/22.x LTS lines · Oct 2026 security release (10 CVEs) · 27 alpha (annual model) — re-checked 2026-11-20"
 parent: "[[Backend MOC]]"
 related: ["[[JavaScript]]", "[[TypeScript]]", "[[JavaScript - Event Loop & Async]]", "[[Next.js]]", "[[n8n]]", "[[Docker]]"]
 ---
@@ -154,11 +154,12 @@ for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, async () => {
 | 23 | 2024-10 | Type stripping on by default (23.6), `require(esm)` unflagged | Odd line, EOL |
 | **24 LTS** | 2025-05 | V8 13.6, npm 11, `URLPattern` global, permission model stable, `using` (explicit resource management), AsyncLocalStorage on AsyncContextFrame | Active LTS until 2026-10, then maintenance to 2028-04. `url.parse()` deprecation warnings, legacy APIs removed |
 | 25 | 2025-10 | V8 14.x, Web Storage on by default, more legacy removals | Odd line, EOL mid-2026 |
-| **26** | 2026-04 | Last release under the old two-majors-a-year model | Becomes **LTS in 2026-10**, EOL ~2029-04 |
+| **26** | 2026-04 | Last release under the old two-majors-a-year model | **Active LTS since 2026-10-28** (26.13.0 "Lithium" reported), EOL 2029-04-30 |
+| Oct 2026 security release | 2026-10-21 | 26.12.1 / 24.22.1 / 22.23.4. ~10 CVEs across supported lines (reported) | **Patch all servers and Docker base images** |
 | 27+ | 2027-04 | **New model**: one major per year, alpha (Oct–Mar) → current (Apr–Oct) → LTS (30 months). Every release is LTS | No more odd/even split. Version = calendar year of release |
 
 > [!warning] Unverified — check before relying on this
-> Exact Node 26 feature list and LTS promotion date weren't confirmed in this run. See https://nodejs.org/en/about/previous-releases and the Node 26 release post.
+> The 26.13.0 LTS version, the Oct 2026 patch numbers and the CVE count come from secondary sources (re-checked 2026-11-20). The Node 26 feature list wasn't confirmed either. See https://nodejs.org/en/about/previous-releases and the Node 26 release post.
 
 ## Critical Issues & Gotchas
 > [!danger] npm supply-chain attacks (2025)
