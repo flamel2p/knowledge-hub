@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-10
+updated: 2026-11-23
 parent: "[[00 - Home]]"
 ---
 
@@ -22,6 +22,7 @@ parent: "[[00 - Home]]"
 - [[REST API]] — resource design, OpenAPI 3.2, RFC 9457 errors, pagination, idempotency, BOLA
   - [[REST API - Webhooks & Idempotency]]
   - [[REST API - Versioning, Pagination & Error Design]]
+  - [[REST API - Rate Limiting & API Keys for Public APIs]]
 - [[WebSocket]] — RFC 6455, auth on upgrade, heartbeats, Redis fan-out, CSWSH
   - [[WebSocket - Scaling & Reliability]]
   - [[WebSocket - SSE & Streaming LLM Responses]]
