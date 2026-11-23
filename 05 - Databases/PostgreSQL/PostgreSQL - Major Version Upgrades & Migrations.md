@@ -158,6 +158,7 @@ select setval('orders_id_seq', (select max(id) from orders));         -- sequenc
 
 ## Related
 - [[PostgreSQL]]
+- [[PostgreSQL - Version 19 New Features & Upgrade Planning]] — PG19-specific upgrade planning
 - [[PostgreSQL - Bulk Imports, COPY & Legacy Data Migration]] — importing legacy/CSV data
 - [[PostgreSQL - Logical Replication & Change Data Capture]] — logical replication mechanics behind low-downtime upgrades
 - [[PostgreSQL - Backups, PITR & Restore Drills]] — the rollback safety net

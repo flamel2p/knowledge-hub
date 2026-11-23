@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-23 (T367)
+Last run: 2026-11-23 (T368)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -461,7 +461,7 @@ Last run: 2026-11-23 (T367)
 
 ### Wave 26 — PG19, Flutter 3.50 migration, HA, CSP, CRMs, Redis 8 search, registries, Hyperdrive, voice agents, perf triage
 
-- [ ] T368 | deep-dive | PostgreSQL - Version 19 New Features & Upgrade Planning | 05 - Databases/PostgreSQL/PostgreSQL - Version 19 New Features & Upgrade Planning.md
+- [x] T368 | deep-dive | PostgreSQL - Version 19 New Features & Upgrade Planning | 05 - Databases/PostgreSQL/PostgreSQL - Version 19 New Features & Upgrade Planning.md | ✅ 2026-11-23
 - [ ] T369 | deep-dive | Flutter - Migrating to 3.50 & Standalone Material Packages | 03 - Mobile/Flutter/Flutter - Migrating to 3.50 & Standalone Material Packages.md
 - [ ] T370 | deep-dive | Supabase - Read Replicas, High Availability & Multi-Region | 04 - Backend/Supabase/Supabase - Read Replicas, High Availability & Multi-Region.md
 - [ ] T371 | deep-dive | Next.js - Content Security Policy, Nonces & Security Headers | 02 - Frontend/Next.js/Next.js - Content Security Policy, Nonces & Security Headers.md

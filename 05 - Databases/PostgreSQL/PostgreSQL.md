@@ -199,6 +199,7 @@ shared_preload_libraries = 'pg_stat_statements'
 - [[PostgreSQL - Locking, Deadlocks & Concurrency Control]] — row/table lock modes, SKIP LOCKED queues, deadlock ordering, advisory locks, lock_timeout migrations
 - [[PostgreSQL - Reporting Queries, Window Functions & Materialized Views]] — MYT bucketing, gap filling, FILTER/ROLLUP, window functions, cohorts, concurrent MV refresh
 - [[PostgreSQL - Bulk Imports, COPY & Legacy Data Migration]] — staging tables, \copy, cleaning Malaysian data, rejects, idempotent upserts, pgloader, reconciliation
+- [[PostgreSQL - Version 19 New Features & Upgrade Planning]] — REPACK CONCURRENTLY, plan advice, WAIT FOR LSN, sequence replication, upgrade timing
 
 ## Related
 - [[Supabase]] — managed Postgres + Auth + RLS-first APIs
