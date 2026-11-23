@@ -6,7 +6,7 @@ domain: messaging
 tags: [domain/messaging, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-02
+updated: 2026-11-23
 parent: "[[00 - Home]]"
 ---
 
@@ -19,6 +19,7 @@ parent: "[[00 - Home]]"
 - [[Kafka]] — partitioned replicated log, KRaft-only 4.x, share groups (queues) GA in 4.2
   - [[Kafka - Partitions, Consumer Groups & Delivery Semantics]]
   - [[Kafka - KRaft, Redpanda & Small-Infra Trade-offs]]
+  - [[Kafka - Kafka Connect & Debezium Pipelines]]
 - [[Message Queues]] — job queues vs brokers vs logs; BullMQ, pgmq, RabbitMQ 4.2, SQS, NATS; idempotency, DLQ, Redis noeviction
   - [[Message Queues - BullMQ in Production]]
   - [[Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS]]
