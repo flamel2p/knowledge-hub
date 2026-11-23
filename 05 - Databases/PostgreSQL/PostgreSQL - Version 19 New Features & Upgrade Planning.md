@@ -120,7 +120,7 @@ select * from pg_hba_file_rules where auth_method = 'radius';   -- must be empty
 ## Tips & Reminders
 > [!tip] In ZP's stack
 > - **Supabase projects** move to new majors on Supabase's schedule. Don't plan client features around PG19 until Supabase announces support, and self-hosted Supabase images also lag ([[Supabase - Self-Hosting with Docker & Coolify]]).
-> - **Self-hosted Postgres** (n8n, client apps on Coolify): stay on 18.x for now, test 19 in staging, and target upgrades in early 2026-Q1 after 19.1+.
+> - **Self-hosted Postgres** (n8n, client apps on Coolify): stay on 18.x for now, test 19 in staging, and target upgrades in 2027-Q1 after 19.1+.
 > - **Bloat pain on small VPSs** (audit/events tables) is the most immediately useful PG19 feature. `REPACK (CONCURRENTLY)` replaces risky `VACUUM FULL` windows ([[PostgreSQL - Partitioning & Large Table Maintenance]]).
 
 - Read the "Migration to Version 19" incompatibilities section line by line.
