@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-23 (T366)
+Last run: 2026-11-23 (T367)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -457,4 +457,19 @@ Last run: 2026-11-23 (T366)
 - [x] T364 | deep-dive | Traefik - Plugins, Geo-Blocking & Bot Filtering | 07 - DevOps & Infrastructure/Traefik/Traefik - Plugins, Geo-Blocking & Bot Filtering.md | ✅ 2026-11-23
 - [x] T365 | deep-dive | Kafka - Kafka Connect & Debezium Pipelines | 06 - Messaging & Streaming/Kafka/Kafka - Kafka Connect & Debezium Pipelines.md | ✅ 2026-11-23
 - [x] T366 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-23
-- [ ] T367 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T367 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-23
+
+### Wave 26 — PG19, Flutter 3.50 migration, HA, CSP, CRMs, Redis 8 search, registries, Hyperdrive, voice agents, perf triage
+
+- [ ] T368 | deep-dive | PostgreSQL - Version 19 New Features & Upgrade Planning | 05 - Databases/PostgreSQL/PostgreSQL - Version 19 New Features & Upgrade Planning.md
+- [ ] T369 | deep-dive | Flutter - Migrating to 3.50 & Standalone Material Packages | 03 - Mobile/Flutter/Flutter - Migrating to 3.50 & Standalone Material Packages.md
+- [ ] T370 | deep-dive | Supabase - Read Replicas, High Availability & Multi-Region | 04 - Backend/Supabase/Supabase - Read Replicas, High Availability & Multi-Region.md
+- [ ] T371 | deep-dive | Next.js - Content Security Policy, Nonces & Security Headers | 02 - Frontend/Next.js/Next.js - Content Security Policy, Nonces & Security Headers.md
+- [ ] T372 | deep-dive | n8n - CRM Integrations with HubSpot, Zoho & Pipedrive | 08 - Automation/n8n/n8n - CRM Integrations with HubSpot, Zoho & Pipedrive.md
+- [ ] T373 | deep-dive | Redis - Search, JSON & Vector Sets in Redis 8 | 05 - Databases/Redis/Redis - Search, JSON & Vector Sets in Redis 8.md
+- [ ] T374 | deep-dive | Docker - Private Registries & Image Promotion | 07 - DevOps & Infrastructure/Docker/Docker - Private Registries & Image Promotion.md
+- [ ] T375 | deep-dive | Cloudflare - Hyperdrive & Connecting Workers to Postgres | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Hyperdrive & Connecting Workers to Postgres.md
+- [ ] T376 | deep-dive | AI Agents - Voice Agents & Phone Automation | 13 - AI Engineering/AI Agents/AI Agents - Voice Agents & Phone Automation.md
+- [ ] T377 | deep-dive | Linux Essentials - Performance Troubleshooting with top, vmstat & iostat | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Performance Troubleshooting with top, vmstat & iostat.md
+- [ ] T378 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T379 | replenish | Next 12 tasks per CLAUDE.md §9 | -
