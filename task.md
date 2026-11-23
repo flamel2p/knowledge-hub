@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-23 (T365)
+Last run: 2026-11-23 (T366)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -456,5 +456,5 @@ Last run: 2026-11-23 (T365)
 - [x] T363 | deep-dive | Cloudflare - Email Routing & Email Workers | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Email Routing & Email Workers.md | ✅ 2026-11-23
 - [x] T364 | deep-dive | Traefik - Plugins, Geo-Blocking & Bot Filtering | 07 - DevOps & Infrastructure/Traefik/Traefik - Plugins, Geo-Blocking & Bot Filtering.md | ✅ 2026-11-23
 - [x] T365 | deep-dive | Kafka - Kafka Connect & Debezium Pipelines | 06 - Messaging & Streaming/Kafka/Kafka - Kafka Connect & Debezium Pipelines.md | ✅ 2026-11-23
-- [ ] T366 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [x] T366 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-23
 - [ ] T367 | replenish | Next 12 tasks per CLAUDE.md §9 | -
