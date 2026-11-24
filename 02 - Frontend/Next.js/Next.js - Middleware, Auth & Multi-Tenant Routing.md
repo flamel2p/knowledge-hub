@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/nextjs, topic/multi-tenancy, topic/auth, lang/typescript]
 status: draft
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-24
 version_checked: "Next.js 16 (proxy.ts on Node runtime; middleware.ts deprecated for Edge) · 16.2 LTS / 16.3 — 2026-10"
 parent: "[[Next.js]]"
 related: ["[[Next.js - App Router & Rendering Strategies]]", "[[Next.js - Caching]]", "[[System Design - Multi-Tenant SaaS Architecture]]", "[[Authentication & Authorization - Multi-Tenant Authorization with RLS]]", "[[Supabase]]", "[[Traefik]]"]
@@ -182,6 +182,7 @@ const tenantId = req.headers.get('x-tenant-id');                       // ❌ cl
 
 ## Related
 - [[Next.js]]
+- [[Next.js - Content Security Policy, Nonces & Security Headers]] — CSP nonces in proxy.ts
 - [[Next.js - App Router & Rendering Strategies]] — dynamic segments and rendering modes
 - [[Next.js - Caching]] — tenant-safe cache tags
 - [[System Design - Multi-Tenant SaaS Architecture]] — tenancy models and isolation
