@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/redis, topic/rate-limiting, topic/locking, lang/typescript]
 status: draft
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-23
 version_checked: "Redis 8.10.x · Valkey 8–9 (same commands: SET NX PX, EVAL/FCALL, INCR, PEXPIRE) — 2026-11"
 parent: "[[Redis]]"
 related: ["[[Redis - Data Structures & Patterns]]", "[[Redis - Caching Patterns & Invalidation]]", "[[Network Security - Cloudflare WAF & Rate Limiting Rules]]", "[[Next.js - Server Actions, Mutations & Security]]", "[[Message Queues - BullMQ in Production]]", "[[PostgreSQL - Transactions & MVCC]]"]
@@ -169,6 +169,7 @@ const n = await redis.incr(k); await redis.expire(k, 60);     // ❌ crash betwe
 
 ## Related
 - [[Redis]]
+- [[REST API - Rate Limiting & API Keys for Public APIs]] — API-key based rate limits
 - [[Redis - Data Structures & Patterns]] — sorted-set sliding window, Lua basics
 - [[Redis - Caching Patterns & Invalidation]] — single-flight locks for cache rebuilds
 - [[Network Security - Cloudflare WAF & Rate Limiting Rules]] — edge-layer limits

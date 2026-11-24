@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/redis, topic/caching, topic/key-value]
 status: complete
 created: 2026-09-28
-updated: 2026-11-18
+updated: 2026-11-24
 version_checked: "8.10.2 (2026-09-17) latest GA · 8.12-RC1 (2026-10, not for production) · 8.8 support ended · 8.0 EOL 2026-12-01 — re-checked 2026-11-18"
 parent: "[[Databases MOC]]"
 related: ["[[Valkey]]", "[[PostgreSQL]]", "[[n8n]]", "[[Message Queues]]", "[[NoSQL]]", "[[Kafka]]"]
@@ -216,6 +216,7 @@ rename-command FLUSHALL ""      # optional hardening
 - [[Redis - Streams & Pub-Sub in Practice]] — Pub/Sub vs Streams semantics, consumer groups with XACK/XAUTOCLAIM/DLQ, retention, idempotent handlers, fan-out across replicas
 - [[Redis - Memory Management & Eviction Tuning]] — maxmemory headroom, eviction policy per role (cache vs noeviction state), memory metrics, big keys, encodings, fork/COW sizing
 - [[Redis - Observability, Slow Log & Latency Troubleshooting]] — SLOWLOG, LATENCY DOCTOR, big/hot keys, redis_exporter alerts, fork and swap issues
+- [[Redis - Search, JSON & Vector Sets in Redis 8]] — Query Engine over JSON, semantic LLM cache, vector sets, tenant isolation, RAM sizing
 
 ## Related
 - [[Valkey]] · [[Message Queues]] · [[Kafka]]

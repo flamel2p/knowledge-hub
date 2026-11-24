@@ -6,7 +6,7 @@ domain: networking
 tags: [domain/networking, type/overview, topic/rest, topic/api-design]
 status: draft
 created: 2026-10-05
-updated: 2026-10-24
+updated: 2026-11-23
 version_checked: "OpenAPI 3.2 (2025-09) · RFC 9457 — 2026-10"
 parent: "[[Networking & APIs MOC]]"
 related: ["[[HTTP & HTTPS]]", "[[GraphQL]]", "[[gRPC]]", "[[WebSocket]]", "[[OAuth 2.0 & OIDC]]"]
@@ -182,6 +182,7 @@ api/
 ## Deep Dives
 - [[REST API - Webhooks & Idempotency]]
 - [[REST API - Versioning, Pagination & Error Design]] — evolution rules, deprecation headers, keyset cursors, RFC 9457 errors, tolerant mobile clients
+- [[REST API - Rate Limiting & API Keys for Public APIs]] — prefixed hashed keys, scopes, rotation, GCRA limits, 429/RateLimit headers, layered limits
 
 ## Related
 - [[HTTP & HTTPS]] — methods, status codes, caching semantics

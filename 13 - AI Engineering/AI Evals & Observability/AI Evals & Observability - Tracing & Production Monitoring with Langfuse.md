@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/observability, topic/langfuse, topic/tracing, lang/typescript]
 status: draft
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-11-23
 version_checked: "Langfuse v3 self-hosted (web + worker + Postgres + ClickHouse + Redis + S3) · JS SDK v4 (OTel-based) — 2026-10"
 parent: "[[AI Evals & Observability]]"
 related: ["[[AI Evals & Observability - Eval Datasets & LLM-as-Judge]]", "[[AI Agents - Memory & Context Engineering]]", "[[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]", "[[Coolify]]", "[[Cloudflare - R2 Storage & Presigned Uploads]]", "[[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]"]
@@ -156,6 +156,7 @@ await langfuse.trace({ input: rawCustomerMessage });   // ❌ IC numbers and pho
 
 ## Related
 - [[AI Evals & Observability]]
+- [[AI Evals & Observability - Cost Tracking & Budgets per Tenant]] — per-tenant cost ledger and budgets
 - [[Prompt Engineering - System Prompts, Few-shot & Prompt Versioning]] — prompt versions linked to traces and eval gates
 - [[AI Evals & Observability - Eval Datasets & LLM-as-Judge]] — offline evals that use these traces
 - [[AI Agents - Memory & Context Engineering]] — context growth visible in traces

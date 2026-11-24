@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/cloudflare, topic/dns, topic/email-security]
 status: draft
 created: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-23
 version_checked: "Gmail/Yahoo bulk-sender rules (2024+, 550 rejects escalated 2025-11) · Outlook enforcement 2025-05-05 — 2026-10"
 parent: "[[Cloudflare]]"
 related: ["[[Cloudflare - Zero Trust Tunnel & Access]]", "[[Network Security - Cloudflare WAF & Rate Limiting Rules]]", "[[HTTP & HTTPS - TLS Handshake & Certificates]]", "[[Supabase - Auth Flows, MFA & Custom Claims]]", "[[Traefik]]", "[[Network Security]]"]
@@ -159,6 +159,7 @@ curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE/dns_records" 
 
 ## Related
 - [[Cloudflare]]
+- [[Cloudflare - Email Routing & Email Workers]] — inbound email routing and processing
 - [[Cloudflare - Zero Trust Tunnel & Access]] — admin hostnames without public DNS exposure
 - [[Network Security - Cloudflare WAF & Rate Limiting Rules]] — zone security baseline
 - [[HTTP & HTTPS - TLS Handshake & Certificates]] — CAA, ACME, certificate issuance

@@ -6,8 +6,8 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-11-21
-version_checked: "3.47 / Dart 3.13 (2026-08) latest confirmed · Dart 3.14 released 2026-11-11 · Flutter 3.50 release-notes page exists, GA unconfirmed — re-checked 2026-11-17"
+updated: 2026-11-24
+version_checked: "3.50 / Dart 3.14 (2026-11-11, per release coverage) · 3.47 previous · Material/Cupertino split into packages (deprecated imports) — re-checked 2026-11-23"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
 ---
@@ -148,10 +148,10 @@ my_app/
 | 3.38 / Dart 3.10 | 2025-11-12 | iOS 26 / Xcode 26 support, dot shorthands | — |
 | 3.41 / Dart 3.11 | 2026-02-11 | Quarterly-release cadence begins | — |
 | 3.47 / Dart 3.13 | 2026-08-19 | Stable | Check the breaking-changes page before upgrading |
-| **3.50 / Dart 3.14** | 2026-11 (Dart 3.14 out 2026-11-11) | Quarterly release. Official 3.50.0 release-notes page published | Confirm GA on flutter-announce. Pair with supabase_flutter v3 and the CocoaPods read-only date (2026-12-02) when planning upgrades |
+| **3.50 / Dart 3.14** | 2026-11-11 | Material/Cupertino moving out of the core framework into standalone packages (`material.dart`/`cupertino.dart` imports deprecated). FFIgen (Obj-C) and JNIgen (Java/Kotlin) stable. Wasm lazy loading stable. Impeller migration completed on Android 10+ (reported) | Plan import migration for Material/Cupertino. Reported split-APK build issue (hotfix expected). Pair with supabase_flutter v3 and the CocoaPods read-only date (2026-12-02) |
 
 > [!warning] Unverified — check before relying on this
-> The Flutter 3.50 GA date and contents weren't confirmed (only a release-notes stub was indexed on 2026-11-17). The exact feature lists of 3.41–3.47 and current store deadlines weren't verified either. Check https://docs.flutter.dev/release/breaking-changes and Play/App Store policy pages.
+> Flutter 3.50 contents come from third-party coverage (release date 2026-11-11). The official release-notes page was only partially indexed. Verify the Material/Cupertino deprecation path and Impeller/Skia claims in the official notes before upgrading client apps. The exact feature lists of 3.41–3.47 and current store deadlines weren't verified either. Check https://docs.flutter.dev/release/breaking-changes and Play/App Store policy pages.
 
 ## Critical Issues & Gotchas
 > [!danger] App-store compliance deadlines break releases
@@ -190,6 +190,7 @@ my_app/
 - [[Flutter - Camera, Image Picking & File Uploads]] — image_picker/camera/file_picker, on-device compression, signed uploads, Play media policy
 - [[Flutter - Web Support, PWA & Desktop Trade-offs]] — CanvasKit vs Skwasm, PWA limits, desktop, when to use Next.js instead
 - [[Flutter - Feature Flags, Remote Config & Forced Updates]] — app_config table, cached flags, kill switches, min-version gate, in-app updates, Shorebird
+- [[Flutter - Migrating to 3.50 & Standalone Material Packages]] — material_ui/cupertino_ui migration, dart fix, dependency readiness, combined maintenance release order
 
 ## Related
 - [[Dart]] — the language

@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/deep-dive, topic/postgresql, topic/replication, topic/cdc, lang/sql]
 status: draft
 created: 2026-11-12
-updated: 2026-11-12
+updated: 2026-11-23
 version_checked: "PostgreSQL 16 (logical decoding on standbys) · 17 (failover slots, pg_createsubscriber) · 18.x current · 19 GA planned 2026-11-19 — 2026-11"
 parent: "[[PostgreSQL]]"
 related: ["[[PostgreSQL - Major Version Upgrades & Migrations]]", "[[System Design - Event-Driven Architecture & Outbox Pattern]]", "[[Kafka - KRaft, Redpanda & Small-Infra Trade-offs]]", "[[PostgreSQL - Backups, PITR & Restore Drills]]", "[[Supabase - Realtime, Presence & Broadcast]]", "[[PostgreSQL - Partitioning & Large Table Maintenance]]"]
@@ -152,6 +152,7 @@ select pg_drop_replication_slot('debezium_old');
 
 ## Related
 - [[PostgreSQL]]
+- [[Kafka - Kafka Connect & Debezium Pipelines]] — Debezium/Kafka Connect pipelines
 - [[PostgreSQL - Major Version Upgrades & Migrations]] — logical replication for low-downtime upgrades
 - [[System Design - Event-Driven Architecture & Outbox Pattern]] — outbox vs CDC
 - [[Kafka - KRaft, Redpanda & Small-Infra Trade-offs]] — Debezium/Kafka CDC pipelines

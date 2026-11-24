@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-20
+updated: 2026-11-23
 parent: "[[00 - Home]]"
 ---
 
@@ -39,6 +39,7 @@ parent: "[[00 - Home]]"
   - [[Traefik - Observability & Troubleshooting]]
   - [[Traefik - Rate Limiting, ForwardAuth & Multi-Tenant Routing]]
   - [[Traefik - Custom Domains, ACME DNS-01 & Wildcard Certificates]]
+  - [[Traefik - Plugins, Geo-Blocking & Bot Filtering]]
 - [[Cloudflare]] — DNS/CDN/WAF edge, Tunnel + Access, R2 zero-egress, Workers; 2025 global outages = concentration risk
   - [[Cloudflare - Zero Trust Tunnel & Access]]
   - [[Cloudflare - R2 Storage & Presigned Uploads]]
@@ -49,6 +50,7 @@ parent: "[[00 - Home]]"
   - [[Cloudflare - KV, D1 & Durable Objects for Edge State]]
   - [[Cloudflare - Logs, Analytics & Security Events]]
   - [[Cloudflare - Pages & Workers Static Assets for Frontends]]
+  - [[Cloudflare - Email Routing & Email Workers]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
   - [[Git - Monorepo Workflows with pnpm & Turborepo]]
