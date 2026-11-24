@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-11-23
+updated: 2026-11-24
 version_checked: "3.50 / Dart 3.14 (2026-11-11, per release coverage) · 3.47 previous · Material/Cupertino split into packages (deprecated imports) — re-checked 2026-11-23"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -190,6 +190,7 @@ my_app/
 - [[Flutter - Camera, Image Picking & File Uploads]] — image_picker/camera/file_picker, on-device compression, signed uploads, Play media policy
 - [[Flutter - Web Support, PWA & Desktop Trade-offs]] — CanvasKit vs Skwasm, PWA limits, desktop, when to use Next.js instead
 - [[Flutter - Feature Flags, Remote Config & Forced Updates]] — app_config table, cached flags, kill switches, min-version gate, in-app updates, Shorebird
+- [[Flutter - Migrating to 3.50 & Standalone Material Packages]] — material_ui/cupertino_ui migration, dart fix, dependency readiness, combined maintenance release order
 
 ## Related
 - [[Dart]] — the language
