@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-24 (T372)
+Last run: 2026-11-24 (T373)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -466,7 +466,7 @@ Last run: 2026-11-24 (T372)
 - [x] T370 | deep-dive | Supabase - Read Replicas, High Availability & Multi-Region | 04 - Backend/Supabase/Supabase - Read Replicas, High Availability & Multi-Region.md | ✅ 2026-11-24
 - [x] T371 | deep-dive | Next.js - Content Security Policy, Nonces & Security Headers | 02 - Frontend/Next.js/Next.js - Content Security Policy, Nonces & Security Headers.md | ✅ 2026-11-24
 - [x] T372 | deep-dive | n8n - CRM Integrations with HubSpot, Zoho & Pipedrive | 08 - Automation/n8n/n8n - CRM Integrations with HubSpot, Zoho & Pipedrive.md | ✅ 2026-11-24
-- [ ] T373 | deep-dive | Redis - Search, JSON & Vector Sets in Redis 8 | 05 - Databases/Redis/Redis - Search, JSON & Vector Sets in Redis 8.md
+- [x] T373 | deep-dive | Redis - Search, JSON & Vector Sets in Redis 8 | 05 - Databases/Redis/Redis - Search, JSON & Vector Sets in Redis 8.md | ✅ 2026-11-24
 - [ ] T374 | deep-dive | Docker - Private Registries & Image Promotion | 07 - DevOps & Infrastructure/Docker/Docker - Private Registries & Image Promotion.md
 - [ ] T375 | deep-dive | Cloudflare - Hyperdrive & Connecting Workers to Postgres | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Hyperdrive & Connecting Workers to Postgres.md
 - [ ] T376 | deep-dive | AI Agents - Voice Agents & Phone Automation | 13 - AI Engineering/AI Agents/AI Agents - Voice Agents & Phone Automation.md
