@@ -52,6 +52,7 @@ parent: "[[00 - Home]]"
   - [[Cloudflare - Logs, Analytics & Security Events]]
   - [[Cloudflare - Pages & Workers Static Assets for Frontends]]
   - [[Cloudflare - Email Routing & Email Workers]]
+  - [[Cloudflare - Hyperdrive & Connecting Workers to Postgres]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
   - [[Git - Monorepo Workflows with pnpm & Turborepo]]

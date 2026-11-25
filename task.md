@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-25 (T374)
+Last run: 2026-11-25 (T375)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -468,7 +468,7 @@ Last run: 2026-11-25 (T374)
 - [x] T372 | deep-dive | n8n - CRM Integrations with HubSpot, Zoho & Pipedrive | 08 - Automation/n8n/n8n - CRM Integrations with HubSpot, Zoho & Pipedrive.md | ✅ 2026-11-24
 - [x] T373 | deep-dive | Redis - Search, JSON & Vector Sets in Redis 8 | 05 - Databases/Redis/Redis - Search, JSON & Vector Sets in Redis 8.md | ✅ 2026-11-24
 - [x] T374 | deep-dive | Docker - Private Registries & Image Promotion | 07 - DevOps & Infrastructure/Docker/Docker - Private Registries & Image Promotion.md | ✅ 2026-11-25
-- [ ] T375 | deep-dive | Cloudflare - Hyperdrive & Connecting Workers to Postgres | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Hyperdrive & Connecting Workers to Postgres.md
+- [x] T375 | deep-dive | Cloudflare - Hyperdrive & Connecting Workers to Postgres | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Hyperdrive & Connecting Workers to Postgres.md | ✅ 2026-11-25
 - [ ] T376 | deep-dive | AI Agents - Voice Agents & Phone Automation | 13 - AI Engineering/AI Agents/AI Agents - Voice Agents & Phone Automation.md
 - [ ] T377 | deep-dive | Linux Essentials - Performance Troubleshooting with top, vmstat & iostat | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Performance Troubleshooting with top, vmstat & iostat.md
 - [ ] T378 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -

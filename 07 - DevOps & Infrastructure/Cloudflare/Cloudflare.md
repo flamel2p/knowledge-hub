@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/cloudflare, topic/cdn, topic/edge]
 status: draft
 created: 2026-10-11
-updated: 2026-11-23
+updated: 2026-11-25
 version_checked: "n/a (SaaS) — products, pricing + 2025 outages checked 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Traefik]]", "[[Network Security]]", "[[Coolify]]", "[[HTTP & HTTPS]]", "[[Next.js]]", "[[Docker]]"]
@@ -196,6 +196,7 @@ aws s3 cp backup.sql.gz s3://backups/ --endpoint-url https://<account>.r2.cloudf
 - [[Cloudflare - Logs, Analytics & Security Events]] — Security Events, GraphQL analytics, Logpush to R2, Log Explorer, Workers logs, Ray ID correlation
 - [[Cloudflare - Pages & Workers Static Assets for Frontends]] — Pages vs Workers static assets, SPA fallback, Worker APIs, OpenNext/vinext, edge-SSR caveats
 - [[Cloudflare - Email Routing & Email Workers]] — forwarding aliases, Email Workers parsing to R2 + n8n, subdomain MX, inbound security
+- [[Cloudflare - Hyperdrive & Connecting Workers to Postgres]] — pooled Workers→Postgres, query cache caveats, least-privilege roles, Tunnel for private DBs
 
 ## Related
 - [[Traefik]] — origin proxy, DNS-01 certificates via the Cloudflare API
