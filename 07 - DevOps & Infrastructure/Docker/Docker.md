@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/docker]
 status: draft
 created: 2026-10-03
-updated: 2026-11-20
+updated: 2026-11-25
 version_checked: "Engine 29.9.1 (2026-10-14, security fixes) · no Engine 30 yet · Compose v2 — re-checked 2026-11-17"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Coolify]]", "[[Kubernetes]]", "[[Traefik]]", "[[Linux Essentials]]", "[[CI-CD]]"]
@@ -205,6 +205,7 @@ service/
 - [[Docker - Multi-Architecture Builds for ARM & x86]] — buildx, manifest lists, native ARM runners vs QEMU, exec format error
 - [[Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys]] — health endpoints, restart policies, graceful SIGTERM, rolling deploys, expand/contract migrations
 - [[Docker - Container Hardening, Rootless & Seccomp]] — non-root, cap_drop, no-new-privileges, read-only rootfs, socket proxy, rootless trade-offs
+- [[Docker - Private Registries & Image Promotion]] — GHCR vs Harbor, build-once promote-by-digest, read-only pull tokens, retention, pull-through cache
 
 ## Related
 - [[Coolify]] — PaaS layer on top of Docker in ZP's stack
