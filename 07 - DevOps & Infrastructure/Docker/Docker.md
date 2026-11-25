@@ -6,8 +6,8 @@ domain: devops
 tags: [domain/devops, type/overview, topic/docker]
 status: draft
 created: 2026-10-03
-updated: 2026-11-20
-version_checked: "Engine 29.9.1 (2026-10-14, security fixes) · no Engine 30 yet · Compose v2 — re-checked 2026-11-17"
+updated: 2026-11-25
+version_checked: "Engine 29.9.1 (2026-10-14) latest confirmed · further Oct 2026 Go-runtime security entries (2026-09-30, 2026-10-08) · no Engine 30 — re-checked 2026-11-25"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Coolify]]", "[[Kubernetes]]", "[[Traefik]]", "[[Linux Essentials]]", "[[CI-CD]]"]
 ---
@@ -171,7 +171,7 @@ service/
 | Engine 28 | 2025-02 | Firewall/iptables hardening, GPU/CDI improvements | Stricter default networking rules can break hacks relying on cross-bridge access |
 | Engine 29 | 2025-11 | containerd image store default for new installs, nftables work | **Min API version raised (1.44)**: old clients, including Traefik < 3.6.1's Docker provider, broke. Upgrade clients before the Engine |
 | Engine 29.3.1 | 2026-04 | Fix for CVE-2026-34040 | Upgrade if you use authorization plugins |
-| **Engine 29.9.1** | 2026-10-14 | Latest patch, includes security fixes | Patch hosts (`apt upgrade docker-ce`). Engine 29 and 25 are the supported lines per lifecycle trackers |
+| **Engine 29.9.1** | 2026-10-14 | Latest patch confirmed, includes security fixes (Go runtime CVE fixes in late Sep/Oct entries) | Patch hosts (`apt upgrade docker-ce`). Engine 29 and 25 are the supported lines per lifecycle trackers |
 
 > [!warning] Unverified — check before relying on this
 > Engine 29.9.1 (2026-10-14) is from the official release notes. Engine 28 release month, the support-line claim (third-party tracker) and Docker Hub rate-limit numbers weren't verified. Check https://docs.docker.com/engine/release-notes/.
@@ -205,6 +205,7 @@ service/
 - [[Docker - Multi-Architecture Builds for ARM & x86]] — buildx, manifest lists, native ARM runners vs QEMU, exec format error
 - [[Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys]] — health endpoints, restart policies, graceful SIGTERM, rolling deploys, expand/contract migrations
 - [[Docker - Container Hardening, Rootless & Seccomp]] — non-root, cap_drop, no-new-privileges, read-only rootfs, socket proxy, rootless trade-offs
+- [[Docker - Private Registries & Image Promotion]] — GHCR vs Harbor, build-once promote-by-digest, read-only pull tokens, retention, pull-through cache
 
 ## Related
 - [[Coolify]] — PaaS layer on top of Docker in ZP's stack

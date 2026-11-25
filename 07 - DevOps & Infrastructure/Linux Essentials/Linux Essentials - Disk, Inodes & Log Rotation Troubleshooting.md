@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/linux, topic/disk, topic/troubleshooting]
 status: draft
 created: 2026-11-20
-updated: 2026-11-20
+updated: 2026-11-25
 version_checked: "Ubuntu 24.04 LTS (systemd-journald, logrotate 3.21) · Docker Engine 29.9.1 (json-file / local log drivers) — 2026-11"
 parent: "[[Linux Essentials]]"
 related: ["[[Linux Essentials - systemd, Logs & Troubleshooting]]", "[[Docker - Logging, Metrics & Resource Limits on a VPS]]", "[[PostgreSQL - Logical Replication & Change Data Capture]]", "[[Linux Essentials - Backups with restic & Off-Site Storage]]", "[[n8n - Binary Data, Files & Data Tables]]", "[[Docker - Container Hardening, Rootless & Seccomp]]"]
@@ -173,6 +173,7 @@ use=$(df --output=pcent / | tail -1 | tr -dc '0-9'); [ "$use" -ge 85 ] && \
 
 ## Related
 - [[Linux Essentials]]
+- [[Linux Essentials - Performance Troubleshooting with top, vmstat & iostat]] — CPU/memory/IO triage
 - [[Linux Essentials - systemd, Logs & Troubleshooting]] — journald and service logs
 - [[Docker - Logging, Metrics & Resource Limits on a VPS]] — log drivers and metrics
 - [[PostgreSQL - Logical Replication & Change Data Capture]] — slots retaining WAL

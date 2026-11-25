@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/ai-agents, topic/whatsapp, topic/customer-support]
 status: draft
 created: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-25
 version_checked: "WhatsApp Business Solution terms (general-purpose AI assistants barred from 2026-01-15; business support/sales bots allowed) · Cloud API 24-hour window — 2026-11"
 parent: "[[AI Agents]]"
 related: ["[[n8n - WhatsApp Cloud API Workflows & Template Messaging]]", "[[AI Agents - Human-in-the-Loop & Approval Workflows]]", "[[AI Agents - Tool Calling & Agent Loops]]", "[[RAG - Evaluation & Answer Grounding]]", "[[AI Agents - Memory & Context Engineering]]", "[[OWASP Top 10 - LLM & Agent Security]]"]
@@ -156,6 +156,7 @@ alter table conversations add column mode text not null default 'bot'
 
 ## Related
 - [[AI Agents]]
+- [[AI Agents - Voice Agents & Phone Automation]] — voice channel for the same agent
 - [[n8n - WhatsApp Cloud API Workflows & Template Messaging]] — channel mechanics, templates, pricing
 - [[AI Agents - Human-in-the-Loop & Approval Workflows]] — approvals and handoff
 - [[AI Agents - Tool Calling & Agent Loops]] — tool design

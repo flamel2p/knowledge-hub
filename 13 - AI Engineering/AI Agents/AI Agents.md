@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/agents]
 status: draft
 created: 2026-10-04
-updated: 2026-11-20
+updated: 2026-11-25
 version_checked: "n/a — pattern; ecosystem snapshot 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LangChain & LangGraph]]", "[[Model Context Protocol]]", "[[LLM Fundamentals]]", "[[RAG]]", "[[Prompt Engineering]]"]
@@ -183,6 +183,7 @@ agent/
 - [[AI Agents - Multi-Agent Orchestration & Subagents]] — orchestrator–workers with isolated contexts, worker brief contracts, cheap-worker/strong-lead split, cost caps, when a single agent wins
 - [[AI Agents - Customer Support Agents for WhatsApp & Messaging]] — scoped support agents, handoff state, per-conversation locking, WhatsApp AI policy
 - [[AI Agents - Document Processing & Invoice Extraction]] — extraction pipeline, JSON schema, deterministic validation, duplicate/fraud checks, review queue
+- [[AI Agents - Voice Agents & Phone Automation]] — cascaded vs speech-to-speech, telephony, latency budget, barge-in, consent, build vs buy
 
 ## Related
 - [[LangChain & LangGraph]] — agent framework + durable runtime

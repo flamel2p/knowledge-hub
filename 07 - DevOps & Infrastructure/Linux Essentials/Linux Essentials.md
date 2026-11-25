@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/overview, topic/linux, topic/sysadmin]
 status: draft
 created: 2026-10-11
-updated: 2026-11-20
+updated: 2026-11-25
 version_checked: "Ubuntu 24.04/26.04 LTS · Debian 13 · kernel 6.12/6.18 LTS — 2026-10"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Network Security]]", "[[Coolify]]", "[[Git]]", "[[Nginx]]", "[[Kubernetes]]"]
@@ -187,6 +187,7 @@ N/A — an OS skill set, not a codebase. A recommended VPS baseline layout:
 - [[Linux Essentials - Networking, Firewalls & Tailscale]] — reachability layers, Docker vs UFW + DOCKER-USER, Cloudflare-only nft sets, bind-not-publish, Tailscale grants/tags/serve, troubleshooting kit
 - [[Linux Essentials - Backups with restic & Off-Site Storage]] — restic to R2, streamed DB dumps, systemd timers, retention, append-only, restore drills
 - [[Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting]] — disk-full triage, inodes, deleted-open files, Docker/journald log caps, logrotate, safe cleanup
+- [[Linux Essentials - Performance Troubleshooting with top, vmstat & iostat]] — USE method, 60-second checklist, steal/iowait/swap, PSI, container mapping, fixes
 
 ## Related
 - [[Docker]] — namespaces, cgroups, overlayfs in practice

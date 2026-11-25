@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-23
+updated: 2026-11-25
 parent: "[[00 - Home]]"
 ---
 
@@ -25,6 +25,7 @@ parent: "[[00 - Home]]"
   - [[Docker - Multi-Architecture Builds for ARM & x86]]
   - [[Docker - Healthchecks, Restart Policies & Zero-Downtime Deploys]]
   - [[Docker - Container Hardening, Rootless & Seccomp]]
+  - [[Docker - Private Registries & Image Promotion]]
 - [[Coolify]] — self-hosted PaaS over SSH + Traefik; v4 stable, Jan 2026 critical CVEs
   - [[Coolify - Operations, Backups & Hardening]]
   - [[Coolify - Multi-Server, Build Servers & Scaling]]
@@ -51,6 +52,7 @@ parent: "[[00 - Home]]"
   - [[Cloudflare - Logs, Analytics & Security Events]]
   - [[Cloudflare - Pages & Workers Static Assets for Frontends]]
   - [[Cloudflare - Email Routing & Email Workers]]
+  - [[Cloudflare - Hyperdrive & Connecting Workers to Postgres]]
 - [[Git]] — content-addressed DAG VCS; merge vs rebase, secret hygiene, clone-time CVEs, Git 3.0 (main, SHA-256)
   - [[Git - Branching, Releases & Recovery]]
   - [[Git - Monorepo Workflows with pnpm & Turborepo]]
@@ -60,6 +62,7 @@ parent: "[[00 - Home]]"
   - [[Linux Essentials - Networking, Firewalls & Tailscale]]
   - [[Linux Essentials - Backups with restic & Off-Site Storage]]
   - [[Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting]]
+  - [[Linux Essentials - Performance Troubleshooting with top, vmstat & iostat]]
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
   - [[CI-CD - GitHub Actions Security Hardening]]
   - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]

@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-23
+updated: 2026-11-25
 parent: "[[00 - Home]]"
 ---
 
@@ -34,6 +34,7 @@ parent: "[[00 - Home]]"
   - [[AI Agents - Multi-Agent Orchestration & Subagents]]
   - [[AI Agents - Customer Support Agents for WhatsApp & Messaging]]
   - [[AI Agents - Document Processing & Invoice Extraction]]
+  - [[AI Agents - Voice Agents & Phone Automation]]
 - [[Model Context Protocol]] — MCP 2026-07-28 stateless spec, OAuth 2.1, server security
   - [[Model Context Protocol - Building MCP Servers]]
   - [[Model Context Protocol - Remote Servers, OAuth & Security]]
