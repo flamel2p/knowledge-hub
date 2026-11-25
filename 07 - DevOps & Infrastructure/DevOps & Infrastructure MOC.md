@@ -62,6 +62,7 @@ parent: "[[00 - Home]]"
   - [[Linux Essentials - Networking, Firewalls & Tailscale]]
   - [[Linux Essentials - Backups with restic & Off-Site Storage]]
   - [[Linux Essentials - Disk, Inodes & Log Rotation Troubleshooting]]
+  - [[Linux Essentials - Performance Troubleshooting with top, vmstat & iostat]]
 - [[CI-CD]] — pipelines, deploy strategies, DORA; GitHub Actions → GHCR → Coolify; SHA-pinning after tj-actions compromise
   - [[CI-CD - GitHub Actions Security Hardening]]
   - [[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]

@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-25 (T376)
+Last run: 2026-11-25 (T377)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -470,6 +470,6 @@ Last run: 2026-11-25 (T376)
 - [x] T374 | deep-dive | Docker - Private Registries & Image Promotion | 07 - DevOps & Infrastructure/Docker/Docker - Private Registries & Image Promotion.md | ✅ 2026-11-25
 - [x] T375 | deep-dive | Cloudflare - Hyperdrive & Connecting Workers to Postgres | 07 - DevOps & Infrastructure/Cloudflare/Cloudflare - Hyperdrive & Connecting Workers to Postgres.md | ✅ 2026-11-25
 - [x] T376 | deep-dive | AI Agents - Voice Agents & Phone Automation | 13 - AI Engineering/AI Agents/AI Agents - Voice Agents & Phone Automation.md | ✅ 2026-11-25
-- [ ] T377 | deep-dive | Linux Essentials - Performance Troubleshooting with top, vmstat & iostat | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Performance Troubleshooting with top, vmstat & iostat.md
+- [x] T377 | deep-dive | Linux Essentials - Performance Troubleshooting with top, vmstat & iostat | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Performance Troubleshooting with top, vmstat & iostat.md | ✅ 2026-11-25
 - [ ] T378 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
 - [ ] T379 | replenish | Next 12 tasks per CLAUDE.md §9 | -
