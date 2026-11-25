@@ -6,8 +6,8 @@ domain: backend
 tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/baas]
 status: draft
 created: 2026-10-06
-updated: 2026-11-24
-version_checked: "Platform — publishable/secret keys, JWT signing keys; legacy anon/service_role removal \"late 2026, TBC\" — re-checked 2026-11-14"
+updated: 2026-11-25
+version_checked: "Platform — publishable/secret keys, JWT signing keys; legacy anon/service_role removal still \"late 2026\" (no dated notice found) · projects restored since 2025-11-01 lack legacy keys — re-checked 2026-11-25"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
 ---
@@ -157,10 +157,10 @@ supabase db push                    # apply to linked project (CI)
 | Publishable / secret API keys | 2025 | Revocable, scoped keys. GitHub secret scanning auto-revocation | Replace `anon`/`service_role` in all apps and envs |
 | Postgres 17 for new projects / self-host image | 2025–26 | Newer PG features | Upgrade older projects via dashboard (downtime window) |
 | Self-hosted gateway Kong → Envoy | 2026 | Config-as-code routing | Review custom Kong configs |
-| **Legacy `anon`/`service_role` keys removed** | Late 2026 (TBC per changelog) | Old keys stop working. Legacy keys/JWT secret can no longer be rotated. Restored paused projects may lack legacy keys | **Deadline: migrate before removal**. New keys coexist with legacy ones, so migrate per app with no downtime |
+| **Legacy `anon`/`service_role` keys removed** | Late 2026 (no dated notice as of 2026-11-25). Projects restored since 2025-11-01 already lack legacy keys | Old keys stop working. Legacy keys/JWT secret can no longer be rotated. Restored paused projects may lack legacy keys | **Deadline: migrate before removal**. New keys coexist with legacy ones, so migrate per app with no downtime |
 
 > [!warning] Unverified — check before relying on this
-> The exact removal date for legacy keys is still "late 2026, TBC" in Supabase's changelog (re-checked 2026-11-14). Per-plan pricing wasn't verified. Check https://supabase.com/docs/guides/getting-started/api-keys and the changelog.
+> The exact removal date for legacy keys is still "late 2026" in Supabase's docs (re-checked 2026-11-25). Legacy keys can be deactivated (and re-activated) in Settings → API Keys, which is a safe test before removal. Per-plan pricing wasn't verified. Check https://supabase.com/docs/guides/getting-started/api-keys and the changelog.
 
 ## Critical Issues & Gotchas
 > [!danger] Missing RLS → public data exposure

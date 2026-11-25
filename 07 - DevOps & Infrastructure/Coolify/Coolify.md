@@ -6,8 +6,8 @@ domain: devops
 tags: [domain/devops, type/overview, topic/coolify]
 status: draft
 created: 2026-10-03
-updated: 2026-11-17
-version_checked: "4.4.x–4.6.0 (changelog tops at 4.6.0, undated) — re-checked 2026-11-17"
+updated: 2026-11-25
+version_checked: "4.6.0 (2026-11-02, per secondary source) · 4.7.0 listed (date unconfirmed) · 4.5.0 (2026-10-23) · update channels stable/preview/nightly — re-checked 2026-11-25"
 parent: "[[DevOps & Infrastructure MOC]]"
 related: ["[[Docker]]", "[[Traefik]]", "[[Cloudflare]]", "[[Linux Essentials]]", "[[CI-CD]]"]
 ---
@@ -141,7 +141,9 @@ volumes: { pgdata: {} }
 | 4.2.0 | 2026-07-21 | Volume backup scheduling, expanded API, resource migration, registry config, tags, **audit logging** | Breaking changes to **team permissions and API endpoints**. Update API clients/scripts |
 | 4.3.x | 2026-09 | Security patch: reduced remotely callable Livewire API (4.3.15) | Upgrade off older 4.3 patches |
 | 4.4.x | 2026-10 | Optional Cloudflare proxy mode for new DNS records. Database proxy fix after IP changes | — |
-| **4.6.0** | 2026 (undated on changelog) | Lockfile-based GitHub workflows, new release process, **preview channel** for betas/RCs | Breaking: workflows must use the lockfile. Stay on the stable channel for client servers |
+| 4.5.0 | 2026-10-23 | Feature release (reported) | — |
+| **4.6.0** | 2026-11-02 (reported) | Lockfile-based GitHub workflows, new release process, **preview channel** for betas/RCs | Breaking: workflows must use the lockfile. Adds scoped access for team members/API tokens, update channel setting (stable/preview/nightly), DNS management via API/MCP (reported). Stay on **stable** for client servers |
+| 4.7.0 | Listed on aggregators (date unconfirmed) | SSH key housekeeping (unused key files cleaned hourly) | Confirm on GitHub releases before upgrading |
 
 > [!warning] Unverified — check before relying on this
 > The 4.0.0 stable month, 4.4/4.6 release dates and whether 4.6.0 is stable (vs preview) came from the changelog page and newreleases.io mirrors without dates. Check https://github.com/coollabsio/coolify/releases.
