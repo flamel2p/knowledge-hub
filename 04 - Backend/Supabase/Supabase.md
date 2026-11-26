@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/supabase, topic/postgresql, topic/baas]
 status: draft
 created: 2026-10-06
-updated: 2026-11-25
+updated: 2026-11-26
 version_checked: "Platform — publishable/secret keys, JWT signing keys; legacy anon/service_role removal still \"late 2026\" (no dated notice found) · projects restored since 2025-11-01 lack legacy keys — re-checked 2026-11-25"
 parent: "[[Backend MOC]]"
 related: ["[[PostgreSQL]]", "[[Next.js]]", "[[Flutter]]", "[[JWT]]", "[[OAuth 2.0 & OIDC]]"]
@@ -193,6 +193,7 @@ supabase db push                    # apply to linked project (CI)
 - [[Supabase - Data Retention, PDPA & Account Deletion]] — PDPA 2024 duties, retention rules + pg_cron purges, deletion/anonymization flow, exports, breach runbook
 - [[Supabase - Transactional Email, Auth SMTP & Deliverability]] — custom SMTP/hooks, SPF-DKIM-DMARC, OTP vs magic links, bounces, provider choice
 - [[Supabase - Read Replicas, High Availability & Multi-Region]] — replicas vs backups, read routing, lag, region co-location, DR runbook, honest SLAs
+- [[Supabase - Drizzle ORM & Typed SQL]] — supabase-js vs Drizzle, SQL-first migrations, RLS via set local role, pooler prepare:false
 
 ## Related
 - [[PostgreSQL]] — the database underneath
