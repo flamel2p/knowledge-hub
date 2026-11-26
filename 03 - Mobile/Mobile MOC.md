@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-24
+updated: 2026-11-26
 parent: "[[00 - Home]]"
 ---
 
@@ -39,6 +39,7 @@ parent: "[[00 - Home]]"
   - [[Flutter - Web Support, PWA & Desktop Trade-offs]]
   - [[Flutter - Feature Flags, Remote Config & Forced Updates]]
   - [[Flutter - Migrating to 3.50 & Standalone Material Packages]]
+  - [[Flutter - Crash Reporting & Analytics with Sentry & Firebase]]
 - [[React Native]] — React native views, New Architecture only (0.82+), Expo/EAS
   - [[React Native - New Architecture]]
   - [[React Native - Expo Router & EAS Builds]]
