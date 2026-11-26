@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-26 (T379)
+Last run: 2026-11-26 (T380)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -476,7 +476,7 @@ Last run: 2026-11-26 (T379)
 
 ### Wave 27 — Hono, analytics, crash reporting, Drizzle, Stripe Connect, accounting, code review, PostGIS, multi-tenant RAG, legacy PHP
 
-- [ ] T380 | deep-dive | Node.js - Hono APIs on Node, Bun & Workers | 04 - Backend/Node.js/Node.js - Hono APIs on Node, Bun & Workers.md
+- [x] T380 | deep-dive | Node.js - Hono APIs on Node, Bun & Workers | 04 - Backend/Node.js/Node.js - Hono APIs on Node, Bun & Workers.md | ✅ 2026-11-26
 - [ ] T381 | deep-dive | Next.js - Product Analytics with PostHog & Plausible | 02 - Frontend/Next.js/Next.js - Product Analytics with PostHog & Plausible.md
 - [ ] T382 | deep-dive | Flutter - Crash Reporting & Analytics with Sentry & Firebase | 03 - Mobile/Flutter/Flutter - Crash Reporting & Analytics with Sentry & Firebase.md
 - [ ] T383 | deep-dive | Supabase - Drizzle ORM & Typed SQL | 04 - Backend/Supabase/Supabase - Drizzle ORM & Typed SQL.md

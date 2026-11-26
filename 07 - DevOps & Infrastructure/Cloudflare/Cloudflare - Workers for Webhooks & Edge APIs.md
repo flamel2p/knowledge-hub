@@ -6,7 +6,7 @@ domain: devops
 tags: [domain/devops, type/deep-dive, topic/cloudflare, topic/workers, topic/webhooks, lang/typescript]
 status: draft
 created: 2026-10-28
-updated: 2026-11-25
+updated: 2026-11-26
 version_checked: "Workers Free 100k req/day (CPU limit per docs; 10 ms vs 30 ms reports conflict) · Queues · Hyperdrive — 2026-10"
 parent: "[[Cloudflare]]"
 related: ["[[REST API - Webhooks & Idempotency]]", "[[Cloudflare - R2 Storage & Presigned Uploads]]", "[[Network Security - Cloudflare WAF & Rate Limiting Rules]]", "[[n8n - Security, Credentials & Self-Hosting Hardening]]", "[[Supabase - Edge Functions, Cron & Queues]]", "[[Message Queues - Choosing BullMQ, pgmq, RabbitMQ or NATS]]"]
@@ -180,6 +180,7 @@ if (await env.KV.get(id)) return new Response('dup');
 
 ## Related
 - [[Cloudflare]]
+- [[Node.js - Hono APIs on Node, Bun & Workers]] — Hono on Workers
 - [[Cloudflare - Hyperdrive & Connecting Workers to Postgres]] — Postgres access from Workers via Hyperdrive
 - [[Cloudflare - KV, D1 & Durable Objects for Edge State]] — edge state for Workers
 - [[Cloudflare - Caching Rules, CDN & Cache Purging]] — edge caching rules and tag purges
