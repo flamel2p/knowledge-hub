@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/mobile-security, lang/dart]
 status: draft
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-26
 version_checked: "Flutter 3.47 · flutter_secure_storage 10.x (Jetpack Security dropped, AES-GCM default, minSdk 23; 10.3 seen 2026-05) · SafetyNet retired → Play Integrity — 2026-11"
 parent: "[[Flutter]]"
 related: ["[[Flutter - Build, Release & Store Compliance]]", "[[Flutter - Offline Storage & Sync]]", "[[Supabase - Auth Flows, MFA & Custom Claims]]", "[[JWT - Refresh Tokens, Revocation & Storage]]", "[[OWASP Top 10]]", "[[CI-CD - Deploy Pipelines for Coolify & Flutter Releases]]"]
@@ -162,6 +162,7 @@ print('login ok for $phone $ic');                // ❌ PII in device logs (logc
 
 ## Related
 - [[Flutter]]
+- [[Flutter - Crash Reporting & Analytics with Sentry & Firebase]] — symbols for crash reports
 - [[Flutter - Build, Release & Store Compliance]] — release builds, privacy declarations
 - [[Flutter - Offline Storage & Sync]] — encrypted local databases
 - [[Supabase - Auth Flows, MFA & Custom Claims]] — sessions, PKCE, server-side checks

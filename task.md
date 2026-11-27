@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-25 (T378)
+Last run: 2026-11-26 (T383)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -472,4 +472,19 @@ Last run: 2026-11-25 (T378)
 - [x] T376 | deep-dive | AI Agents - Voice Agents & Phone Automation | 13 - AI Engineering/AI Agents/AI Agents - Voice Agents & Phone Automation.md | ✅ 2026-11-25
 - [x] T377 | deep-dive | Linux Essentials - Performance Troubleshooting with top, vmstat & iostat | 07 - DevOps & Infrastructure/Linux Essentials/Linux Essentials - Performance Troubleshooting with top, vmstat & iostat.md | ✅ 2026-11-25
 - [x] T378 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | - | ✅ 2026-11-25
-- [ ] T379 | replenish | Next 12 tasks per CLAUDE.md §9 | -
+- [x] T379 | replenish | Next 12 tasks per CLAUDE.md §9 | - | ✅ 2026-11-26
+
+### Wave 27 — Hono, analytics, crash reporting, Drizzle, Stripe Connect, accounting, code review, PostGIS, multi-tenant RAG, legacy PHP
+
+- [x] T380 | deep-dive | Node.js - Hono APIs on Node, Bun & Workers | 04 - Backend/Node.js/Node.js - Hono APIs on Node, Bun & Workers.md | ✅ 2026-11-26
+- [x] T381 | deep-dive | Next.js - Product Analytics with PostHog & Plausible | 02 - Frontend/Next.js/Next.js - Product Analytics with PostHog & Plausible.md | ✅ 2026-11-26
+- [x] T382 | deep-dive | Flutter - Crash Reporting & Analytics with Sentry & Firebase | 03 - Mobile/Flutter/Flutter - Crash Reporting & Analytics with Sentry & Firebase.md | ✅ 2026-11-26
+- [x] T383 | deep-dive | Supabase - Drizzle ORM & Typed SQL | 04 - Backend/Supabase/Supabase - Drizzle ORM & Typed SQL.md | ✅ 2026-11-26
+- [ ] T384 | deep-dive | Next.js - Marketplace Payments with Stripe Connect | 02 - Frontend/Next.js/Next.js - Marketplace Payments with Stripe Connect.md
+- [ ] T385 | deep-dive | n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting | 08 - Automation/n8n/n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting.md
+- [ ] T386 | deep-dive | Git - Code Review, PR Templates & Conventional Commits | 07 - DevOps & Infrastructure/Git/Git - Code Review, PR Templates & Conventional Commits.md
+- [ ] T387 | deep-dive | PostgreSQL - Geospatial with PostGIS for Delivery & Outlets | 05 - Databases/PostgreSQL/PostgreSQL - Geospatial with PostGIS for Delivery & Outlets.md
+- [ ] T388 | deep-dive | RAG - Multi-Tenant Knowledge Bases & Access Control | 13 - AI Engineering/RAG/RAG - Multi-Tenant Knowledge Bases & Access Control.md
+- [ ] T389 | deep-dive | Nginx - Reverse Proxy for Legacy PHP & WordPress Clients | 07 - DevOps & Infrastructure/Nginx/Nginx - Reverse Proxy for Legacy PHP & WordPress Clients.md
+- [ ] T390 | maint | Link audit + MOC sync + refresh version_checked on 3 oldest notes | -
+- [ ] T391 | replenish | Next 12 tasks per CLAUDE.md §9 | -

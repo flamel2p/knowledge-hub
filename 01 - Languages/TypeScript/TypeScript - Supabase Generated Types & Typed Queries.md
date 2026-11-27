@@ -6,7 +6,7 @@ domain: languages
 tags: [domain/languages, type/deep-dive, topic/typescript, topic/supabase, lang/typescript]
 status: draft
 created: 2026-11-18
-updated: 2026-11-18
+updated: 2026-11-26
 version_checked: "TypeScript 7.0 (native) · supabase-js 2.x (postgrest-js select parser, overrideTypes) · Supabase CLI 2.x gen types — 2026-11"
 parent: "[[TypeScript]]"
 related: ["[[TypeScript - Runtime Validation with Zod & Type-Safe APIs]]", "[[TypeScript - Advanced Types]]", "[[Supabase - Migrations, Branching & Local Development]]", "[[Supabase - Database Functions, Triggers & RPC]]", "[[Next.js - Admin Dashboards, Data Tables & Server-Side Filtering]]", "[[Supabase - Database Testing with pgTAP & Policy Tests]]"]
@@ -173,6 +173,7 @@ await sb.from("orders").insert(req.body as TablesInsert<"orders">);   // unvalid
 
 ## Related
 - [[TypeScript]]
+- [[Supabase - Drizzle ORM & Typed SQL]] — Drizzle for server-side typed SQL
 - [[TypeScript - Runtime Validation with Zod & Type-Safe APIs]] — validating untrusted input
 - [[TypeScript - Advanced Types]] — generics and mapped types behind the helpers
 - [[Supabase - Migrations, Branching & Local Development]] — where types are generated from

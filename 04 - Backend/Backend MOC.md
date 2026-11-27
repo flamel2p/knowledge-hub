@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-24
+updated: 2026-11-26
 parent: "[[00 - Home]]"
 ---
 
@@ -32,10 +32,12 @@ parent: "[[00 - Home]]"
   - [[Supabase - Data Retention, PDPA & Account Deletion]]
   - [[Supabase - Transactional Email, Auth SMTP & Deliverability]]
   - [[Supabase - Read Replicas, High Availability & Multi-Region]]
+  - [[Supabase - Drizzle ORM & Typed SQL]]
 - [[Node.js]] — V8 + libuv runtime; 24 LTS, 26 → LTS Oct 2026, yearly majors from 27; npm supply-chain risk
   - [[Node.js - Performance & Diagnostics]]
   - [[Node.js - Streams & Backpressure]]
   - [[Node.js - Supply Chain Security & Dependency Hygiene]]
+  - [[Node.js - Hono APIs on Node, Bun & Workers]]
 - [[Spring Boot]] — JVM framework; 4.1 on Spring Framework 7, virtual threads, JSpecify, Jakarta EE 11; actuator exposure risk
   - [[Spring Boot - Interview Questions]] — interview prep reference (DI, singleton vs prototype)
   - [[Spring Boot - Spring Security Resource Server]]

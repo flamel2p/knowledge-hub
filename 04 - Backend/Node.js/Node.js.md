@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/overview, topic/nodejs, lang/javascript, lang/typescript]
 status: draft
 created: 2026-10-08
-updated: 2026-11-20
+updated: 2026-11-26
 version_checked: "26.x Active LTS since 2026-10-28 (26.13.0 per secondary source) · 24.x/22.x LTS lines · Oct 2026 security release (10 CVEs) · 27 alpha (annual model) — re-checked 2026-11-20"
 parent: "[[Backend MOC]]"
 related: ["[[JavaScript]]", "[[TypeScript]]", "[[JavaScript - Event Loop & Async]]", "[[Next.js]]", "[[n8n]]", "[[Docker]]"]
@@ -190,6 +190,7 @@ for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, async () => {
 - [[Node.js - Performance & Diagnostics]]
 - [[Node.js - Streams & Backpressure]] — pipeline(), async-generator stages, COPY imports, bounded concurrency, Web↔Node streams
 - [[Node.js - Supply Chain Security & Dependency Hygiene]] — Shai-Hulud worms, script blocking, release-age cooldowns, Renovate grouping, secrets-free installs, SBOM
+- [[Node.js - Hono APIs on Node, Bun & Workers]] — multi-runtime Hono apps, Zod validation, typed hc client, webhook gateway, runtime pitfalls
 
 ## Related
 - [[JavaScript]] · [[TypeScript]] — the language

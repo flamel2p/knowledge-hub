@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/nextjs, topic/performance, lang/typescript]
 status: draft
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-26
 version_checked: "Next.js 16.4.x (Turbopack default, built-in bundle analyzer since 16.1, React Compiler stable) · React 19.2+ — 2026-11"
 parent: "[[Next.js]]"
 related: ["[[Browser & Web Fundamentals - Core Web Vitals Optimization]]", "[[Next.js - Metadata, SEO & Image Optimization]]", "[[Next.js - Caching]]", "[[React - Server Components]]", "[[Node.js - Performance & Diagnostics]]", "[[Next.js - Self-Hosting, Standalone Builds & ISR on Coolify]]"]
@@ -170,6 +170,7 @@ node --cpu-prof --cpu-prof-dir=/tmp/prof .next/standalone/server.js   # load tes
 
 ## Related
 - [[Next.js]]
+- [[Next.js - Product Analytics with PostHog & Plausible]] — analytics script weight and events
 - [[Browser & Web Fundamentals - Core Web Vitals Optimization]] — metric definitions and browser-level fixes
 - [[Next.js - Metadata, SEO & Image Optimization]] — images and fonts
 - [[Next.js - Caching]] — server-side speed

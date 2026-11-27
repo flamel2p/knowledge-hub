@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/overview, topic/flutter, lang/dart]
 status: draft
 created: 2026-10-06
-updated: 2026-11-24
+updated: 2026-11-26
 version_checked: "3.50 / Dart 3.14 (2026-11-11, per release coverage) · 3.47 previous · Material/Cupertino split into packages (deprecated imports) — re-checked 2026-11-23"
 parent: "[[Mobile MOC]]"
 related: ["[[Dart]]", "[[React Native]]", "[[Supabase]]", "[[React]]"]
@@ -191,6 +191,7 @@ my_app/
 - [[Flutter - Web Support, PWA & Desktop Trade-offs]] — CanvasKit vs Skwasm, PWA limits, desktop, when to use Next.js instead
 - [[Flutter - Feature Flags, Remote Config & Forced Updates]] — app_config table, cached flags, kill switches, min-version gate, in-app updates, Shorebird
 - [[Flutter - Migrating to 3.50 & Standalone Material Packages]] — material_ui/cupertino_ui migration, dart fix, dependency readiness, combined maintenance release order
+- [[Flutter - Crash Reporting & Analytics with Sentry & Firebase]] — global error hooks, Sentry vs Crashlytics, symbol upload, release tags, PII scrubbing
 
 ## Related
 - [[Dart]] — the language
