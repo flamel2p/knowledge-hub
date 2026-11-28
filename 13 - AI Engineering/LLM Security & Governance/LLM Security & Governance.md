@@ -279,7 +279,7 @@ Frameworks to map against. They overlap, so pick one primary and cross-reference
 - [[LLM Security & Governance - Accuracy Assurance for Critical Workflows]] — tier-driven controls, maker-checker, acceptance sample sizes, QA sampling, drift
 - [[LLM Security & Governance - Audit Trails & Decision Records]] — what to record, tamper evidence, replay limits, retention
 - [[LLM Security & Governance - Model Migration, Deprecation & Version Pinning]] — pinning, eval gate → shadow → canary → rollback, prompt portability
-- (planned) [[LLM Security & Governance - Data Privacy, PII & Provider Data Handling]] — retention and ZDR terms, redaction, PII in traces and embeddings, deletion
+- [[LLM Security & Governance - Data Privacy, PII & Provider Data Handling]] — retention and ZDR terms, redaction, PII in traces and embeddings, deletion
 - (planned) [[LLM Security & Governance - Regulations, Standards & Platform Policies]] — PDPA, Malaysian AI rules, EU AI Act, ISO 42001, NIST AI RMF, channel policies
 - (planned) [[LLM Security & Governance - Acceptable Use Policy & Client Contracts]] — staff usage rules, AI disclosure, liability, accuracy and model-change clauses
 - (planned) [[LLM Security & Governance - Red Teaming & Security Testing]] — adversarial suites, tooling, CI gating, attack success rate

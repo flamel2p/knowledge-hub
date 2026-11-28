@@ -6,7 +6,7 @@ domain: backend
 tags: [domain/backend, type/deep-dive, topic/supabase, topic/privacy, topic/pdpa, lang/sql]
 status: draft
 created: 2026-11-19
-updated: 2026-11-19
+updated: 2026-11-28
 version_checked: "PDPA 2010 as amended 2024 (phased 2025: breach notification, DPO, portability) · Supabase Auth admin deleteUser · Storage/Backups retention — 2026-11"
 parent: "[[Supabase]]"
 related: ["[[PostgreSQL - Audit Logging & Change History]]", "[[Supabase - Storage, Uploads & Image Transformations]]", "[[Linux Essentials - Backups with restic & Off-Site Storage]]", "[[Flutter - Supabase Integration, Auth & Realtime]]", "[[Supabase - Edge Functions, Cron & Queues]]", "[[Authentication & Authorization - Session Management & Account Recovery]]"]
@@ -186,6 +186,7 @@ select jsonb_build_object(
 - [[Linux Essentials - Backups with restic & Off-Site Storage]] — backup retention and erasure limits
 - [[Supabase - Edge Functions, Cron & Queues]] — pg_cron and pgmq for purge and deletion jobs
 - [[Authentication & Authorization - Session Management & Account Recovery]] — re-auth before deletion
+- [[LLM Security & Governance - Data Privacy, PII & Provider Data Handling]] — what leaves for the model provider: tokenisation, provider retention terms, transfer register, erasure across AI stores
 
 ## References
 - https://www.pdp.gov.my/
