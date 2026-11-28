@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/observability, topic/langfuse, topic/tracing, lang/typescript]
 status: draft
 created: 2026-10-26
-updated: 2026-11-23
+updated: 2026-11-28
 version_checked: "Langfuse v3 self-hosted (web + worker + Postgres + ClickHouse + Redis + S3) · JS SDK v4 (OTel-based) — 2026-10"
 parent: "[[AI Evals & Observability]]"
 related: ["[[AI Evals & Observability - Eval Datasets & LLM-as-Judge]]", "[[AI Agents - Memory & Context Engineering]]", "[[LLM APIs & SDKs - Prompt Caching & Cost Optimization]]", "[[Coolify]]", "[[Cloudflare - R2 Storage & Presigned Uploads]]", "[[LangChain & LangGraph - Multi-Agent Systems & LangSmith]]"]
@@ -163,6 +163,7 @@ await langfuse.trace({ input: rawCustomerMessage });   // ❌ IC numbers and pho
 - [[LLM APIs & SDKs - Prompt Caching & Cost Optimization]] — cost attribution
 - [[Coolify]] — self-hosting the Langfuse stack
 - [[Cloudflare - R2 Storage & Presigned Uploads]] — S3-compatible event storage
+- [[LLM Security & Governance - Audit Trails & Decision Records]] — append-only hash-chained decision log, kept separately from short-lived traces
 
 ## References
 - https://langfuse.com/self-hosting
