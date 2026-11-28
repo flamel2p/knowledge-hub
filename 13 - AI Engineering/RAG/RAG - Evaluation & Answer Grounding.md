@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/rag, topic/evals, lang/typescript]
 status: draft
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-28
 version_checked: "n/a — methodology; tools (Ragas, DeepEval, Promptfoo, Langfuse datasets) not version-checked — 2026-11"
 parent: "[[RAG]]"
 related: ["[[RAG - Chunking & Retrieval Strategies]]", "[[AI Evals & Observability - Eval Datasets & LLM-as-Judge]]", "[[AI Evals & Observability - Tracing & Production Monitoring with Langfuse]]", "[[Vector Databases - pgvector Tuning & Hybrid Search]]", "[[Prompt Engineering - Long-Context & Structured Reasoning Prompts]]", "[[Vector Databases - Embedding Models & Multilingual Retrieval]]"]
@@ -159,6 +159,7 @@ N/A — methodology is stable. Tooling (Ragas, DeepEval, Promptfoo, Langfuse dat
 - [[AI Evals & Observability - Tracing & Production Monitoring with Langfuse]] — online signals and datasets
 - [[Vector Databases - pgvector Tuning & Hybrid Search]] — hybrid search, filters, tenant isolation
 - [[Prompt Engineering - Long-Context & Structured Reasoning Prompts]] — quote-grounded answering
+- [[LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains]] — runtime evidence: span verification, field-level quotes, recomputation, abstention
 
 ## References
 - https://docs.ragas.io/

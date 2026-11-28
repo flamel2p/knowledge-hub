@@ -61,6 +61,7 @@ parent: "[[00 - Home]]"
   - [[LLM Security & Governance - Prompt Injection & Jailbreak Defense]]
   - [[LLM Security & Governance - Guardrails & Content Moderation]]
   - [[LLM Security & Governance - LLM Gateway, API Keys & Call Hardening]]
+  - [[LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._

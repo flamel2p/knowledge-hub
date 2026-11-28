@@ -275,7 +275,7 @@ Frameworks to map against. They overlap, so pick one primary and cross-reference
 - [[LLM Security & Governance - Prompt Injection & Jailbreak Defense]] — attack catalogue, privilege-separation patterns, what does not work
 - [[LLM Security & Governance - Guardrails & Content Moderation]] — input/output filter pipeline, classifiers, fail-open vs fail-closed, latency budget
 - [[LLM Security & Governance - LLM Gateway, API Keys & Call Hardening]] — single egress, key scoping and rotation, timeouts, stop-reason handling, per-tenant quotas
-- (planned) [[LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains]] — claim-to-source spans, code-verified citations, computation outside the model, abstention
+- [[LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains]] — claim-to-source spans, code-verified citations, computation outside the model, abstention
 - (planned) [[LLM Security & Governance - Accuracy Assurance for Critical Workflows]] — tier-driven controls, maker-checker, acceptance sample sizes, QA sampling, drift
 - (planned) [[LLM Security & Governance - Audit Trails & Decision Records]] — what to record, tamper evidence, replay limits, retention
 - (planned) [[LLM Security & Governance - Model Migration, Deprecation & Version Pinning]] — pinning, eval gate → shadow → canary → rollback, prompt portability
