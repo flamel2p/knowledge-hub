@@ -46,7 +46,7 @@ Last run: 2026-11-26 (T383)
 ### Priority — Requested 2026-11-27 (LLM security & governance series: attacks, guardrails, call hardening, verifiable evidence, model migration, compliance)
 
 - [x] T392 | overview | LLM Security & Governance | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance.md | ✅ 2026-11-28
-- [ ] T393 | deep-dive | LLM Security & Governance - Prompt Injection & Jailbreak Defense | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Prompt Injection & Jailbreak Defense.md
+- [x] T393 | deep-dive | LLM Security & Governance - Prompt Injection & Jailbreak Defense | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Prompt Injection & Jailbreak Defense.md | ✅ 2026-11-28
 - [ ] T394 | deep-dive | LLM Security & Governance - Guardrails & Content Moderation | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Guardrails & Content Moderation.md
 - [ ] T395 | deep-dive | LLM Security & Governance - LLM Gateway, API Keys & Call Hardening | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - LLM Gateway, API Keys & Call Hardening.md
 - [ ] T396 | deep-dive | LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains.md
