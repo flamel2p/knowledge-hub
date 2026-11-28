@@ -27,6 +27,7 @@ parent: "[[00 - Home]]"
   - [[RAG - Chunking & Retrieval Strategies]]
   - [[RAG - Document Ingestion & PDF Parsing Pipelines]]
   - [[RAG - Evaluation & Answer Grounding]]
+  - [[RAG - Multi-Tenant Knowledge Bases & Access Control]]
 - [[AI Agents]] — workflows vs agents, tool loops, harness, lethal trifecta
   - [[AI Agents - Tool Calling & Agent Loops]]
   - [[AI Agents - Memory & Context Engineering]]
