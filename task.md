@@ -57,7 +57,7 @@ Last run: 2026-11-26 (T383)
 - [x] T401 | deep-dive | LLM Security & Governance - Regulations, Standards & Platform Policies | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Regulations, Standards & Platform Policies.md | ✅ 2026-11-28
 - [x] T402 | deep-dive | LLM Security & Governance - Acceptable Use Policy & Client Contracts | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Acceptable Use Policy & Client Contracts.md | ✅ 2026-11-28
 - [x] T403 | deep-dive | LLM Security & Governance - Red Teaming & Security Testing | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Red Teaming & Security Testing.md | ✅ 2026-11-28
-- [ ] T404 | deep-dive | LLM Security & Governance - Incident Response & Kill Switches | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Incident Response & Kill Switches.md
+- [x] T404 | deep-dive | LLM Security & Governance - Incident Response & Kill Switches | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Incident Response & Kill Switches.md | ✅ 2026-11-28
 
 ### Wave 1 — Core stack overviews
 

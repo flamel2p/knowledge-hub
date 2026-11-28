@@ -69,6 +69,7 @@ parent: "[[00 - Home]]"
   - [[LLM Security & Governance - Regulations, Standards & Platform Policies]]
   - [[LLM Security & Governance - Acceptable Use Policy & Client Contracts]]
   - [[LLM Security & Governance - Red Teaming & Security Testing]]
+  - [[LLM Security & Governance - Incident Response & Kill Switches]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._

@@ -6,7 +6,7 @@ domain: cs-fundamentals
 tags: [domain/cs-fundamentals, type/deep-dive, topic/system-design, topic/reliability, lang/typescript]
 status: draft
 created: 2026-10-21
-updated: 2026-11-03
+updated: 2026-11-28
 version_checked: "n/a (patterns) — Node 24/26 fetch + AbortSignal.timeout, opossum circuit breaker — 2026-10"
 parent: "[[System Design]]"
 related: ["[[REST API - Webhooks & Idempotency]]", "[[Design Patterns - State Machines for Business Workflows]]", "[[Message Queues - BullMQ in Production]]", "[[Node.js - Performance & Diagnostics]]", "[[Traefik - Middlewares, TLS & Routing]]", "[[LLM APIs & SDKs]]"]
@@ -202,6 +202,7 @@ N/A: patterns. Platform notes:
 - [[Message Queues - BullMQ in Production]] — async retries, DLQs
 - [[Node.js - Performance & Diagnostics]] — event-loop health, timeouts
 - [[Traefik - Middlewares, TLS & Routing]] — edge rate limiting, in-flight limits
+- [[LLM Security & Governance - Incident Response & Kill Switches]] — kill-switch levels and degraded modes for AI features
 
 ## References
 - AWS Builders' Library, timeouts, retries and backoff with jitter: https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/
