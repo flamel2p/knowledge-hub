@@ -6,7 +6,7 @@ domain: mobile
 tags: [domain/mobile, type/deep-dive, topic/flutter, topic/maps, topic/location, lang/dart]
 status: draft
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-28
 version_checked: "Google Maps Platform pricing (since 2025-03-01: per-SKU free monthly caps, Essentials 10k / Pro 5k / Enterprise 1k) · Flutter 3.47 · plugin versions not checked — 2026-11"
 parent: "[[Flutter]]"
 related: ["[[Flutter - Push Notifications & Background Work]]", "[[Flutter - Platform Channels & FFI]]", "[[Flutter - Build, Release & Store Compliance]]", "[[Flutter - App Security, Obfuscation & Secure Storage]]", "[[Supabase - Database Functions, Triggers & RPC]]", "[[PostgreSQL - Indexing]]"]
@@ -158,6 +158,7 @@ GoogleMap(
 
 ## Related
 - [[Flutter]]
+- [[PostgreSQL - Geospatial with PostGIS for Delivery & Outlets]] — server-side spatial queries with PostGIS
 - [[Flutter - Push Notifications & Background Work]] — background execution limits
 - [[Flutter - Platform Channels & FFI]] — native APIs when plugins fall short
 - [[Flutter - Build, Release & Store Compliance]] — permission declarations and reviews

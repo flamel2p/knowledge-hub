@@ -6,7 +6,7 @@ domain: databases
 tags: [domain/databases, type/overview, topic/postgresql]
 status: draft
 created: 2026-10-03
-updated: 2026-11-23
+updated: 2026-11-28
 version_checked: "19.0 GA 2026-11-19 (official) · 18.7 (2026-11-12) · 14 EOL (final 14.25) — re-checked 2026-11-23"
 parent: "[[Databases MOC]]"
 related: ["[[Supabase]]", "[[Redis]]", "[[MySQL]]", "[[Vector Databases]]", "[[n8n]]"]
@@ -200,6 +200,7 @@ shared_preload_libraries = 'pg_stat_statements'
 - [[PostgreSQL - Reporting Queries, Window Functions & Materialized Views]] — MYT bucketing, gap filling, FILTER/ROLLUP, window functions, cohorts, concurrent MV refresh
 - [[PostgreSQL - Bulk Imports, COPY & Legacy Data Migration]] — staging tables, \copy, cleaning Malaysian data, rejects, idempotent upserts, pgloader, reconciliation
 - [[PostgreSQL - Version 19 New Features & Upgrade Planning]] — REPACK CONCURRENTLY, plan advice, WAIT FOR LSN, sequence replication, upgrade timing
+- [[PostgreSQL - Geospatial with PostGIS for Delivery & Outlets]] — geography points, KNN nearest outlets, ST_DWithin, delivery zone polygons, RPCs, location privacy
 
 ## Related
 - [[Supabase]] — managed Postgres + Auth + RLS-first APIs
