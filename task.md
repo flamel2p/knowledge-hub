@@ -43,6 +43,22 @@ Last run: 2026-11-26 (T383)
 - [x] T126 | reference | Design Patterns - Interview Questions | 11 - CS Fundamentals/Design Patterns/Design Patterns - Interview Questions.md | ✅ 2026-10-14
 - [x] T127 | reference | System Design - Interview Questions | 11 - CS Fundamentals/System Design/System Design - Interview Questions.md | ✅ 2026-10-14
 
+### Priority — Requested 2026-11-27 (LLM security & governance series: attacks, guardrails, call hardening, verifiable evidence, model migration, compliance)
+
+- [x] T392 | overview | LLM Security & Governance | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance.md | ✅ 2026-11-28
+- [x] T393 | deep-dive | LLM Security & Governance - Prompt Injection & Jailbreak Defense | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Prompt Injection & Jailbreak Defense.md | ✅ 2026-11-28
+- [x] T394 | deep-dive | LLM Security & Governance - Guardrails & Content Moderation | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Guardrails & Content Moderation.md | ✅ 2026-11-28
+- [x] T395 | deep-dive | LLM Security & Governance - LLM Gateway, API Keys & Call Hardening | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - LLM Gateway, API Keys & Call Hardening.md | ✅ 2026-11-28
+- [x] T396 | deep-dive | LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains.md | ✅ 2026-11-28
+- [x] T397 | deep-dive | LLM Security & Governance - Accuracy Assurance for Critical Workflows | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Accuracy Assurance for Critical Workflows.md | ✅ 2026-11-28
+- [x] T398 | deep-dive | LLM Security & Governance - Audit Trails & Decision Records | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Audit Trails & Decision Records.md | ✅ 2026-11-28
+- [x] T399 | deep-dive | LLM Security & Governance - Model Migration, Deprecation & Version Pinning | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Model Migration, Deprecation & Version Pinning.md | ✅ 2026-11-28
+- [x] T400 | deep-dive | LLM Security & Governance - Data Privacy, PII & Provider Data Handling | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Data Privacy, PII & Provider Data Handling.md | ✅ 2026-11-28
+- [x] T401 | deep-dive | LLM Security & Governance - Regulations, Standards & Platform Policies | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Regulations, Standards & Platform Policies.md | ✅ 2026-11-28
+- [x] T402 | deep-dive | LLM Security & Governance - Acceptable Use Policy & Client Contracts | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Acceptable Use Policy & Client Contracts.md | ✅ 2026-11-28
+- [x] T403 | deep-dive | LLM Security & Governance - Red Teaming & Security Testing | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Red Teaming & Security Testing.md | ✅ 2026-11-28
+- [x] T404 | deep-dive | LLM Security & Governance - Incident Response & Kill Switches | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Incident Response & Kill Switches.md | ✅ 2026-11-28
+
 ### Wave 1 — Core stack overviews
 
 - [x] T001 | overview | Redis | 05 - Databases/Redis/Redis.md | ✅ 2026-09-28

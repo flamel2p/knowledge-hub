@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/ai-agents, topic/human-in-the-loop, topic/safety, lang/typescript]
 status: draft
 created: 2026-11-03
-updated: 2026-11-17
+updated: 2026-11-28
 version_checked: "n/a — pattern · LangGraph interrupt(), n8n human review, MCP elicitation, Managed Agents permission policies (always_allow/always_ask/auto) — 2026-11"
 parent: "[[AI Agents]]"
 related: ["[[AI Agents - Tool Calling & Agent Loops]]", "[[LangChain & LangGraph - Persistence, Memory & Human-in-the-Loop]]", "[[n8n - AI Agent Nodes & LLM Workflows]]", "[[OWASP Top 10 - LLM & Agent Security]]", "[[Model Context Protocol]]", "[[REST API - Webhooks & Idempotency]]"]
@@ -174,6 +174,7 @@ Agent confidence: medium · Expires 18:30
 - [[n8n - AI Agent Nodes & LLM Workflows]] — human review in n8n agents
 - [[OWASP Top 10 - LLM & Agent Security]] — excessive agency and injection
 - [[Model Context Protocol]] — client confirmations and elicitation
+- [[LLM Security & Governance - Acceptable Use Policy & Client Contracts]] — contract clause that makes the client staff the review queue and own final decisions
 
 ## References
 - https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/

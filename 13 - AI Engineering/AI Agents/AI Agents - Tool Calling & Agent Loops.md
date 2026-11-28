@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/deep-dive, topic/agents, topic/tool-use]
 status: draft
 created: 2026-10-05
-updated: 2026-11-03
+updated: 2026-11-28
 version_checked: "n/a — pattern; Claude/OpenAI tool APIs as of 2026-10"
 parent: "[[AI Agents]]"
 related: ["[[LangChain & LangGraph - Agents, Tools & Middleware]]", "[[Model Context Protocol]]", "[[LLM Fundamentals - Tokens, Context & Sampling]]", "[[Prompt Engineering]]"]
@@ -168,6 +168,7 @@ async function dispatch(name: string, input: unknown, ctx: Ctx) {
 - [[Model Context Protocol]] — external tool servers
 - [[LLM Fundamentals - Tokens, Context & Sampling]] — context and cost growth
 - [[Prompt Engineering]] — tool descriptions as prompts
+- [[LLM Security & Governance - Prompt Injection & Jailbreak Defense]] — Rule of Two taint tracking and quarantined extraction for tool-holding agents
 
 ## References
 - Anthropic tool use: https://docs.claude.com/en/docs/agents-and-tools/tool-use/overview

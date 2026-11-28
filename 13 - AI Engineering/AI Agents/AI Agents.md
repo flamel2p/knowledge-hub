@@ -6,7 +6,7 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/overview, topic/agents]
 status: draft
 created: 2026-10-04
-updated: 2026-11-25
+updated: 2026-11-28
 version_checked: "n/a — pattern; ecosystem snapshot 2026-10"
 parent: "[[AI Engineering MOC]]"
 related: ["[[LangChain & LangGraph]]", "[[Model Context Protocol]]", "[[LLM Fundamentals]]", "[[RAG]]", "[[Prompt Engineering]]"]
@@ -192,6 +192,7 @@ agent/
 - [[RAG]] — knowledge retrieval as a tool
 - [[AI Evals & Observability]] — trajectory evals, tracing
 - [[n8n]] — workflow-first automation with AI Agent nodes
+- [[LLM Security & Governance]] — risk tiers and required controls per agent feature
 
 ## References
 - Anthropic, Building effective agents: https://www.anthropic.com/research/building-effective-agents

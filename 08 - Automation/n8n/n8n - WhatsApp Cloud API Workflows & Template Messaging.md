@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/whatsapp, topic/messaging-api]
 status: draft
 created: 2026-11-02
-updated: 2026-11-24
+updated: 2026-11-28
 version_checked: "Meta per-message pricing (since 2025-07) · BSUID in webhooks (2026 rollout) · n8n 2.42.x — 2026-11"
 parent: "[[n8n]]"
 related: ["[[n8n - AI Agent Nodes & LLM Workflows]]", "[[n8n - Error Handling & Workflow Patterns]]", "[[REST API - Webhooks & Idempotency]]", "[[Cloudflare - Workers for Webhooks & Edge APIs]]", "[[Redis - Rate Limiting & Distributed Locks]]", "[[Design Patterns - Hexagonal Architecture in TypeScript & Dart]]"]
@@ -195,6 +195,7 @@ Window check before choosing the payload: `{{ DateTime.fromISO($json.last_inboun
 - [[REST API - Webhooks & Idempotency]] — signatures and idempotency keys
 - [[Cloudflare - Workers for Webhooks & Edge APIs]] — edge ingest and status filtering
 - [[Redis - Rate Limiting & Distributed Locks]] — per-number and per-tenant pacing
+- [[LLM Security & Governance - Regulations, Standards & Platform Policies]] — WhatsApp's 2026 terms on AI assistants, plus PDPA and EU AI Act duties for bots
 
 ## References
 - https://developers.facebook.com/docs/whatsapp/cloud-api
