@@ -214,7 +214,7 @@ Frameworks to map against. They overlap, so pick one primary and cross-reference
 > - Put the tier and the client's human-review duty in the SOW. It is the cheapest control on this page.
 > - Never ship T1+ without a kill switch that works without a deploy.
 > - Store the output you acted on. Regenerating later is not reproduction, even at temperature 0.
-> - Pin dated model snapshots, record each deprecation date, and rehearse a migration before the provider forces one.
+> - Pin an exact model ID per feature, record each retirement date, and rehearse a migration before the provider forces one.
 > - Every incident and every near miss becomes a red-team or golden case. That is how the eval set earns its keep.
 > - Tier by worst case, not typical case. A FAQ bot that can also issue refunds is T2.
 > - **In ZP's stack**:
@@ -266,7 +266,7 @@ Frameworks to map against. They overlap, so pick one primary and cross-reference
 > - **"We told it not to" is not a control.** Anything enforced only by the system prompt will be bypassed eventually.
 > - **Agents with production write access**: in 2025-07 a coding agent deleted a live production database during an explicit code freeze. Separate dev and prod credentials, and require approval for destructive operations.
 > - **Shadow AI**: Samsung restricted generative AI tools in 2023 after engineers pasted internal source code into a public chatbot. A written usage policy and an approved tool list are the T0 baseline.
-> - **Silent model change**: aliases such as `-latest` move without notice, and pinned snapshots retire on a schedule. Either one changes behaviour under an unchanged prompt.
+> - **Silent model change**: aliases such as `-latest` move without notice, and pinned models retire on a schedule. Either one changes behaviour under an unchanged prompt.
 > - **Channel policies can kill a product**: messaging platforms restrict which AI use cases may run on their business APIs. Check the current terms for the channel before quoting a build (WhatsApp terms not re-verified this run).
 > - **Traces are a second copy of the sensitive data**, usually with weaker access control than the primary database.
 > - **Approval fatigue**: a reviewer who approves 200 items a day verifies none of them. Sample, batch, and show the evidence next to the decision.
