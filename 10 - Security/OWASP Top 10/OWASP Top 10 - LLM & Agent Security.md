@@ -6,7 +6,7 @@ domain: security
 tags: [domain/security, type/deep-dive, topic/owasp, topic/llm-security, topic/agents]
 status: draft
 created: 2026-10-18
-updated: 2026-10-25
+updated: 2026-11-28
 version_checked: "OWASP LLM Top 10 2025 (2026 revision unverified) · Agentic Top 10 (2025-12) — 2026-10"
 parent: "[[OWASP Top 10]]"
 related: ["[[AI Agents - Tool Calling & Agent Loops]]", "[[Model Context Protocol - Building MCP Servers]]", "[[RAG]]", "[[Prompt Engineering]]", "[[n8n]]", "[[Supabase - Row Level Security]]"]
@@ -201,6 +201,7 @@ const safe = DOMPurify.sanitize(marked.parse(output, { breaks: true }), { FORBID
 - [[RAG]] — ingestion provenance, tenant filtering
 - [[Prompt Engineering]] — spotlighting, refusal behaviour
 - [[Supabase - Row Level Security]] — data boundaries agents can't bypass
+- [[LLM Security & Governance]] — risk tiers, control map and operating rules built on this taxonomy
 
 ## References
 - OWASP Top 10 for LLM Applications 2025: https://genai.owasp.org/llm-top-10/

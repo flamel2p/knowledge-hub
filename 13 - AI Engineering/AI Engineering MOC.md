@@ -6,14 +6,14 @@ domain: ai-engineering
 tags: [domain/ai-engineering, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-25
+updated: 2026-11-28
 parent: "[[00 - Home]]"
 ---
 
 # AI Engineering MOC
 
 > [!abstract] Scope
-> LLMs, prompting, RAG, agents, MCP, evals, fine-tuning.
+> LLMs, prompting, RAG, agents, MCP, evals, fine-tuning, security & governance.
 
 ## Notes
 - [[Prompt Engineering]] — context engineering, structure, examples, structured outputs, evals
@@ -57,6 +57,7 @@ parent: "[[00 - Home]]"
   - [[LLM APIs & SDKs - Batch Processing & Async Workloads]]
   - [[LLM APIs & SDKs - Rate Limits, Retries & Provider Fallbacks]]
   - [[LLM APIs & SDKs - Local & Open-Weight Models with Ollama & vLLM]]
+- [[LLM Security & Governance]] — risk tiers T0–T3, trust boundaries, control map, shared responsibility; OWASP LLM Top 10 2026, NIST AI RMF, ISO 42001, EU AI Act delay; EchoLeak + Supabase MCP incidents
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
