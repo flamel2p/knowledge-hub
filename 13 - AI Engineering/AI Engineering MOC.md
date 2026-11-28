@@ -66,6 +66,7 @@ parent: "[[00 - Home]]"
   - [[LLM Security & Governance - Audit Trails & Decision Records]]
   - [[LLM Security & Governance - Model Migration, Deprecation & Version Pinning]]
   - [[LLM Security & Governance - Data Privacy, PII & Provider Data Handling]]
+  - [[LLM Security & Governance - Regulations, Standards & Platform Policies]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
