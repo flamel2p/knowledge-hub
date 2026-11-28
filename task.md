@@ -48,7 +48,7 @@ Last run: 2026-11-26 (T383)
 - [x] T392 | overview | LLM Security & Governance | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance.md | ✅ 2026-11-28
 - [x] T393 | deep-dive | LLM Security & Governance - Prompt Injection & Jailbreak Defense | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Prompt Injection & Jailbreak Defense.md | ✅ 2026-11-28
 - [x] T394 | deep-dive | LLM Security & Governance - Guardrails & Content Moderation | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Guardrails & Content Moderation.md | ✅ 2026-11-28
-- [ ] T395 | deep-dive | LLM Security & Governance - LLM Gateway, API Keys & Call Hardening | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - LLM Gateway, API Keys & Call Hardening.md
+- [x] T395 | deep-dive | LLM Security & Governance - LLM Gateway, API Keys & Call Hardening | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - LLM Gateway, API Keys & Call Hardening.md | ✅ 2026-11-28
 - [ ] T396 | deep-dive | LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Verifiable Outputs, Citations & Evidence Chains.md
 - [ ] T397 | deep-dive | LLM Security & Governance - Accuracy Assurance for Critical Workflows | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Accuracy Assurance for Critical Workflows.md
 - [ ] T398 | deep-dive | LLM Security & Governance - Audit Trails & Decision Records | 13 - AI Engineering/LLM Security & Governance/LLM Security & Governance - Audit Trails & Decision Records.md

@@ -60,6 +60,7 @@ parent: "[[00 - Home]]"
 - [[LLM Security & Governance]] — risk tiers T0–T3, trust boundaries, control map, shared responsibility; OWASP LLM Top 10 2026, NIST AI RMF, ISO 42001, EU AI Act delay; EchoLeak + Supabase MCP incidents
   - [[LLM Security & Governance - Prompt Injection & Jailbreak Defense]]
   - [[LLM Security & Governance - Guardrails & Content Moderation]]
+  - [[LLM Security & Governance - LLM Gateway, API Keys & Call Hardening]]
 
 ## Planned
 _None — all planned overviews are written; queued deep dives are listed under Notes as (planned)._
