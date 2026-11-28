@@ -202,6 +202,7 @@ const safe = DOMPurify.sanitize(marked.parse(output, { breaks: true }), { FORBID
 - [[Prompt Engineering]] — spotlighting, refusal behaviour
 - [[Supabase - Row Level Security]] — data boundaries agents can't bypass
 - [[LLM Security & Governance]] — risk tiers, control map and operating rules built on this taxonomy
+- [[LLM Security & Governance - Red Teaming & Security Testing]] — turning these risks into a system-level adversarial suite with an attack-success-rate gate
 
 ## References
 - OWASP Top 10 for LLM Applications 2025: https://genai.owasp.org/llm-top-10/
