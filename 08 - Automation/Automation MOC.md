@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/moc]
 status: draft
 created: 2026-09-28
-updated: 2026-11-24
+updated: 2026-11-28
 parent: "[[00 - Home]]"
 ---
 
@@ -32,6 +32,7 @@ parent: "[[00 - Home]]"
   - [[n8n - Google Workspace & Sheets Integrations]]
   - [[n8n - WhatsApp Flows & Interactive Messages]]
   - [[n8n - CRM Integrations with HubSpot, Zoho & Pipedrive]]
+  - [[n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting]]
 - [[Windmill]] — code-first scripts/flows/apps on Rust + Postgres queue; AGPL/EE licensing nuance; complements n8n
   - [[Windmill - Windmill vs n8n Architecture Decision]]
   - [[Windmill - Worker Groups & Sandboxing]]

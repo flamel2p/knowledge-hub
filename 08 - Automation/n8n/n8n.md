@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/overview, topic/n8n]
 status: draft
 created: 2026-10-03
-updated: 2026-11-24
+updated: 2026-11-28
 version_checked: "2.46.x–2.47.x stable (sources conflict: docs snapshot 2.47.4 vs changelog 2.46.7 stable / 2.47.3 beta) — re-checked 2026-11-23"
 parent: "[[Automation MOC]]"
 related: ["[[Redis]]", "[[PostgreSQL]]", "[[Docker]]", "[[Coolify]]", "[[Windmill]]", "[[AI Agents]]"]
@@ -196,6 +196,7 @@ N8N_PROXY_HOPS=1                       # behind Traefik/Cloudflare
 - [[n8n - Google Workspace & Sheets Integrations]] — OAuth vs service accounts, Testing-mode 7-day expiry, Sheets upserts, quotas, Sheets-as-view pattern
 - [[n8n - WhatsApp Flows & Interactive Messages]] — reply buttons, lists, Flow JSON, encrypted data_exchange endpoint, nfm_reply routing
 - [[n8n - CRM Integrations with HubSpot, Zoho & Pipedrive]] — lead upserts by normalized phone/email, field ownership, loop guards, Zoho DCs, rate limits
+- [[n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting]] — sync log idempotency, accountant mappings, settlement clearing, drafts first, local software paths
 
 ## Related
 - [[Redis]] — queue-mode broker

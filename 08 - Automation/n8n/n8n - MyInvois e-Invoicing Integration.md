@@ -6,7 +6,7 @@ domain: automation
 tags: [domain/automation, type/deep-dive, topic/n8n, topic/e-invoicing, topic/malaysia-compliance]
 status: draft
 created: 2026-11-18
-updated: 2026-11-18
+updated: 2026-11-28
 version_checked: "MyInvois API v1.0 (documents v1.1 signed) · Phase 4 (RM1–5m) from 2026-01-01 · relaxation to 2027-12-31 (reported) · exemption threshold RM1m, reportedly RM3m from 2026-09-01 (unconfirmed) — 2026-11"
 parent: "[[n8n]]"
 related: ["[[Next.js - Payments with Stripe & Malaysian Gateways]]", "[[n8n - Error Handling & Workflow Patterns]]", "[[n8n - Security, Credentials & Self-Hosting Hardening]]", "[[REST API - Webhooks & Idempotency]]", "[[PostgreSQL - Audit Logging & Change History]]", "[[n8n - Managing Multiple Client Instances]]"]
@@ -181,6 +181,7 @@ GET /api/v1.0/taxpayer/validate/{tin}?idType=BRN&idValue={brn}
 
 ## Related
 - [[n8n]]
+- [[n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting]] — accounting system postings
 - [[Next.js - Payments with Stripe & Malaysian Gateways]] — payments that trigger e-invoices
 - [[n8n - Error Handling & Workflow Patterns]] — retries and failure alerts
 - [[n8n - Security, Credentials & Self-Hosting Hardening]] — credentials and certificates

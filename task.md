@@ -1,6 +1,6 @@
 # Task Queue
 
-Last run: 2026-11-28 (T384)
+Last run: 2026-11-28 (T385)
 
 > Loop rules live in CLAUDE.md §8. Each run takes the **first** unchecked `- [ ] T###` line (skip lines containing ⚠️), completes it, ticks it with ` | ✅ YYYY-MM-DD`, commits, pushes to main, and stops. No wikilinks in this file.
 > Line format: `- [ ] T### | type | Topic | path` · types: overview, deep-dive, moc, maint, replenish
@@ -497,7 +497,7 @@ Last run: 2026-11-28 (T384)
 - [x] T382 | deep-dive | Flutter - Crash Reporting & Analytics with Sentry & Firebase | 03 - Mobile/Flutter/Flutter - Crash Reporting & Analytics with Sentry & Firebase.md | ✅ 2026-11-26
 - [x] T383 | deep-dive | Supabase - Drizzle ORM & Typed SQL | 04 - Backend/Supabase/Supabase - Drizzle ORM & Typed SQL.md | ✅ 2026-11-26
 - [x] T384 | deep-dive | Next.js - Marketplace Payments with Stripe Connect | 02 - Frontend/Next.js/Next.js - Marketplace Payments with Stripe Connect.md | ✅ 2026-11-28
-- [ ] T385 | deep-dive | n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting | 08 - Automation/n8n/n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting.md
+- [x] T385 | deep-dive | n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting | 08 - Automation/n8n/n8n - Accounting Integrations with Xero, QuickBooks & SQL Accounting.md | ✅ 2026-11-28
 - [ ] T386 | deep-dive | Git - Code Review, PR Templates & Conventional Commits | 07 - DevOps & Infrastructure/Git/Git - Code Review, PR Templates & Conventional Commits.md
 - [ ] T387 | deep-dive | PostgreSQL - Geospatial with PostGIS for Delivery & Outlets | 05 - Databases/PostgreSQL/PostgreSQL - Geospatial with PostGIS for Delivery & Outlets.md
 - [ ] T388 | deep-dive | RAG - Multi-Tenant Knowledge Bases & Access Control | 13 - AI Engineering/RAG/RAG - Multi-Tenant Knowledge Bases & Access Control.md
