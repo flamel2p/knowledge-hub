@@ -61,7 +61,7 @@ Staff pasting client data into a personal chat account is a disclosure under **c
 ```mermaid
 flowchart LR
   REC["Structured record + free text"] --> ALLOW["Field allowlist per feature"]
-  ALLOW --> TOK["Tokenise identifiers: <PHONE_1>, <NRIC_1>"]
+  ALLOW --> TOK["Tokenise identifiers: PHONE_1, NRIC_1 placeholders"]
   TOK --> MAP[("Token map: request-scoped, never logged")]
   TOK --> ROUTE{"Data class"}
   ROUTE -->|"personal, tokenised"| API["Provider API: default terms"]
