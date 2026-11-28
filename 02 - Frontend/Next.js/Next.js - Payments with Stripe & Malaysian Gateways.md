@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/deep-dive, topic/nextjs, topic/payments, topic/webhooks, lang/typescript]
 status: draft
 created: 2026-11-12
-updated: 2026-11-21
+updated: 2026-11-28
 version_checked: "Stripe Checkout + webhooks (MYR, cards/FPX/GrabPay) · Billplz v3 (X-Signature) · MyInvois: < RM1m exempt (Dec 2025), RM1–5m phase date disputed — 2026-11"
 parent: "[[Next.js]]"
 related: ["[[REST API - Webhooks & Idempotency]]", "[[Flutter - Payments, In-App Purchases & Store Rules]]", "[[Next.js - Server Actions, Mutations & Security]]", "[[System Design - Event-Driven Architecture & Outbox Pattern]]", "[[Supabase - Database Functions, Triggers & RPC]]", "[[Cloudflare - Workers for Webhooks & Edge APIs]]"]
@@ -190,6 +190,7 @@ create table public.payment_events (gateway text, event_id text, primary key (ga
 
 ## Related
 - [[Next.js]]
+- [[Next.js - Marketplace Payments with Stripe Connect]] — marketplace/split payments
 - [[Next.js - SaaS Subscription Billing & Plan Entitlements]] — recurring subscription billing
 - [[n8n - MyInvois e-Invoicing Integration]] — e-invoice submission after payment
 - [[REST API - Webhooks & Idempotency]] — signature verification and idempotency

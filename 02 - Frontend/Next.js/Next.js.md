@@ -6,7 +6,7 @@ domain: frontend
 tags: [domain/frontend, type/overview, topic/nextjs, lang/typescript]
 status: draft
 created: 2026-10-02
-updated: 2026-11-26
+updated: 2026-11-28
 version_checked: "16.4.x (npm latest 16.4.6 per secondary source) · 15.5.29 backport · November 2026 security release (2026-11-03) — re-checked 2026-11-18"
 parent: "[[Frontend MOC]]"
 related: ["[[React]]", "[[TypeScript]]", "[[Supabase]]", "[[Coolify]]", "[[Docker]]"]
@@ -265,6 +265,7 @@ CMD ["node", "server.js"]
 - [[Next.js - SaaS Subscription Billing & Plan Entitlements]] — Stripe Billing webhooks, plans/limits tables, entitlement checks, grace periods, portal
 - [[Next.js - Content Security Policy, Nonces & Security Headers]] — baseline headers, nonce + strict-dynamic in proxy.ts, Report-Only rollout, third-party allow-lists
 - [[Next.js - Product Analytics with PostHog & Plausible]] — cookieless vs product analytics, server-side events, reverse proxy, consent and PII
+- [[Next.js - Marketplace Payments with Stripe Connect]] — connected accounts, charge types, application fees, multi-seller transfers, liability and licensing
 
 ## Related
 - [[React]] — RSC, Actions, compiler
